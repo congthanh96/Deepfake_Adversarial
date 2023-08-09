@@ -1,15 +1,5 @@
-## Deepfake_Adversarial
-**BAN CƠ YẾU CHÍNH PHỦ**
 
-**HỌC VIỆN KỸ THUẬT MẬT MÃ**
-
-![alt text](Aspose.Words.23535dd4-4d70-4a81-b6a0-49462ac482af.002.png)
-
-**LUẬN VĂN THẠC SĨ**
-
-
-
-##**ĐỀ TÀI: NGHIÊN CỨU KỸ THUẬT DEEPFAKES ỨNG DỤNG TRONG TẤN CÔNG ĐỐI KHÁNG**##
+## ĐỀ TÀI: NGHIÊN CỨU KỸ THUẬT DEEPFAKES ỨNG DỤNG TRONG TẤN CÔNG ĐỐI KHÁNG
 
 **Chuyên ngành: An Toàn Thông Tin**
 
@@ -32,9 +22,9 @@
 
     **Đơn vị công tác: Học viện Bưu Chính Viễn Thông**
 
-
-
-Thành Phố Hồ Chí Minh 2023
+#
+#
+#
 # Install
   - Vui lòng cài đặt biến môi trường theo requirements.txt
 # Using & train model
