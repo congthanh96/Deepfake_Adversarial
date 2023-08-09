@@ -3,34 +3,34 @@
 
 **HỌC VIỆN KỸ THUẬT MẬT MÃ**
 
-![](Aspose.Words.23535dd4-4d70-4a81-b6a0-49462ac482af.002.png)
+![alt text](Aspose.Words.23535dd4-4d70-4a81-b6a0-49462ac482af.002.png)
 
 **LUẬN VĂN THẠC SĨ**
 
 
 
-**ĐỀ TÀI: NGHIÊN CỨU KỸ THUẬT DEEPFAKES ỨNG DỤNG TRONG TẤN CÔNG ĐỐI KHÁNG**
+##**ĐỀ TÀI: NGHIÊN CỨU KỸ THUẬT DEEPFAKES ỨNG DỤNG TRONG TẤN CÔNG ĐỐI KHÁNG**##
 
 **Chuyên ngành: An Toàn Thông Tin**
 
 **Mã số:  8.48.02.02**
 
 
-' '**Họ và tên học viên:** **Nguyễn Công Thạnh**
+    **Họ và tên học viên:** **Nguyễn Công Thạnh**
 
-' '**Khóa: CHAT1P**
+    **Khóa: CHAT1P**
 
-**    
+
 
 **Người hướng dẫn khoa học:** 
 
-**TS. Phạm Duy Trung**
+    **TS. Phạm Duy Trung**
 
-**Đơn vị công tác: Học viện Kỹ Thuật Mật Mã**
+    **Đơn vị công tác: Học viện Kỹ Thuật Mật Mã**
 
-**TS. Nguyễn Trọng Khánh**
+    **TS. Nguyễn Trọng Khánh**
 
-**Đơn vị công tác: Học viện Bưu Chính Viễn Thông**
+    **Đơn vị công tác: Học viện Bưu Chính Viễn Thông**
 
 
 
