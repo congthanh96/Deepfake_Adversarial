@@ -6,21 +6,21 @@
 **Mã số:  8.48.02.02**
 
 
-    **Họ và tên học viên:** **Nguyễn Công Thạnh**
+    Họ và tên học viên: Nguyễn Công Thạnh
 
-    **Khóa: CHAT1P**
+    Khóa: CHAT1P
 
 
 
 **Người hướng dẫn khoa học:** 
 
-    **TS. Phạm Duy Trung**
+    TS. Phạm Duy Trung
 
-    **Đơn vị công tác: Học viện Kỹ Thuật Mật Mã**
+    Đơn vị công tác: Học viện Kỹ Thuật Mật Mã
 
-    **TS. Nguyễn Trọng Khánh**
+    TS. Nguyễn Trọng Khánh
 
-    **Đơn vị công tác: Học viện Bưu Chính Viễn Thông**
+    Đơn vị công tác: Học viện Bưu Chính Viễn Thông
 
 #
 #
