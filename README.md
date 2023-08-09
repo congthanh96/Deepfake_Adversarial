@@ -1,5 +1,5 @@
 ## Deepfake_Adversarial
-BAN CƠ YẾU CHÍNH PHỦ
+**BAN CƠ YẾU CHÍNH PHỦ**
 
 **HỌC VIỆN KỸ THUẬT MẬT MÃ**
 
@@ -16,9 +16,9 @@ BAN CƠ YẾU CHÍNH PHỦ
 **Mã số:  8.48.02.02**
 
 
-` `**Họ và tên học viên:** **Nguyễn Công Thạnh**
+' '**Họ và tên học viên:** **Nguyễn Công Thạnh**
 
-` `**Khóa: CHAT1P**
+' '**Khóa: CHAT1P**
 
 **    
 
