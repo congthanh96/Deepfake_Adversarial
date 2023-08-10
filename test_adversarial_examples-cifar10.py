@@ -21,19 +21,27 @@ if __name__ == "__main__":
     device = 'cpu'
 
     # load the pretrained model
-    pretrained_model = "./CIFAR_target_model.pth"
+    #pretrained_model = "./CIFAR_target_model.pth"
 
-    target_model = CIFAR_target_net().to(device)
+    #target_model = CIFAR_target_net().to(device)
 
-    target_model.load_state_dict(torch.load(pretrained_model))
+    #target_model.load_state_dict(torch.load(pretrained_model))
+    #target_model.eval()
+
+    MODEL_NAME = "cifar10_repvgg_a2"
+    target_model = torch.hub.load("chenyaofo/pytorch-cifar-models", MODEL_NAME, pretrained=True)
+    target_model = target_model.to(device)
     target_model.eval()
 
     # load the generator of adversarial examples
-    pretrained_generator_path = './models/netG.pth.tar.38'
+    #pretrained_generator_path = './models/netG.pth.tar.38'
+    #pretrained_G = models.Generator(gen_input_nc, image_nc).to(device)
+    #pretrained_G.load_state_dict(torch.load(pretrained_generator_path))
+    #pretrained_G.eval()
+    pretrained_generator_path = './models/netG.pth.tar.600'
     pretrained_G = models.Generator(gen_input_nc, image_nc).to(device)
     pretrained_G.load_state_dict(torch.load(pretrained_generator_path))
     pretrained_G.eval()
-
     # test adversarial examples in CIFAR10 training dataset
     # cifar10_dataset = torchvision.datasets.CIFAR10('./dataset', train=True, transform=transforms.ToTensor(), download=True)
 
