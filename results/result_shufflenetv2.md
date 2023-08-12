@@ -1,0 +1,25459 @@
+1691873202.2521079 running
+CUDA Available:  True
+=================== cifar10_shufflenetv2_x2_0 ===============================================
+./models/netG.pth.tar.600
+1691873204.6754093  running gen  1
+Files already downloaded and verified
+len(test_dataloader):  10000
+1 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 97.28870391845703    id   1
+Sum SPSNR:  97.28870391845703
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 97.13217163085938    id   2
+Sum SPSNR:  194.4208755493164
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 93.72745513916016    id   3
+Sum SPSNR:  288.14833068847656
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 93.96244049072266    id   4
+Sum SPSNR:  382.1107711791992
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 99.02461242675781    id   5
+Sum SPSNR:  481.13538360595703
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 100.52883911132812    id   6
+Sum SPSNR:  581.6642227172852
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 91.82684326171875    id   7
+Sum SPSNR:  673.4910659790039
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 96.94287109375    id   8
+Sum SPSNR:  770.4339370727539
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 98.52318572998047    id   9
+Sum SPSNR:  868.9571228027344
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 95.30496215820312    id   10
+Sum SPSNR:  964.2620849609375
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 102.43763732910156    id   11
+Sum SPSNR:  1066.699722290039
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 101.42770385742188    id   12
+Sum SPSNR:  1168.127426147461
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 99.08919525146484    id   13
+Sum SPSNR:  1267.2166213989258
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 95.87113189697266    id   14
+Sum SPSNR:  1363.0877532958984
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: inf    id   15
+Sum SPSNR:  1363.0877532958984
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 107.51853942871094    id   16
+Sum SPSNR:  1470.6062927246094
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 95.64210510253906    id   17
+Sum SPSNR:  1566.2483978271484
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 100.19461059570312    id   18
+Sum SPSNR:  1666.4430084228516
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 98.39654541015625    id   19
+Sum SPSNR:  1764.8395538330078
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 97.30305480957031    id   20
+Sum SPSNR:  1862.1426086425781
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 98.83899688720703    id   21
+Sum SPSNR:  1960.9816055297852
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 99.7940444946289    id   22
+Sum SPSNR:  2060.775650024414
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 93.07130432128906    id   23
+Sum SPSNR:  2153.846954345703
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 93.0314712524414    id   24
+Sum SPSNR:  2246.8784255981445
+Sum SSSIM:  24.0
+SSIM: TB  1.0
+PSNR: TB  93.61993439992268
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  3048
+adv_correct:  24
+accuracy of adv imgs in testing set: 0.992188
+
+adv succeeded 0.007812
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 1,
+        "adv_succeed_%": 0.0045045045045045045
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 0,
+        "adv_succeed_%": 0.0
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 5,
+        "adv_succeed_%": 0.030303030303030304
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 1,
+        "adv_succeed_%": 0.001037344398340249
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 2,
+        "adv_succeed_%": 0.008403361344537815
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 2,
+        "adv_succeed_%": 0.010256410256410256
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 4,
+        "adv_succeed_%": 0.02040816326530612
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 1,
+        "adv_succeed_%": 0.0045871559633027525
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 4,
+        "adv_succeed_%": 0.005988023952095809
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 4,
+        "adv_succeed_%": 0.041666666666666664
+    }
+}
+216.60768270492554
+==================================================================
+1691873421.283092  running gen  2
+Files already downloaded and verified
+len(test_dataloader):  10000
+2 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 95.06340789794922    id   1
+Sum SPSNR:  95.06340789794922
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 87.83837890625    id   2
+Sum SPSNR:  182.90178680419922
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 88.6997299194336    id   3
+Sum SPSNR:  271.6015167236328
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 95.7063217163086    id   4
+Sum SPSNR:  367.3078384399414
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 93.11355590820312    id   5
+Sum SPSNR:  460.42139434814453
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 92.64593505859375    id   6
+Sum SPSNR:  553.0673294067383
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 92.67616271972656    id   7
+Sum SPSNR:  645.7434921264648
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 92.54563903808594    id   8
+Sum SPSNR:  738.2891311645508
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 91.92103576660156    id   9
+Sum SPSNR:  830.2101669311523
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 91.02730560302734    id   10
+Sum SPSNR:  921.2374725341797
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 90.17227935791016    id   11
+Sum SPSNR:  1011.4097518920898
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 96.93461608886719    id   12
+Sum SPSNR:  1108.344367980957
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 91.34625244140625    id   13
+Sum SPSNR:  1199.6906204223633
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 91.96286010742188    id   14
+Sum SPSNR:  1291.6534805297852
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 91.46174621582031    id   15
+Sum SPSNR:  1383.1152267456055
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 95.54034423828125    id   16
+Sum SPSNR:  1478.6555709838867
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 88.80204772949219    id   17
+Sum SPSNR:  1567.457618713379
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 90.51789855957031    id   18
+Sum SPSNR:  1657.9755172729492
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 89.33485412597656    id   19
+Sum SPSNR:  1747.3103713989258
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 95.23743438720703    id   20
+Sum SPSNR:  1842.5478057861328
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 92.45584106445312    id   21
+Sum SPSNR:  1935.003646850586
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 94.24006652832031    id   22
+Sum SPSNR:  2029.2437133789062
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 90.81124114990234    id   23
+Sum SPSNR:  2120.0549545288086
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 94.569091796875    id   24
+Sum SPSNR:  2214.6240463256836
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 96.33143615722656    id   25
+Sum SPSNR:  2310.95548248291
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 89.25525665283203    id   26
+Sum SPSNR:  2400.210739135742
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 90.52959442138672    id   27
+Sum SPSNR:  2490.740333557129
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 91.94033813476562    id   28
+Sum SPSNR:  2582.6806716918945
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 95.53915405273438    id   29
+Sum SPSNR:  2678.219825744629
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 91.2645263671875    id   30
+Sum SPSNR:  2769.4843521118164
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 93.35792541503906    id   31
+Sum SPSNR:  2862.8422775268555
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 91.83244323730469    id   32
+Sum SPSNR:  2954.67472076416
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 89.8800277709961    id   33
+Sum SPSNR:  3044.5547485351562
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 91.50218963623047    id   34
+Sum SPSNR:  3136.0569381713867
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 97.37735748291016    id   35
+Sum SPSNR:  3233.434295654297
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 95.44091033935547    id   36
+Sum SPSNR:  3328.8752059936523
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 94.0059585571289    id   37
+Sum SPSNR:  3422.8811645507812
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 94.64247131347656    id   38
+Sum SPSNR:  3517.523635864258
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 89.03557586669922    id   39
+Sum SPSNR:  3606.559211730957
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 94.28826141357422    id   40
+Sum SPSNR:  3700.8474731445312
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 95.66053771972656    id   41
+Sum SPSNR:  3796.508010864258
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 92.94366455078125    id   42
+Sum SPSNR:  3889.451675415039
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 96.3646011352539    id   43
+Sum SPSNR:  3985.816276550293
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 94.5243148803711    id   44
+Sum SPSNR:  4080.340591430664
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 101.88269805908203    id   45
+Sum SPSNR:  4182.223289489746
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 91.60208892822266    id   46
+Sum SPSNR:  4273.825378417969
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 89.01261138916016    id   47
+Sum SPSNR:  4362.837989807129
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 95.04414367675781    id   48
+Sum SPSNR:  4457.882133483887
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 94.85397338867188    id   49
+Sum SPSNR:  4552.736106872559
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 96.17066955566406    id   50
+Sum SPSNR:  4648.906776428223
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 94.78701782226562    id   51
+Sum SPSNR:  4743.693794250488
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 96.77578735351562    id   52
+Sum SPSNR:  4840.469581604004
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 93.66481018066406    id   53
+Sum SPSNR:  4934.134391784668
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 95.1260986328125    id   54
+Sum SPSNR:  5029.2604904174805
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 95.9983139038086    id   55
+Sum SPSNR:  5125.258804321289
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 94.0304183959961    id   56
+Sum SPSNR:  5219.289222717285
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 93.60919189453125    id   57
+Sum SPSNR:  5312.898414611816
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 89.17931365966797    id   58
+Sum SPSNR:  5402.077728271484
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 92.4002914428711    id   59
+Sum SPSNR:  5494.4780197143555
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 96.51483154296875    id   60
+Sum SPSNR:  5590.992851257324
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 92.17552185058594    id   61
+Sum SPSNR:  5683.16837310791
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 94.15916442871094    id   62
+Sum SPSNR:  5777.327537536621
+Sum SSSIM:  62.0
+SSIM: TB  1.0
+PSNR: TB  93.1827022183326
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  3010
+adv_correct:  62
+accuracy of adv imgs in testing set: 0.979818
+
+adv succeeded 0.020182
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 7,
+        "adv_succeed_%": 0.03153153153153153
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 4,
+        "adv_succeed_%": 0.03636363636363636
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 5,
+        "adv_succeed_%": 0.030303030303030304
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 2,
+        "adv_succeed_%": 0.002074688796680498
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 12,
+        "adv_succeed_%": 0.05042016806722689
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 4,
+        "adv_succeed_%": 0.020512820512820513
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 5,
+        "adv_succeed_%": 0.025510204081632654
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 6,
+        "adv_succeed_%": 0.027522935779816515
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 13,
+        "adv_succeed_%": 0.019461077844311378
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 4,
+        "adv_succeed_%": 0.041666666666666664
+    }
+}
+191.04845666885376
+==================================================================
+1691873612.3315487  running gen  3
+Files already downloaded and verified
+len(test_dataloader):  10000
+3 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 88.9913558959961    id   1
+Sum SPSNR:  88.9913558959961
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 94.18274688720703    id   2
+Sum SPSNR:  183.17410278320312
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 94.90850830078125    id   3
+Sum SPSNR:  278.0826110839844
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 86.74043273925781    id   4
+Sum SPSNR:  364.8230438232422
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 89.87450408935547    id   5
+Sum SPSNR:  454.69754791259766
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 86.60355377197266    id   6
+Sum SPSNR:  541.3011016845703
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 91.02857971191406    id   7
+Sum SPSNR:  632.3296813964844
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 93.9425048828125    id   8
+Sum SPSNR:  726.2721862792969
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 87.12250518798828    id   9
+Sum SPSNR:  813.3946914672852
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 90.87457275390625    id   10
+Sum SPSNR:  904.2692642211914
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 92.91609954833984    id   11
+Sum SPSNR:  997.1853637695312
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 90.91525268554688    id   12
+Sum SPSNR:  1088.1006164550781
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 91.09217834472656    id   13
+Sum SPSNR:  1179.1927947998047
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 91.21956634521484    id   14
+Sum SPSNR:  1270.4123611450195
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 89.39579772949219    id   15
+Sum SPSNR:  1359.8081588745117
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 92.10926055908203    id   16
+Sum SPSNR:  1451.9174194335938
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 89.14814758300781    id   17
+Sum SPSNR:  1541.0655670166016
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 89.29401397705078    id   18
+Sum SPSNR:  1630.3595809936523
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 94.25607299804688    id   19
+Sum SPSNR:  1724.6156539916992
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 91.33624267578125    id   20
+Sum SPSNR:  1815.9518966674805
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 92.2850341796875    id   21
+Sum SPSNR:  1908.236930847168
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 91.22001647949219    id   22
+Sum SPSNR:  1999.4569473266602
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 92.39273834228516    id   23
+Sum SPSNR:  2091.8496856689453
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 89.72822570800781    id   24
+Sum SPSNR:  2181.577911376953
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 90.52959442138672    id   25
+Sum SPSNR:  2272.10750579834
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 93.1770248413086    id   26
+Sum SPSNR:  2365.2845306396484
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 92.44525909423828    id   27
+Sum SPSNR:  2457.7297897338867
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 90.29434204101562    id   28
+Sum SPSNR:  2548.0241317749023
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 92.51152038574219    id   29
+Sum SPSNR:  2640.5356521606445
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 91.12151336669922    id   30
+Sum SPSNR:  2731.6571655273438
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 90.48973846435547    id   31
+Sum SPSNR:  2822.146903991699
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 91.28739166259766    id   32
+Sum SPSNR:  2913.434295654297
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 93.03752899169922    id   33
+Sum SPSNR:  3006.471824645996
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 89.58518981933594    id   34
+Sum SPSNR:  3096.057014465332
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 87.24079132080078    id   35
+Sum SPSNR:  3183.297805786133
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 87.78003692626953    id   36
+Sum SPSNR:  3271.0778427124023
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 93.07469177246094    id   37
+Sum SPSNR:  3364.1525344848633
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 90.37269592285156    id   38
+Sum SPSNR:  3454.525230407715
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 89.41592407226562    id   39
+Sum SPSNR:  3543.9411544799805
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 87.43772888183594    id   40
+Sum SPSNR:  3631.3788833618164
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 94.24272155761719    id   41
+Sum SPSNR:  3725.6216049194336
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 89.44171905517578    id   42
+Sum SPSNR:  3815.0633239746094
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 90.88398742675781    id   43
+Sum SPSNR:  3905.947311401367
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 93.67961120605469    id   44
+Sum SPSNR:  3999.626922607422
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 90.75916290283203    id   45
+Sum SPSNR:  4090.386085510254
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 93.25625610351562    id   46
+Sum SPSNR:  4183.6423416137695
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 93.46278381347656    id   47
+Sum SPSNR:  4277.105125427246
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 88.30687713623047    id   48
+Sum SPSNR:  4365.412002563477
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 90.26688385009766    id   49
+Sum SPSNR:  4455.678886413574
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 90.27578735351562    id   50
+Sum SPSNR:  4545.95467376709
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 91.01927185058594    id   51
+Sum SPSNR:  4636.973945617676
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 89.68385314941406    id   52
+Sum SPSNR:  4726.65779876709
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 91.21867370605469    id   53
+Sum SPSNR:  4817.8764724731445
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 93.16661071777344    id   54
+Sum SPSNR:  4911.043083190918
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 88.32752990722656    id   55
+Sum SPSNR:  4999.3706130981445
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 93.65238952636719    id   56
+Sum SPSNR:  5093.023002624512
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 91.94817352294922    id   57
+Sum SPSNR:  5184.971176147461
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 87.72781372070312    id   58
+Sum SPSNR:  5272.698989868164
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 90.205810546875    id   59
+Sum SPSNR:  5362.904800415039
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 89.83184051513672    id   60
+Sum SPSNR:  5452.736640930176
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 91.23954010009766    id   61
+Sum SPSNR:  5543.976181030273
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 89.68415832519531    id   62
+Sum SPSNR:  5633.660339355469
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 92.2444839477539    id   63
+Sum SPSNR:  5725.904823303223
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 89.60743713378906    id   64
+Sum SPSNR:  5815.512260437012
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 94.49034118652344    id   65
+Sum SPSNR:  5910.002601623535
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 93.65083312988281    id   66
+Sum SPSNR:  6003.653434753418
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 91.81717681884766    id   67
+Sum SPSNR:  6095.470611572266
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 91.14451599121094    id   68
+Sum SPSNR:  6186.615127563477
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 91.1453857421875    id   69
+Sum SPSNR:  6277.760513305664
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 88.91490173339844    id   70
+Sum SPSNR:  6366.6754150390625
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 93.30751037597656    id   71
+Sum SPSNR:  6459.982925415039
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 90.32559204101562    id   72
+Sum SPSNR:  6550.308517456055
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 94.1365737915039    id   73
+Sum SPSNR:  6644.445091247559
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 90.75318908691406    id   74
+Sum SPSNR:  6735.198280334473
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 90.471435546875    id   75
+Sum SPSNR:  6825.669715881348
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 88.96835327148438    id   76
+Sum SPSNR:  6914.638069152832
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 87.9037094116211    id   77
+Sum SPSNR:  7002.541778564453
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 94.39547729492188    id   78
+Sum SPSNR:  7096.937255859375
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 92.55767059326172    id   79
+Sum SPSNR:  7189.494926452637
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 92.83378601074219    id   80
+Sum SPSNR:  7282.328712463379
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 95.74128723144531    id   81
+Sum SPSNR:  7378.069999694824
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 89.667724609375    id   82
+Sum SPSNR:  7467.737724304199
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 90.62004852294922    id   83
+Sum SPSNR:  7558.357772827148
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 87.39016723632812    id   84
+Sum SPSNR:  7645.747940063477
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 89.15172576904297    id   85
+Sum SPSNR:  7734.8996658325195
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 92.68546295166016    id   86
+Sum SPSNR:  7827.58512878418
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 92.85115051269531    id   87
+Sum SPSNR:  7920.436279296875
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 90.14695739746094    id   88
+Sum SPSNR:  8010.583236694336
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 92.80945587158203    id   89
+Sum SPSNR:  8103.392692565918
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 89.56912231445312    id   90
+Sum SPSNR:  8192.961814880371
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 86.88504028320312    id   91
+Sum SPSNR:  8279.846855163574
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 93.43097686767578    id   92
+Sum SPSNR:  8373.27783203125
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 90.38728332519531    id   93
+Sum SPSNR:  8463.665115356445
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 93.79421997070312    id   94
+Sum SPSNR:  8557.459335327148
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 98.55184936523438    id   95
+Sum SPSNR:  8656.011184692383
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 90.01211547851562    id   96
+Sum SPSNR:  8746.023300170898
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 87.2208251953125    id   97
+Sum SPSNR:  8833.244125366211
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 90.45730590820312    id   98
+Sum SPSNR:  8923.701431274414
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 97.94475555419922    id   99
+Sum SPSNR:  9021.646186828613
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 91.30542755126953    id   100
+Sum SPSNR:  9112.951614379883
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 95.4561538696289    id   101
+Sum SPSNR:  9208.407768249512
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 93.68898010253906    id   102
+Sum SPSNR:  9302.09674835205
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 91.96392059326172    id   103
+Sum SPSNR:  9394.060668945312
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 89.82669830322266    id   104
+Sum SPSNR:  9483.887367248535
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 88.08273315429688    id   105
+Sum SPSNR:  9571.970100402832
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 89.72571563720703    id   106
+Sum SPSNR:  9661.695816040039
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 89.32682037353516    id   107
+Sum SPSNR:  9751.022636413574
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 93.16107177734375    id   108
+Sum SPSNR:  9844.183708190918
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 91.5943603515625    id   109
+Sum SPSNR:  9935.77806854248
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 93.91112518310547    id   110
+Sum SPSNR:  10029.689193725586
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 90.9396743774414    id   111
+Sum SPSNR:  10120.628868103027
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 88.95992279052734    id   112
+Sum SPSNR:  10209.588790893555
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 94.19854736328125    id   113
+Sum SPSNR:  10303.787338256836
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 90.31982421875    id   114
+Sum SPSNR:  10394.107162475586
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 95.3038330078125    id   115
+Sum SPSNR:  10489.410995483398
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 95.35171508789062    id   116
+Sum SPSNR:  10584.762710571289
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 92.589111328125    id   117
+Sum SPSNR:  10677.351821899414
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 90.38034057617188    id   118
+Sum SPSNR:  10767.732162475586
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 94.6502685546875    id   119
+Sum SPSNR:  10862.382431030273
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 87.78425598144531    id   120
+Sum SPSNR:  10950.166687011719
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 89.32109832763672    id   121
+Sum SPSNR:  11039.487785339355
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 95.1380844116211    id   122
+Sum SPSNR:  11134.625869750977
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 92.72159576416016    id   123
+Sum SPSNR:  11227.347465515137
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 95.15229034423828    id   124
+Sum SPSNR:  11322.499755859375
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 92.44819641113281    id   125
+Sum SPSNR:  11414.947952270508
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 92.24559783935547    id   126
+Sum SPSNR:  11507.193550109863
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 93.60152435302734    id   127
+Sum SPSNR:  11600.79507446289
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 94.09088134765625    id   128
+Sum SPSNR:  11694.885955810547
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 94.53855895996094    id   129
+Sum SPSNR:  11789.424514770508
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 89.70191955566406    id   130
+Sum SPSNR:  11879.126434326172
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 91.74362182617188    id   131
+Sum SPSNR:  11970.870056152344
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 93.68897247314453    id   132
+Sum SPSNR:  12064.559028625488
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 90.25126647949219    id   133
+Sum SPSNR:  12154.81029510498
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 90.13935852050781    id   134
+Sum SPSNR:  12244.949653625488
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 93.94581604003906    id   135
+Sum SPSNR:  12338.895469665527
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 91.63168334960938    id   136
+Sum SPSNR:  12430.527153015137
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 90.9742660522461    id   137
+Sum SPSNR:  12521.501419067383
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 93.9499740600586    id   138
+Sum SPSNR:  12615.451393127441
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 91.23465728759766    id   139
+Sum SPSNR:  12706.686050415039
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 93.80464172363281    id   140
+Sum SPSNR:  12800.490692138672
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 89.76006317138672    id   141
+Sum SPSNR:  12890.250755310059
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 92.62322998046875    id   142
+Sum SPSNR:  12982.873985290527
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 92.2850341796875    id   143
+Sum SPSNR:  13075.159019470215
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 92.9561996459961    id   144
+Sum SPSNR:  13168.115219116211
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 93.28181457519531    id   145
+Sum SPSNR:  13261.397033691406
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 93.31539154052734    id   146
+Sum SPSNR:  13354.712425231934
+Sum SSSIM:  146.0
+SSIM: TB  1.0
+PSNR: TB  91.47063304953379
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  2926
+adv_correct:  146
+accuracy of adv imgs in testing set: 0.952474
+
+adv succeeded 0.047526
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 20,
+        "adv_succeed_%": 0.09009009009009009
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 7,
+        "adv_succeed_%": 0.06363636363636363
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 11,
+        "adv_succeed_%": 0.06666666666666667
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 5,
+        "adv_succeed_%": 0.005186721991701245
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 24,
+        "adv_succeed_%": 0.10084033613445378
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 10,
+        "adv_succeed_%": 0.05128205128205128
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 9,
+        "adv_succeed_%": 0.04591836734693878
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 18,
+        "adv_succeed_%": 0.08256880733944955
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 36,
+        "adv_succeed_%": 0.05389221556886228
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 6,
+        "adv_succeed_%": 0.0625
+    }
+}
+200.68055057525635
+==================================================================
+1691873813.0120993  running gen  4
+Files already downloaded and verified
+len(test_dataloader):  10000
+4 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 88.2254638671875    id   1
+Sum SPSNR:  88.2254638671875
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 90.7242660522461    id   2
+Sum SPSNR:  178.9497299194336
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 87.22858428955078    id   3
+Sum SPSNR:  266.1783142089844
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 88.52009582519531    id   4
+Sum SPSNR:  354.6984100341797
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 93.55048370361328    id   5
+Sum SPSNR:  448.24889373779297
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 92.30147552490234    id   6
+Sum SPSNR:  540.5503692626953
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 85.84087371826172    id   7
+Sum SPSNR:  626.391242980957
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 88.3535385131836    id   8
+Sum SPSNR:  714.7447814941406
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 85.25209045410156    id   9
+Sum SPSNR:  799.9968719482422
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 90.04949951171875    id   10
+Sum SPSNR:  890.0463714599609
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 92.08001708984375    id   11
+Sum SPSNR:  982.1263885498047
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 85.80242156982422    id   12
+Sum SPSNR:  1067.928810119629
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 92.16505432128906    id   13
+Sum SPSNR:  1160.093864440918
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 93.3615493774414    id   14
+Sum SPSNR:  1253.4554138183594
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 91.4908676147461    id   15
+Sum SPSNR:  1344.9462814331055
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 91.43700408935547    id   16
+Sum SPSNR:  1436.383285522461
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 92.54623413085938    id   17
+Sum SPSNR:  1528.9295196533203
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 85.86222839355469    id   18
+Sum SPSNR:  1614.791748046875
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 89.51765441894531    id   19
+Sum SPSNR:  1704.3094024658203
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 94.70722198486328    id   20
+Sum SPSNR:  1799.0166244506836
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 90.62313842773438    id   21
+Sum SPSNR:  1889.639762878418
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 91.74961853027344    id   22
+Sum SPSNR:  1981.3893814086914
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 88.27529907226562    id   23
+Sum SPSNR:  2069.664680480957
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 89.55581665039062    id   24
+Sum SPSNR:  2159.2204971313477
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 89.91529846191406    id   25
+Sum SPSNR:  2249.1357955932617
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 90.30437469482422    id   26
+Sum SPSNR:  2339.440170288086
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 87.81749725341797    id   27
+Sum SPSNR:  2427.257667541504
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 88.8137435913086    id   28
+Sum SPSNR:  2516.0714111328125
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 87.40650939941406    id   29
+Sum SPSNR:  2603.4779205322266
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 93.05303955078125    id   30
+Sum SPSNR:  2696.530960083008
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 89.91694641113281    id   31
+Sum SPSNR:  2786.4479064941406
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 91.1961669921875    id   32
+Sum SPSNR:  2877.644073486328
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 89.82797241210938    id   33
+Sum SPSNR:  2967.4720458984375
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 89.2849349975586    id   34
+Sum SPSNR:  3056.756980895996
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 86.2545394897461    id   35
+Sum SPSNR:  3143.011520385742
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 90.611572265625    id   36
+Sum SPSNR:  3233.623092651367
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 87.74269104003906    id   37
+Sum SPSNR:  3321.3657836914062
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 89.03799438476562    id   38
+Sum SPSNR:  3410.403778076172
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 85.32805633544922    id   39
+Sum SPSNR:  3495.731834411621
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 91.52445983886719    id   40
+Sum SPSNR:  3587.2562942504883
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 92.50675964355469    id   41
+Sum SPSNR:  3679.763053894043
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 87.14913177490234    id   42
+Sum SPSNR:  3766.9121856689453
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 91.26496887207031    id   43
+Sum SPSNR:  3858.1771545410156
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 90.4332275390625    id   44
+Sum SPSNR:  3948.610382080078
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 88.42158508300781    id   45
+Sum SPSNR:  4037.031967163086
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 90.85823822021484    id   46
+Sum SPSNR:  4127.890205383301
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 90.18377685546875    id   47
+Sum SPSNR:  4218.0739822387695
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 89.54676818847656    id   48
+Sum SPSNR:  4307.620750427246
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 89.51615142822266    id   49
+Sum SPSNR:  4397.136901855469
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 89.84375762939453    id   50
+Sum SPSNR:  4486.980659484863
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 91.48710632324219    id   51
+Sum SPSNR:  4578.4677658081055
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 91.24176788330078    id   52
+Sum SPSNR:  4669.709533691406
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 94.17575073242188    id   53
+Sum SPSNR:  4763.885284423828
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 88.11381530761719    id   54
+Sum SPSNR:  4851.999099731445
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 86.1916275024414    id   55
+Sum SPSNR:  4938.190727233887
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 86.32483673095703    id   56
+Sum SPSNR:  5024.515563964844
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 93.80625915527344    id   57
+Sum SPSNR:  5118.321823120117
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 89.36103057861328    id   58
+Sum SPSNR:  5207.6828536987305
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 85.21449279785156    id   59
+Sum SPSNR:  5292.897346496582
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 92.00828552246094    id   60
+Sum SPSNR:  5384.905632019043
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 90.70259094238281    id   61
+Sum SPSNR:  5475.608222961426
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 87.44607543945312    id   62
+Sum SPSNR:  5563.054298400879
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 85.87902069091797    id   63
+Sum SPSNR:  5648.933319091797
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 90.45581817626953    id   64
+Sum SPSNR:  5739.389137268066
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 87.86693572998047    id   65
+Sum SPSNR:  5827.256072998047
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 85.98622131347656    id   66
+Sum SPSNR:  5913.242294311523
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 88.57392883300781    id   67
+Sum SPSNR:  6001.816223144531
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 92.09786224365234    id   68
+Sum SPSNR:  6093.914085388184
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 88.41972351074219    id   69
+Sum SPSNR:  6182.333808898926
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 92.53543853759766    id   70
+Sum SPSNR:  6274.869247436523
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 91.11286163330078    id   71
+Sum SPSNR:  6365.982109069824
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 92.18711853027344    id   72
+Sum SPSNR:  6458.169227600098
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 89.56820678710938    id   73
+Sum SPSNR:  6547.737434387207
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 87.14254760742188    id   74
+Sum SPSNR:  6634.879981994629
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 89.1218490600586    id   75
+Sum SPSNR:  6724.0018310546875
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 91.9797134399414    id   76
+Sum SPSNR:  6815.981544494629
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 89.11747741699219    id   77
+Sum SPSNR:  6905.099021911621
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 89.23446655273438    id   78
+Sum SPSNR:  6994.3334884643555
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 88.50680541992188    id   79
+Sum SPSNR:  7082.840293884277
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 90.54623413085938    id   80
+Sum SPSNR:  7173.386528015137
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 91.01081848144531    id   81
+Sum SPSNR:  7264.397346496582
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 87.51364135742188    id   82
+Sum SPSNR:  7351.910987854004
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 90.39424133300781    id   83
+Sum SPSNR:  7442.305229187012
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 91.73313903808594    id   84
+Sum SPSNR:  7534.038368225098
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 89.99771881103516    id   85
+Sum SPSNR:  7624.036087036133
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 86.96958923339844    id   86
+Sum SPSNR:  7711.005676269531
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 93.34852600097656    id   87
+Sum SPSNR:  7804.354202270508
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 86.57914733886719    id   88
+Sum SPSNR:  7890.933349609375
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 90.29578399658203    id   89
+Sum SPSNR:  7981.229133605957
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 89.13880920410156    id   90
+Sum SPSNR:  8070.367942810059
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 88.82928466796875    id   91
+Sum SPSNR:  8159.197227478027
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 94.49504852294922    id   92
+Sum SPSNR:  8253.692276000977
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 89.41300201416016    id   93
+Sum SPSNR:  8343.105278015137
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 90.60272979736328    id   94
+Sum SPSNR:  8433.7080078125
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 88.68167877197266    id   95
+Sum SPSNR:  8522.389686584473
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 92.13214874267578    id   96
+Sum SPSNR:  8614.521835327148
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 89.2470932006836    id   97
+Sum SPSNR:  8703.768928527832
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 91.15846252441406    id   98
+Sum SPSNR:  8794.927391052246
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 87.97360229492188    id   99
+Sum SPSNR:  8882.900993347168
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 90.97970581054688    id   100
+Sum SPSNR:  8973.880699157715
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 90.6239013671875    id   101
+Sum SPSNR:  9064.504600524902
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 93.06114196777344    id   102
+Sum SPSNR:  9157.565742492676
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 89.095703125    id   103
+Sum SPSNR:  9246.661445617676
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 89.77940368652344    id   104
+Sum SPSNR:  9336.4408493042
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 90.01513671875    id   105
+Sum SPSNR:  9426.45598602295
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 93.07808685302734    id   106
+Sum SPSNR:  9519.534072875977
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 91.28111267089844    id   107
+Sum SPSNR:  9610.815185546875
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 90.60618591308594    id   108
+Sum SPSNR:  9701.421371459961
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 88.18630981445312    id   109
+Sum SPSNR:  9789.607681274414
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 89.25384521484375    id   110
+Sum SPSNR:  9878.861526489258
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 89.50689697265625    id   111
+Sum SPSNR:  9968.368423461914
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 92.16339874267578    id   112
+Sum SPSNR:  10060.53182220459
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 92.08487701416016    id   113
+Sum SPSNR:  10152.61669921875
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 89.37490844726562    id   114
+Sum SPSNR:  10241.991607666016
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 93.0916976928711    id   115
+Sum SPSNR:  10335.083305358887
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 89.06945037841797    id   116
+Sum SPSNR:  10424.152755737305
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 90.70220184326172    id   117
+Sum SPSNR:  10514.854957580566
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 90.43876647949219    id   118
+Sum SPSNR:  10605.293724060059
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 90.01513671875    id   119
+Sum SPSNR:  10695.308860778809
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 89.37606811523438    id   120
+Sum SPSNR:  10784.684928894043
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 89.01660919189453    id   121
+Sum SPSNR:  10873.701538085938
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 87.99651336669922    id   122
+Sum SPSNR:  10961.698051452637
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 89.84375762939453    id   123
+Sum SPSNR:  11051.541809082031
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 86.85220336914062    id   124
+Sum SPSNR:  11138.394012451172
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 88.43858337402344    id   125
+Sum SPSNR:  11226.832595825195
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 92.63426208496094    id   126
+Sum SPSNR:  11319.466857910156
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 91.13581848144531    id   127
+Sum SPSNR:  11410.602676391602
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 90.48450469970703    id   128
+Sum SPSNR:  11501.087181091309
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 91.99874114990234    id   129
+Sum SPSNR:  11593.085922241211
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 90.93138122558594    id   130
+Sum SPSNR:  11684.017303466797
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 88.76641845703125    id   131
+Sum SPSNR:  11772.783721923828
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 89.10684204101562    id   132
+Sum SPSNR:  11861.890563964844
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 86.72640991210938    id   133
+Sum SPSNR:  11948.616973876953
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 87.01155090332031    id   134
+Sum SPSNR:  12035.628524780273
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 90.3335189819336    id   135
+Sum SPSNR:  12125.962043762207
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 87.63004302978516    id   136
+Sum SPSNR:  12213.592086791992
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 90.89013671875    id   137
+Sum SPSNR:  12304.482223510742
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 88.74131774902344    id   138
+Sum SPSNR:  12393.223541259766
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 86.36489868164062    id   139
+Sum SPSNR:  12479.588439941406
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 91.21824645996094    id   140
+Sum SPSNR:  12570.806686401367
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 87.60974884033203    id   141
+Sum SPSNR:  12658.4164352417
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 88.63894653320312    id   142
+Sum SPSNR:  12747.055381774902
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 89.27275848388672    id   143
+Sum SPSNR:  12836.328140258789
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 85.69327545166016    id   144
+Sum SPSNR:  12922.02141571045
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 91.02730560302734    id   145
+Sum SPSNR:  13013.048721313477
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 91.38380432128906    id   146
+Sum SPSNR:  13104.432525634766
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 91.39208984375    id   147
+Sum SPSNR:  13195.824615478516
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 88.83670043945312    id   148
+Sum SPSNR:  13284.661315917969
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 91.09088897705078    id   149
+Sum SPSNR:  13375.75220489502
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 91.32353210449219    id   150
+Sum SPSNR:  13467.075736999512
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 94.89299774169922    id   151
+Sum SPSNR:  13561.968734741211
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 90.71360778808594    id   152
+Sum SPSNR:  13652.682342529297
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 88.12551879882812    id   153
+Sum SPSNR:  13740.807861328125
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 88.38017272949219    id   154
+Sum SPSNR:  13829.188034057617
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 85.86016845703125    id   155
+Sum SPSNR:  13915.048202514648
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 89.506591796875    id   156
+Sum SPSNR:  14004.554794311523
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 96.55548858642578    id   157
+Sum SPSNR:  14101.11028289795
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 90.45655822753906    id   158
+Sum SPSNR:  14191.566841125488
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 90.05931091308594    id   159
+Sum SPSNR:  14281.626152038574
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 93.3994140625    id   160
+Sum SPSNR:  14375.025566101074
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 93.3182601928711    id   161
+Sum SPSNR:  14468.343826293945
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 89.667724609375    id   162
+Sum SPSNR:  14558.01155090332
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 89.1876220703125    id   163
+Sum SPSNR:  14647.199172973633
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 87.54562377929688    id   164
+Sum SPSNR:  14734.74479675293
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 86.74485778808594    id   165
+Sum SPSNR:  14821.489654541016
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 92.30431365966797    id   166
+Sum SPSNR:  14913.793968200684
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 89.17626953125    id   167
+Sum SPSNR:  15002.970237731934
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 87.8563003540039    id   168
+Sum SPSNR:  15090.826538085938
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 92.55345153808594    id   169
+Sum SPSNR:  15183.379989624023
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 90.36576843261719    id   170
+Sum SPSNR:  15273.74575805664
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 93.43245697021484    id   171
+Sum SPSNR:  15367.178215026855
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 89.79660034179688    id   172
+Sum SPSNR:  15456.974815368652
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 87.32087707519531    id   173
+Sum SPSNR:  15544.295692443848
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 88.13225555419922    id   174
+Sum SPSNR:  15632.427947998047
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 87.4777603149414    id   175
+Sum SPSNR:  15719.905708312988
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 93.09510040283203    id   176
+Sum SPSNR:  15813.00080871582
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 89.2221450805664    id   177
+Sum SPSNR:  15902.222953796387
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 92.75804138183594    id   178
+Sum SPSNR:  15994.980995178223
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 94.23828887939453    id   179
+Sum SPSNR:  16089.219284057617
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 93.5512466430664    id   180
+Sum SPSNR:  16182.770530700684
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 92.7979736328125    id   181
+Sum SPSNR:  16275.568504333496
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 90.88603973388672    id   182
+Sum SPSNR:  16366.454544067383
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 88.88557434082031    id   183
+Sum SPSNR:  16455.340118408203
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 89.74333190917969    id   184
+Sum SPSNR:  16545.083450317383
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 88.98922729492188    id   185
+Sum SPSNR:  16634.072677612305
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 87.1097640991211    id   186
+Sum SPSNR:  16721.182441711426
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 93.07537841796875    id   187
+Sum SPSNR:  16814.257820129395
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 86.72798919677734    id   188
+Sum SPSNR:  16900.985809326172
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 91.59291076660156    id   189
+Sum SPSNR:  16992.578720092773
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 87.783447265625    id   190
+Sum SPSNR:  17080.3621673584
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 88.0587158203125    id   191
+Sum SPSNR:  17168.42088317871
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 93.05912017822266    id   192
+Sum SPSNR:  17261.480003356934
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 89.87905883789062    id   193
+Sum SPSNR:  17351.359062194824
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 91.2364273071289    id   194
+Sum SPSNR:  17442.595489501953
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 92.76373291015625    id   195
+Sum SPSNR:  17535.35922241211
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 95.62986755371094    id   196
+Sum SPSNR:  17630.98908996582
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 90.08446502685547    id   197
+Sum SPSNR:  17721.073554992676
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 91.44398498535156    id   198
+Sum SPSNR:  17812.517539978027
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 89.92875671386719    id   199
+Sum SPSNR:  17902.446296691895
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 89.70317077636719    id   200
+Sum SPSNR:  17992.14946746826
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 86.9405517578125    id   201
+Sum SPSNR:  18079.090019226074
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 89.49794006347656    id   202
+Sum SPSNR:  18168.58795928955
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 90.54624938964844    id   203
+Sum SPSNR:  18259.1342086792
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 93.64541625976562    id   204
+Sum SPSNR:  18352.779624938965
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 93.5323486328125    id   205
+Sum SPSNR:  18446.311973571777
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 92.508544921875    id   206
+Sum SPSNR:  18538.820518493652
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 87.72959899902344    id   207
+Sum SPSNR:  18626.550117492676
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 90.35379028320312    id   208
+Sum SPSNR:  18716.90390777588
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 90.46138763427734    id   209
+Sum SPSNR:  18807.365295410156
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 92.07085418701172    id   210
+Sum SPSNR:  18899.436149597168
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 87.4869384765625    id   211
+Sum SPSNR:  18986.92308807373
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 92.8280029296875    id   212
+Sum SPSNR:  19079.751091003418
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 88.89800262451172    id   213
+Sum SPSNR:  19168.64909362793
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 89.89338684082031    id   214
+Sum SPSNR:  19258.54248046875
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 86.21855926513672    id   215
+Sum SPSNR:  19344.761039733887
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 92.63977813720703    id   216
+Sum SPSNR:  19437.400817871094
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 90.18447875976562    id   217
+Sum SPSNR:  19527.58529663086
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 91.32443237304688    id   218
+Sum SPSNR:  19618.909729003906
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 91.1777114868164    id   219
+Sum SPSNR:  19710.087440490723
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 89.63470458984375    id   220
+Sum SPSNR:  19799.722145080566
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 92.11197662353516    id   221
+Sum SPSNR:  19891.8341217041
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 91.5573501586914    id   222
+Sum SPSNR:  19983.391471862793
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 91.71424865722656    id   223
+Sum SPSNR:  20075.10572052002
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 89.82380676269531    id   224
+Sum SPSNR:  20164.929527282715
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 90.65528869628906    id   225
+Sum SPSNR:  20255.584815979004
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 92.0189208984375    id   226
+Sum SPSNR:  20347.60373687744
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 92.38520812988281    id   227
+Sum SPSNR:  20439.988945007324
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 91.1484375    id   228
+Sum SPSNR:  20531.137382507324
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 89.1316909790039    id   229
+Sum SPSNR:  20620.269073486328
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 90.2633285522461    id   230
+Sum SPSNR:  20710.532402038574
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 89.79244995117188    id   231
+Sum SPSNR:  20800.324851989746
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 90.85213470458984    id   232
+Sum SPSNR:  20891.176986694336
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 93.470947265625    id   233
+Sum SPSNR:  20984.64793395996
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 92.26358032226562    id   234
+Sum SPSNR:  21076.911514282227
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 91.4913330078125    id   235
+Sum SPSNR:  21168.40284729004
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 89.6736068725586    id   236
+Sum SPSNR:  21258.076454162598
+Sum SSSIM:  236.0
+SSIM: TB  1.0
+PSNR: TB  90.07659514475677
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  2836
+adv_correct:  236
+accuracy of adv imgs in testing set: 0.923177
+
+adv succeeded 0.076823
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 33,
+        "adv_succeed_%": 0.14864864864864866
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 12,
+        "adv_succeed_%": 0.10909090909090909
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 14,
+        "adv_succeed_%": 0.08484848484848485
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 8,
+        "adv_succeed_%": 0.008298755186721992
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 31,
+        "adv_succeed_%": 0.13025210084033614
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 18,
+        "adv_succeed_%": 0.09230769230769231
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 12,
+        "adv_succeed_%": 0.061224489795918366
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 36,
+        "adv_succeed_%": 0.1651376146788991
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 65,
+        "adv_succeed_%": 0.09730538922155689
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 7,
+        "adv_succeed_%": 0.07291666666666667
+    }
+}
+217.0039393901825
+==================================================================
+827.7639307975769
+1691874160.3689163 running
+CUDA Available:  True
+=================== cifar10_shufflenetv2_x2_0 ===============================================
+./models/netG.pth.tar.600
+1691874163.1710556  running gen  5
+Files already downloaded and verified
+len(test_dataloader):  10000
+5 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 87.15641784667969    id   1
+Sum SPSNR:  87.15641784667969
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 88.64628601074219    id   2
+Sum SPSNR:  175.80270385742188
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 89.3282470703125    id   3
+Sum SPSNR:  265.1309509277344
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 86.58264923095703    id   4
+Sum SPSNR:  351.7136001586914
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 86.54521179199219    id   5
+Sum SPSNR:  438.2588119506836
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 86.85641479492188    id   6
+Sum SPSNR:  525.1152267456055
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 91.40176391601562    id   7
+Sum SPSNR:  616.5169906616211
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 91.42723846435547    id   8
+Sum SPSNR:  707.9442291259766
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 86.51229095458984    id   9
+Sum SPSNR:  794.4565200805664
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 84.5302963256836    id   10
+Sum SPSNR:  878.98681640625
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 86.74454498291016    id   11
+Sum SPSNR:  965.7313613891602
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 84.09002685546875    id   12
+Sum SPSNR:  1049.821388244629
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 88.1181411743164    id   13
+Sum SPSNR:  1137.9395294189453
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 90.24772644042969    id   14
+Sum SPSNR:  1228.187255859375
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 87.65745544433594    id   15
+Sum SPSNR:  1315.844711303711
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 85.04553985595703    id   16
+Sum SPSNR:  1400.890251159668
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 88.34463500976562    id   17
+Sum SPSNR:  1489.2348861694336
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 90.06405639648438    id   18
+Sum SPSNR:  1579.298942565918
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 92.10601043701172    id   19
+Sum SPSNR:  1671.4049530029297
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 89.82252502441406    id   20
+Sum SPSNR:  1761.2274780273438
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 91.02815246582031    id   21
+Sum SPSNR:  1852.255630493164
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 88.14335632324219    id   22
+Sum SPSNR:  1940.3989868164062
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 90.64751434326172    id   23
+Sum SPSNR:  2031.046501159668
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 92.27655029296875    id   24
+Sum SPSNR:  2123.3230514526367
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 88.77372741699219    id   25
+Sum SPSNR:  2212.096778869629
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 87.06599426269531    id   26
+Sum SPSNR:  2299.162773132324
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 83.9552001953125    id   27
+Sum SPSNR:  2383.1179733276367
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 87.92729187011719    id   28
+Sum SPSNR:  2471.045265197754
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 89.5882339477539    id   29
+Sum SPSNR:  2560.633499145508
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 93.06317138671875    id   30
+Sum SPSNR:  2653.6966705322266
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 86.69209289550781    id   31
+Sum SPSNR:  2740.3887634277344
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 91.83142852783203    id   32
+Sum SPSNR:  2832.2201919555664
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 89.21070098876953    id   33
+Sum SPSNR:  2921.430892944336
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 90.40890502929688    id   34
+Sum SPSNR:  3011.839797973633
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 87.60897827148438    id   35
+Sum SPSNR:  3099.448776245117
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 87.47551727294922    id   36
+Sum SPSNR:  3186.9242935180664
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 88.81144714355469    id   37
+Sum SPSNR:  3275.735740661621
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 88.07693481445312    id   38
+Sum SPSNR:  3363.812675476074
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 88.2203598022461    id   39
+Sum SPSNR:  3452.0330352783203
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 90.13866424560547    id   40
+Sum SPSNR:  3542.171699523926
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 90.99313354492188    id   41
+Sum SPSNR:  3633.1648330688477
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 89.41358947753906    id   42
+Sum SPSNR:  3722.5784225463867
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 88.36707305908203    id   43
+Sum SPSNR:  3810.9454956054688
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 93.15898895263672    id   44
+Sum SPSNR:  3904.1044845581055
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 88.15034484863281    id   45
+Sum SPSNR:  3992.2548294067383
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 88.74082946777344    id   46
+Sum SPSNR:  4080.9956588745117
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 90.21177673339844    id   47
+Sum SPSNR:  4171.20743560791
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 86.43494415283203    id   48
+Sum SPSNR:  4257.642379760742
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 88.68267059326172    id   49
+Sum SPSNR:  4346.325050354004
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 87.709228515625    id   50
+Sum SPSNR:  4434.034278869629
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 84.69645690917969    id   51
+Sum SPSNR:  4518.730735778809
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 86.8112564086914    id   52
+Sum SPSNR:  4605.5419921875
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 90.626220703125    id   53
+Sum SPSNR:  4696.168212890625
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 91.79690551757812    id   54
+Sum SPSNR:  4787.965118408203
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 88.25221252441406    id   55
+Sum SPSNR:  4876.217330932617
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 88.53343963623047    id   56
+Sum SPSNR:  4964.750770568848
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 89.52513885498047    id   57
+Sum SPSNR:  5054.275909423828
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 87.80860900878906    id   58
+Sum SPSNR:  5142.084518432617
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 86.10758972167969    id   59
+Sum SPSNR:  5228.192108154297
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 89.19539642333984    id   60
+Sum SPSNR:  5317.387504577637
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 89.9581298828125    id   61
+Sum SPSNR:  5407.345634460449
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 87.53860473632812    id   62
+Sum SPSNR:  5494.884239196777
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 85.26139831542969    id   63
+Sum SPSNR:  5580.145637512207
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 89.17488861083984    id   64
+Sum SPSNR:  5669.320526123047
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 86.1062240600586    id   65
+Sum SPSNR:  5755.4267501831055
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 87.82701110839844    id   66
+Sum SPSNR:  5843.253761291504
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 84.1949462890625    id   67
+Sum SPSNR:  5927.448707580566
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 84.66522216796875    id   68
+Sum SPSNR:  6012.113929748535
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 90.62236785888672    id   69
+Sum SPSNR:  6102.736297607422
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 91.69445037841797    id   70
+Sum SPSNR:  6194.43074798584
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 90.99734497070312    id   71
+Sum SPSNR:  6285.428092956543
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 85.6591796875    id   72
+Sum SPSNR:  6371.087272644043
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 90.42105102539062    id   73
+Sum SPSNR:  6461.508323669434
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 89.37577056884766    id   74
+Sum SPSNR:  6550.884094238281
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 87.11663818359375    id   75
+Sum SPSNR:  6638.000732421875
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 89.54135131835938    id   76
+Sum SPSNR:  6727.542083740234
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 88.57032775878906    id   77
+Sum SPSNR:  6816.112411499023
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 89.59889221191406    id   78
+Sum SPSNR:  6905.7113037109375
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 84.46157836914062    id   79
+Sum SPSNR:  6990.172882080078
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 87.49331665039062    id   80
+Sum SPSNR:  7077.666198730469
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 88.27889251708984    id   81
+Sum SPSNR:  7165.945091247559
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 88.84540557861328    id   82
+Sum SPSNR:  7254.790496826172
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 88.46104431152344    id   83
+Sum SPSNR:  7343.251541137695
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 85.11347961425781    id   84
+Sum SPSNR:  7428.365020751953
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 87.36329650878906    id   85
+Sum SPSNR:  7515.728317260742
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 88.87007904052734    id   86
+Sum SPSNR:  7604.5983963012695
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 90.06033325195312    id   87
+Sum SPSNR:  7694.658729553223
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 90.17019653320312    id   88
+Sum SPSNR:  7784.828926086426
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 92.79351806640625    id   89
+Sum SPSNR:  7877.622444152832
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 86.69802856445312    id   90
+Sum SPSNR:  7964.320472717285
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 86.4011001586914    id   91
+Sum SPSNR:  8050.721572875977
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 85.31848907470703    id   92
+Sum SPSNR:  8136.040061950684
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 88.47350311279297    id   93
+Sum SPSNR:  8224.513565063477
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 92.44819641113281    id   94
+Sum SPSNR:  8316.96176147461
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 85.65376281738281    id   95
+Sum SPSNR:  8402.615524291992
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 91.5296859741211    id   96
+Sum SPSNR:  8494.145210266113
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 86.11469268798828    id   97
+Sum SPSNR:  8580.259902954102
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 87.58513641357422    id   98
+Sum SPSNR:  8667.845039367676
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 88.30326080322266    id   99
+Sum SPSNR:  8756.148300170898
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 83.85918426513672    id   100
+Sum SPSNR:  8840.007484436035
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 90.98934936523438    id   101
+Sum SPSNR:  8930.99683380127
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 87.34620666503906    id   102
+Sum SPSNR:  9018.343040466309
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 89.8049087524414    id   103
+Sum SPSNR:  9108.14794921875
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 86.33129119873047    id   104
+Sum SPSNR:  9194.47924041748
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 89.51077270507812    id   105
+Sum SPSNR:  9283.990013122559
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 86.54808044433594    id   106
+Sum SPSNR:  9370.538093566895
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 92.0279769897461    id   107
+Sum SPSNR:  9462.56607055664
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 91.49935913085938    id   108
+Sum SPSNR:  9554.0654296875
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 84.6939926147461    id   109
+Sum SPSNR:  9638.759422302246
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 91.42028045654297    id   110
+Sum SPSNR:  9730.179702758789
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 85.6211929321289    id   111
+Sum SPSNR:  9815.800895690918
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 89.47447967529297    id   112
+Sum SPSNR:  9905.275375366211
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 87.08099365234375    id   113
+Sum SPSNR:  9992.356369018555
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 84.97789001464844    id   114
+Sum SPSNR:  10077.334259033203
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 88.03717803955078    id   115
+Sum SPSNR:  10165.371437072754
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 91.075439453125    id   116
+Sum SPSNR:  10256.446876525879
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 87.79490661621094    id   117
+Sum SPSNR:  10344.24178314209
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 84.22146606445312    id   118
+Sum SPSNR:  10428.463249206543
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 90.79435729980469    id   119
+Sum SPSNR:  10519.257606506348
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 84.88475799560547    id   120
+Sum SPSNR:  10604.142364501953
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 89.82123565673828    id   121
+Sum SPSNR:  10693.963600158691
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 92.5715560913086    id   122
+Sum SPSNR:  10786.53515625
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 87.97296142578125    id   123
+Sum SPSNR:  10874.508117675781
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 86.22626495361328    id   124
+Sum SPSNR:  10960.734382629395
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 90.81770324707031    id   125
+Sum SPSNR:  11051.552085876465
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 87.62694549560547    id   126
+Sum SPSNR:  11139.17903137207
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 88.95072937011719    id   127
+Sum SPSNR:  11228.129760742188
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 86.40080261230469    id   128
+Sum SPSNR:  11314.530563354492
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 86.97291564941406    id   129
+Sum SPSNR:  11401.503479003906
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 87.38229370117188    id   130
+Sum SPSNR:  11488.885772705078
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 91.53015899658203    id   131
+Sum SPSNR:  11580.41593170166
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 88.5908203125    id   132
+Sum SPSNR:  11669.00675201416
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 89.75816345214844    id   133
+Sum SPSNR:  11758.764915466309
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 89.00038146972656    id   134
+Sum SPSNR:  11847.765296936035
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 88.84335327148438    id   135
+Sum SPSNR:  11936.60865020752
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 87.35802459716797    id   136
+Sum SPSNR:  12023.966674804688
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 89.05409240722656    id   137
+Sum SPSNR:  12113.020767211914
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 93.52406311035156    id   138
+Sum SPSNR:  12206.544830322266
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 89.79595947265625    id   139
+Sum SPSNR:  12296.340789794922
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 90.30653381347656    id   140
+Sum SPSNR:  12386.647323608398
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 85.85398864746094    id   141
+Sum SPSNR:  12472.50131225586
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 88.63601684570312    id   142
+Sum SPSNR:  12561.137329101562
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 90.75318908691406    id   143
+Sum SPSNR:  12651.890518188477
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 88.69132232666016    id   144
+Sum SPSNR:  12740.581840515137
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 86.03211212158203    id   145
+Sum SPSNR:  12826.613952636719
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 88.28655242919922    id   146
+Sum SPSNR:  12914.900505065918
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 92.88285064697266    id   147
+Sum SPSNR:  13007.78335571289
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 88.57225036621094    id   148
+Sum SPSNR:  13096.355606079102
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 86.4845199584961    id   149
+Sum SPSNR:  13182.840126037598
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 86.2861328125    id   150
+Sum SPSNR:  13269.126258850098
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 85.21627807617188    id   151
+Sum SPSNR:  13354.34253692627
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 90.67672729492188    id   152
+Sum SPSNR:  13445.019264221191
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 85.57689666748047    id   153
+Sum SPSNR:  13530.596160888672
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 88.62405395507812    id   154
+Sum SPSNR:  13619.22021484375
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 88.1376953125    id   155
+Sum SPSNR:  13707.35791015625
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 87.69976806640625    id   156
+Sum SPSNR:  13795.057678222656
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 87.79048156738281    id   157
+Sum SPSNR:  13882.848159790039
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 91.11243438720703    id   158
+Sum SPSNR:  13973.960594177246
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 88.50253295898438    id   159
+Sum SPSNR:  14062.46312713623
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 88.03973388671875    id   160
+Sum SPSNR:  14150.50286102295
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 90.07867431640625    id   161
+Sum SPSNR:  14240.581535339355
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 89.04147338867188    id   162
+Sum SPSNR:  14329.623008728027
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 87.32882690429688    id   163
+Sum SPSNR:  14416.951835632324
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 87.08885192871094    id   164
+Sum SPSNR:  14504.040687561035
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 90.63434600830078    id   165
+Sum SPSNR:  14594.675033569336
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 92.10437774658203    id   166
+Sum SPSNR:  14686.779411315918
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 88.44933319091797    id   167
+Sum SPSNR:  14775.228744506836
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 89.97837829589844    id   168
+Sum SPSNR:  14865.207122802734
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 86.69818878173828    id   169
+Sum SPSNR:  14951.905311584473
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 89.62641906738281    id   170
+Sum SPSNR:  15041.531730651855
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 90.59889221191406    id   171
+Sum SPSNR:  15132.13062286377
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 90.16914367675781    id   172
+Sum SPSNR:  15222.299766540527
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 92.39215850830078    id   173
+Sum SPSNR:  15314.691925048828
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 88.05892944335938    id   174
+Sum SPSNR:  15402.750854492188
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 89.2221450805664    id   175
+Sum SPSNR:  15491.972999572754
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 88.52366638183594    id   176
+Sum SPSNR:  15580.49666595459
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 89.33369445800781    id   177
+Sum SPSNR:  15669.830360412598
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 88.17399597167969    id   178
+Sum SPSNR:  15758.004356384277
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 88.53439331054688    id   179
+Sum SPSNR:  15846.538749694824
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 91.00660705566406    id   180
+Sum SPSNR:  15937.545356750488
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 92.45055389404297    id   181
+Sum SPSNR:  16029.995910644531
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 90.73573303222656    id   182
+Sum SPSNR:  16120.731643676758
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 89.33226776123047    id   183
+Sum SPSNR:  16210.063911437988
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 87.15815734863281    id   184
+Sum SPSNR:  16297.222068786621
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 88.98129272460938    id   185
+Sum SPSNR:  16386.20336151123
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 88.65436553955078    id   186
+Sum SPSNR:  16474.85772705078
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 91.56166076660156    id   187
+Sum SPSNR:  16566.419387817383
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 86.17691040039062    id   188
+Sum SPSNR:  16652.596298217773
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 91.2169189453125    id   189
+Sum SPSNR:  16743.813217163086
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 88.10601806640625    id   190
+Sum SPSNR:  16831.919235229492
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 92.37422180175781    id   191
+Sum SPSNR:  16924.29345703125
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 88.77902221679688    id   192
+Sum SPSNR:  17013.072479248047
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 88.40766143798828    id   193
+Sum SPSNR:  17101.480140686035
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 86.27180480957031    id   194
+Sum SPSNR:  17187.751945495605
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 85.39447021484375    id   195
+Sum SPSNR:  17273.14641571045
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 91.43327331542969    id   196
+Sum SPSNR:  17364.57968902588
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 89.14046478271484    id   197
+Sum SPSNR:  17453.720153808594
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 88.81526947021484    id   198
+Sum SPSNR:  17542.53542327881
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 87.5675277709961    id   199
+Sum SPSNR:  17630.102951049805
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 88.11836242675781    id   200
+Sum SPSNR:  17718.221313476562
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 87.36549377441406    id   201
+Sum SPSNR:  17805.586807250977
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 88.99798583984375    id   202
+Sum SPSNR:  17894.58479309082
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 85.83433532714844    id   203
+Sum SPSNR:  17980.41912841797
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 87.15641784667969    id   204
+Sum SPSNR:  18067.57554626465
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 91.5225601196289    id   205
+Sum SPSNR:  18159.098106384277
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 90.18797302246094    id   206
+Sum SPSNR:  18249.28607940674
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 90.13763427734375    id   207
+Sum SPSNR:  18339.423713684082
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 91.63119506835938    id   208
+Sum SPSNR:  18431.05490875244
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 90.28504943847656    id   209
+Sum SPSNR:  18521.339958190918
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 88.13595581054688    id   210
+Sum SPSNR:  18609.475914001465
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 84.7877197265625    id   211
+Sum SPSNR:  18694.263633728027
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 88.5391616821289    id   212
+Sum SPSNR:  18782.802795410156
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 85.42268371582031    id   213
+Sum SPSNR:  18868.225479125977
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 85.86029052734375    id   214
+Sum SPSNR:  18954.08576965332
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 90.85540008544922    id   215
+Sum SPSNR:  19044.94116973877
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 91.02561950683594    id   216
+Sum SPSNR:  19135.966789245605
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 88.9031982421875    id   217
+Sum SPSNR:  19224.869987487793
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 86.02433776855469    id   218
+Sum SPSNR:  19310.894325256348
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 86.84508514404297    id   219
+Sum SPSNR:  19397.73941040039
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 91.23020935058594    id   220
+Sum SPSNR:  19488.969619750977
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 87.92066955566406    id   221
+Sum SPSNR:  19576.89028930664
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 87.89010620117188    id   222
+Sum SPSNR:  19664.780395507812
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 90.86844635009766    id   223
+Sum SPSNR:  19755.64884185791
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 85.33924102783203    id   224
+Sum SPSNR:  19840.988082885742
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 89.40804290771484    id   225
+Sum SPSNR:  19930.396125793457
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 86.6165771484375    id   226
+Sum SPSNR:  20017.012702941895
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 87.61727142333984    id   227
+Sum SPSNR:  20104.629974365234
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 87.65861511230469    id   228
+Sum SPSNR:  20192.28858947754
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 84.94790649414062    id   229
+Sum SPSNR:  20277.23649597168
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 90.0457763671875    id   230
+Sum SPSNR:  20367.282272338867
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 90.81488037109375    id   231
+Sum SPSNR:  20458.09715270996
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 90.20755767822266    id   232
+Sum SPSNR:  20548.304710388184
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 89.77178955078125    id   233
+Sum SPSNR:  20638.076499938965
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 88.40279388427734    id   234
+Sum SPSNR:  20726.479293823242
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 90.7547836303711    id   235
+Sum SPSNR:  20817.234077453613
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 92.05526733398438    id   236
+Sum SPSNR:  20909.289344787598
+Sum SSSIM:  236.0
+SSIM score: 1.0    id   237
+PSNR: 93.71720886230469    id   237
+Sum SPSNR:  21003.006553649902
+Sum SSSIM:  237.0
+SSIM score: 1.0    id   238
+PSNR: 85.7682113647461    id   238
+Sum SPSNR:  21088.77476501465
+Sum SSSIM:  238.0
+SSIM score: 1.0    id   239
+PSNR: 84.82443237304688    id   239
+Sum SPSNR:  21173.599197387695
+Sum SSSIM:  239.0
+SSIM score: 1.0    id   240
+PSNR: 89.77020263671875    id   240
+Sum SPSNR:  21263.369400024414
+Sum SSSIM:  240.0
+SSIM score: 1.0    id   241
+PSNR: 84.59915924072266    id   241
+Sum SPSNR:  21347.968559265137
+Sum SSSIM:  241.0
+SSIM score: 1.0    id   242
+PSNR: 87.4921875    id   242
+Sum SPSNR:  21435.460746765137
+Sum SSSIM:  242.0
+SSIM score: 1.0    id   243
+PSNR: 89.47952270507812    id   243
+Sum SPSNR:  21524.940269470215
+Sum SSSIM:  243.0
+SSIM score: 1.0    id   244
+PSNR: 87.55056762695312    id   244
+Sum SPSNR:  21612.490837097168
+Sum SSSIM:  244.0
+SSIM score: 1.0    id   245
+PSNR: 84.40560913085938    id   245
+Sum SPSNR:  21696.896446228027
+Sum SSSIM:  245.0
+SSIM score: 1.0    id   246
+PSNR: 88.6301498413086    id   246
+Sum SPSNR:  21785.526596069336
+Sum SSSIM:  246.0
+SSIM score: 1.0    id   247
+PSNR: 94.66492462158203    id   247
+Sum SPSNR:  21880.191520690918
+Sum SSSIM:  247.0
+SSIM score: 1.0    id   248
+PSNR: 89.13059997558594    id   248
+Sum SPSNR:  21969.322120666504
+Sum SSSIM:  248.0
+SSIM score: 1.0    id   249
+PSNR: 89.69194030761719    id   249
+Sum SPSNR:  22059.01406097412
+Sum SSSIM:  249.0
+SSIM score: 1.0    id   250
+PSNR: 88.95729064941406    id   250
+Sum SPSNR:  22147.971351623535
+Sum SSSIM:  250.0
+SSIM score: 1.0    id   251
+PSNR: 86.32254028320312    id   251
+Sum SPSNR:  22234.29389190674
+Sum SSSIM:  251.0
+SSIM score: 1.0    id   252
+PSNR: 91.98023986816406    id   252
+Sum SPSNR:  22326.274131774902
+Sum SSSIM:  252.0
+SSIM score: 1.0    id   253
+PSNR: 92.048828125    id   253
+Sum SPSNR:  22418.322959899902
+Sum SSSIM:  253.0
+SSIM score: 1.0    id   254
+PSNR: 89.53834533691406    id   254
+Sum SPSNR:  22507.861305236816
+Sum SSSIM:  254.0
+SSIM score: 1.0    id   255
+PSNR: 89.03317260742188    id   255
+Sum SPSNR:  22596.89447784424
+Sum SSSIM:  255.0
+SSIM score: 1.0    id   256
+PSNR: 86.58889770507812    id   256
+Sum SPSNR:  22683.483375549316
+Sum SSSIM:  256.0
+SSIM score: 1.0    id   257
+PSNR: 87.62694549560547    id   257
+Sum SPSNR:  22771.110321044922
+Sum SSSIM:  257.0
+SSIM score: 1.0    id   258
+PSNR: 89.41212463378906    id   258
+Sum SPSNR:  22860.52244567871
+Sum SSSIM:  258.0
+SSIM score: 1.0    id   259
+PSNR: 87.92937469482422    id   259
+Sum SPSNR:  22948.451820373535
+Sum SSSIM:  259.0
+SSIM score: 1.0    id   260
+PSNR: 86.68616485595703    id   260
+Sum SPSNR:  23035.137985229492
+Sum SSSIM:  260.0
+SSIM score: 1.0    id   261
+PSNR: 85.5422592163086    id   261
+Sum SPSNR:  23120.6802444458
+Sum SSSIM:  261.0
+SSIM score: 1.0    id   262
+PSNR: 91.81768798828125    id   262
+Sum SPSNR:  23212.497932434082
+Sum SSSIM:  262.0
+SSIM score: 1.0    id   263
+PSNR: 89.52363586425781    id   263
+Sum SPSNR:  23302.02156829834
+Sum SSSIM:  263.0
+SSIM score: 1.0    id   264
+PSNR: 88.54849243164062    id   264
+Sum SPSNR:  23390.57006072998
+Sum SSSIM:  264.0
+SSIM score: 1.0    id   265
+PSNR: 87.68364715576172    id   265
+Sum SPSNR:  23478.253707885742
+Sum SSSIM:  265.0
+SSIM score: 1.0    id   266
+PSNR: 90.67711639404297    id   266
+Sum SPSNR:  23568.930824279785
+Sum SSSIM:  266.0
+SSIM score: 1.0    id   267
+PSNR: 90.18133544921875    id   267
+Sum SPSNR:  23659.112159729004
+Sum SSSIM:  267.0
+SSIM score: 1.0    id   268
+PSNR: 90.2811279296875    id   268
+Sum SPSNR:  23749.39328765869
+Sum SSSIM:  268.0
+SSIM score: 1.0    id   269
+PSNR: 91.77571105957031    id   269
+Sum SPSNR:  23841.16899871826
+Sum SSSIM:  269.0
+SSIM score: 1.0    id   270
+PSNR: 89.52752685546875    id   270
+Sum SPSNR:  23930.69652557373
+Sum SSSIM:  270.0
+SSIM score: 1.0    id   271
+PSNR: 86.38768005371094    id   271
+Sum SPSNR:  24017.08420562744
+Sum SSSIM:  271.0
+SSIM score: 1.0    id   272
+PSNR: 86.58234405517578    id   272
+Sum SPSNR:  24103.666549682617
+Sum SSSIM:  272.0
+SSIM score: 1.0    id   273
+PSNR: 92.09624481201172    id   273
+Sum SPSNR:  24195.76279449463
+Sum SSSIM:  273.0
+SSIM score: 1.0    id   274
+PSNR: 87.03936767578125    id   274
+Sum SPSNR:  24282.80216217041
+Sum SSSIM:  274.0
+SSIM score: 1.0    id   275
+PSNR: 90.47965240478516    id   275
+Sum SPSNR:  24373.281814575195
+Sum SSSIM:  275.0
+SSIM score: 1.0    id   276
+PSNR: 88.21348571777344    id   276
+Sum SPSNR:  24461.49530029297
+Sum SSSIM:  276.0
+SSIM score: 1.0    id   277
+PSNR: 90.44209289550781    id   277
+Sum SPSNR:  24551.937393188477
+Sum SSSIM:  277.0
+SSIM score: 1.0    id   278
+PSNR: 93.8718032836914    id   278
+Sum SPSNR:  24645.809196472168
+Sum SSSIM:  278.0
+SSIM score: 1.0    id   279
+PSNR: 90.15769958496094    id   279
+Sum SPSNR:  24735.96689605713
+Sum SSSIM:  279.0
+SSIM score: 1.0    id   280
+PSNR: 89.73576354980469    id   280
+Sum SPSNR:  24825.702659606934
+Sum SSSIM:  280.0
+SSIM score: 1.0    id   281
+PSNR: 88.32935333251953    id   281
+Sum SPSNR:  24914.032012939453
+Sum SSSIM:  281.0
+SSIM score: 1.0    id   282
+PSNR: 91.32035064697266    id   282
+Sum SPSNR:  25005.352363586426
+Sum SSSIM:  282.0
+SSIM score: 1.0    id   283
+PSNR: 91.83959197998047    id   283
+Sum SPSNR:  25097.191955566406
+Sum SSSIM:  283.0
+SSIM score: 1.0    id   284
+PSNR: 89.41445922851562    id   284
+Sum SPSNR:  25186.606414794922
+Sum SSSIM:  284.0
+SSIM score: 1.0    id   285
+PSNR: 87.82256317138672    id   285
+Sum SPSNR:  25274.42897796631
+Sum SSSIM:  285.0
+SSIM score: 1.0    id   286
+PSNR: 89.08512878417969    id   286
+Sum SPSNR:  25363.51410675049
+Sum SSSIM:  286.0
+SSIM score: 1.0    id   287
+PSNR: 87.94246673583984    id   287
+Sum SPSNR:  25451.456573486328
+Sum SSSIM:  287.0
+SSIM score: 1.0    id   288
+PSNR: 86.42378234863281    id   288
+Sum SPSNR:  25537.88035583496
+Sum SSSIM:  288.0
+SSIM score: 1.0    id   289
+PSNR: 91.73214721679688    id   289
+Sum SPSNR:  25629.612503051758
+Sum SSSIM:  289.0
+SSIM score: 1.0    id   290
+PSNR: 85.45380401611328    id   290
+Sum SPSNR:  25715.06630706787
+Sum SSSIM:  290.0
+SSIM score: 1.0    id   291
+PSNR: 89.89501953125    id   291
+Sum SPSNR:  25804.96132659912
+Sum SSSIM:  291.0
+SSIM score: 1.0    id   292
+PSNR: 93.07266235351562    id   292
+Sum SPSNR:  25898.033988952637
+Sum SSSIM:  292.0
+SSIM score: 1.0    id   293
+PSNR: 87.15919494628906    id   293
+Sum SPSNR:  25985.193183898926
+Sum SSSIM:  293.0
+SSIM score: 1.0    id   294
+PSNR: 87.3445816040039    id   294
+Sum SPSNR:  26072.53776550293
+Sum SSSIM:  294.0
+SSIM score: 1.0    id   295
+PSNR: 92.29409790039062    id   295
+Sum SPSNR:  26164.83186340332
+Sum SSSIM:  295.0
+SSIM score: 1.0    id   296
+PSNR: 88.36614990234375    id   296
+Sum SPSNR:  26253.198013305664
+Sum SSSIM:  296.0
+SSIM score: 1.0    id   297
+PSNR: 87.544677734375    id   297
+Sum SPSNR:  26340.74269104004
+Sum SSSIM:  297.0
+SSIM score: 1.0    id   298
+PSNR: 87.34984588623047    id   298
+Sum SPSNR:  26428.09253692627
+Sum SSSIM:  298.0
+SSIM score: 1.0    id   299
+PSNR: 89.71912384033203    id   299
+Sum SPSNR:  26517.8116607666
+Sum SSSIM:  299.0
+SSIM score: 1.0    id   300
+PSNR: 91.20719146728516    id   300
+Sum SPSNR:  26609.018852233887
+Sum SSSIM:  300.0
+SSIM score: 1.0    id   301
+PSNR: 93.55729675292969    id   301
+Sum SPSNR:  26702.576148986816
+Sum SSSIM:  301.0
+SSIM score: 1.0    id   302
+PSNR: 89.26004028320312    id   302
+Sum SPSNR:  26791.83618927002
+Sum SSSIM:  302.0
+SSIM score: 1.0    id   303
+PSNR: 89.37490844726562    id   303
+Sum SPSNR:  26881.211097717285
+Sum SSSIM:  303.0
+SSIM score: 1.0    id   304
+PSNR: 89.0401382446289    id   304
+Sum SPSNR:  26970.251235961914
+Sum SSSIM:  304.0
+SSIM score: 1.0    id   305
+PSNR: 91.27168273925781    id   305
+Sum SPSNR:  27061.522918701172
+Sum SSSIM:  305.0
+SSIM score: 1.0    id   306
+PSNR: 89.15584564208984    id   306
+Sum SPSNR:  27150.67876434326
+Sum SSSIM:  306.0
+SSIM score: 1.0    id   307
+PSNR: 89.88654327392578    id   307
+Sum SPSNR:  27240.565307617188
+Sum SSSIM:  307.0
+SSIM score: 1.0    id   308
+PSNR: 90.80399322509766    id   308
+Sum SPSNR:  27331.369300842285
+Sum SSSIM:  308.0
+SSIM score: 1.0    id   309
+PSNR: 88.84693908691406    id   309
+Sum SPSNR:  27420.2162399292
+Sum SSSIM:  309.0
+SSIM score: 1.0    id   310
+PSNR: 87.73693084716797    id   310
+Sum SPSNR:  27507.953170776367
+Sum SSSIM:  310.0
+SSIM score: 1.0    id   311
+PSNR: 85.87799072265625    id   311
+Sum SPSNR:  27593.831161499023
+Sum SSSIM:  311.0
+SSIM score: 1.0    id   312
+PSNR: 88.68389892578125    id   312
+Sum SPSNR:  27682.515060424805
+Sum SSSIM:  312.0
+SSIM score: 1.0    id   313
+PSNR: 89.47982025146484    id   313
+Sum SPSNR:  27771.99488067627
+Sum SSSIM:  313.0
+SSIM score: 1.0    id   314
+PSNR: 85.5647201538086    id   314
+Sum SPSNR:  27857.559600830078
+Sum SSSIM:  314.0
+SSIM score: 1.0    id   315
+PSNR: 92.49248504638672    id   315
+Sum SPSNR:  27950.052085876465
+Sum SSSIM:  315.0
+SSIM score: 1.0    id   316
+PSNR: 91.39347076416016    id   316
+Sum SPSNR:  28041.445556640625
+Sum SSSIM:  316.0
+SSIM score: 1.0    id   317
+PSNR: 92.79924011230469    id   317
+Sum SPSNR:  28134.24479675293
+Sum SSSIM:  317.0
+SSIM score: 1.0    id   318
+PSNR: 89.19122314453125    id   318
+Sum SPSNR:  28223.43601989746
+Sum SSSIM:  318.0
+SSIM score: 1.0    id   319
+PSNR: 87.516845703125    id   319
+Sum SPSNR:  28310.952865600586
+Sum SSSIM:  319.0
+SSIM score: 1.0    id   320
+PSNR: 88.8101806640625    id   320
+Sum SPSNR:  28399.76304626465
+Sum SSSIM:  320.0
+SSIM score: 1.0    id   321
+PSNR: 88.40650939941406    id   321
+Sum SPSNR:  28488.169555664062
+Sum SSSIM:  321.0
+SSIM score: 1.0    id   322
+PSNR: 90.70967102050781    id   322
+Sum SPSNR:  28578.87922668457
+Sum SSSIM:  322.0
+SSIM score: 1.0    id   323
+PSNR: 86.21072387695312    id   323
+Sum SPSNR:  28665.089950561523
+Sum SSSIM:  323.0
+SSIM score: 1.0    id   324
+PSNR: 87.41702270507812    id   324
+Sum SPSNR:  28752.5069732666
+Sum SSSIM:  324.0
+SSIM score: 1.0    id   325
+PSNR: 93.9466552734375    id   325
+Sum SPSNR:  28846.45362854004
+Sum SSSIM:  325.0
+SSIM score: 1.0    id   326
+PSNR: 89.0310287475586    id   326
+Sum SPSNR:  28935.484657287598
+Sum SSSIM:  326.0
+SSIM score: 1.0    id   327
+PSNR: 89.15145111083984    id   327
+Sum SPSNR:  29024.636108398438
+Sum SSSIM:  327.0
+SSIM score: 1.0    id   328
+PSNR: 87.79510498046875    id   328
+Sum SPSNR:  29112.431213378906
+Sum SSSIM:  328.0
+SSIM score: 1.0    id   329
+PSNR: 91.91531372070312    id   329
+Sum SPSNR:  29204.34652709961
+Sum SSSIM:  329.0
+SSIM score: 1.0    id   330
+PSNR: 87.34004211425781    id   330
+Sum SPSNR:  29291.686569213867
+Sum SSSIM:  330.0
+SSIM score: 1.0    id   331
+PSNR: 87.47570037841797    id   331
+Sum SPSNR:  29379.162269592285
+Sum SSSIM:  331.0
+SSIM score: 1.0    id   332
+PSNR: 88.84770202636719    id   332
+Sum SPSNR:  29468.009971618652
+Sum SSSIM:  332.0
+SSIM score: 1.0    id   333
+PSNR: 91.51780700683594    id   333
+Sum SPSNR:  29559.52777862549
+Sum SSSIM:  333.0
+SSIM score: 1.0    id   334
+PSNR: 93.015380859375    id   334
+Sum SPSNR:  29652.543159484863
+Sum SSSIM:  334.0
+SSIM score: 1.0    id   335
+PSNR: 87.9654312133789    id   335
+Sum SPSNR:  29740.508590698242
+Sum SSSIM:  335.0
+SSIM score: 1.0    id   336
+PSNR: 88.53701782226562    id   336
+Sum SPSNR:  29829.045608520508
+Sum SSSIM:  336.0
+SSIM score: 1.0    id   337
+PSNR: 85.94003295898438    id   337
+Sum SPSNR:  29914.985641479492
+Sum SSSIM:  337.0
+SSIM score: 1.0    id   338
+PSNR: 90.55839538574219    id   338
+Sum SPSNR:  30005.544036865234
+Sum SSSIM:  338.0
+SSIM score: 1.0    id   339
+PSNR: 91.47111511230469    id   339
+Sum SPSNR:  30097.01515197754
+Sum SSSIM:  339.0
+SSIM score: 1.0    id   340
+PSNR: 84.93404388427734    id   340
+Sum SPSNR:  30181.949195861816
+Sum SSSIM:  340.0
+SSIM score: 1.0    id   341
+PSNR: 85.63378143310547    id   341
+Sum SPSNR:  30267.582977294922
+Sum SSSIM:  341.0
+SSIM score: 1.0    id   342
+PSNR: 92.20597076416016    id   342
+Sum SPSNR:  30359.788948059082
+Sum SSSIM:  342.0
+SSIM score: 1.0    id   343
+PSNR: 90.91152954101562    id   343
+Sum SPSNR:  30450.700477600098
+Sum SSSIM:  343.0
+SSIM score: 1.0    id   344
+PSNR: 89.7091064453125    id   344
+Sum SPSNR:  30540.40958404541
+Sum SSSIM:  344.0
+SSIM score: 1.0    id   345
+PSNR: 88.84925079345703    id   345
+Sum SPSNR:  30629.258834838867
+Sum SSSIM:  345.0
+SSIM score: 1.0    id   346
+PSNR: 90.52430725097656    id   346
+Sum SPSNR:  30719.783142089844
+Sum SSSIM:  346.0
+SSIM score: 1.0    id   347
+PSNR: 90.30653381347656    id   347
+Sum SPSNR:  30810.08967590332
+Sum SSSIM:  347.0
+SSIM score: 1.0    id   348
+PSNR: 89.99905395507812    id   348
+Sum SPSNR:  30900.0887298584
+Sum SSSIM:  348.0
+SSIM score: 1.0    id   349
+PSNR: 88.62674713134766    id   349
+Sum SPSNR:  30988.715476989746
+Sum SSSIM:  349.0
+SSIM score: 1.0    id   350
+PSNR: 90.4158935546875    id   350
+Sum SPSNR:  31079.131370544434
+Sum SSSIM:  350.0
+SSIM score: 1.0    id   351
+PSNR: 86.4945068359375    id   351
+Sum SPSNR:  31165.62587738037
+Sum SSSIM:  351.0
+SSIM score: 1.0    id   352
+PSNR: 88.61846923828125    id   352
+Sum SPSNR:  31254.244346618652
+Sum SSSIM:  352.0
+SSIM score: 1.0    id   353
+PSNR: 90.81285095214844    id   353
+Sum SPSNR:  31345.0571975708
+Sum SSSIM:  353.0
+SSIM score: 1.0    id   354
+PSNR: 90.87825775146484    id   354
+Sum SPSNR:  31435.935455322266
+Sum SSSIM:  354.0
+SSIM score: 1.0    id   355
+PSNR: 90.83751678466797    id   355
+Sum SPSNR:  31526.772972106934
+Sum SSSIM:  355.0
+SSIM score: 1.0    id   356
+PSNR: 91.89095306396484    id   356
+Sum SPSNR:  31618.6639251709
+Sum SSSIM:  356.0
+SSIM score: 1.0    id   357
+PSNR: 84.69912719726562    id   357
+Sum SPSNR:  31703.363052368164
+Sum SSSIM:  357.0
+SSIM score: 1.0    id   358
+PSNR: 88.37579345703125    id   358
+Sum SPSNR:  31791.738845825195
+Sum SSSIM:  358.0
+SSIM score: 1.0    id   359
+PSNR: 86.4132308959961    id   359
+Sum SPSNR:  31878.15207672119
+Sum SSSIM:  359.0
+SSIM score: 1.0    id   360
+PSNR: 88.90943908691406    id   360
+Sum SPSNR:  31967.061515808105
+Sum SSSIM:  360.0
+SSIM score: 1.0    id   361
+PSNR: 91.488037109375    id   361
+Sum SPSNR:  32058.54955291748
+Sum SSSIM:  361.0
+SSIM score: 1.0    id   362
+PSNR: 91.17507934570312    id   362
+Sum SPSNR:  32149.724632263184
+Sum SSSIM:  362.0
+SSIM score: 1.0    id   363
+PSNR: 90.02387237548828    id   363
+Sum SPSNR:  32239.748504638672
+Sum SSSIM:  363.0
+SSIM score: 1.0    id   364
+PSNR: 90.62351989746094    id   364
+Sum SPSNR:  32330.372024536133
+Sum SSSIM:  364.0
+SSIM score: 1.0    id   365
+PSNR: 87.456298828125    id   365
+Sum SPSNR:  32417.828323364258
+Sum SSSIM:  365.0
+SSIM score: 1.0    id   366
+PSNR: 88.38294219970703    id   366
+Sum SPSNR:  32506.211265563965
+Sum SSSIM:  366.0
+SSIM score: 1.0    id   367
+PSNR: 89.41094970703125    id   367
+Sum SPSNR:  32595.622215270996
+Sum SSSIM:  367.0
+SSIM score: 1.0    id   368
+PSNR: 91.07886505126953    id   368
+Sum SPSNR:  32686.701080322266
+Sum SSSIM:  368.0
+SSIM score: 1.0    id   369
+PSNR: 88.69082641601562    id   369
+Sum SPSNR:  32775.39190673828
+Sum SSSIM:  369.0
+SSIM score: 1.0    id   370
+PSNR: 89.74806213378906    id   370
+Sum SPSNR:  32865.13996887207
+Sum SSSIM:  370.0
+SSIM score: 1.0    id   371
+PSNR: 93.44425964355469    id   371
+Sum SPSNR:  32958.584228515625
+Sum SSSIM:  371.0
+SSIM score: 1.0    id   372
+PSNR: 88.56864166259766    id   372
+Sum SPSNR:  33047.15287017822
+Sum SSSIM:  372.0
+SSIM score: 1.0    id   373
+PSNR: 91.1983642578125    id   373
+Sum SPSNR:  33138.351234436035
+Sum SSSIM:  373.0
+SSIM score: 1.0    id   374
+PSNR: 90.6591796875    id   374
+Sum SPSNR:  33229.010414123535
+Sum SSSIM:  374.0
+SSIM score: 1.0    id   375
+PSNR: 90.86803436279297    id   375
+Sum SPSNR:  33319.87844848633
+Sum SSSIM:  375.0
+SSIM score: 1.0    id   376
+PSNR: 90.33387756347656    id   376
+Sum SPSNR:  33410.212326049805
+Sum SSSIM:  376.0
+SSIM score: 1.0    id   377
+PSNR: 89.17765808105469    id   377
+Sum SPSNR:  33499.38998413086
+Sum SSSIM:  377.0
+SSIM: TB  1.0
+PSNR: TB  88.85779836639485
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  2695
+adv_correct:  377
+accuracy of adv imgs in testing set: 0.877279
+
+adv succeeded 0.122721
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 45,
+        "adv_succeed_%": 0.20270270270270271
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 19,
+        "adv_succeed_%": 0.17272727272727273
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 22,
+        "adv_succeed_%": 0.13333333333333333
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 21,
+        "adv_succeed_%": 0.021784232365145227
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 45,
+        "adv_succeed_%": 0.18907563025210083
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 28,
+        "adv_succeed_%": 0.14358974358974358
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 20,
+        "adv_succeed_%": 0.10204081632653061
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 47,
+        "adv_succeed_%": 0.21559633027522937
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 120,
+        "adv_succeed_%": 0.17964071856287425
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 10,
+        "adv_succeed_%": 0.10416666666666667
+    }
+}
+228.700519323349
+==================================================================
+1691874391.8715749  running gen  6
+Files already downloaded and verified
+len(test_dataloader):  10000
+6 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 85.9688720703125    id   1
+Sum SPSNR:  85.9688720703125
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 88.25601196289062    id   2
+Sum SPSNR:  174.22488403320312
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 86.28813171386719    id   3
+Sum SPSNR:  260.5130157470703
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 88.39631652832031    id   4
+Sum SPSNR:  348.9093322753906
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 88.72160339355469    id   5
+Sum SPSNR:  437.6309356689453
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 85.21916198730469    id   6
+Sum SPSNR:  522.85009765625
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 86.94998931884766    id   7
+Sum SPSNR:  609.8000869750977
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 85.70098114013672    id   8
+Sum SPSNR:  695.5010681152344
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 89.42294311523438    id   9
+Sum SPSNR:  784.9240112304688
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 85.91645812988281    id   10
+Sum SPSNR:  870.8404693603516
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 88.37418365478516    id   11
+Sum SPSNR:  959.2146530151367
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 85.18879699707031    id   12
+Sum SPSNR:  1044.403450012207
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 90.5348892211914    id   13
+Sum SPSNR:  1134.9383392333984
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 91.07886505126953    id   14
+Sum SPSNR:  1226.017204284668
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 85.67718505859375    id   15
+Sum SPSNR:  1311.6943893432617
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 83.53936767578125    id   16
+Sum SPSNR:  1395.233757019043
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 89.095703125    id   17
+Sum SPSNR:  1484.329460144043
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 86.21968078613281    id   18
+Sum SPSNR:  1570.5491409301758
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 89.57093048095703    id   19
+Sum SPSNR:  1660.1200714111328
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 82.78544616699219    id   20
+Sum SPSNR:  1742.905517578125
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 87.90515899658203    id   21
+Sum SPSNR:  1830.810676574707
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 88.3634033203125    id   22
+Sum SPSNR:  1919.1740798950195
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 88.8546371459961    id   23
+Sum SPSNR:  2008.0287170410156
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 86.31279754638672    id   24
+Sum SPSNR:  2094.3415145874023
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 84.36943054199219    id   25
+Sum SPSNR:  2178.7109451293945
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 87.49687957763672    id   26
+Sum SPSNR:  2266.2078247070312
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 89.50897979736328    id   27
+Sum SPSNR:  2355.7168045043945
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 83.56649780273438    id   28
+Sum SPSNR:  2439.283302307129
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 91.69050598144531    id   29
+Sum SPSNR:  2530.973808288574
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 89.24231719970703    id   30
+Sum SPSNR:  2620.2161254882812
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 87.23919677734375    id   31
+Sum SPSNR:  2707.455322265625
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 89.63716125488281    id   32
+Sum SPSNR:  2797.092483520508
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 90.335693359375    id   33
+Sum SPSNR:  2887.428176879883
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 89.0182113647461    id   34
+Sum SPSNR:  2976.446388244629
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 87.7482681274414    id   35
+Sum SPSNR:  3064.1946563720703
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 89.74112701416016    id   36
+Sum SPSNR:  3153.9357833862305
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 86.72782897949219    id   37
+Sum SPSNR:  3240.6636123657227
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 86.89271545410156    id   38
+Sum SPSNR:  3327.556327819824
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 86.08839416503906    id   39
+Sum SPSNR:  3413.6447219848633
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 83.16730499267578    id   40
+Sum SPSNR:  3496.812026977539
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 86.57064819335938    id   41
+Sum SPSNR:  3583.3826751708984
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 87.22434997558594    id   42
+Sum SPSNR:  3670.6070251464844
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 89.89143371582031    id   43
+Sum SPSNR:  3760.4984588623047
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 88.66935729980469    id   44
+Sum SPSNR:  3849.1678161621094
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 91.64386749267578    id   45
+Sum SPSNR:  3940.811683654785
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 86.43171691894531    id   46
+Sum SPSNR:  4027.2434005737305
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 89.984375    id   47
+Sum SPSNR:  4117.2277755737305
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 88.90086364746094    id   48
+Sum SPSNR:  4206.128639221191
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 84.02247619628906    id   49
+Sum SPSNR:  4290.1511154174805
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 89.4869384765625    id   50
+Sum SPSNR:  4379.638053894043
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 86.78997039794922    id   51
+Sum SPSNR:  4466.428024291992
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 86.3772201538086    id   52
+Sum SPSNR:  4552.805244445801
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 84.48329162597656    id   53
+Sum SPSNR:  4637.288536071777
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 87.57498931884766    id   54
+Sum SPSNR:  4724.863525390625
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 87.35693359375    id   55
+Sum SPSNR:  4812.220458984375
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 87.4708480834961    id   56
+Sum SPSNR:  4899.691307067871
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 89.8813247680664    id   57
+Sum SPSNR:  4989.5726318359375
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 89.56124877929688    id   58
+Sum SPSNR:  5079.133880615234
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 88.59710693359375    id   59
+Sum SPSNR:  5167.730987548828
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 87.42790985107422    id   60
+Sum SPSNR:  5255.158897399902
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 91.93353271484375    id   61
+Sum SPSNR:  5347.092430114746
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 85.39921569824219    id   62
+Sum SPSNR:  5432.491645812988
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 88.72135162353516    id   63
+Sum SPSNR:  5521.212997436523
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 86.45928955078125    id   64
+Sum SPSNR:  5607.672286987305
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 88.16938781738281    id   65
+Sum SPSNR:  5695.8416748046875
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 88.81526947021484    id   66
+Sum SPSNR:  5784.656944274902
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 85.5074234008789    id   67
+Sum SPSNR:  5870.164367675781
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 87.82073974609375    id   68
+Sum SPSNR:  5957.985107421875
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 90.3450927734375    id   69
+Sum SPSNR:  6048.3302001953125
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 91.30677795410156    id   70
+Sum SPSNR:  6139.636978149414
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 85.08223724365234    id   71
+Sum SPSNR:  6224.719215393066
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 88.31980895996094    id   72
+Sum SPSNR:  6313.039024353027
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 88.41461944580078    id   73
+Sum SPSNR:  6401.453643798828
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 85.91633605957031    id   74
+Sum SPSNR:  6487.369979858398
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 87.92439270019531    id   75
+Sum SPSNR:  6575.294372558594
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 83.39291381835938    id   76
+Sum SPSNR:  6658.687286376953
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 86.55276489257812    id   77
+Sum SPSNR:  6745.240051269531
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 86.38768005371094    id   78
+Sum SPSNR:  6831.627731323242
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 85.99858093261719    id   79
+Sum SPSNR:  6917.626312255859
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 89.74616241455078    id   80
+Sum SPSNR:  7007.37247467041
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 91.06688690185547    id   81
+Sum SPSNR:  7098.439361572266
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 87.13977813720703    id   82
+Sum SPSNR:  7185.579139709473
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 87.6240463256836    id   83
+Sum SPSNR:  7273.203186035156
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 85.0466079711914    id   84
+Sum SPSNR:  7358.249794006348
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 87.0986099243164    id   85
+Sum SPSNR:  7445.348403930664
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 89.08377838134766    id   86
+Sum SPSNR:  7534.432182312012
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 86.93543243408203    id   87
+Sum SPSNR:  7621.367614746094
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 85.29544830322266    id   88
+Sum SPSNR:  7706.663063049316
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 90.15042114257812    id   89
+Sum SPSNR:  7796.8134841918945
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 84.88712310791016    id   90
+Sum SPSNR:  7881.700607299805
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 88.60462188720703    id   91
+Sum SPSNR:  7970.305229187012
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 88.11186218261719    id   92
+Sum SPSNR:  8058.417091369629
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 88.43345642089844    id   93
+Sum SPSNR:  8146.850547790527
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 86.80644989013672    id   94
+Sum SPSNR:  8233.656997680664
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 83.52074432373047    id   95
+Sum SPSNR:  8317.177742004395
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 91.00829315185547    id   96
+Sum SPSNR:  8408.18603515625
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 88.64922332763672    id   97
+Sum SPSNR:  8496.835258483887
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 85.56460571289062    id   98
+Sum SPSNR:  8582.399864196777
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 84.81539916992188    id   99
+Sum SPSNR:  8667.2152633667
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 84.44842529296875    id   100
+Sum SPSNR:  8751.663688659668
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 86.18399047851562    id   101
+Sum SPSNR:  8837.847679138184
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 87.87983703613281    id   102
+Sum SPSNR:  8925.727516174316
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 83.29914093017578    id   103
+Sum SPSNR:  9009.026657104492
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 83.75641632080078    id   104
+Sum SPSNR:  9092.783073425293
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 90.34038543701172    id   105
+Sum SPSNR:  9183.123458862305
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 90.44284057617188    id   106
+Sum SPSNR:  9273.566299438477
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 90.54511260986328    id   107
+Sum SPSNR:  9364.11141204834
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 84.76953125    id   108
+Sum SPSNR:  9448.88094329834
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 86.02809143066406    id   109
+Sum SPSNR:  9534.909034729004
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 88.69132232666016    id   110
+Sum SPSNR:  9623.600357055664
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 89.92942810058594    id   111
+Sum SPSNR:  9713.52978515625
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 89.43260955810547    id   112
+Sum SPSNR:  9802.962394714355
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 89.26936340332031    id   113
+Sum SPSNR:  9892.231758117676
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 86.18788146972656    id   114
+Sum SPSNR:  9978.419639587402
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 87.16493225097656    id   115
+Sum SPSNR:  10065.584571838379
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 88.30438232421875    id   116
+Sum SPSNR:  10153.888954162598
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 87.99609375    id   117
+Sum SPSNR:  10241.885047912598
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 88.5063247680664    id   118
+Sum SPSNR:  10330.391372680664
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 89.83055114746094    id   119
+Sum SPSNR:  10420.221923828125
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 83.76412963867188    id   120
+Sum SPSNR:  10503.986053466797
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 86.16665649414062    id   121
+Sum SPSNR:  10590.152709960938
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 87.38632202148438    id   122
+Sum SPSNR:  10677.539031982422
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 89.14128112792969    id   123
+Sum SPSNR:  10766.680313110352
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 87.99293518066406    id   124
+Sum SPSNR:  10854.673248291016
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 87.43976593017578    id   125
+Sum SPSNR:  10942.113014221191
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 84.44181823730469    id   126
+Sum SPSNR:  11026.554832458496
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 89.97871398925781    id   127
+Sum SPSNR:  11116.533546447754
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 89.34979248046875    id   128
+Sum SPSNR:  11205.883338928223
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 90.74246215820312    id   129
+Sum SPSNR:  11296.625801086426
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 86.41571807861328    id   130
+Sum SPSNR:  11383.041519165039
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 88.71836853027344    id   131
+Sum SPSNR:  11471.759887695312
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 85.083740234375    id   132
+Sum SPSNR:  11556.843627929688
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 89.29600524902344    id   133
+Sum SPSNR:  11646.139633178711
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 90.15042114257812    id   134
+Sum SPSNR:  11736.290054321289
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 89.40921020507812    id   135
+Sum SPSNR:  11825.699264526367
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 86.85592651367188    id   136
+Sum SPSNR:  11912.555191040039
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 89.7047348022461    id   137
+Sum SPSNR:  12002.259925842285
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 91.27975463867188    id   138
+Sum SPSNR:  12093.539680480957
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 85.78300476074219    id   139
+Sum SPSNR:  12179.3226852417
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 85.5360336303711    id   140
+Sum SPSNR:  12264.85871887207
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 83.49861907958984    id   141
+Sum SPSNR:  12348.35733795166
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 84.46427917480469    id   142
+Sum SPSNR:  12432.821617126465
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 87.57670593261719    id   143
+Sum SPSNR:  12520.398323059082
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 90.345458984375    id   144
+Sum SPSNR:  12610.743782043457
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 90.38509368896484    id   145
+Sum SPSNR:  12701.128875732422
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 85.75850677490234    id   146
+Sum SPSNR:  12786.887382507324
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 90.83468627929688    id   147
+Sum SPSNR:  12877.722068786621
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 91.6292495727539    id   148
+Sum SPSNR:  12969.351318359375
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 84.52554321289062    id   149
+Sum SPSNR:  13053.876861572266
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 90.6833724975586    id   150
+Sum SPSNR:  13144.560234069824
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 88.32070922851562    id   151
+Sum SPSNR:  13232.88094329834
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 85.08729553222656    id   152
+Sum SPSNR:  13317.968238830566
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 86.17996215820312    id   153
+Sum SPSNR:  13404.14820098877
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 87.62752532958984    id   154
+Sum SPSNR:  13491.77572631836
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 82.79224395751953    id   155
+Sum SPSNR:  13574.567970275879
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 87.52269744873047    id   156
+Sum SPSNR:  13662.09066772461
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 90.26546478271484    id   157
+Sum SPSNR:  13752.356132507324
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 86.64381408691406    id   158
+Sum SPSNR:  13838.999946594238
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 87.79369354248047    id   159
+Sum SPSNR:  13926.793640136719
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 85.01560974121094    id   160
+Sum SPSNR:  14011.80924987793
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 83.17757415771484    id   161
+Sum SPSNR:  14094.986824035645
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 88.25556945800781    id   162
+Sum SPSNR:  14183.242393493652
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 88.73956298828125    id   163
+Sum SPSNR:  14271.981956481934
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 85.31257629394531    id   164
+Sum SPSNR:  14357.294532775879
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 91.05450439453125    id   165
+Sum SPSNR:  14448.34903717041
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 85.58511352539062    id   166
+Sum SPSNR:  14533.9341506958
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 92.52764892578125    id   167
+Sum SPSNR:  14626.461799621582
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 90.55611419677734    id   168
+Sum SPSNR:  14717.01791381836
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 83.67219543457031    id   169
+Sum SPSNR:  14800.69010925293
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 89.95681762695312    id   170
+Sum SPSNR:  14890.646926879883
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 84.32006072998047    id   171
+Sum SPSNR:  14974.966987609863
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 88.8662109375    id   172
+Sum SPSNR:  15063.833198547363
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 85.71603393554688    id   173
+Sum SPSNR:  15149.54923248291
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 86.40577697753906    id   174
+Sum SPSNR:  15235.95500946045
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 84.38912963867188    id   175
+Sum SPSNR:  15320.344139099121
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 87.41554260253906    id   176
+Sum SPSNR:  15407.75968170166
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 90.36831665039062    id   177
+Sum SPSNR:  15498.12799835205
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 86.82588195800781    id   178
+Sum SPSNR:  15584.953880310059
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 90.05931091308594    id   179
+Sum SPSNR:  15675.013191223145
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 83.31632995605469    id   180
+Sum SPSNR:  15758.3295211792
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 90.73731231689453    id   181
+Sum SPSNR:  15849.066833496094
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 85.57074737548828    id   182
+Sum SPSNR:  15934.637580871582
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 91.02222442626953    id   183
+Sum SPSNR:  16025.659805297852
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 87.83920288085938    id   184
+Sum SPSNR:  16113.499008178711
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 84.4240951538086    id   185
+Sum SPSNR:  16197.92310333252
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 84.04031372070312    id   186
+Sum SPSNR:  16281.963417053223
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 89.18929290771484    id   187
+Sum SPSNR:  16371.152709960938
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 91.60740661621094    id   188
+Sum SPSNR:  16462.76011657715
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 86.66905212402344    id   189
+Sum SPSNR:  16549.429168701172
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 85.13098907470703    id   190
+Sum SPSNR:  16634.56015777588
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 90.01983642578125    id   191
+Sum SPSNR:  16724.57999420166
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 86.90467071533203    id   192
+Sum SPSNR:  16811.484664916992
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 87.76862335205078    id   193
+Sum SPSNR:  16899.253288269043
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 87.13302612304688    id   194
+Sum SPSNR:  16986.38631439209
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 85.50598907470703    id   195
+Sum SPSNR:  17071.892303466797
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 89.76734161376953    id   196
+Sum SPSNR:  17161.659645080566
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 86.46210479736328    id   197
+Sum SPSNR:  17248.12174987793
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 86.26118469238281    id   198
+Sum SPSNR:  17334.382934570312
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 90.25445556640625    id   199
+Sum SPSNR:  17424.63739013672
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 87.42347717285156    id   200
+Sum SPSNR:  17512.06086730957
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 88.9654541015625    id   201
+Sum SPSNR:  17601.026321411133
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 89.49258422851562    id   202
+Sum SPSNR:  17690.51890563965
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 87.51080322265625    id   203
+Sum SPSNR:  17778.029708862305
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 88.24617004394531    id   204
+Sum SPSNR:  17866.27587890625
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 86.71416473388672    id   205
+Sum SPSNR:  17952.990043640137
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 87.69287109375    id   206
+Sum SPSNR:  18040.682914733887
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 92.59397888183594    id   207
+Sum SPSNR:  18133.276893615723
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 88.75183868408203    id   208
+Sum SPSNR:  18222.028732299805
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 88.26946258544922    id   209
+Sum SPSNR:  18310.298194885254
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 89.77718353271484    id   210
+Sum SPSNR:  18400.07537841797
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 84.72047424316406    id   211
+Sum SPSNR:  18484.795852661133
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 91.36911010742188    id   212
+Sum SPSNR:  18576.164962768555
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 89.46145629882812    id   213
+Sum SPSNR:  18665.626419067383
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 86.03453063964844    id   214
+Sum SPSNR:  18751.66094970703
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 88.21237182617188    id   215
+Sum SPSNR:  18839.873321533203
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 89.84698486328125    id   216
+Sum SPSNR:  18929.720306396484
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 88.04335021972656    id   217
+Sum SPSNR:  19017.76365661621
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 85.29725646972656    id   218
+Sum SPSNR:  19103.060913085938
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 87.31402587890625    id   219
+Sum SPSNR:  19190.374938964844
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 92.14418029785156    id   220
+Sum SPSNR:  19282.519119262695
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 88.78330993652344    id   221
+Sum SPSNR:  19371.30242919922
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 86.05766296386719    id   222
+Sum SPSNR:  19457.360092163086
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 89.73481750488281    id   223
+Sum SPSNR:  19547.09490966797
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 85.2977066040039    id   224
+Sum SPSNR:  19632.392616271973
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 84.01016235351562    id   225
+Sum SPSNR:  19716.40277862549
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 87.46636199951172    id   226
+Sum SPSNR:  19803.869140625
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 86.00537109375    id   227
+Sum SPSNR:  19889.87451171875
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 87.28153991699219    id   228
+Sum SPSNR:  19977.156051635742
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 90.01547241210938    id   229
+Sum SPSNR:  20067.17152404785
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 84.53399658203125    id   230
+Sum SPSNR:  20151.705520629883
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 88.47843933105469    id   231
+Sum SPSNR:  20240.183959960938
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 88.41229248046875    id   232
+Sum SPSNR:  20328.596252441406
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 89.11557006835938    id   233
+Sum SPSNR:  20417.711822509766
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 87.27421569824219    id   234
+Sum SPSNR:  20504.986038208008
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 87.74746704101562    id   235
+Sum SPSNR:  20592.733505249023
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 86.84620666503906    id   236
+Sum SPSNR:  20679.579711914062
+Sum SSSIM:  236.0
+SSIM score: 1.0    id   237
+PSNR: 87.36003112792969    id   237
+Sum SPSNR:  20766.939743041992
+Sum SSSIM:  237.0
+SSIM score: 1.0    id   238
+PSNR: 85.8993911743164    id   238
+Sum SPSNR:  20852.83913421631
+Sum SSSIM:  238.0
+SSIM score: 1.0    id   239
+PSNR: 91.06217956542969    id   239
+Sum SPSNR:  20943.90131378174
+Sum SSSIM:  239.0
+SSIM score: 1.0    id   240
+PSNR: 87.98409271240234    id   240
+Sum SPSNR:  21031.88540649414
+Sum SSSIM:  240.0
+SSIM score: 1.0    id   241
+PSNR: 86.46388244628906    id   241
+Sum SPSNR:  21118.34928894043
+Sum SSSIM:  241.0
+SSIM score: 1.0    id   242
+PSNR: 87.42089080810547    id   242
+Sum SPSNR:  21205.770179748535
+Sum SSSIM:  242.0
+SSIM score: 1.0    id   243
+PSNR: 88.87859344482422    id   243
+Sum SPSNR:  21294.64877319336
+Sum SSSIM:  243.0
+SSIM score: 1.0    id   244
+PSNR: 88.16433715820312    id   244
+Sum SPSNR:  21382.813110351562
+Sum SSSIM:  244.0
+SSIM score: 1.0    id   245
+PSNR: 86.38565063476562    id   245
+Sum SPSNR:  21469.198760986328
+Sum SSSIM:  245.0
+SSIM score: 1.0    id   246
+PSNR: 83.36119079589844    id   246
+Sum SPSNR:  21552.559951782227
+Sum SSSIM:  246.0
+SSIM score: 1.0    id   247
+PSNR: 86.50929260253906    id   247
+Sum SPSNR:  21639.069244384766
+Sum SSSIM:  247.0
+SSIM score: 1.0    id   248
+PSNR: 88.31935119628906    id   248
+Sum SPSNR:  21727.388595581055
+Sum SSSIM:  248.0
+SSIM score: 1.0    id   249
+PSNR: 89.1583251953125    id   249
+Sum SPSNR:  21816.546920776367
+Sum SSSIM:  249.0
+SSIM score: 1.0    id   250
+PSNR: 91.17903137207031    id   250
+Sum SPSNR:  21907.725952148438
+Sum SSSIM:  250.0
+SSIM score: 1.0    id   251
+PSNR: 87.7578353881836    id   251
+Sum SPSNR:  21995.48378753662
+Sum SSSIM:  251.0
+SSIM score: 1.0    id   252
+PSNR: 88.813232421875    id   252
+Sum SPSNR:  22084.297019958496
+Sum SSSIM:  252.0
+SSIM score: 1.0    id   253
+PSNR: 85.8816146850586    id   253
+Sum SPSNR:  22170.178634643555
+Sum SSSIM:  253.0
+SSIM score: 1.0    id   254
+PSNR: 89.23643493652344    id   254
+Sum SPSNR:  22259.415069580078
+Sum SSSIM:  254.0
+SSIM score: 1.0    id   255
+PSNR: 90.03160095214844    id   255
+Sum SPSNR:  22349.446670532227
+Sum SSSIM:  255.0
+SSIM score: 1.0    id   256
+PSNR: 89.23025512695312    id   256
+Sum SPSNR:  22438.67692565918
+Sum SSSIM:  256.0
+SSIM score: 1.0    id   257
+PSNR: 86.30665588378906    id   257
+Sum SPSNR:  22524.98358154297
+Sum SSSIM:  257.0
+SSIM score: 1.0    id   258
+PSNR: 91.012939453125    id   258
+Sum SPSNR:  22615.996520996094
+Sum SSSIM:  258.0
+SSIM score: 1.0    id   259
+PSNR: 87.60781860351562    id   259
+Sum SPSNR:  22703.60433959961
+Sum SSSIM:  259.0
+SSIM score: 1.0    id   260
+PSNR: 88.27934265136719    id   260
+Sum SPSNR:  22791.883682250977
+Sum SSSIM:  260.0
+SSIM score: 1.0    id   261
+PSNR: 87.74070739746094    id   261
+Sum SPSNR:  22879.624389648438
+Sum SSSIM:  261.0
+SSIM score: 1.0    id   262
+PSNR: 88.25019836425781    id   262
+Sum SPSNR:  22967.874588012695
+Sum SSSIM:  262.0
+SSIM score: 1.0    id   263
+PSNR: 89.6963119506836    id   263
+Sum SPSNR:  23057.57089996338
+Sum SSSIM:  263.0
+SSIM score: 1.0    id   264
+PSNR: 88.09889221191406    id   264
+Sum SPSNR:  23145.669792175293
+Sum SSSIM:  264.0
+SSIM score: 1.0    id   265
+PSNR: 86.36431884765625    id   265
+Sum SPSNR:  23232.03411102295
+Sum SSSIM:  265.0
+SSIM score: 1.0    id   266
+PSNR: 87.30952453613281    id   266
+Sum SPSNR:  23319.343635559082
+Sum SSSIM:  266.0
+SSIM score: 1.0    id   267
+PSNR: 90.3748779296875    id   267
+Sum SPSNR:  23409.71851348877
+Sum SSSIM:  267.0
+SSIM score: 1.0    id   268
+PSNR: 84.03498840332031    id   268
+Sum SPSNR:  23493.75350189209
+Sum SSSIM:  268.0
+SSIM score: 1.0    id   269
+PSNR: 90.78392028808594    id   269
+Sum SPSNR:  23584.537422180176
+Sum SSSIM:  269.0
+SSIM score: 1.0    id   270
+PSNR: 88.9828872680664    id   270
+Sum SPSNR:  23673.520309448242
+Sum SSSIM:  270.0
+SSIM score: 1.0    id   271
+PSNR: 88.87782287597656    id   271
+Sum SPSNR:  23762.39813232422
+Sum SSSIM:  271.0
+SSIM score: 1.0    id   272
+PSNR: 86.52519226074219    id   272
+Sum SPSNR:  23848.92332458496
+Sum SSSIM:  272.0
+SSIM score: 1.0    id   273
+PSNR: 88.82521057128906    id   273
+Sum SPSNR:  23937.74853515625
+Sum SSSIM:  273.0
+SSIM score: 1.0    id   274
+PSNR: 89.1898422241211    id   274
+Sum SPSNR:  24026.93837738037
+Sum SSSIM:  274.0
+SSIM score: 1.0    id   275
+PSNR: 87.99967956542969    id   275
+Sum SPSNR:  24114.9380569458
+Sum SSSIM:  275.0
+SSIM score: 1.0    id   276
+PSNR: 91.57894134521484    id   276
+Sum SPSNR:  24206.516998291016
+Sum SSSIM:  276.0
+SSIM score: 1.0    id   277
+PSNR: 83.24678039550781    id   277
+Sum SPSNR:  24289.763778686523
+Sum SSSIM:  277.0
+SSIM score: 1.0    id   278
+PSNR: 89.69818115234375    id   278
+Sum SPSNR:  24379.461959838867
+Sum SSSIM:  278.0
+SSIM score: 1.0    id   279
+PSNR: 85.33912658691406    id   279
+Sum SPSNR:  24464.80108642578
+Sum SSSIM:  279.0
+SSIM score: 1.0    id   280
+PSNR: 89.98504638671875    id   280
+Sum SPSNR:  24554.7861328125
+Sum SSSIM:  280.0
+SSIM score: 1.0    id   281
+PSNR: 86.84524536132812    id   281
+Sum SPSNR:  24641.631378173828
+Sum SSSIM:  281.0
+SSIM score: 1.0    id   282
+PSNR: 89.93633270263672    id   282
+Sum SPSNR:  24731.567710876465
+Sum SSSIM:  282.0
+SSIM score: 1.0    id   283
+PSNR: 89.22578430175781    id   283
+Sum SPSNR:  24820.793495178223
+Sum SSSIM:  283.0
+SSIM score: 1.0    id   284
+PSNR: 87.09774780273438    id   284
+Sum SPSNR:  24907.891242980957
+Sum SSSIM:  284.0
+SSIM score: 1.0    id   285
+PSNR: 87.95037841796875    id   285
+Sum SPSNR:  24995.841621398926
+Sum SSSIM:  285.0
+SSIM score: 1.0    id   286
+PSNR: 87.75105285644531    id   286
+Sum SPSNR:  25083.59267425537
+Sum SSSIM:  286.0
+SSIM score: 1.0    id   287
+PSNR: 85.57484436035156    id   287
+Sum SPSNR:  25169.167518615723
+Sum SSSIM:  287.0
+SSIM score: 1.0    id   288
+PSNR: 84.6002197265625    id   288
+Sum SPSNR:  25253.767738342285
+Sum SSSIM:  288.0
+SSIM score: 1.0    id   289
+PSNR: 90.58509826660156    id   289
+Sum SPSNR:  25344.352836608887
+Sum SSSIM:  289.0
+SSIM score: 1.0    id   290
+PSNR: 84.84162139892578    id   290
+Sum SPSNR:  25429.194458007812
+Sum SSSIM:  290.0
+SSIM score: 1.0    id   291
+PSNR: 85.91241455078125    id   291
+Sum SPSNR:  25515.106872558594
+Sum SSSIM:  291.0
+SSIM score: 1.0    id   292
+PSNR: 87.69366455078125    id   292
+Sum SPSNR:  25602.800537109375
+Sum SSSIM:  292.0
+SSIM score: 1.0    id   293
+PSNR: 87.65373992919922    id   293
+Sum SPSNR:  25690.454277038574
+Sum SSSIM:  293.0
+SSIM score: 1.0    id   294
+PSNR: 86.26033782958984    id   294
+Sum SPSNR:  25776.714614868164
+Sum SSSIM:  294.0
+SSIM score: 1.0    id   295
+PSNR: 87.12543487548828    id   295
+Sum SPSNR:  25863.840049743652
+Sum SSSIM:  295.0
+SSIM score: 1.0    id   296
+PSNR: 89.45822143554688    id   296
+Sum SPSNR:  25953.2982711792
+Sum SSSIM:  296.0
+SSIM score: 1.0    id   297
+PSNR: 87.01828002929688    id   297
+Sum SPSNR:  26040.316551208496
+Sum SSSIM:  297.0
+SSIM score: 1.0    id   298
+PSNR: 90.62545013427734    id   298
+Sum SPSNR:  26130.942001342773
+Sum SSSIM:  298.0
+SSIM score: 1.0    id   299
+PSNR: 88.13052368164062    id   299
+Sum SPSNR:  26219.072525024414
+Sum SSSIM:  299.0
+SSIM score: 1.0    id   300
+PSNR: 85.2049560546875    id   300
+Sum SPSNR:  26304.2774810791
+Sum SSSIM:  300.0
+SSIM score: 1.0    id   301
+PSNR: 86.05133056640625    id   301
+Sum SPSNR:  26390.328811645508
+Sum SSSIM:  301.0
+SSIM score: 1.0    id   302
+PSNR: 91.09303283691406    id   302
+Sum SPSNR:  26481.421844482422
+Sum SSSIM:  302.0
+SSIM score: 1.0    id   303
+PSNR: 84.23279571533203    id   303
+Sum SPSNR:  26565.654640197754
+Sum SSSIM:  303.0
+SSIM score: 1.0    id   304
+PSNR: 88.84489440917969    id   304
+Sum SPSNR:  26654.499534606934
+Sum SSSIM:  304.0
+SSIM score: 1.0    id   305
+PSNR: 89.2770004272461    id   305
+Sum SPSNR:  26743.77653503418
+Sum SSSIM:  305.0
+SSIM score: 1.0    id   306
+PSNR: 89.95449829101562    id   306
+Sum SPSNR:  26833.731033325195
+Sum SSSIM:  306.0
+SSIM score: 1.0    id   307
+PSNR: 86.64659118652344    id   307
+Sum SPSNR:  26920.37762451172
+Sum SSSIM:  307.0
+SSIM score: 1.0    id   308
+PSNR: 86.26231384277344    id   308
+Sum SPSNR:  27006.639938354492
+Sum SSSIM:  308.0
+SSIM score: 1.0    id   309
+PSNR: 89.08946990966797    id   309
+Sum SPSNR:  27095.72940826416
+Sum SSSIM:  309.0
+SSIM score: 1.0    id   310
+PSNR: 87.24539947509766    id   310
+Sum SPSNR:  27182.974807739258
+Sum SSSIM:  310.0
+SSIM score: 1.0    id   311
+PSNR: 91.8370361328125    id   311
+Sum SPSNR:  27274.81184387207
+Sum SSSIM:  311.0
+SSIM score: 1.0    id   312
+PSNR: 83.94316864013672    id   312
+Sum SPSNR:  27358.755012512207
+Sum SSSIM:  312.0
+SSIM score: 1.0    id   313
+PSNR: 87.58705139160156    id   313
+Sum SPSNR:  27446.34206390381
+Sum SSSIM:  313.0
+SSIM score: 1.0    id   314
+PSNR: 84.51551818847656    id   314
+Sum SPSNR:  27530.857582092285
+Sum SSSIM:  314.0
+SSIM score: 1.0    id   315
+PSNR: 85.38325500488281    id   315
+Sum SPSNR:  27616.240837097168
+Sum SSSIM:  315.0
+SSIM score: 1.0    id   316
+PSNR: 90.61735534667969    id   316
+Sum SPSNR:  27706.858192443848
+Sum SSSIM:  316.0
+SSIM score: 1.0    id   317
+PSNR: 84.91046905517578    id   317
+Sum SPSNR:  27791.768661499023
+Sum SSSIM:  317.0
+SSIM score: 1.0    id   318
+PSNR: 88.19291687011719    id   318
+Sum SPSNR:  27879.96157836914
+Sum SSSIM:  318.0
+SSIM score: 1.0    id   319
+PSNR: 85.9732437133789    id   319
+Sum SPSNR:  27965.93482208252
+Sum SSSIM:  319.0
+SSIM score: 1.0    id   320
+PSNR: 89.61691284179688    id   320
+Sum SPSNR:  28055.551734924316
+Sum SSSIM:  320.0
+SSIM score: 1.0    id   321
+PSNR: 86.04312133789062    id   321
+Sum SPSNR:  28141.594856262207
+Sum SSSIM:  321.0
+SSIM score: 1.0    id   322
+PSNR: 90.2297134399414    id   322
+Sum SPSNR:  28231.82456970215
+Sum SSSIM:  322.0
+SSIM score: 1.0    id   323
+PSNR: 88.01277923583984    id   323
+Sum SPSNR:  28319.83734893799
+Sum SSSIM:  323.0
+SSIM score: 1.0    id   324
+PSNR: 85.24493408203125    id   324
+Sum SPSNR:  28405.08228302002
+Sum SSSIM:  324.0
+SSIM score: 1.0    id   325
+PSNR: 85.80089569091797    id   325
+Sum SPSNR:  28490.883178710938
+Sum SSSIM:  325.0
+SSIM score: 1.0    id   326
+PSNR: 88.03971862792969    id   326
+Sum SPSNR:  28578.922897338867
+Sum SSSIM:  326.0
+SSIM score: 1.0    id   327
+PSNR: 89.85118103027344    id   327
+Sum SPSNR:  28668.77407836914
+Sum SSSIM:  327.0
+SSIM score: 1.0    id   328
+PSNR: 88.07113647460938    id   328
+Sum SPSNR:  28756.84521484375
+Sum SSSIM:  328.0
+SSIM score: 1.0    id   329
+PSNR: 87.21888732910156    id   329
+Sum SPSNR:  28844.06410217285
+Sum SSSIM:  329.0
+SSIM score: 1.0    id   330
+PSNR: 86.67044830322266    id   330
+Sum SPSNR:  28930.734550476074
+Sum SSSIM:  330.0
+SSIM score: 1.0    id   331
+PSNR: 89.71943664550781    id   331
+Sum SPSNR:  29020.453987121582
+Sum SSSIM:  331.0
+SSIM score: 1.0    id   332
+PSNR: 84.65495300292969    id   332
+Sum SPSNR:  29105.10894012451
+Sum SSSIM:  332.0
+SSIM score: 1.0    id   333
+PSNR: 88.80941772460938    id   333
+Sum SPSNR:  29193.91835784912
+Sum SSSIM:  333.0
+SSIM score: 1.0    id   334
+PSNR: 90.23112487792969    id   334
+Sum SPSNR:  29284.14948272705
+Sum SSSIM:  334.0
+SSIM score: 1.0    id   335
+PSNR: 85.84999084472656    id   335
+Sum SPSNR:  29369.999473571777
+Sum SSSIM:  335.0
+SSIM score: 1.0    id   336
+PSNR: 86.7772216796875    id   336
+Sum SPSNR:  29456.776695251465
+Sum SSSIM:  336.0
+SSIM score: 1.0    id   337
+PSNR: 87.68954467773438    id   337
+Sum SPSNR:  29544.4662399292
+Sum SSSIM:  337.0
+SSIM score: 1.0    id   338
+PSNR: 87.51212310791016    id   338
+Sum SPSNR:  29631.97836303711
+Sum SSSIM:  338.0
+SSIM score: 1.0    id   339
+PSNR: 87.40670013427734    id   339
+Sum SPSNR:  29719.385063171387
+Sum SSSIM:  339.0
+SSIM score: 1.0    id   340
+PSNR: 83.56041717529297    id   340
+Sum SPSNR:  29802.94548034668
+Sum SSSIM:  340.0
+SSIM score: 1.0    id   341
+PSNR: 89.17046356201172    id   341
+Sum SPSNR:  29892.11594390869
+Sum SSSIM:  341.0
+SSIM score: 1.0    id   342
+PSNR: 89.81866455078125    id   342
+Sum SPSNR:  29981.934608459473
+Sum SSSIM:  342.0
+SSIM score: 1.0    id   343
+PSNR: 88.60704040527344    id   343
+Sum SPSNR:  30070.541648864746
+Sum SSSIM:  343.0
+SSIM score: 1.0    id   344
+PSNR: 89.39202117919922    id   344
+Sum SPSNR:  30159.933670043945
+Sum SSSIM:  344.0
+SSIM score: 1.0    id   345
+PSNR: 87.92522430419922    id   345
+Sum SPSNR:  30247.858894348145
+Sum SSSIM:  345.0
+SSIM score: 1.0    id   346
+PSNR: 89.17046356201172    id   346
+Sum SPSNR:  30337.029357910156
+Sum SSSIM:  346.0
+SSIM score: 1.0    id   347
+PSNR: 88.37718200683594    id   347
+Sum SPSNR:  30425.406539916992
+Sum SSSIM:  347.0
+SSIM score: 1.0    id   348
+PSNR: 87.452392578125    id   348
+Sum SPSNR:  30512.858932495117
+Sum SSSIM:  348.0
+SSIM score: 1.0    id   349
+PSNR: 90.54549407958984    id   349
+Sum SPSNR:  30603.404426574707
+Sum SSSIM:  349.0
+SSIM score: 1.0    id   350
+PSNR: 90.97594451904297    id   350
+Sum SPSNR:  30694.38037109375
+Sum SSSIM:  350.0
+SSIM score: 1.0    id   351
+PSNR: 84.5333251953125    id   351
+Sum SPSNR:  30778.913696289062
+Sum SSSIM:  351.0
+SSIM score: 1.0    id   352
+PSNR: 88.94915771484375    id   352
+Sum SPSNR:  30867.862854003906
+Sum SSSIM:  352.0
+SSIM score: 1.0    id   353
+PSNR: 89.73042297363281    id   353
+Sum SPSNR:  30957.59327697754
+Sum SSSIM:  353.0
+SSIM score: 1.0    id   354
+PSNR: 86.59011840820312    id   354
+Sum SPSNR:  31044.183395385742
+Sum SSSIM:  354.0
+SSIM score: 1.0    id   355
+PSNR: 84.17182159423828    id   355
+Sum SPSNR:  31128.35521697998
+Sum SSSIM:  355.0
+SSIM score: 1.0    id   356
+PSNR: 89.66617584228516    id   356
+Sum SPSNR:  31218.021392822266
+Sum SSSIM:  356.0
+SSIM score: 1.0    id   357
+PSNR: 89.07215118408203    id   357
+Sum SPSNR:  31307.093544006348
+Sum SSSIM:  357.0
+SSIM score: 1.0    id   358
+PSNR: 83.69476318359375    id   358
+Sum SPSNR:  31390.78830718994
+Sum SSSIM:  358.0
+SSIM score: 1.0    id   359
+PSNR: 86.09436798095703    id   359
+Sum SPSNR:  31476.8826751709
+Sum SSSIM:  359.0
+SSIM score: 1.0    id   360
+PSNR: 87.87123107910156    id   360
+Sum SPSNR:  31564.75390625
+Sum SSSIM:  360.0
+SSIM score: 1.0    id   361
+PSNR: 88.99639129638672    id   361
+Sum SPSNR:  31653.750297546387
+Sum SSSIM:  361.0
+SSIM score: 1.0    id   362
+PSNR: 86.53466033935547    id   362
+Sum SPSNR:  31740.284957885742
+Sum SSSIM:  362.0
+SSIM score: 1.0    id   363
+PSNR: 83.58912658691406    id   363
+Sum SPSNR:  31823.874084472656
+Sum SSSIM:  363.0
+SSIM score: 1.0    id   364
+PSNR: 88.62333679199219    id   364
+Sum SPSNR:  31912.49742126465
+Sum SSSIM:  364.0
+SSIM score: 1.0    id   365
+PSNR: 89.27784729003906    id   365
+Sum SPSNR:  32001.775268554688
+Sum SSSIM:  365.0
+SSIM score: 1.0    id   366
+PSNR: 84.05560302734375    id   366
+Sum SPSNR:  32085.83087158203
+Sum SSSIM:  366.0
+SSIM score: 1.0    id   367
+PSNR: 85.66065979003906    id   367
+Sum SPSNR:  32171.49153137207
+Sum SSSIM:  367.0
+SSIM score: 1.0    id   368
+PSNR: 93.02006530761719    id   368
+Sum SPSNR:  32264.511596679688
+Sum SSSIM:  368.0
+SSIM score: 1.0    id   369
+PSNR: 91.48474884033203    id   369
+Sum SPSNR:  32355.99634552002
+Sum SSSIM:  369.0
+SSIM score: 1.0    id   370
+PSNR: 89.20150756835938    id   370
+Sum SPSNR:  32445.19785308838
+Sum SSSIM:  370.0
+SSIM score: 1.0    id   371
+PSNR: 84.45130157470703    id   371
+Sum SPSNR:  32529.649154663086
+Sum SSSIM:  371.0
+SSIM score: 1.0    id   372
+PSNR: 88.04463195800781    id   372
+Sum SPSNR:  32617.693786621094
+Sum SSSIM:  372.0
+SSIM score: 1.0    id   373
+PSNR: 87.65023803710938    id   373
+Sum SPSNR:  32705.344024658203
+Sum SSSIM:  373.0
+SSIM score: 1.0    id   374
+PSNR: 88.00875854492188    id   374
+Sum SPSNR:  32793.352783203125
+Sum SSSIM:  374.0
+SSIM score: 1.0    id   375
+PSNR: 86.01231384277344    id   375
+Sum SPSNR:  32879.3650970459
+Sum SSSIM:  375.0
+SSIM score: 1.0    id   376
+PSNR: 91.8703384399414    id   376
+Sum SPSNR:  32971.23543548584
+Sum SSSIM:  376.0
+SSIM score: 1.0    id   377
+PSNR: 90.09642028808594    id   377
+Sum SPSNR:  33061.331855773926
+Sum SSSIM:  377.0
+SSIM score: 1.0    id   378
+PSNR: 88.65657806396484    id   378
+Sum SPSNR:  33149.98843383789
+Sum SSSIM:  378.0
+SSIM score: 1.0    id   379
+PSNR: 88.32048034667969    id   379
+Sum SPSNR:  33238.30891418457
+Sum SSSIM:  379.0
+SSIM score: 1.0    id   380
+PSNR: 85.71690368652344    id   380
+Sum SPSNR:  33324.025817871094
+Sum SSSIM:  380.0
+SSIM score: 1.0    id   381
+PSNR: 89.3460464477539    id   381
+Sum SPSNR:  33413.37186431885
+Sum SSSIM:  381.0
+SSIM score: 1.0    id   382
+PSNR: 88.34622192382812    id   382
+Sum SPSNR:  33501.718086242676
+Sum SSSIM:  382.0
+SSIM score: 1.0    id   383
+PSNR: 84.43354797363281    id   383
+Sum SPSNR:  33586.15163421631
+Sum SSSIM:  383.0
+SSIM score: 1.0    id   384
+PSNR: 87.39971160888672    id   384
+Sum SPSNR:  33673.551345825195
+Sum SSSIM:  384.0
+SSIM score: 1.0    id   385
+PSNR: 89.19928741455078    id   385
+Sum SPSNR:  33762.750633239746
+Sum SSSIM:  385.0
+SSIM score: 1.0    id   386
+PSNR: 88.70494079589844    id   386
+Sum SPSNR:  33851.455574035645
+Sum SSSIM:  386.0
+SSIM score: 1.0    id   387
+PSNR: 88.05230712890625    id   387
+Sum SPSNR:  33939.50788116455
+Sum SSSIM:  387.0
+SSIM score: 1.0    id   388
+PSNR: 88.28632354736328    id   388
+Sum SPSNR:  34027.794204711914
+Sum SSSIM:  388.0
+SSIM score: 1.0    id   389
+PSNR: 85.70868682861328    id   389
+Sum SPSNR:  34113.50289154053
+Sum SSSIM:  389.0
+SSIM score: 1.0    id   390
+PSNR: 91.75662994384766    id   390
+Sum SPSNR:  34205.259521484375
+Sum SSSIM:  390.0
+SSIM score: 1.0    id   391
+PSNR: 84.6132583618164    id   391
+Sum SPSNR:  34289.87277984619
+Sum SSSIM:  391.0
+SSIM score: 1.0    id   392
+PSNR: 86.58920288085938    id   392
+Sum SPSNR:  34376.46198272705
+Sum SSSIM:  392.0
+SSIM score: 1.0    id   393
+PSNR: 91.38011932373047    id   393
+Sum SPSNR:  34467.84210205078
+Sum SSSIM:  393.0
+SSIM score: 1.0    id   394
+PSNR: 90.26155090332031    id   394
+Sum SPSNR:  34558.1036529541
+Sum SSSIM:  394.0
+SSIM score: 1.0    id   395
+PSNR: 88.88919830322266    id   395
+Sum SPSNR:  34646.992851257324
+Sum SSSIM:  395.0
+SSIM score: 1.0    id   396
+PSNR: 88.10601806640625    id   396
+Sum SPSNR:  34735.09886932373
+Sum SSSIM:  396.0
+SSIM score: 1.0    id   397
+PSNR: 87.03547668457031    id   397
+Sum SPSNR:  34822.1343460083
+Sum SSSIM:  397.0
+SSIM score: 1.0    id   398
+PSNR: 88.543701171875    id   398
+Sum SPSNR:  34910.678047180176
+Sum SSSIM:  398.0
+SSIM score: 1.0    id   399
+PSNR: 89.55702209472656    id   399
+Sum SPSNR:  35000.2350692749
+Sum SSSIM:  399.0
+SSIM score: 1.0    id   400
+PSNR: 84.386474609375    id   400
+Sum SPSNR:  35084.62154388428
+Sum SSSIM:  400.0
+SSIM score: 1.0    id   401
+PSNR: 90.0174789428711    id   401
+Sum SPSNR:  35174.63902282715
+Sum SSSIM:  401.0
+SSIM score: 1.0    id   402
+PSNR: 84.70513916015625    id   402
+Sum SPSNR:  35259.344161987305
+Sum SSSIM:  402.0
+SSIM score: 1.0    id   403
+PSNR: 88.50514221191406    id   403
+Sum SPSNR:  35347.84930419922
+Sum SSSIM:  403.0
+SSIM score: 1.0    id   404
+PSNR: 91.17070007324219    id   404
+Sum SPSNR:  35439.02000427246
+Sum SSSIM:  404.0
+SSIM score: 1.0    id   405
+PSNR: 88.25758361816406    id   405
+Sum SPSNR:  35527.277587890625
+Sum SSSIM:  405.0
+SSIM score: 1.0    id   406
+PSNR: 90.55535125732422    id   406
+Sum SPSNR:  35617.83293914795
+Sum SSSIM:  406.0
+SSIM score: 1.0    id   407
+PSNR: 88.91724395751953    id   407
+Sum SPSNR:  35706.75018310547
+Sum SSSIM:  407.0
+SSIM score: 1.0    id   408
+PSNR: 85.38348388671875    id   408
+Sum SPSNR:  35792.13366699219
+Sum SSSIM:  408.0
+SSIM score: 1.0    id   409
+PSNR: 84.83123779296875    id   409
+Sum SPSNR:  35876.964904785156
+Sum SSSIM:  409.0
+SSIM score: 1.0    id   410
+PSNR: 88.92506408691406    id   410
+Sum SPSNR:  35965.88996887207
+Sum SSSIM:  410.0
+SSIM score: 1.0    id   411
+PSNR: 91.65756225585938    id   411
+Sum SPSNR:  36057.54753112793
+Sum SSSIM:  411.0
+SSIM score: 1.0    id   412
+PSNR: 88.47396850585938    id   412
+Sum SPSNR:  36146.02149963379
+Sum SSSIM:  412.0
+SSIM score: 1.0    id   413
+PSNR: 86.06968688964844    id   413
+Sum SPSNR:  36232.09118652344
+Sum SSSIM:  413.0
+SSIM score: 1.0    id   414
+PSNR: 90.02151489257812    id   414
+Sum SPSNR:  36322.112701416016
+Sum SSSIM:  414.0
+SSIM score: 1.0    id   415
+PSNR: 87.44328308105469    id   415
+Sum SPSNR:  36409.55598449707
+Sum SSSIM:  415.0
+SSIM score: 1.0    id   416
+PSNR: 90.37306213378906    id   416
+Sum SPSNR:  36499.92904663086
+Sum SSSIM:  416.0
+SSIM score: 1.0    id   417
+PSNR: 92.75740814208984    id   417
+Sum SPSNR:  36592.68645477295
+Sum SSSIM:  417.0
+SSIM score: 1.0    id   418
+PSNR: 89.06971740722656    id   418
+Sum SPSNR:  36681.756172180176
+Sum SSSIM:  418.0
+SSIM score: 1.0    id   419
+PSNR: 88.60340881347656    id   419
+Sum SPSNR:  36770.35958099365
+Sum SSSIM:  419.0
+SSIM score: 1.0    id   420
+PSNR: 89.45497131347656    id   420
+Sum SPSNR:  36859.81455230713
+Sum SSSIM:  420.0
+SSIM score: 1.0    id   421
+PSNR: 87.16058349609375    id   421
+Sum SPSNR:  36946.97513580322
+Sum SSSIM:  421.0
+SSIM score: 1.0    id   422
+PSNR: 90.98851013183594    id   422
+Sum SPSNR:  37037.96364593506
+Sum SSSIM:  422.0
+SSIM score: 1.0    id   423
+PSNR: 91.42166900634766    id   423
+Sum SPSNR:  37129.385314941406
+Sum SSSIM:  423.0
+SSIM score: 1.0    id   424
+PSNR: 86.88683319091797    id   424
+Sum SPSNR:  37216.272148132324
+Sum SSSIM:  424.0
+SSIM score: 1.0    id   425
+PSNR: 86.55381774902344    id   425
+Sum SPSNR:  37302.82596588135
+Sum SSSIM:  425.0
+SSIM score: 1.0    id   426
+PSNR: 88.79975891113281    id   426
+Sum SPSNR:  37391.62572479248
+Sum SSSIM:  426.0
+SSIM score: 1.0    id   427
+PSNR: 88.49662017822266    id   427
+Sum SPSNR:  37480.1223449707
+Sum SSSIM:  427.0
+SSIM score: 1.0    id   428
+PSNR: 86.89189910888672    id   428
+Sum SPSNR:  37567.01424407959
+Sum SSSIM:  428.0
+SSIM score: 1.0    id   429
+PSNR: 85.94752502441406    id   429
+Sum SPSNR:  37652.961769104004
+Sum SSSIM:  429.0
+SSIM score: 1.0    id   430
+PSNR: 87.78605651855469    id   430
+Sum SPSNR:  37740.74782562256
+Sum SSSIM:  430.0
+SSIM score: 1.0    id   431
+PSNR: 86.75039672851562    id   431
+Sum SPSNR:  37827.498222351074
+Sum SSSIM:  431.0
+SSIM score: 1.0    id   432
+PSNR: 84.17408752441406    id   432
+Sum SPSNR:  37911.67230987549
+Sum SSSIM:  432.0
+SSIM score: 1.0    id   433
+PSNR: 85.53878784179688    id   433
+Sum SPSNR:  37997.211097717285
+Sum SSSIM:  433.0
+SSIM score: 1.0    id   434
+PSNR: 86.05106353759766    id   434
+Sum SPSNR:  38083.26216125488
+Sum SSSIM:  434.0
+SSIM score: 1.0    id   435
+PSNR: 90.8823471069336    id   435
+Sum SPSNR:  38174.14450836182
+Sum SSSIM:  435.0
+SSIM score: 1.0    id   436
+PSNR: 84.64266967773438    id   436
+Sum SPSNR:  38258.78717803955
+Sum SSSIM:  436.0
+SSIM score: 1.0    id   437
+PSNR: 90.44024658203125    id   437
+Sum SPSNR:  38349.22742462158
+Sum SSSIM:  437.0
+SSIM score: 1.0    id   438
+PSNR: 88.83082580566406    id   438
+Sum SPSNR:  38438.058250427246
+Sum SSSIM:  438.0
+SSIM score: 1.0    id   439
+PSNR: 91.07244873046875    id   439
+Sum SPSNR:  38529.130699157715
+Sum SSSIM:  439.0
+SSIM score: 1.0    id   440
+PSNR: 85.24749755859375    id   440
+Sum SPSNR:  38614.37819671631
+Sum SSSIM:  440.0
+SSIM score: 1.0    id   441
+PSNR: 83.6925048828125    id   441
+Sum SPSNR:  38698.07070159912
+Sum SSSIM:  441.0
+SSIM score: 1.0    id   442
+PSNR: 91.57701110839844    id   442
+Sum SPSNR:  38789.64771270752
+Sum SSSIM:  442.0
+SSIM score: 1.0    id   443
+PSNR: 86.66377258300781    id   443
+Sum SPSNR:  38876.31148529053
+Sum SSSIM:  443.0
+SSIM score: 1.0    id   444
+PSNR: 87.23229217529297    id   444
+Sum SPSNR:  38963.54377746582
+Sum SSSIM:  444.0
+SSIM score: 1.0    id   445
+PSNR: 86.24016571044922    id   445
+Sum SPSNR:  39049.78394317627
+Sum SSSIM:  445.0
+SSIM score: 1.0    id   446
+PSNR: 90.66268157958984    id   446
+Sum SPSNR:  39140.44662475586
+Sum SSSIM:  446.0
+SSIM score: 1.0    id   447
+PSNR: 87.7816390991211    id   447
+Sum SPSNR:  39228.22826385498
+Sum SSSIM:  447.0
+SSIM score: 1.0    id   448
+PSNR: 86.09001922607422    id   448
+Sum SPSNR:  39314.318283081055
+Sum SSSIM:  448.0
+SSIM score: 1.0    id   449
+PSNR: 87.17766571044922    id   449
+Sum SPSNR:  39401.495948791504
+Sum SSSIM:  449.0
+SSIM score: 1.0    id   450
+PSNR: 86.4012451171875    id   450
+Sum SPSNR:  39487.89719390869
+Sum SSSIM:  450.0
+SSIM score: 1.0    id   451
+PSNR: 88.82112121582031    id   451
+Sum SPSNR:  39576.71831512451
+Sum SSSIM:  451.0
+SSIM score: 1.0    id   452
+PSNR: 90.57783508300781    id   452
+Sum SPSNR:  39667.29615020752
+Sum SSSIM:  452.0
+SSIM score: 1.0    id   453
+PSNR: 87.29389953613281    id   453
+Sum SPSNR:  39754.59004974365
+Sum SSSIM:  453.0
+SSIM score: 1.0    id   454
+PSNR: 91.6954345703125    id   454
+Sum SPSNR:  39846.285484313965
+Sum SSSIM:  454.0
+SSIM score: 1.0    id   455
+PSNR: 88.08358764648438    id   455
+Sum SPSNR:  39934.36907196045
+Sum SSSIM:  455.0
+SSIM score: 1.0    id   456
+PSNR: 87.93809509277344    id   456
+Sum SPSNR:  40022.30716705322
+Sum SSSIM:  456.0
+SSIM score: 1.0    id   457
+PSNR: 87.34947967529297    id   457
+Sum SPSNR:  40109.656646728516
+Sum SSSIM:  457.0
+SSIM score: 1.0    id   458
+PSNR: 88.4044189453125    id   458
+Sum SPSNR:  40198.06106567383
+Sum SSSIM:  458.0
+SSIM score: 1.0    id   459
+PSNR: 90.46436309814453    id   459
+Sum SPSNR:  40288.52542877197
+Sum SSSIM:  459.0
+SSIM score: 1.0    id   460
+PSNR: 88.06855773925781    id   460
+Sum SPSNR:  40376.59398651123
+Sum SSSIM:  460.0
+SSIM score: 1.0    id   461
+PSNR: 88.73382568359375    id   461
+Sum SPSNR:  40465.327812194824
+Sum SSSIM:  461.0
+SSIM score: 1.0    id   462
+PSNR: 90.64830017089844    id   462
+Sum SPSNR:  40555.97611236572
+Sum SSSIM:  462.0
+SSIM score: 1.0    id   463
+PSNR: 88.64653015136719    id   463
+Sum SPSNR:  40644.62264251709
+Sum SSSIM:  463.0
+SSIM score: 1.0    id   464
+PSNR: 87.72860717773438    id   464
+Sum SPSNR:  40732.351249694824
+Sum SSSIM:  464.0
+SSIM score: 1.0    id   465
+PSNR: 86.95662689208984    id   465
+Sum SPSNR:  40819.307876586914
+Sum SSSIM:  465.0
+SSIM score: 1.0    id   466
+PSNR: 85.30155944824219    id   466
+Sum SPSNR:  40904.609436035156
+Sum SSSIM:  466.0
+SSIM score: 1.0    id   467
+PSNR: 87.44143676757812    id   467
+Sum SPSNR:  40992.050872802734
+Sum SSSIM:  467.0
+SSIM score: 1.0    id   468
+PSNR: 87.82073211669922    id   468
+Sum SPSNR:  41079.87160491943
+Sum SSSIM:  468.0
+SSIM score: 1.0    id   469
+PSNR: 88.3981704711914    id   469
+Sum SPSNR:  41168.269775390625
+Sum SSSIM:  469.0
+SSIM score: 1.0    id   470
+PSNR: 84.52507781982422    id   470
+Sum SPSNR:  41252.79485321045
+Sum SSSIM:  470.0
+SSIM score: 1.0    id   471
+PSNR: 84.40017700195312    id   471
+Sum SPSNR:  41337.1950302124
+Sum SSSIM:  471.0
+SSIM score: 1.0    id   472
+PSNR: 90.76473999023438    id   472
+Sum SPSNR:  41427.95977020264
+Sum SSSIM:  472.0
+SSIM score: 1.0    id   473
+PSNR: 91.00701904296875    id   473
+Sum SPSNR:  41518.966789245605
+Sum SSSIM:  473.0
+SSIM score: 1.0    id   474
+PSNR: 91.14755249023438    id   474
+Sum SPSNR:  41610.11434173584
+Sum SSSIM:  474.0
+SSIM score: 1.0    id   475
+PSNR: 88.2472915649414    id   475
+Sum SPSNR:  41698.36163330078
+Sum SSSIM:  475.0
+SSIM score: 1.0    id   476
+PSNR: 86.88243103027344    id   476
+Sum SPSNR:  41785.244064331055
+Sum SSSIM:  476.0
+SSIM score: 1.0    id   477
+PSNR: 87.48487854003906    id   477
+Sum SPSNR:  41872.728942871094
+Sum SSSIM:  477.0
+SSIM score: 1.0    id   478
+PSNR: 87.35710906982422    id   478
+Sum SPSNR:  41960.08605194092
+Sum SSSIM:  478.0
+SSIM score: 1.0    id   479
+PSNR: 87.85304260253906    id   479
+Sum SPSNR:  42047.93909454346
+Sum SSSIM:  479.0
+SSIM score: 1.0    id   480
+PSNR: 89.20095825195312    id   480
+Sum SPSNR:  42137.14005279541
+Sum SSSIM:  480.0
+SSIM score: 1.0    id   481
+PSNR: 85.17193603515625    id   481
+Sum SPSNR:  42222.31198883057
+Sum SSSIM:  481.0
+SSIM score: 1.0    id   482
+PSNR: 86.48838806152344    id   482
+Sum SPSNR:  42308.80037689209
+Sum SSSIM:  482.0
+SSIM score: 1.0    id   483
+PSNR: 91.67375183105469    id   483
+Sum SPSNR:  42400.474128723145
+Sum SSSIM:  483.0
+SSIM score: 1.0    id   484
+PSNR: 87.64751434326172    id   484
+Sum SPSNR:  42488.121643066406
+Sum SSSIM:  484.0
+SSIM score: 1.0    id   485
+PSNR: 87.55799102783203    id   485
+Sum SPSNR:  42575.67963409424
+Sum SSSIM:  485.0
+SSIM score: 1.0    id   486
+PSNR: 86.8708724975586    id   486
+Sum SPSNR:  42662.5505065918
+Sum SSSIM:  486.0
+SSIM score: 1.0    id   487
+PSNR: 90.93096923828125    id   487
+Sum SPSNR:  42753.48147583008
+Sum SSSIM:  487.0
+SSIM score: 1.0    id   488
+PSNR: 86.22977447509766    id   488
+Sum SPSNR:  42839.711250305176
+Sum SSSIM:  488.0
+SSIM score: 1.0    id   489
+PSNR: 86.17884826660156    id   489
+Sum SPSNR:  42925.89009857178
+Sum SSSIM:  489.0
+SSIM score: 1.0    id   490
+PSNR: 87.76901245117188    id   490
+Sum SPSNR:  43013.65911102295
+Sum SSSIM:  490.0
+SSIM score: 1.0    id   491
+PSNR: 91.57365417480469    id   491
+Sum SPSNR:  43105.232765197754
+Sum SSSIM:  491.0
+SSIM score: 1.0    id   492
+PSNR: 92.04721069335938    id   492
+Sum SPSNR:  43197.27997589111
+Sum SSSIM:  492.0
+SSIM score: 1.0    id   493
+PSNR: 87.06446838378906    id   493
+Sum SPSNR:  43284.3444442749
+Sum SSSIM:  493.0
+SSIM score: 1.0    id   494
+PSNR: 88.65706634521484    id   494
+Sum SPSNR:  43373.00151062012
+Sum SSSIM:  494.0
+SSIM score: 1.0    id   495
+PSNR: 87.42736053466797    id   495
+Sum SPSNR:  43460.428871154785
+Sum SSSIM:  495.0
+SSIM score: 1.0    id   496
+PSNR: 85.18559265136719    id   496
+Sum SPSNR:  43545.61446380615
+Sum SSSIM:  496.0
+SSIM score: 1.0    id   497
+PSNR: 90.17890167236328    id   497
+Sum SPSNR:  43635.793365478516
+Sum SSSIM:  497.0
+SSIM score: 1.0    id   498
+PSNR: 89.89501953125    id   498
+Sum SPSNR:  43725.688385009766
+Sum SSSIM:  498.0
+SSIM score: 1.0    id   499
+PSNR: 90.01815032958984    id   499
+Sum SPSNR:  43815.706535339355
+Sum SSSIM:  499.0
+SSIM score: 1.0    id   500
+PSNR: 84.00553894042969    id   500
+Sum SPSNR:  43899.712074279785
+Sum SSSIM:  500.0
+SSIM score: 1.0    id   501
+PSNR: 85.76229095458984    id   501
+Sum SPSNR:  43985.474365234375
+Sum SSSIM:  501.0
+SSIM score: 1.0    id   502
+PSNR: 84.82128143310547    id   502
+Sum SPSNR:  44070.29564666748
+Sum SSSIM:  502.0
+SSIM score: 1.0    id   503
+PSNR: 85.35011291503906    id   503
+Sum SPSNR:  44155.64575958252
+Sum SSSIM:  503.0
+SSIM score: 1.0    id   504
+PSNR: 90.99481201171875    id   504
+Sum SPSNR:  44246.64057159424
+Sum SSSIM:  504.0
+SSIM score: 1.0    id   505
+PSNR: 89.87320709228516    id   505
+Sum SPSNR:  44336.51377868652
+Sum SSSIM:  505.0
+SSIM score: 1.0    id   506
+PSNR: 89.99171447753906    id   506
+Sum SPSNR:  44426.50549316406
+Sum SSSIM:  506.0
+SSIM score: 1.0    id   507
+PSNR: 88.82264709472656    id   507
+Sum SPSNR:  44515.32814025879
+Sum SSSIM:  507.0
+SSIM score: 1.0    id   508
+PSNR: 88.1691665649414    id   508
+Sum SPSNR:  44603.49730682373
+Sum SSSIM:  508.0
+SSIM score: 1.0    id   509
+PSNR: 88.93342590332031    id   509
+Sum SPSNR:  44692.43073272705
+Sum SSSIM:  509.0
+SSIM score: 1.0    id   510
+PSNR: 89.22522735595703    id   510
+Sum SPSNR:  44781.65596008301
+Sum SSSIM:  510.0
+SSIM score: 1.0    id   511
+PSNR: 84.30255889892578    id   511
+Sum SPSNR:  44865.95851898193
+Sum SSSIM:  511.0
+SSIM score: 1.0    id   512
+PSNR: 91.13712310791016    id   512
+Sum SPSNR:  44957.095642089844
+Sum SSSIM:  512.0
+SSIM score: 1.0    id   513
+PSNR: 88.55543518066406    id   513
+Sum SPSNR:  45045.65107727051
+Sum SSSIM:  513.0
+SSIM score: 1.0    id   514
+PSNR: 88.00749206542969    id   514
+Sum SPSNR:  45133.65856933594
+Sum SSSIM:  514.0
+SSIM score: 1.0    id   515
+PSNR: 89.24821472167969    id   515
+Sum SPSNR:  45222.90678405762
+Sum SSSIM:  515.0
+SSIM score: 1.0    id   516
+PSNR: 86.05213928222656    id   516
+Sum SPSNR:  45308.958923339844
+Sum SSSIM:  516.0
+SSIM score: 1.0    id   517
+PSNR: 85.09237670898438    id   517
+Sum SPSNR:  45394.05130004883
+Sum SSSIM:  517.0
+SSIM score: 1.0    id   518
+PSNR: 87.76821899414062    id   518
+Sum SPSNR:  45481.81951904297
+Sum SSSIM:  518.0
+SSIM score: 1.0    id   519
+PSNR: 88.88841247558594    id   519
+Sum SPSNR:  45570.707931518555
+Sum SSSIM:  519.0
+SSIM score: 1.0    id   520
+PSNR: 84.31807708740234    id   520
+Sum SPSNR:  45655.02600860596
+Sum SSSIM:  520.0
+SSIM score: 1.0    id   521
+PSNR: 89.65473175048828    id   521
+Sum SPSNR:  45744.680740356445
+Sum SSSIM:  521.0
+SSIM score: 1.0    id   522
+PSNR: 90.06168365478516    id   522
+Sum SPSNR:  45834.74242401123
+Sum SSSIM:  522.0
+SSIM score: 1.0    id   523
+PSNR: 91.0044937133789    id   523
+Sum SPSNR:  45925.74691772461
+Sum SSSIM:  523.0
+SSIM score: 1.0    id   524
+PSNR: 87.1041030883789    id   524
+Sum SPSNR:  46012.85102081299
+Sum SSSIM:  524.0
+SSIM score: 1.0    id   525
+PSNR: 83.74690246582031    id   525
+Sum SPSNR:  46096.59792327881
+Sum SSSIM:  525.0
+SSIM score: 1.0    id   526
+PSNR: 87.81749725341797    id   526
+Sum SPSNR:  46184.41542053223
+Sum SSSIM:  526.0
+SSIM score: 1.0    id   527
+PSNR: 85.24235534667969    id   527
+Sum SPSNR:  46269.657775878906
+Sum SSSIM:  527.0
+SSIM score: 1.0    id   528
+PSNR: 89.06837463378906    id   528
+Sum SPSNR:  46358.726150512695
+Sum SSSIM:  528.0
+SSIM score: 1.0    id   529
+PSNR: 91.34899139404297    id   529
+Sum SPSNR:  46450.07514190674
+Sum SSSIM:  529.0
+SSIM score: 1.0    id   530
+PSNR: 90.16706848144531    id   530
+Sum SPSNR:  46540.24221038818
+Sum SSSIM:  530.0
+SSIM score: 1.0    id   531
+PSNR: 89.2985610961914    id   531
+Sum SPSNR:  46629.540771484375
+Sum SSSIM:  531.0
+SSIM score: 1.0    id   532
+PSNR: 85.66422271728516    id   532
+Sum SPSNR:  46715.20499420166
+Sum SSSIM:  532.0
+SSIM score: 1.0    id   533
+PSNR: 89.78736114501953    id   533
+Sum SPSNR:  46804.99235534668
+Sum SSSIM:  533.0
+SSIM score: 1.0    id   534
+PSNR: 86.52098846435547    id   534
+Sum SPSNR:  46891.513343811035
+Sum SSSIM:  534.0
+SSIM score: 1.0    id   535
+PSNR: 86.48005676269531    id   535
+Sum SPSNR:  46977.99340057373
+Sum SSSIM:  535.0
+SSIM score: 1.0    id   536
+PSNR: 87.12594604492188    id   536
+Sum SPSNR:  47065.11934661865
+Sum SSSIM:  536.0
+SSIM score: 1.0    id   537
+PSNR: 88.16741180419922    id   537
+Sum SPSNR:  47153.28675842285
+Sum SSSIM:  537.0
+SSIM score: 1.0    id   538
+PSNR: 90.32775115966797    id   538
+Sum SPSNR:  47243.61450958252
+Sum SSSIM:  538.0
+SSIM score: 1.0    id   539
+PSNR: 87.91714477539062    id   539
+Sum SPSNR:  47331.53165435791
+Sum SSSIM:  539.0
+SSIM score: 1.0    id   540
+PSNR: 87.83980560302734    id   540
+Sum SPSNR:  47419.37145996094
+Sum SSSIM:  540.0
+SSIM score: 1.0    id   541
+PSNR: 85.84626007080078    id   541
+Sum SPSNR:  47505.21772003174
+Sum SSSIM:  541.0
+SSIM score: 1.0    id   542
+PSNR: 88.16303253173828    id   542
+Sum SPSNR:  47593.38075256348
+Sum SSSIM:  542.0
+SSIM score: 1.0    id   543
+PSNR: 91.65560913085938    id   543
+Sum SPSNR:  47685.036361694336
+Sum SSSIM:  543.0
+SSIM score: 1.0    id   544
+PSNR: 87.38980102539062    id   544
+Sum SPSNR:  47772.42616271973
+Sum SSSIM:  544.0
+SSIM score: 1.0    id   545
+PSNR: 89.53713989257812    id   545
+Sum SPSNR:  47861.963302612305
+Sum SSSIM:  545.0
+SSIM score: 1.0    id   546
+PSNR: 89.21349334716797    id   546
+Sum SPSNR:  47951.17679595947
+Sum SSSIM:  546.0
+SSIM score: 1.0    id   547
+PSNR: 90.56982421875    id   547
+Sum SPSNR:  48041.74662017822
+Sum SSSIM:  547.0
+SSIM score: 1.0    id   548
+PSNR: 88.84463500976562    id   548
+Sum SPSNR:  48130.59125518799
+Sum SSSIM:  548.0
+SSIM score: 1.0    id   549
+PSNR: 89.73922729492188    id   549
+Sum SPSNR:  48220.33048248291
+Sum SSSIM:  549.0
+SSIM score: 1.0    id   550
+PSNR: 89.41592407226562    id   550
+Sum SPSNR:  48309.746406555176
+Sum SSSIM:  550.0
+SSIM score: 1.0    id   551
+PSNR: 87.63062286376953    id   551
+Sum SPSNR:  48397.377029418945
+Sum SSSIM:  551.0
+SSIM score: 1.0    id   552
+PSNR: 84.27669525146484    id   552
+Sum SPSNR:  48481.65372467041
+Sum SSSIM:  552.0
+SSIM: TB  1.0
+PSNR: TB  87.82908283454785
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  2520
+adv_correct:  552
+accuracy of adv imgs in testing set: 0.820312
+
+adv succeeded 0.179688
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 58,
+        "adv_succeed_%": 0.26126126126126126
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 25,
+        "adv_succeed_%": 0.22727272727272727
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 37,
+        "adv_succeed_%": 0.22424242424242424
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 43,
+        "adv_succeed_%": 0.044605809128630707
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 60,
+        "adv_succeed_%": 0.25210084033613445
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 37,
+        "adv_succeed_%": 0.18974358974358974
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 27,
+        "adv_succeed_%": 0.1377551020408163
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 71,
+        "adv_succeed_%": 0.3256880733944954
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 181,
+        "adv_succeed_%": 0.27095808383233533
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 13,
+        "adv_succeed_%": 0.13541666666666666
+    }
+}
+214.2577633857727
+==================================================================
+1691874606.1293383  running gen  7
+Files already downloaded and verified
+len(test_dataloader):  10000
+7 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 85.38555908203125    id   1
+Sum SPSNR:  85.38555908203125
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 85.4518051147461    id   2
+Sum SPSNR:  170.83736419677734
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 87.43643188476562    id   3
+Sum SPSNR:  258.27379608154297
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 83.746826171875    id   4
+Sum SPSNR:  342.02062225341797
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 85.37286376953125    id   5
+Sum SPSNR:  427.3934860229492
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 87.35184478759766    id   6
+Sum SPSNR:  514.7453308105469
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 88.5270004272461    id   7
+Sum SPSNR:  603.272331237793
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 84.43568420410156    id   8
+Sum SPSNR:  687.7080154418945
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 85.54393768310547    id   9
+Sum SPSNR:  773.251953125
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 93.04627990722656    id   10
+Sum SPSNR:  866.2982330322266
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 90.68572235107422    id   11
+Sum SPSNR:  956.9839553833008
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 86.81880187988281    id   12
+Sum SPSNR:  1043.8027572631836
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 88.01616668701172    id   13
+Sum SPSNR:  1131.8189239501953
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 84.24903869628906    id   14
+Sum SPSNR:  1216.0679626464844
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 83.55169677734375    id   15
+Sum SPSNR:  1299.6196594238281
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 88.69676208496094    id   16
+Sum SPSNR:  1388.316421508789
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 84.82685852050781    id   17
+Sum SPSNR:  1473.1432800292969
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 83.18106079101562    id   18
+Sum SPSNR:  1556.3243408203125
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 87.82337188720703    id   19
+Sum SPSNR:  1644.1477127075195
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 84.08908081054688    id   20
+Sum SPSNR:  1728.2367935180664
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 86.26585388183594    id   21
+Sum SPSNR:  1814.5026473999023
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 88.89723205566406    id   22
+Sum SPSNR:  1903.3998794555664
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 89.83699035644531    id   23
+Sum SPSNR:  1993.2368698120117
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 89.91104125976562    id   24
+Sum SPSNR:  2083.1479110717773
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 83.17195129394531    id   25
+Sum SPSNR:  2166.3198623657227
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 85.22650909423828    id   26
+Sum SPSNR:  2251.546371459961
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 84.69488525390625    id   27
+Sum SPSNR:  2336.241256713867
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 85.0745849609375    id   28
+Sum SPSNR:  2421.3158416748047
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 83.02336120605469    id   29
+Sum SPSNR:  2504.3392028808594
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 85.39041137695312    id   30
+Sum SPSNR:  2589.7296142578125
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 88.13334655761719    id   31
+Sum SPSNR:  2677.8629608154297
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 85.58088684082031    id   32
+Sum SPSNR:  2763.44384765625
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 86.24693298339844    id   33
+Sum SPSNR:  2849.6907806396484
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 84.89970397949219    id   34
+Sum SPSNR:  2934.5904846191406
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 88.91777038574219    id   35
+Sum SPSNR:  3023.508255004883
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 81.95651245117188    id   36
+Sum SPSNR:  3105.4647674560547
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 86.79635620117188    id   37
+Sum SPSNR:  3192.2611236572266
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 87.86366271972656    id   38
+Sum SPSNR:  3280.124786376953
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 88.47021484375    id   39
+Sum SPSNR:  3368.595001220703
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 85.6910400390625    id   40
+Sum SPSNR:  3454.2860412597656
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 87.38961791992188    id   41
+Sum SPSNR:  3541.6756591796875
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 88.76943969726562    id   42
+Sum SPSNR:  3630.445098876953
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 83.54647827148438    id   43
+Sum SPSNR:  3713.9915771484375
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 87.46598815917969    id   44
+Sum SPSNR:  3801.457565307617
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 86.7799301147461    id   45
+Sum SPSNR:  3888.2374954223633
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 88.31141662597656    id   46
+Sum SPSNR:  3976.54891204834
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 82.61132049560547    id   47
+Sum SPSNR:  4059.1602325439453
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 90.75717163085938    id   48
+Sum SPSNR:  4149.917404174805
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 87.77503204345703    id   49
+Sum SPSNR:  4237.692436218262
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 88.7303237915039    id   50
+Sum SPSNR:  4326.422760009766
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 87.62810516357422    id   51
+Sum SPSNR:  4414.05086517334
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 88.41252136230469    id   52
+Sum SPSNR:  4502.4633865356445
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 84.12480163574219    id   53
+Sum SPSNR:  4586.588188171387
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 86.16431427001953    id   54
+Sum SPSNR:  4672.752502441406
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 83.64944458007812    id   55
+Sum SPSNR:  4756.401947021484
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 89.84149932861328    id   56
+Sum SPSNR:  4846.243446350098
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 86.14389038085938    id   57
+Sum SPSNR:  4932.387336730957
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 90.27613830566406    id   58
+Sum SPSNR:  5022.663475036621
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 84.11772155761719    id   59
+Sum SPSNR:  5106.781196594238
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 87.46430969238281    id   60
+Sum SPSNR:  5194.245506286621
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 86.9303207397461    id   61
+Sum SPSNR:  5281.175827026367
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 87.89875793457031    id   62
+Sum SPSNR:  5369.0745849609375
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 84.04625701904297    id   63
+Sum SPSNR:  5453.1208419799805
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 82.79695129394531    id   64
+Sum SPSNR:  5535.917793273926
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 87.73257446289062    id   65
+Sum SPSNR:  5623.650367736816
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 88.84002685546875    id   66
+Sum SPSNR:  5712.490394592285
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 85.57363891601562    id   67
+Sum SPSNR:  5798.064033508301
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 86.18399047851562    id   68
+Sum SPSNR:  5884.248023986816
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 84.22005462646484    id   69
+Sum SPSNR:  5968.468078613281
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 85.32782745361328    id   70
+Sum SPSNR:  6053.7959060668945
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 85.64614868164062    id   71
+Sum SPSNR:  6139.442054748535
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 86.92620086669922    id   72
+Sum SPSNR:  6226.368255615234
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 82.50443267822266    id   73
+Sum SPSNR:  6308.872688293457
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 85.96571350097656    id   74
+Sum SPSNR:  6394.838401794434
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 86.79013061523438    id   75
+Sum SPSNR:  6481.628532409668
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 87.14046478271484    id   76
+Sum SPSNR:  6568.768997192383
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 89.5266342163086    id   77
+Sum SPSNR:  6658.295631408691
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 87.37625885009766    id   78
+Sum SPSNR:  6745.671890258789
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 88.37855529785156    id   79
+Sum SPSNR:  6834.050445556641
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 90.98013305664062    id   80
+Sum SPSNR:  6925.030578613281
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 86.01712036132812    id   81
+Sum SPSNR:  7011.047698974609
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 83.15435791015625    id   82
+Sum SPSNR:  7094.202056884766
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 89.09625244140625    id   83
+Sum SPSNR:  7183.298309326172
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 82.38040161132812    id   84
+Sum SPSNR:  7265.6787109375
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 88.49945831298828    id   85
+Sum SPSNR:  7354.178169250488
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 83.48367309570312    id   86
+Sum SPSNR:  7437.661842346191
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 88.45448303222656    id   87
+Sum SPSNR:  7526.116325378418
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 85.90524291992188    id   88
+Sum SPSNR:  7612.02156829834
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 85.87190246582031    id   89
+Sum SPSNR:  7697.89347076416
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 85.21249389648438    id   90
+Sum SPSNR:  7783.1059646606445
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 83.9945297241211    id   91
+Sum SPSNR:  7867.100494384766
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 84.74124908447266    id   92
+Sum SPSNR:  7951.841743469238
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 88.83849334716797    id   93
+Sum SPSNR:  8040.680236816406
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 86.13262939453125    id   94
+Sum SPSNR:  8126.8128662109375
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 86.41908264160156    id   95
+Sum SPSNR:  8213.231948852539
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 86.26160430908203    id   96
+Sum SPSNR:  8299.493553161621
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 89.15557098388672    id   97
+Sum SPSNR:  8388.649124145508
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 89.20123291015625    id   98
+Sum SPSNR:  8477.850357055664
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 85.86700439453125    id   99
+Sum SPSNR:  8563.717361450195
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 87.92605590820312    id   100
+Sum SPSNR:  8651.643417358398
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 86.43421173095703    id   101
+Sum SPSNR:  8738.077629089355
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 84.43438720703125    id   102
+Sum SPSNR:  8822.512016296387
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 90.8322525024414    id   103
+Sum SPSNR:  8913.344268798828
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 81.39950561523438    id   104
+Sum SPSNR:  8994.743774414062
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 84.70711517333984    id   105
+Sum SPSNR:  9079.450889587402
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 88.6997299194336    id   106
+Sum SPSNR:  9168.150619506836
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 85.98145294189453    id   107
+Sum SPSNR:  9254.13207244873
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 86.6337890625    id   108
+Sum SPSNR:  9340.76586151123
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 88.556396484375    id   109
+Sum SPSNR:  9429.322257995605
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 84.99412536621094    id   110
+Sum SPSNR:  9514.316383361816
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 87.67757415771484    id   111
+Sum SPSNR:  9601.993957519531
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 89.84569549560547    id   112
+Sum SPSNR:  9691.839653015137
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 90.43876647949219    id   113
+Sum SPSNR:  9782.278419494629
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 84.37968444824219    id   114
+Sum SPSNR:  9866.658103942871
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 86.78964233398438    id   115
+Sum SPSNR:  9953.447746276855
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 87.65608215332031    id   116
+Sum SPSNR:  10041.103828430176
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 85.4831314086914    id   117
+Sum SPSNR:  10126.586959838867
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 87.9037094116211    id   118
+Sum SPSNR:  10214.490669250488
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 87.63256072998047    id   119
+Sum SPSNR:  10302.123229980469
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 85.92639923095703    id   120
+Sum SPSNR:  10388.049629211426
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 82.27677917480469    id   121
+Sum SPSNR:  10470.32640838623
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 85.57666015625    id   122
+Sum SPSNR:  10555.90306854248
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 85.75360107421875    id   123
+Sum SPSNR:  10641.6566696167
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 85.60852813720703    id   124
+Sum SPSNR:  10727.265197753906
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 89.08702850341797    id   125
+Sum SPSNR:  10816.352226257324
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 83.65238952636719    id   126
+Sum SPSNR:  10900.004615783691
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 90.217041015625    id   127
+Sum SPSNR:  10990.221656799316
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 86.31867218017578    id   128
+Sum SPSNR:  11076.540328979492
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 86.2441177368164    id   129
+Sum SPSNR:  11162.784446716309
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 88.66370391845703    id   130
+Sum SPSNR:  11251.448150634766
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 90.25801086425781    id   131
+Sum SPSNR:  11341.706161499023
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 86.38390350341797    id   132
+Sum SPSNR:  11428.090065002441
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 84.41410064697266    id   133
+Sum SPSNR:  11512.504165649414
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 85.90641784667969    id   134
+Sum SPSNR:  11598.410583496094
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 87.7236557006836    id   135
+Sum SPSNR:  11686.134239196777
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 86.03814697265625    id   136
+Sum SPSNR:  11772.172386169434
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 84.45541381835938    id   137
+Sum SPSNR:  11856.627799987793
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 91.39115905761719    id   138
+Sum SPSNR:  11948.01895904541
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 89.37866973876953    id   139
+Sum SPSNR:  12037.39762878418
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 83.96369171142578    id   140
+Sum SPSNR:  12121.361320495605
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 84.84091186523438    id   141
+Sum SPSNR:  12206.20223236084
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 87.70370483398438    id   142
+Sum SPSNR:  12293.905937194824
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 86.77307891845703    id   143
+Sum SPSNR:  12380.679016113281
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 87.61090087890625    id   144
+Sum SPSNR:  12468.289916992188
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 85.21682739257812    id   145
+Sum SPSNR:  12553.506744384766
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 83.36162567138672    id   146
+Sum SPSNR:  12636.868370056152
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 82.78436279296875    id   147
+Sum SPSNR:  12719.652732849121
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 86.86161041259766    id   148
+Sum SPSNR:  12806.514343261719
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 83.97837829589844    id   149
+Sum SPSNR:  12890.492721557617
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 88.13943481445312    id   150
+Sum SPSNR:  12978.63215637207
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 89.91398620605469    id   151
+Sum SPSNR:  13068.546142578125
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 82.32785034179688    id   152
+Sum SPSNR:  13150.873992919922
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 89.42909240722656    id   153
+Sum SPSNR:  13240.303085327148
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 87.7542495727539    id   154
+Sum SPSNR:  13328.057334899902
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 84.04524230957031    id   155
+Sum SPSNR:  13412.102577209473
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 83.92935180664062    id   156
+Sum SPSNR:  13496.031929016113
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 83.73164367675781    id   157
+Sum SPSNR:  13579.763572692871
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 85.42816925048828    id   158
+Sum SPSNR:  13665.19174194336
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 87.9769515991211    id   159
+Sum SPSNR:  13753.16869354248
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 82.58650970458984    id   160
+Sum SPSNR:  13835.75520324707
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 82.78952026367188    id   161
+Sum SPSNR:  13918.544723510742
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 84.29877471923828    id   162
+Sum SPSNR:  14002.84349822998
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 90.01412200927734    id   163
+Sum SPSNR:  14092.857620239258
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 89.90089416503906    id   164
+Sum SPSNR:  14182.758514404297
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 90.26084899902344    id   165
+Sum SPSNR:  14273.01936340332
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 83.91277313232422    id   166
+Sum SPSNR:  14356.932136535645
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 85.08277130126953    id   167
+Sum SPSNR:  14442.014907836914
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 87.90206146240234    id   168
+Sum SPSNR:  14529.916969299316
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 84.86995697021484    id   169
+Sum SPSNR:  14614.786926269531
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 87.38357543945312    id   170
+Sum SPSNR:  14702.170501708984
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 88.89982604980469    id   171
+Sum SPSNR:  14791.070327758789
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 89.263427734375    id   172
+Sum SPSNR:  14880.333755493164
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 88.80229949951172    id   173
+Sum SPSNR:  14969.136054992676
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 88.73332214355469    id   174
+Sum SPSNR:  15057.86937713623
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 83.25724792480469    id   175
+Sum SPSNR:  15141.126625061035
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 83.695556640625    id   176
+Sum SPSNR:  15224.82218170166
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 87.28511810302734    id   177
+Sum SPSNR:  15312.107299804688
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 85.19996643066406    id   178
+Sum SPSNR:  15397.307266235352
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 86.31666564941406    id   179
+Sum SPSNR:  15483.623931884766
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 88.0155258178711    id   180
+Sum SPSNR:  15571.639457702637
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 87.44347381591797    id   181
+Sum SPSNR:  15659.082931518555
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 87.7818374633789    id   182
+Sum SPSNR:  15746.864768981934
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 89.08783721923828    id   183
+Sum SPSNR:  15835.952606201172
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 86.60600280761719    id   184
+Sum SPSNR:  15922.558609008789
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 82.33551788330078    id   185
+Sum SPSNR:  16004.89412689209
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 85.07393646240234    id   186
+Sum SPSNR:  16089.968063354492
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 87.40982818603516    id   187
+Sum SPSNR:  16177.377891540527
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 89.61079406738281    id   188
+Sum SPSNR:  16266.98868560791
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 84.7430419921875    id   189
+Sum SPSNR:  16351.731727600098
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 86.60813903808594    id   190
+Sum SPSNR:  16438.339866638184
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 85.72452545166016    id   191
+Sum SPSNR:  16524.064392089844
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 83.70369720458984    id   192
+Sum SPSNR:  16607.768089294434
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 88.7717056274414    id   193
+Sum SPSNR:  16696.539794921875
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 88.36798858642578    id   194
+Sum SPSNR:  16784.9077835083
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 90.37742614746094    id   195
+Sum SPSNR:  16875.28520965576
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 85.79581451416016    id   196
+Sum SPSNR:  16961.081024169922
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 85.83894348144531    id   197
+Sum SPSNR:  17046.919967651367
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 87.56409454345703    id   198
+Sum SPSNR:  17134.484062194824
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 85.11087036132812    id   199
+Sum SPSNR:  17219.594932556152
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 84.27088928222656    id   200
+Sum SPSNR:  17303.86582183838
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 84.2477035522461    id   201
+Sum SPSNR:  17388.113525390625
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 84.37263488769531    id   202
+Sum SPSNR:  17472.48616027832
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 88.67034149169922    id   203
+Sum SPSNR:  17561.15650177002
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 88.85772705078125    id   204
+Sum SPSNR:  17650.0142288208
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 88.6801986694336    id   205
+Sum SPSNR:  17738.694427490234
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 87.33280181884766    id   206
+Sum SPSNR:  17826.027229309082
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 84.61161804199219    id   207
+Sum SPSNR:  17910.638847351074
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 85.39249420166016    id   208
+Sum SPSNR:  17996.031341552734
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 88.91229248046875    id   209
+Sum SPSNR:  18084.943634033203
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 90.97594451904297    id   210
+Sum SPSNR:  18175.919578552246
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 84.93362426757812    id   211
+Sum SPSNR:  18260.853202819824
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 83.95836639404297    id   212
+Sum SPSNR:  18344.811569213867
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 82.45660400390625    id   213
+Sum SPSNR:  18427.268173217773
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 83.78501892089844    id   214
+Sum SPSNR:  18511.053192138672
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 87.17469787597656    id   215
+Sum SPSNR:  18598.22789001465
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 89.43055725097656    id   216
+Sum SPSNR:  18687.658447265625
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 89.52094268798828    id   217
+Sum SPSNR:  18777.179389953613
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 88.09695434570312    id   218
+Sum SPSNR:  18865.276344299316
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 85.6210708618164    id   219
+Sum SPSNR:  18950.897415161133
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 89.62364959716797    id   220
+Sum SPSNR:  19040.5210647583
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 91.79436492919922    id   221
+Sum SPSNR:  19132.3154296875
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 86.36837005615234    id   222
+Sum SPSNR:  19218.683799743652
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 83.80513000488281    id   223
+Sum SPSNR:  19302.488929748535
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 90.19041442871094    id   224
+Sum SPSNR:  19392.679344177246
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 87.06497192382812    id   225
+Sum SPSNR:  19479.744316101074
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 84.26990509033203    id   226
+Sum SPSNR:  19564.014221191406
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 85.53699493408203    id   227
+Sum SPSNR:  19649.55121612549
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 86.43303680419922    id   228
+Sum SPSNR:  19735.984252929688
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 81.80986022949219    id   229
+Sum SPSNR:  19817.79411315918
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 86.64767456054688    id   230
+Sum SPSNR:  19904.441787719727
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 89.49080657958984    id   231
+Sum SPSNR:  19993.932594299316
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 84.22005462646484    id   232
+Sum SPSNR:  20078.15264892578
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 85.43600463867188    id   233
+Sum SPSNR:  20163.588653564453
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 86.97307586669922    id   234
+Sum SPSNR:  20250.561729431152
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 84.6335220336914    id   235
+Sum SPSNR:  20335.195251464844
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 89.83956146240234    id   236
+Sum SPSNR:  20425.034812927246
+Sum SSSIM:  236.0
+SSIM score: 1.0    id   237
+PSNR: 83.46314239501953    id   237
+Sum SPSNR:  20508.497955322266
+Sum SSSIM:  237.0
+SSIM score: 1.0    id   238
+PSNR: 82.11557006835938    id   238
+Sum SPSNR:  20590.613525390625
+Sum SSSIM:  238.0
+SSIM score: 1.0    id   239
+PSNR: 87.83087158203125    id   239
+Sum SPSNR:  20678.444396972656
+Sum SSSIM:  239.0
+SSIM score: 1.0    id   240
+PSNR: 88.08596801757812    id   240
+Sum SPSNR:  20766.530364990234
+Sum SSSIM:  240.0
+SSIM score: 1.0    id   241
+PSNR: 84.16378784179688    id   241
+Sum SPSNR:  20850.69415283203
+Sum SSSIM:  241.0
+SSIM score: 1.0    id   242
+PSNR: 86.87184143066406    id   242
+Sum SPSNR:  20937.565994262695
+Sum SSSIM:  242.0
+SSIM score: 1.0    id   243
+PSNR: 90.6038818359375    id   243
+Sum SPSNR:  21028.169876098633
+Sum SSSIM:  243.0
+SSIM score: 1.0    id   244
+PSNR: 83.71697235107422    id   244
+Sum SPSNR:  21111.886848449707
+Sum SSSIM:  244.0
+SSIM score: 1.0    id   245
+PSNR: 84.83509826660156    id   245
+Sum SPSNR:  21196.72194671631
+Sum SSSIM:  245.0
+SSIM score: 1.0    id   246
+PSNR: 91.48051452636719    id   246
+Sum SPSNR:  21288.202461242676
+Sum SSSIM:  246.0
+SSIM score: 1.0    id   247
+PSNR: 89.63008880615234    id   247
+Sum SPSNR:  21377.832550048828
+Sum SSSIM:  247.0
+SSIM score: 1.0    id   248
+PSNR: 82.78443145751953    id   248
+Sum SPSNR:  21460.616981506348
+Sum SSSIM:  248.0
+SSIM score: 1.0    id   249
+PSNR: 89.90155029296875    id   249
+Sum SPSNR:  21550.518531799316
+Sum SSSIM:  249.0
+SSIM score: 1.0    id   250
+PSNR: 83.91079711914062    id   250
+Sum SPSNR:  21634.429328918457
+Sum SSSIM:  250.0
+SSIM score: 1.0    id   251
+PSNR: 86.42965698242188    id   251
+Sum SPSNR:  21720.85898590088
+Sum SSSIM:  251.0
+SSIM score: 1.0    id   252
+PSNR: 87.85426330566406    id   252
+Sum SPSNR:  21808.713249206543
+Sum SSSIM:  252.0
+SSIM score: 1.0    id   253
+PSNR: 85.16984558105469    id   253
+Sum SPSNR:  21893.883094787598
+Sum SSSIM:  253.0
+SSIM score: 1.0    id   254
+PSNR: 85.78756713867188    id   254
+Sum SPSNR:  21979.67066192627
+Sum SSSIM:  254.0
+SSIM score: 1.0    id   255
+PSNR: 83.66465759277344    id   255
+Sum SPSNR:  22063.335319519043
+Sum SSSIM:  255.0
+SSIM score: 1.0    id   256
+PSNR: 86.16500091552734    id   256
+Sum SPSNR:  22149.50032043457
+Sum SSSIM:  256.0
+SSIM score: 1.0    id   257
+PSNR: 89.08323669433594    id   257
+Sum SPSNR:  22238.583557128906
+Sum SSSIM:  257.0
+SSIM score: 1.0    id   258
+PSNR: 83.15262603759766    id   258
+Sum SPSNR:  22321.736183166504
+Sum SSSIM:  258.0
+SSIM score: 1.0    id   259
+PSNR: 86.90254211425781    id   259
+Sum SPSNR:  22408.63872528076
+Sum SSSIM:  259.0
+SSIM score: 1.0    id   260
+PSNR: 85.89250183105469    id   260
+Sum SPSNR:  22494.531227111816
+Sum SSSIM:  260.0
+SSIM score: 1.0    id   261
+PSNR: 89.27162170410156    id   261
+Sum SPSNR:  22583.802848815918
+Sum SSSIM:  261.0
+SSIM score: 1.0    id   262
+PSNR: 84.06864166259766    id   262
+Sum SPSNR:  22667.871490478516
+Sum SSSIM:  262.0
+SSIM score: 1.0    id   263
+PSNR: 82.9813003540039    id   263
+Sum SPSNR:  22750.85279083252
+Sum SSSIM:  263.0
+SSIM score: 1.0    id   264
+PSNR: 82.83641815185547    id   264
+Sum SPSNR:  22833.689208984375
+Sum SSSIM:  264.0
+SSIM score: 1.0    id   265
+PSNR: 89.64886474609375    id   265
+Sum SPSNR:  22923.33807373047
+Sum SSSIM:  265.0
+SSIM score: 1.0    id   266
+PSNR: 84.21581268310547    id   266
+Sum SPSNR:  23007.553886413574
+Sum SSSIM:  266.0
+SSIM score: 1.0    id   267
+PSNR: 89.69973754882812    id   267
+Sum SPSNR:  23097.253623962402
+Sum SSSIM:  267.0
+SSIM score: 1.0    id   268
+PSNR: 86.79907989501953    id   268
+Sum SPSNR:  23184.052703857422
+Sum SSSIM:  268.0
+SSIM score: 1.0    id   269
+PSNR: 82.71134948730469    id   269
+Sum SPSNR:  23266.764053344727
+Sum SSSIM:  269.0
+SSIM score: 1.0    id   270
+PSNR: 83.07598876953125    id   270
+Sum SPSNR:  23349.840042114258
+Sum SSSIM:  270.0
+SSIM score: 1.0    id   271
+PSNR: 83.19373321533203    id   271
+Sum SPSNR:  23433.03377532959
+Sum SSSIM:  271.0
+SSIM score: 1.0    id   272
+PSNR: 87.55514526367188    id   272
+Sum SPSNR:  23520.58892059326
+Sum SSSIM:  272.0
+SSIM score: 1.0    id   273
+PSNR: 84.75142669677734    id   273
+Sum SPSNR:  23605.34034729004
+Sum SSSIM:  273.0
+SSIM score: 1.0    id   274
+PSNR: 89.7047348022461    id   274
+Sum SPSNR:  23695.045082092285
+Sum SSSIM:  274.0
+SSIM score: 1.0    id   275
+PSNR: 90.40010070800781    id   275
+Sum SPSNR:  23785.445182800293
+Sum SSSIM:  275.0
+SSIM score: 1.0    id   276
+PSNR: 86.51543426513672    id   276
+Sum SPSNR:  23871.96061706543
+Sum SSSIM:  276.0
+SSIM score: 1.0    id   277
+PSNR: 85.98675537109375    id   277
+Sum SPSNR:  23957.947372436523
+Sum SSSIM:  277.0
+SSIM score: 1.0    id   278
+PSNR: 83.99578857421875    id   278
+Sum SPSNR:  24041.943161010742
+Sum SSSIM:  278.0
+SSIM score: 1.0    id   279
+PSNR: 89.28976440429688    id   279
+Sum SPSNR:  24131.23292541504
+Sum SSSIM:  279.0
+SSIM score: 1.0    id   280
+PSNR: 85.78528594970703    id   280
+Sum SPSNR:  24217.018211364746
+Sum SSSIM:  280.0
+SSIM score: 1.0    id   281
+PSNR: 86.55851745605469    id   281
+Sum SPSNR:  24303.5767288208
+Sum SSSIM:  281.0
+SSIM score: 1.0    id   282
+PSNR: 86.70976257324219    id   282
+Sum SPSNR:  24390.286491394043
+Sum SSSIM:  282.0
+SSIM score: 1.0    id   283
+PSNR: 86.08092498779297    id   283
+Sum SPSNR:  24476.367416381836
+Sum SSSIM:  283.0
+SSIM score: 1.0    id   284
+PSNR: 84.18476867675781    id   284
+Sum SPSNR:  24560.552185058594
+Sum SSSIM:  284.0
+SSIM score: 1.0    id   285
+PSNR: 84.65036010742188    id   285
+Sum SPSNR:  24645.202545166016
+Sum SSSIM:  285.0
+SSIM score: 1.0    id   286
+PSNR: 84.62507629394531    id   286
+Sum SPSNR:  24729.82762145996
+Sum SSSIM:  286.0
+SSIM score: 1.0    id   287
+PSNR: 88.17135620117188    id   287
+Sum SPSNR:  24817.998977661133
+Sum SSSIM:  287.0
+SSIM score: 1.0    id   288
+PSNR: 89.37982177734375    id   288
+Sum SPSNR:  24907.378799438477
+Sum SSSIM:  288.0
+SSIM score: 1.0    id   289
+PSNR: 85.89497375488281    id   289
+Sum SPSNR:  24993.27377319336
+Sum SSSIM:  289.0
+SSIM score: 1.0    id   290
+PSNR: 85.86932373046875    id   290
+Sum SPSNR:  25079.143096923828
+Sum SSSIM:  290.0
+SSIM score: 1.0    id   291
+PSNR: 89.66183471679688    id   291
+Sum SPSNR:  25168.804931640625
+Sum SSSIM:  291.0
+SSIM score: 1.0    id   292
+PSNR: 82.66929626464844    id   292
+Sum SPSNR:  25251.474227905273
+Sum SSSIM:  292.0
+SSIM score: 1.0    id   293
+PSNR: 83.3497543334961    id   293
+Sum SPSNR:  25334.82398223877
+Sum SSSIM:  293.0
+SSIM score: 1.0    id   294
+PSNR: 86.72531127929688    id   294
+Sum SPSNR:  25421.549293518066
+Sum SSSIM:  294.0
+SSIM score: 1.0    id   295
+PSNR: 87.7896728515625    id   295
+Sum SPSNR:  25509.33896636963
+Sum SSSIM:  295.0
+SSIM score: 1.0    id   296
+PSNR: 88.95992279052734    id   296
+Sum SPSNR:  25598.298889160156
+Sum SSSIM:  296.0
+SSIM score: 1.0    id   297
+PSNR: 83.7843017578125    id   297
+Sum SPSNR:  25682.08319091797
+Sum SSSIM:  297.0
+SSIM score: 1.0    id   298
+PSNR: 86.55987548828125    id   298
+Sum SPSNR:  25768.64306640625
+Sum SSSIM:  298.0
+SSIM score: 1.0    id   299
+PSNR: 87.2701187133789    id   299
+Sum SPSNR:  25855.91318511963
+Sum SSSIM:  299.0
+SSIM score: 1.0    id   300
+PSNR: 85.90148162841797    id   300
+Sum SPSNR:  25941.814666748047
+Sum SSSIM:  300.0
+SSIM score: 1.0    id   301
+PSNR: 88.64089965820312    id   301
+Sum SPSNR:  26030.45556640625
+Sum SSSIM:  301.0
+SSIM score: 1.0    id   302
+PSNR: 86.84120178222656    id   302
+Sum SPSNR:  26117.296768188477
+Sum SSSIM:  302.0
+SSIM score: 1.0    id   303
+PSNR: 92.36383056640625    id   303
+Sum SPSNR:  26209.660598754883
+Sum SSSIM:  303.0
+SSIM score: 1.0    id   304
+PSNR: 87.4395751953125    id   304
+Sum SPSNR:  26297.100173950195
+Sum SSSIM:  304.0
+SSIM score: 1.0    id   305
+PSNR: 87.09552764892578    id   305
+Sum SPSNR:  26384.19570159912
+Sum SSSIM:  305.0
+SSIM score: 1.0    id   306
+PSNR: 87.24097442626953    id   306
+Sum SPSNR:  26471.43667602539
+Sum SSSIM:  306.0
+SSIM score: 1.0    id   307
+PSNR: 88.59710693359375    id   307
+Sum SPSNR:  26560.033782958984
+Sum SSSIM:  307.0
+SSIM score: 1.0    id   308
+PSNR: 85.20394897460938    id   308
+Sum SPSNR:  26645.237731933594
+Sum SSSIM:  308.0
+SSIM score: 1.0    id   309
+PSNR: 83.64579772949219    id   309
+Sum SPSNR:  26728.883529663086
+Sum SSSIM:  309.0
+SSIM score: 1.0    id   310
+PSNR: 90.08856201171875    id   310
+Sum SPSNR:  26818.972091674805
+Sum SSSIM:  310.0
+SSIM score: 1.0    id   311
+PSNR: 89.27303314208984    id   311
+Sum SPSNR:  26908.245124816895
+Sum SSSIM:  311.0
+SSIM score: 1.0    id   312
+PSNR: 85.48431396484375    id   312
+Sum SPSNR:  26993.72943878174
+Sum SSSIM:  312.0
+SSIM score: 1.0    id   313
+PSNR: 87.69976806640625    id   313
+Sum SPSNR:  27081.429206848145
+Sum SSSIM:  313.0
+SSIM score: 1.0    id   314
+PSNR: 87.452392578125    id   314
+Sum SPSNR:  27168.88159942627
+Sum SSSIM:  314.0
+SSIM score: 1.0    id   315
+PSNR: 83.91920471191406    id   315
+Sum SPSNR:  27252.800804138184
+Sum SSSIM:  315.0
+SSIM score: 1.0    id   316
+PSNR: 89.14046478271484    id   316
+Sum SPSNR:  27341.9412689209
+Sum SSSIM:  316.0
+SSIM score: 1.0    id   317
+PSNR: 83.75483703613281    id   317
+Sum SPSNR:  27425.69610595703
+Sum SSSIM:  317.0
+SSIM score: 1.0    id   318
+PSNR: 88.9193344116211    id   318
+Sum SPSNR:  27514.615440368652
+Sum SSSIM:  318.0
+SSIM score: 1.0    id   319
+PSNR: 87.89154815673828    id   319
+Sum SPSNR:  27602.50698852539
+Sum SSSIM:  319.0
+SSIM score: 1.0    id   320
+PSNR: 88.56623840332031    id   320
+Sum SPSNR:  27691.07322692871
+Sum SSSIM:  320.0
+SSIM score: 1.0    id   321
+PSNR: 86.40138244628906    id   321
+Sum SPSNR:  27777.474609375
+Sum SSSIM:  321.0
+SSIM score: 1.0    id   322
+PSNR: 92.22825622558594    id   322
+Sum SPSNR:  27869.702865600586
+Sum SSSIM:  322.0
+SSIM score: 1.0    id   323
+PSNR: 87.6814956665039    id   323
+Sum SPSNR:  27957.38436126709
+Sum SSSIM:  323.0
+SSIM score: 1.0    id   324
+PSNR: 87.80113983154297    id   324
+Sum SPSNR:  28045.185501098633
+Sum SSSIM:  324.0
+SSIM score: 1.0    id   325
+PSNR: 85.56700897216797    id   325
+Sum SPSNR:  28130.7525100708
+Sum SSSIM:  325.0
+SSIM score: 1.0    id   326
+PSNR: 85.87333679199219    id   326
+Sum SPSNR:  28216.625846862793
+Sum SSSIM:  326.0
+SSIM score: 1.0    id   327
+PSNR: 88.99241638183594    id   327
+Sum SPSNR:  28305.61826324463
+Sum SSSIM:  327.0
+SSIM score: 1.0    id   328
+PSNR: 87.86836242675781    id   328
+Sum SPSNR:  28393.486625671387
+Sum SSSIM:  328.0
+SSIM score: 1.0    id   329
+PSNR: 84.33309936523438    id   329
+Sum SPSNR:  28477.81972503662
+Sum SSSIM:  329.0
+SSIM score: 1.0    id   330
+PSNR: 83.30794525146484    id   330
+Sum SPSNR:  28561.127670288086
+Sum SSSIM:  330.0
+SSIM score: 1.0    id   331
+PSNR: 86.63147735595703    id   331
+Sum SPSNR:  28647.759147644043
+Sum SSSIM:  331.0
+SSIM score: 1.0    id   332
+PSNR: 85.38417053222656    id   332
+Sum SPSNR:  28733.14331817627
+Sum SSSIM:  332.0
+SSIM score: 1.0    id   333
+PSNR: 86.70037078857422    id   333
+Sum SPSNR:  28819.843688964844
+Sum SSSIM:  333.0
+SSIM score: 1.0    id   334
+PSNR: 89.44142150878906    id   334
+Sum SPSNR:  28909.285110473633
+Sum SSSIM:  334.0
+SSIM score: 1.0    id   335
+PSNR: 83.66194152832031    id   335
+Sum SPSNR:  28992.947052001953
+Sum SSSIM:  335.0
+SSIM score: 1.0    id   336
+PSNR: 83.08074188232422    id   336
+Sum SPSNR:  29076.027793884277
+Sum SSSIM:  336.0
+SSIM score: 1.0    id   337
+PSNR: 88.15055847167969    id   337
+Sum SPSNR:  29164.178352355957
+Sum SSSIM:  337.0
+SSIM score: 1.0    id   338
+PSNR: 87.54866790771484    id   338
+Sum SPSNR:  29251.727020263672
+Sum SSSIM:  338.0
+SSIM score: 1.0    id   339
+PSNR: 84.1494140625    id   339
+Sum SPSNR:  29335.876434326172
+Sum SSSIM:  339.0
+SSIM score: 1.0    id   340
+PSNR: 89.14649963378906    id   340
+Sum SPSNR:  29425.02293395996
+Sum SSSIM:  340.0
+SSIM score: 1.0    id   341
+PSNR: 87.8532485961914    id   341
+Sum SPSNR:  29512.876182556152
+Sum SSSIM:  341.0
+SSIM score: 1.0    id   342
+PSNR: 85.61668395996094    id   342
+Sum SPSNR:  29598.492866516113
+Sum SSSIM:  342.0
+SSIM score: 1.0    id   343
+PSNR: 86.67137908935547    id   343
+Sum SPSNR:  29685.16424560547
+Sum SSSIM:  343.0
+SSIM score: 1.0    id   344
+PSNR: 88.95703125    id   344
+Sum SPSNR:  29774.12127685547
+Sum SSSIM:  344.0
+SSIM score: 1.0    id   345
+PSNR: 86.1039047241211    id   345
+Sum SPSNR:  29860.22518157959
+Sum SSSIM:  345.0
+SSIM score: 1.0    id   346
+PSNR: 84.37867736816406    id   346
+Sum SPSNR:  29944.603858947754
+Sum SSSIM:  346.0
+SSIM score: 1.0    id   347
+PSNR: 87.64634704589844    id   347
+Sum SPSNR:  30032.250205993652
+Sum SSSIM:  347.0
+SSIM score: 1.0    id   348
+PSNR: 86.28755187988281    id   348
+Sum SPSNR:  30118.537757873535
+Sum SSSIM:  348.0
+SSIM score: 1.0    id   349
+PSNR: 89.23446655273438    id   349
+Sum SPSNR:  30207.77222442627
+Sum SSSIM:  349.0
+SSIM score: 1.0    id   350
+PSNR: 84.98726654052734    id   350
+Sum SPSNR:  30292.759490966797
+Sum SSSIM:  350.0
+SSIM score: 1.0    id   351
+PSNR: 83.20329284667969    id   351
+Sum SPSNR:  30375.962783813477
+Sum SSSIM:  351.0
+SSIM score: 1.0    id   352
+PSNR: 82.50563049316406    id   352
+Sum SPSNR:  30458.46841430664
+Sum SSSIM:  352.0
+SSIM score: 1.0    id   353
+PSNR: 89.95747375488281    id   353
+Sum SPSNR:  30548.425888061523
+Sum SSSIM:  353.0
+SSIM score: 1.0    id   354
+PSNR: 87.0023193359375    id   354
+Sum SPSNR:  30635.42820739746
+Sum SSSIM:  354.0
+SSIM score: 1.0    id   355
+PSNR: 86.06333923339844    id   355
+Sum SPSNR:  30721.49154663086
+Sum SSSIM:  355.0
+SSIM score: 1.0    id   356
+PSNR: 87.07398986816406    id   356
+Sum SPSNR:  30808.565536499023
+Sum SSSIM:  356.0
+SSIM score: 1.0    id   357
+PSNR: 88.01573944091797    id   357
+Sum SPSNR:  30896.58127593994
+Sum SSSIM:  357.0
+SSIM score: 1.0    id   358
+PSNR: 86.57626342773438    id   358
+Sum SPSNR:  30983.157539367676
+Sum SSSIM:  358.0
+SSIM score: 1.0    id   359
+PSNR: 88.56599426269531    id   359
+Sum SPSNR:  31071.72353363037
+Sum SSSIM:  359.0
+SSIM score: 1.0    id   360
+PSNR: 85.26398468017578    id   360
+Sum SPSNR:  31156.987518310547
+Sum SSSIM:  360.0
+SSIM score: 1.0    id   361
+PSNR: 82.33666229248047    id   361
+Sum SPSNR:  31239.324180603027
+Sum SSSIM:  361.0
+SSIM score: 1.0    id   362
+PSNR: 85.45967102050781    id   362
+Sum SPSNR:  31324.783851623535
+Sum SSSIM:  362.0
+SSIM score: 1.0    id   363
+PSNR: 87.39236450195312    id   363
+Sum SPSNR:  31412.17621612549
+Sum SSSIM:  363.0
+SSIM score: 1.0    id   364
+PSNR: 88.08360290527344    id   364
+Sum SPSNR:  31500.25981903076
+Sum SSSIM:  364.0
+SSIM score: 1.0    id   365
+PSNR: 83.57455444335938    id   365
+Sum SPSNR:  31583.83437347412
+Sum SSSIM:  365.0
+SSIM score: 1.0    id   366
+PSNR: 87.56964111328125    id   366
+Sum SPSNR:  31671.404014587402
+Sum SSSIM:  366.0
+SSIM score: 1.0    id   367
+PSNR: 90.0974349975586    id   367
+Sum SPSNR:  31761.50144958496
+Sum SSSIM:  367.0
+SSIM score: 1.0    id   368
+PSNR: 85.4458236694336    id   368
+Sum SPSNR:  31846.947273254395
+Sum SSSIM:  368.0
+SSIM score: 1.0    id   369
+PSNR: 87.0986099243164    id   369
+Sum SPSNR:  31934.04588317871
+Sum SSSIM:  369.0
+SSIM score: 1.0    id   370
+PSNR: 84.5388412475586    id   370
+Sum SPSNR:  32018.58472442627
+Sum SSSIM:  370.0
+SSIM score: 1.0    id   371
+PSNR: 88.19667053222656    id   371
+Sum SPSNR:  32106.781394958496
+Sum SSSIM:  371.0
+SSIM score: 1.0    id   372
+PSNR: 84.87395477294922    id   372
+Sum SPSNR:  32191.655349731445
+Sum SSSIM:  372.0
+SSIM score: 1.0    id   373
+PSNR: 88.21835327148438    id   373
+Sum SPSNR:  32279.87370300293
+Sum SSSIM:  373.0
+SSIM score: 1.0    id   374
+PSNR: 89.07511901855469    id   374
+Sum SPSNR:  32368.948822021484
+Sum SSSIM:  374.0
+SSIM score: 1.0    id   375
+PSNR: 84.45364379882812    id   375
+Sum SPSNR:  32453.402465820312
+Sum SSSIM:  375.0
+SSIM score: 1.0    id   376
+PSNR: 88.2430419921875    id   376
+Sum SPSNR:  32541.6455078125
+Sum SSSIM:  376.0
+SSIM score: 1.0    id   377
+PSNR: 85.58729553222656    id   377
+Sum SPSNR:  32627.232803344727
+Sum SSSIM:  377.0
+SSIM score: 1.0    id   378
+PSNR: 90.35415649414062    id   378
+Sum SPSNR:  32717.586959838867
+Sum SSSIM:  378.0
+SSIM score: 1.0    id   379
+PSNR: 87.06990051269531    id   379
+Sum SPSNR:  32804.65686035156
+Sum SSSIM:  379.0
+SSIM score: 1.0    id   380
+PSNR: 87.07245635986328    id   380
+Sum SPSNR:  32891.729316711426
+Sum SSSIM:  380.0
+SSIM score: 1.0    id   381
+PSNR: 87.1463623046875    id   381
+Sum SPSNR:  32978.87567901611
+Sum SSSIM:  381.0
+SSIM score: 1.0    id   382
+PSNR: 86.99110412597656    id   382
+Sum SPSNR:  33065.86678314209
+Sum SSSIM:  382.0
+SSIM score: 1.0    id   383
+PSNR: 86.8204116821289    id   383
+Sum SPSNR:  33152.68719482422
+Sum SSSIM:  383.0
+SSIM score: 1.0    id   384
+PSNR: 89.07809448242188    id   384
+Sum SPSNR:  33241.76528930664
+Sum SSSIM:  384.0
+SSIM score: 1.0    id   385
+PSNR: 87.39897918701172    id   385
+Sum SPSNR:  33329.16426849365
+Sum SSSIM:  385.0
+SSIM score: 1.0    id   386
+PSNR: 87.43791198730469    id   386
+Sum SPSNR:  33416.60218048096
+Sum SSSIM:  386.0
+SSIM score: 1.0    id   387
+PSNR: 92.17497253417969    id   387
+Sum SPSNR:  33508.77715301514
+Sum SSSIM:  387.0
+SSIM score: 1.0    id   388
+PSNR: 87.60781860351562    id   388
+Sum SPSNR:  33596.38497161865
+Sum SSSIM:  388.0
+SSIM score: 1.0    id   389
+PSNR: 83.62125396728516    id   389
+Sum SPSNR:  33680.00622558594
+Sum SSSIM:  389.0
+SSIM score: 1.0    id   390
+PSNR: 85.17138671875    id   390
+Sum SPSNR:  33765.17761230469
+Sum SSSIM:  390.0
+SSIM score: 1.0    id   391
+PSNR: 86.21366882324219    id   391
+Sum SPSNR:  33851.39128112793
+Sum SSSIM:  391.0
+SSIM score: 1.0    id   392
+PSNR: 90.06303405761719    id   392
+Sum SPSNR:  33941.45431518555
+Sum SSSIM:  392.0
+SSIM score: 1.0    id   393
+PSNR: 82.908447265625    id   393
+Sum SPSNR:  34024.36276245117
+Sum SSSIM:  393.0
+SSIM score: 1.0    id   394
+PSNR: 91.6663818359375    id   394
+Sum SPSNR:  34116.02914428711
+Sum SSSIM:  394.0
+SSIM score: 1.0    id   395
+PSNR: 83.51774597167969    id   395
+Sum SPSNR:  34199.54689025879
+Sum SSSIM:  395.0
+SSIM score: 1.0    id   396
+PSNR: 87.95121765136719    id   396
+Sum SPSNR:  34287.498107910156
+Sum SSSIM:  396.0
+SSIM score: 1.0    id   397
+PSNR: 88.1797103881836    id   397
+Sum SPSNR:  34375.67781829834
+Sum SSSIM:  397.0
+SSIM score: 1.0    id   398
+PSNR: 85.54849243164062    id   398
+Sum SPSNR:  34461.22631072998
+Sum SSSIM:  398.0
+SSIM score: 1.0    id   399
+PSNR: 87.41370391845703    id   399
+Sum SPSNR:  34548.64001464844
+Sum SSSIM:  399.0
+SSIM score: 1.0    id   400
+PSNR: 87.69721221923828    id   400
+Sum SPSNR:  34636.337226867676
+Sum SSSIM:  400.0
+SSIM score: 1.0    id   401
+PSNR: 86.82588195800781    id   401
+Sum SPSNR:  34723.16310882568
+Sum SSSIM:  401.0
+SSIM score: 1.0    id   402
+PSNR: 90.39936828613281    id   402
+Sum SPSNR:  34813.56247711182
+Sum SSSIM:  402.0
+SSIM score: 1.0    id   403
+PSNR: 82.71697235107422    id   403
+Sum SPSNR:  34896.27944946289
+Sum SSSIM:  403.0
+SSIM score: 1.0    id   404
+PSNR: 89.14292907714844    id   404
+Sum SPSNR:  34985.42237854004
+Sum SSSIM:  404.0
+SSIM score: 1.0    id   405
+PSNR: 89.0824203491211    id   405
+Sum SPSNR:  35074.50479888916
+Sum SSSIM:  405.0
+SSIM score: 1.0    id   406
+PSNR: 84.19389343261719    id   406
+Sum SPSNR:  35158.69869232178
+Sum SSSIM:  406.0
+SSIM score: 1.0    id   407
+PSNR: 86.95247650146484    id   407
+Sum SPSNR:  35245.65116882324
+Sum SSSIM:  407.0
+SSIM score: 1.0    id   408
+PSNR: 89.60041046142578    id   408
+Sum SPSNR:  35335.25157928467
+Sum SSSIM:  408.0
+SSIM score: 1.0    id   409
+PSNR: 86.287841796875    id   409
+Sum SPSNR:  35421.53942108154
+Sum SSSIM:  409.0
+SSIM score: 1.0    id   410
+PSNR: 88.15493774414062    id   410
+Sum SPSNR:  35509.69435882568
+Sum SSSIM:  410.0
+SSIM score: 1.0    id   411
+PSNR: 86.43789672851562    id   411
+Sum SPSNR:  35596.1322555542
+Sum SSSIM:  411.0
+SSIM score: 1.0    id   412
+PSNR: 89.87677764892578    id   412
+Sum SPSNR:  35686.009033203125
+Sum SSSIM:  412.0
+SSIM score: 1.0    id   413
+PSNR: 89.11338806152344    id   413
+Sum SPSNR:  35775.12242126465
+Sum SSSIM:  413.0
+SSIM score: 1.0    id   414
+PSNR: 86.3999252319336    id   414
+Sum SPSNR:  35861.52234649658
+Sum SSSIM:  414.0
+SSIM score: 1.0    id   415
+PSNR: 87.49913024902344    id   415
+Sum SPSNR:  35949.021476745605
+Sum SSSIM:  415.0
+SSIM score: 1.0    id   416
+PSNR: 86.86680603027344    id   416
+Sum SPSNR:  36035.88828277588
+Sum SSSIM:  416.0
+SSIM score: 1.0    id   417
+PSNR: 87.43106079101562    id   417
+Sum SPSNR:  36123.319343566895
+Sum SSSIM:  417.0
+SSIM score: 1.0    id   418
+PSNR: 84.7713394165039    id   418
+Sum SPSNR:  36208.0906829834
+Sum SSSIM:  418.0
+SSIM score: 1.0    id   419
+PSNR: 83.62395477294922    id   419
+Sum SPSNR:  36291.71463775635
+Sum SSSIM:  419.0
+SSIM score: 1.0    id   420
+PSNR: 89.88882446289062    id   420
+Sum SPSNR:  36381.60346221924
+Sum SSSIM:  420.0
+SSIM score: 1.0    id   421
+PSNR: 83.94972229003906    id   421
+Sum SPSNR:  36465.55318450928
+Sum SSSIM:  421.0
+SSIM score: 1.0    id   422
+PSNR: 84.65750122070312    id   422
+Sum SPSNR:  36550.21068572998
+Sum SSSIM:  422.0
+SSIM score: 1.0    id   423
+PSNR: 89.51077270507812    id   423
+Sum SPSNR:  36639.72145843506
+Sum SSSIM:  423.0
+SSIM score: 1.0    id   424
+PSNR: 87.34512329101562    id   424
+Sum SPSNR:  36727.066581726074
+Sum SSSIM:  424.0
+SSIM score: 1.0    id   425
+PSNR: 83.35829162597656    id   425
+Sum SPSNR:  36810.42487335205
+Sum SSSIM:  425.0
+SSIM score: 1.0    id   426
+PSNR: 87.49819946289062    id   426
+Sum SPSNR:  36897.92307281494
+Sum SSSIM:  426.0
+SSIM score: 1.0    id   427
+PSNR: 85.69314575195312    id   427
+Sum SPSNR:  36983.616218566895
+Sum SSSIM:  427.0
+SSIM score: 1.0    id   428
+PSNR: 86.7667236328125    id   428
+Sum SPSNR:  37070.38294219971
+Sum SSSIM:  428.0
+SSIM score: 1.0    id   429
+PSNR: 88.4285659790039    id   429
+Sum SPSNR:  37158.81150817871
+Sum SSSIM:  429.0
+SSIM score: 1.0    id   430
+PSNR: 87.1484375    id   430
+Sum SPSNR:  37245.95994567871
+Sum SSSIM:  430.0
+SSIM score: 1.0    id   431
+PSNR: 88.0195541381836    id   431
+Sum SPSNR:  37333.979499816895
+Sum SSSIM:  431.0
+SSIM score: 1.0    id   432
+PSNR: 86.15229797363281    id   432
+Sum SPSNR:  37420.13179779053
+Sum SSSIM:  432.0
+SSIM score: 1.0    id   433
+PSNR: 89.89533996582031    id   433
+Sum SPSNR:  37510.02713775635
+Sum SSSIM:  433.0
+SSIM score: 1.0    id   434
+PSNR: 87.82337188720703    id   434
+Sum SPSNR:  37597.850509643555
+Sum SSSIM:  434.0
+SSIM score: 1.0    id   435
+PSNR: 84.18135833740234    id   435
+Sum SPSNR:  37682.03186798096
+Sum SSSIM:  435.0
+SSIM score: 1.0    id   436
+PSNR: 85.19621276855469    id   436
+Sum SPSNR:  37767.22808074951
+Sum SSSIM:  436.0
+SSIM score: 1.0    id   437
+PSNR: 90.02252197265625    id   437
+Sum SPSNR:  37857.25060272217
+Sum SSSIM:  437.0
+SSIM score: 1.0    id   438
+PSNR: 83.44780731201172    id   438
+Sum SPSNR:  37940.69841003418
+Sum SSSIM:  438.0
+SSIM score: 1.0    id   439
+PSNR: 88.22590637207031    id   439
+Sum SPSNR:  38028.92431640625
+Sum SSSIM:  439.0
+SSIM score: 1.0    id   440
+PSNR: 88.4634017944336    id   440
+Sum SPSNR:  38117.38771820068
+Sum SSSIM:  440.0
+SSIM score: 1.0    id   441
+PSNR: 89.85279846191406    id   441
+Sum SPSNR:  38207.2405166626
+Sum SSSIM:  441.0
+SSIM score: 1.0    id   442
+PSNR: 86.25482177734375    id   442
+Sum SPSNR:  38293.49533843994
+Sum SSSIM:  442.0
+SSIM score: 1.0    id   443
+PSNR: 85.6370849609375    id   443
+Sum SPSNR:  38379.13242340088
+Sum SSSIM:  443.0
+SSIM score: 1.0    id   444
+PSNR: 87.95790100097656    id   444
+Sum SPSNR:  38467.090324401855
+Sum SSSIM:  444.0
+SSIM score: 1.0    id   445
+PSNR: 86.70663452148438    id   445
+Sum SPSNR:  38553.79695892334
+Sum SSSIM:  445.0
+SSIM score: 1.0    id   446
+PSNR: 91.06004333496094    id   446
+Sum SPSNR:  38644.8570022583
+Sum SSSIM:  446.0
+SSIM score: 1.0    id   447
+PSNR: 83.36372375488281    id   447
+Sum SPSNR:  38728.22072601318
+Sum SSSIM:  447.0
+SSIM score: 1.0    id   448
+PSNR: 83.71321105957031    id   448
+Sum SPSNR:  38811.933937072754
+Sum SSSIM:  448.0
+SSIM score: 1.0    id   449
+PSNR: 86.53767395019531    id   449
+Sum SPSNR:  38898.47161102295
+Sum SSSIM:  449.0
+SSIM score: 1.0    id   450
+PSNR: 83.84497833251953    id   450
+Sum SPSNR:  38982.31658935547
+Sum SSSIM:  450.0
+SSIM score: 1.0    id   451
+PSNR: 84.74165344238281    id   451
+Sum SPSNR:  39067.05824279785
+Sum SSSIM:  451.0
+SSIM score: 1.0    id   452
+PSNR: 89.76132202148438    id   452
+Sum SPSNR:  39156.819564819336
+Sum SSSIM:  452.0
+SSIM score: 1.0    id   453
+PSNR: 84.15812683105469    id   453
+Sum SPSNR:  39240.97769165039
+Sum SSSIM:  453.0
+SSIM score: 1.0    id   454
+PSNR: 87.28279113769531    id   454
+Sum SPSNR:  39328.260482788086
+Sum SSSIM:  454.0
+SSIM score: 1.0    id   455
+PSNR: 84.96361541748047    id   455
+Sum SPSNR:  39413.22409820557
+Sum SSSIM:  455.0
+SSIM score: 1.0    id   456
+PSNR: 88.61919403076172    id   456
+Sum SPSNR:  39501.84329223633
+Sum SSSIM:  456.0
+SSIM score: 1.0    id   457
+PSNR: 84.90508270263672    id   457
+Sum SPSNR:  39586.748374938965
+Sum SSSIM:  457.0
+SSIM score: 1.0    id   458
+PSNR: 89.57730102539062    id   458
+Sum SPSNR:  39676.325675964355
+Sum SSSIM:  458.0
+SSIM score: 1.0    id   459
+PSNR: 86.77642059326172    id   459
+Sum SPSNR:  39763.10209655762
+Sum SSSIM:  459.0
+SSIM score: 1.0    id   460
+PSNR: 87.83940124511719    id   460
+Sum SPSNR:  39850.941497802734
+Sum SSSIM:  460.0
+SSIM score: 1.0    id   461
+PSNR: 84.58606719970703    id   461
+Sum SPSNR:  39935.52756500244
+Sum SSSIM:  461.0
+SSIM score: 1.0    id   462
+PSNR: 85.32485961914062    id   462
+Sum SPSNR:  40020.85242462158
+Sum SSSIM:  462.0
+SSIM score: 1.0    id   463
+PSNR: 87.51853942871094    id   463
+Sum SPSNR:  40108.37096405029
+Sum SSSIM:  463.0
+SSIM score: 1.0    id   464
+PSNR: 83.19952392578125    id   464
+Sum SPSNR:  40191.570487976074
+Sum SSSIM:  464.0
+SSIM score: 1.0    id   465
+PSNR: 86.97541046142578    id   465
+Sum SPSNR:  40278.5458984375
+Sum SSSIM:  465.0
+SSIM score: 1.0    id   466
+PSNR: 88.76792907714844    id   466
+Sum SPSNR:  40367.31382751465
+Sum SSSIM:  466.0
+SSIM score: 1.0    id   467
+PSNR: 87.63101196289062    id   467
+Sum SPSNR:  40454.94483947754
+Sum SSSIM:  467.0
+SSIM score: 1.0    id   468
+PSNR: 86.57139587402344    id   468
+Sum SPSNR:  40541.51623535156
+Sum SSSIM:  468.0
+SSIM score: 1.0    id   469
+PSNR: 85.86261749267578    id   469
+Sum SPSNR:  40627.37885284424
+Sum SSSIM:  469.0
+SSIM score: 1.0    id   470
+PSNR: 84.29562377929688    id   470
+Sum SPSNR:  40711.674476623535
+Sum SSSIM:  470.0
+SSIM score: 1.0    id   471
+PSNR: 89.22942352294922    id   471
+Sum SPSNR:  40800.903900146484
+Sum SSSIM:  471.0
+SSIM score: 1.0    id   472
+PSNR: 83.87915802001953    id   472
+Sum SPSNR:  40884.783058166504
+Sum SSSIM:  472.0
+SSIM score: 1.0    id   473
+PSNR: 87.84407806396484    id   473
+Sum SPSNR:  40972.62713623047
+Sum SSSIM:  473.0
+SSIM score: 1.0    id   474
+PSNR: 89.06108856201172    id   474
+Sum SPSNR:  41061.68822479248
+Sum SSSIM:  474.0
+SSIM score: 1.0    id   475
+PSNR: 88.76969146728516    id   475
+Sum SPSNR:  41150.457916259766
+Sum SSSIM:  475.0
+SSIM score: 1.0    id   476
+PSNR: 89.66431427001953    id   476
+Sum SPSNR:  41240.122230529785
+Sum SSSIM:  476.0
+SSIM score: 1.0    id   477
+PSNR: 84.60736083984375    id   477
+Sum SPSNR:  41324.72959136963
+Sum SSSIM:  477.0
+SSIM score: 1.0    id   478
+PSNR: 85.01476287841797    id   478
+Sum SPSNR:  41409.74435424805
+Sum SSSIM:  478.0
+SSIM score: 1.0    id   479
+PSNR: 86.25228881835938    id   479
+Sum SPSNR:  41495.996643066406
+Sum SSSIM:  479.0
+SSIM score: 1.0    id   480
+PSNR: 83.01277160644531    id   480
+Sum SPSNR:  41579.00941467285
+Sum SSSIM:  480.0
+SSIM score: 1.0    id   481
+PSNR: 88.28317260742188    id   481
+Sum SPSNR:  41667.29258728027
+Sum SSSIM:  481.0
+SSIM score: 1.0    id   482
+PSNR: 86.68367004394531    id   482
+Sum SPSNR:  41753.97625732422
+Sum SSSIM:  482.0
+SSIM score: 1.0    id   483
+PSNR: 85.84498596191406    id   483
+Sum SPSNR:  41839.82124328613
+Sum SSSIM:  483.0
+SSIM score: 1.0    id   484
+PSNR: 86.76466369628906    id   484
+Sum SPSNR:  41926.58590698242
+Sum SSSIM:  484.0
+SSIM score: 1.0    id   485
+PSNR: 86.62686157226562    id   485
+Sum SPSNR:  42013.21276855469
+Sum SSSIM:  485.0
+SSIM score: 1.0    id   486
+PSNR: 82.72259521484375    id   486
+Sum SPSNR:  42095.93536376953
+Sum SSSIM:  486.0
+SSIM score: 1.0    id   487
+PSNR: 89.3045425415039    id   487
+Sum SPSNR:  42185.239906311035
+Sum SSSIM:  487.0
+SSIM score: 1.0    id   488
+PSNR: 88.51557922363281    id   488
+Sum SPSNR:  42273.75548553467
+Sum SSSIM:  488.0
+SSIM score: 1.0    id   489
+PSNR: 88.25735473632812    id   489
+Sum SPSNR:  42362.012840270996
+Sum SSSIM:  489.0
+SSIM score: 1.0    id   490
+PSNR: 85.75196075439453    id   490
+Sum SPSNR:  42447.76480102539
+Sum SSSIM:  490.0
+SSIM score: 1.0    id   491
+PSNR: 88.07371520996094    id   491
+Sum SPSNR:  42535.83851623535
+Sum SSSIM:  491.0
+SSIM score: 1.0    id   492
+PSNR: 86.36344909667969    id   492
+Sum SPSNR:  42622.20196533203
+Sum SSSIM:  492.0
+SSIM score: 1.0    id   493
+PSNR: 87.03175354003906    id   493
+Sum SPSNR:  42709.23371887207
+Sum SSSIM:  493.0
+SSIM score: 1.0    id   494
+PSNR: 86.37577056884766    id   494
+Sum SPSNR:  42795.60948944092
+Sum SSSIM:  494.0
+SSIM score: 1.0    id   495
+PSNR: 88.45964050292969    id   495
+Sum SPSNR:  42884.06912994385
+Sum SSSIM:  495.0
+SSIM score: 1.0    id   496
+PSNR: 87.36021423339844    id   496
+Sum SPSNR:  42971.429344177246
+Sum SSSIM:  496.0
+SSIM score: 1.0    id   497
+PSNR: 86.4876480102539    id   497
+Sum SPSNR:  43057.9169921875
+Sum SSSIM:  497.0
+SSIM score: 1.0    id   498
+PSNR: 90.19705200195312    id   498
+Sum SPSNR:  43148.11404418945
+Sum SSSIM:  498.0
+SSIM score: 1.0    id   499
+PSNR: 89.63993072509766    id   499
+Sum SPSNR:  43237.75397491455
+Sum SSSIM:  499.0
+SSIM score: 1.0    id   500
+PSNR: 90.73455047607422    id   500
+Sum SPSNR:  43328.488525390625
+Sum SSSIM:  500.0
+SSIM score: 1.0    id   501
+PSNR: 84.10720825195312    id   501
+Sum SPSNR:  43412.59573364258
+Sum SSSIM:  501.0
+SSIM score: 1.0    id   502
+PSNR: 87.91900634765625    id   502
+Sum SPSNR:  43500.514739990234
+Sum SSSIM:  502.0
+SSIM score: 1.0    id   503
+PSNR: 88.52581024169922    id   503
+Sum SPSNR:  43589.04055023193
+Sum SSSIM:  503.0
+SSIM score: 1.0    id   504
+PSNR: 85.51872253417969    id   504
+Sum SPSNR:  43674.55927276611
+Sum SSSIM:  504.0
+SSIM score: 1.0    id   505
+PSNR: 91.06047821044922    id   505
+Sum SPSNR:  43765.61975097656
+Sum SSSIM:  505.0
+SSIM score: 1.0    id   506
+PSNR: 83.9425048828125    id   506
+Sum SPSNR:  43849.562255859375
+Sum SSSIM:  506.0
+SSIM score: 1.0    id   507
+PSNR: 83.74136352539062    id   507
+Sum SPSNR:  43933.303619384766
+Sum SSSIM:  507.0
+SSIM score: 1.0    id   508
+PSNR: 88.82010650634766    id   508
+Sum SPSNR:  44022.12372589111
+Sum SSSIM:  508.0
+SSIM score: 1.0    id   509
+PSNR: 87.84774780273438    id   509
+Sum SPSNR:  44109.97147369385
+Sum SSSIM:  509.0
+SSIM score: 1.0    id   510
+PSNR: 84.6002197265625    id   510
+Sum SPSNR:  44194.57169342041
+Sum SSSIM:  510.0
+SSIM score: 1.0    id   511
+PSNR: 88.40279388427734    id   511
+Sum SPSNR:  44282.97448730469
+Sum SSSIM:  511.0
+SSIM score: 1.0    id   512
+PSNR: 83.3530044555664    id   512
+Sum SPSNR:  44366.327491760254
+Sum SSSIM:  512.0
+SSIM score: 1.0    id   513
+PSNR: 88.61968231201172    id   513
+Sum SPSNR:  44454.947174072266
+Sum SSSIM:  513.0
+SSIM score: 1.0    id   514
+PSNR: 85.20893859863281    id   514
+Sum SPSNR:  44540.1561126709
+Sum SSSIM:  514.0
+SSIM score: 1.0    id   515
+PSNR: 87.31546020507812    id   515
+Sum SPSNR:  44627.47157287598
+Sum SSSIM:  515.0
+SSIM score: 1.0    id   516
+PSNR: 87.75325012207031    id   516
+Sum SPSNR:  44715.22482299805
+Sum SSSIM:  516.0
+SSIM score: 1.0    id   517
+PSNR: 85.88731384277344    id   517
+Sum SPSNR:  44801.11213684082
+Sum SSSIM:  517.0
+SSIM score: 1.0    id   518
+PSNR: 82.47979736328125    id   518
+Sum SPSNR:  44883.5919342041
+Sum SSSIM:  518.0
+SSIM score: 1.0    id   519
+PSNR: 88.10969543457031    id   519
+Sum SPSNR:  44971.70162963867
+Sum SSSIM:  519.0
+SSIM score: 1.0    id   520
+PSNR: 89.01341247558594    id   520
+Sum SPSNR:  45060.71504211426
+Sum SSSIM:  520.0
+SSIM score: 1.0    id   521
+PSNR: 83.1050796508789    id   521
+Sum SPSNR:  45143.82012176514
+Sum SSSIM:  521.0
+SSIM score: 1.0    id   522
+PSNR: 84.58415222167969    id   522
+Sum SPSNR:  45228.40427398682
+Sum SSSIM:  522.0
+SSIM score: 1.0    id   523
+PSNR: 89.03746032714844    id   523
+Sum SPSNR:  45317.441734313965
+Sum SSSIM:  523.0
+SSIM score: 1.0    id   524
+PSNR: 91.4748764038086    id   524
+Sum SPSNR:  45408.91661071777
+Sum SSSIM:  524.0
+SSIM score: 1.0    id   525
+PSNR: 90.6697006225586    id   525
+Sum SPSNR:  45499.58631134033
+Sum SSSIM:  525.0
+SSIM score: 1.0    id   526
+PSNR: 86.10363006591797    id   526
+Sum SPSNR:  45585.68994140625
+Sum SSSIM:  526.0
+SSIM score: 1.0    id   527
+PSNR: 88.3213882446289    id   527
+Sum SPSNR:  45674.01132965088
+Sum SSSIM:  527.0
+SSIM score: 1.0    id   528
+PSNR: 85.03050231933594    id   528
+Sum SPSNR:  45759.041831970215
+Sum SSSIM:  528.0
+SSIM score: 1.0    id   529
+PSNR: 83.80906677246094    id   529
+Sum SPSNR:  45842.850898742676
+Sum SSSIM:  529.0
+SSIM score: 1.0    id   530
+PSNR: 87.27851104736328    id   530
+Sum SPSNR:  45930.12940979004
+Sum SSSIM:  530.0
+SSIM score: 1.0    id   531
+PSNR: 86.97307586669922    id   531
+Sum SPSNR:  46017.10248565674
+Sum SSSIM:  531.0
+SSIM score: 1.0    id   532
+PSNR: 86.68616485595703    id   532
+Sum SPSNR:  46103.788650512695
+Sum SSSIM:  532.0
+SSIM score: 1.0    id   533
+PSNR: 84.9267578125    id   533
+Sum SPSNR:  46188.715408325195
+Sum SSSIM:  533.0
+SSIM score: 1.0    id   534
+PSNR: 90.58164978027344    id   534
+Sum SPSNR:  46279.29705810547
+Sum SSSIM:  534.0
+SSIM score: 1.0    id   535
+PSNR: 89.98038482666016    id   535
+Sum SPSNR:  46369.27744293213
+Sum SSSIM:  535.0
+SSIM score: 1.0    id   536
+PSNR: 88.22502136230469    id   536
+Sum SPSNR:  46457.50246429443
+Sum SSSIM:  536.0
+SSIM score: 1.0    id   537
+PSNR: 87.38357543945312    id   537
+Sum SPSNR:  46544.88603973389
+Sum SSSIM:  537.0
+SSIM score: 1.0    id   538
+PSNR: 85.04009246826172    id   538
+Sum SPSNR:  46629.92613220215
+Sum SSSIM:  538.0
+SSIM score: 1.0    id   539
+PSNR: 89.37114715576172    id   539
+Sum SPSNR:  46719.29727935791
+Sum SSSIM:  539.0
+SSIM score: 1.0    id   540
+PSNR: 86.84120178222656    id   540
+Sum SPSNR:  46806.13848114014
+Sum SSSIM:  540.0
+SSIM score: 1.0    id   541
+PSNR: 87.75006103515625    id   541
+Sum SPSNR:  46893.88854217529
+Sum SSSIM:  541.0
+SSIM score: 1.0    id   542
+PSNR: 84.10902404785156    id   542
+Sum SPSNR:  46977.997566223145
+Sum SSSIM:  542.0
+SSIM score: 1.0    id   543
+PSNR: 86.72468566894531    id   543
+Sum SPSNR:  47064.72225189209
+Sum SSSIM:  543.0
+SSIM score: 1.0    id   544
+PSNR: 88.67256164550781    id   544
+Sum SPSNR:  47153.3948135376
+Sum SSSIM:  544.0
+SSIM score: 1.0    id   545
+PSNR: 88.47115325927734    id   545
+Sum SPSNR:  47241.865966796875
+Sum SSSIM:  545.0
+SSIM score: 1.0    id   546
+PSNR: 86.4727783203125    id   546
+Sum SPSNR:  47328.33874511719
+Sum SSSIM:  546.0
+SSIM score: 1.0    id   547
+PSNR: 87.47476196289062    id   547
+Sum SPSNR:  47415.81350708008
+Sum SSSIM:  547.0
+SSIM score: 1.0    id   548
+PSNR: 84.48770141601562    id   548
+Sum SPSNR:  47500.301208496094
+Sum SSSIM:  548.0
+SSIM score: 1.0    id   549
+PSNR: 90.47852325439453    id   549
+Sum SPSNR:  47590.77973175049
+Sum SSSIM:  549.0
+SSIM score: 1.0    id   550
+PSNR: 83.93737030029297    id   550
+Sum SPSNR:  47674.71710205078
+Sum SSSIM:  550.0
+SSIM score: 1.0    id   551
+PSNR: 85.52456665039062    id   551
+Sum SPSNR:  47760.24166870117
+Sum SSSIM:  551.0
+SSIM score: 1.0    id   552
+PSNR: 84.04107666015625    id   552
+Sum SPSNR:  47844.28274536133
+Sum SSSIM:  552.0
+SSIM score: 1.0    id   553
+PSNR: 90.39459991455078    id   553
+Sum SPSNR:  47934.67734527588
+Sum SSSIM:  553.0
+SSIM score: 1.0    id   554
+PSNR: 90.18901062011719    id   554
+Sum SPSNR:  48024.866355895996
+Sum SSSIM:  554.0
+SSIM score: 1.0    id   555
+PSNR: 84.83734130859375    id   555
+Sum SPSNR:  48109.70369720459
+Sum SSSIM:  555.0
+SSIM score: 1.0    id   556
+PSNR: 88.63601684570312    id   556
+Sum SPSNR:  48198.33971405029
+Sum SSSIM:  556.0
+SSIM score: 1.0    id   557
+PSNR: 87.42495727539062    id   557
+Sum SPSNR:  48285.76467132568
+Sum SSSIM:  557.0
+SSIM score: 1.0    id   558
+PSNR: 86.02742004394531    id   558
+Sum SPSNR:  48371.79209136963
+Sum SSSIM:  558.0
+SSIM score: 1.0    id   559
+PSNR: 87.6424560546875    id   559
+Sum SPSNR:  48459.43454742432
+Sum SSSIM:  559.0
+SSIM score: 1.0    id   560
+PSNR: 88.76516723632812    id   560
+Sum SPSNR:  48548.199714660645
+Sum SSSIM:  560.0
+SSIM score: 1.0    id   561
+PSNR: 83.7955093383789    id   561
+Sum SPSNR:  48631.99522399902
+Sum SSSIM:  561.0
+SSIM score: 1.0    id   562
+PSNR: 89.24063873291016    id   562
+Sum SPSNR:  48721.23586273193
+Sum SSSIM:  562.0
+SSIM score: 1.0    id   563
+PSNR: 83.95462036132812    id   563
+Sum SPSNR:  48805.19048309326
+Sum SSSIM:  563.0
+SSIM score: 1.0    id   564
+PSNR: 87.63858032226562    id   564
+Sum SPSNR:  48892.82906341553
+Sum SSSIM:  564.0
+SSIM score: 1.0    id   565
+PSNR: 90.21774291992188    id   565
+Sum SPSNR:  48983.04680633545
+Sum SSSIM:  565.0
+SSIM score: 1.0    id   566
+PSNR: 87.45759582519531    id   566
+Sum SPSNR:  49070.504402160645
+Sum SSSIM:  566.0
+SSIM score: 1.0    id   567
+PSNR: 89.77178955078125    id   567
+Sum SPSNR:  49160.276191711426
+Sum SSSIM:  567.0
+SSIM score: 1.0    id   568
+PSNR: 89.33341217041016    id   568
+Sum SPSNR:  49249.609603881836
+Sum SSSIM:  568.0
+SSIM score: 1.0    id   569
+PSNR: 87.6265640258789    id   569
+Sum SPSNR:  49337.236167907715
+Sum SSSIM:  569.0
+SSIM score: 1.0    id   570
+PSNR: 84.01454162597656    id   570
+Sum SPSNR:  49421.25070953369
+Sum SSSIM:  570.0
+SSIM score: 1.0    id   571
+PSNR: 84.52289581298828    id   571
+Sum SPSNR:  49505.77360534668
+Sum SSSIM:  571.0
+SSIM score: 1.0    id   572
+PSNR: 87.10839080810547    id   572
+Sum SPSNR:  49592.881996154785
+Sum SSSIM:  572.0
+SSIM score: 1.0    id   573
+PSNR: 87.95455932617188    id   573
+Sum SPSNR:  49680.83655548096
+Sum SSSIM:  573.0
+SSIM score: 1.0    id   574
+PSNR: 91.23065948486328    id   574
+Sum SPSNR:  49772.06721496582
+Sum SSSIM:  574.0
+SSIM score: 1.0    id   575
+PSNR: 87.763427734375    id   575
+Sum SPSNR:  49859.830642700195
+Sum SSSIM:  575.0
+SSIM score: 1.0    id   576
+PSNR: 85.39434814453125    id   576
+Sum SPSNR:  49945.22499084473
+Sum SSSIM:  576.0
+SSIM score: 1.0    id   577
+PSNR: 88.93553161621094    id   577
+Sum SPSNR:  50034.16052246094
+Sum SSSIM:  577.0
+SSIM score: 1.0    id   578
+PSNR: 87.01828002929688    id   578
+Sum SPSNR:  50121.178802490234
+Sum SSSIM:  578.0
+SSIM score: 1.0    id   579
+PSNR: 89.12950134277344    id   579
+Sum SPSNR:  50210.30830383301
+Sum SSSIM:  579.0
+SSIM score: 1.0    id   580
+PSNR: 89.60620880126953    id   580
+Sum SPSNR:  50299.91451263428
+Sum SSSIM:  580.0
+SSIM score: 1.0    id   581
+PSNR: 92.26809692382812    id   581
+Sum SPSNR:  50392.182609558105
+Sum SSSIM:  581.0
+SSIM score: 1.0    id   582
+PSNR: 87.91777038574219    id   582
+Sum SPSNR:  50480.10037994385
+Sum SSSIM:  582.0
+SSIM score: 1.0    id   583
+PSNR: 87.91983795166016    id   583
+Sum SPSNR:  50568.02021789551
+Sum SSSIM:  583.0
+SSIM score: 1.0    id   584
+PSNR: 84.70355987548828    id   584
+Sum SPSNR:  50652.723777770996
+Sum SSSIM:  584.0
+SSIM score: 1.0    id   585
+PSNR: 89.09272003173828    id   585
+Sum SPSNR:  50741.816497802734
+Sum SSSIM:  585.0
+SSIM score: 1.0    id   586
+PSNR: 88.06535339355469    id   586
+Sum SPSNR:  50829.88185119629
+Sum SSSIM:  586.0
+SSIM score: 1.0    id   587
+PSNR: 86.80228424072266    id   587
+Sum SPSNR:  50916.68413543701
+Sum SSSIM:  587.0
+SSIM score: 1.0    id   588
+PSNR: 89.36131286621094    id   588
+Sum SPSNR:  51006.04544830322
+Sum SSSIM:  588.0
+SSIM score: 1.0    id   589
+PSNR: 89.63562774658203    id   589
+Sum SPSNR:  51095.681076049805
+Sum SSSIM:  589.0
+SSIM score: 1.0    id   590
+PSNR: 87.39861297607422    id   590
+Sum SPSNR:  51183.07968902588
+Sum SSSIM:  590.0
+SSIM score: 1.0    id   591
+PSNR: 83.56619262695312    id   591
+Sum SPSNR:  51266.64588165283
+Sum SSSIM:  591.0
+SSIM score: 1.0    id   592
+PSNR: 86.96742248535156    id   592
+Sum SPSNR:  51353.61330413818
+Sum SSSIM:  592.0
+SSIM score: 1.0    id   593
+PSNR: 87.6490707397461    id   593
+Sum SPSNR:  51441.26237487793
+Sum SSSIM:  593.0
+SSIM score: 1.0    id   594
+PSNR: 86.67853546142578    id   594
+Sum SPSNR:  51527.940910339355
+Sum SSSIM:  594.0
+SSIM score: 1.0    id   595
+PSNR: 85.69762420654297    id   595
+Sum SPSNR:  51613.6385345459
+Sum SSSIM:  595.0
+SSIM score: 1.0    id   596
+PSNR: 84.2905044555664    id   596
+Sum SPSNR:  51697.929039001465
+Sum SSSIM:  596.0
+SSIM score: 1.0    id   597
+PSNR: 87.6066665649414    id   597
+Sum SPSNR:  51785.535705566406
+Sum SSSIM:  597.0
+SSIM score: 1.0    id   598
+PSNR: 83.86781311035156    id   598
+Sum SPSNR:  51869.40351867676
+Sum SSSIM:  598.0
+SSIM score: 1.0    id   599
+PSNR: 89.25187683105469    id   599
+Sum SPSNR:  51958.65539550781
+Sum SSSIM:  599.0
+SSIM score: 1.0    id   600
+PSNR: 86.18037414550781    id   600
+Sum SPSNR:  52044.83576965332
+Sum SSSIM:  600.0
+SSIM score: 1.0    id   601
+PSNR: 87.09056091308594    id   601
+Sum SPSNR:  52131.926330566406
+Sum SSSIM:  601.0
+SSIM score: 1.0    id   602
+PSNR: 82.30477142333984    id   602
+Sum SPSNR:  52214.231101989746
+Sum SSSIM:  602.0
+SSIM score: 1.0    id   603
+PSNR: 85.02198028564453    id   603
+Sum SPSNR:  52299.25308227539
+Sum SSSIM:  603.0
+SSIM score: 1.0    id   604
+PSNR: 87.15589904785156    id   604
+Sum SPSNR:  52386.40898132324
+Sum SSSIM:  604.0
+SSIM score: 1.0    id   605
+PSNR: 85.7420425415039    id   605
+Sum SPSNR:  52472.151023864746
+Sum SSSIM:  605.0
+SSIM score: 1.0    id   606
+PSNR: 89.67205810546875    id   606
+Sum SPSNR:  52561.823081970215
+Sum SSSIM:  606.0
+SSIM score: 1.0    id   607
+PSNR: 83.2491226196289    id   607
+Sum SPSNR:  52645.072204589844
+Sum SSSIM:  607.0
+SSIM score: 1.0    id   608
+PSNR: 86.5163345336914    id   608
+Sum SPSNR:  52731.588539123535
+Sum SSSIM:  608.0
+SSIM score: 1.0    id   609
+PSNR: 85.00131225585938    id   609
+Sum SPSNR:  52816.589851379395
+Sum SSSIM:  609.0
+SSIM score: 1.0    id   610
+PSNR: 84.01420593261719    id   610
+Sum SPSNR:  52900.60405731201
+Sum SSSIM:  610.0
+SSIM score: 1.0    id   611
+PSNR: 85.32064819335938    id   611
+Sum SPSNR:  52985.92470550537
+Sum SSSIM:  611.0
+SSIM score: 1.0    id   612
+PSNR: 89.78736114501953    id   612
+Sum SPSNR:  53075.71206665039
+Sum SSSIM:  612.0
+SSIM score: 1.0    id   613
+PSNR: 86.40708923339844    id   613
+Sum SPSNR:  53162.11915588379
+Sum SSSIM:  613.0
+SSIM score: 1.0    id   614
+PSNR: 89.15474700927734    id   614
+Sum SPSNR:  53251.27390289307
+Sum SSSIM:  614.0
+SSIM score: 1.0    id   615
+PSNR: 83.45721435546875    id   615
+Sum SPSNR:  53334.731117248535
+Sum SSSIM:  615.0
+SSIM score: 1.0    id   616
+PSNR: 83.23387908935547    id   616
+Sum SPSNR:  53417.96499633789
+Sum SSSIM:  616.0
+SSIM score: 1.0    id   617
+PSNR: 90.2142333984375    id   617
+Sum SPSNR:  53508.17922973633
+Sum SSSIM:  617.0
+SSIM score: 1.0    id   618
+PSNR: 87.80376434326172    id   618
+Sum SPSNR:  53595.98299407959
+Sum SSSIM:  618.0
+SSIM score: 1.0    id   619
+PSNR: 91.54015350341797    id   619
+Sum SPSNR:  53687.52314758301
+Sum SSSIM:  619.0
+SSIM score: 1.0    id   620
+PSNR: 84.46998596191406    id   620
+Sum SPSNR:  53771.99313354492
+Sum SSSIM:  620.0
+SSIM score: 1.0    id   621
+PSNR: 83.05816650390625    id   621
+Sum SPSNR:  53855.05130004883
+Sum SSSIM:  621.0
+SSIM score: 1.0    id   622
+PSNR: 83.45254516601562    id   622
+Sum SPSNR:  53938.503845214844
+Sum SSSIM:  622.0
+SSIM score: 1.0    id   623
+PSNR: 90.52809143066406    id   623
+Sum SPSNR:  54029.03193664551
+Sum SSSIM:  623.0
+SSIM score: 1.0    id   624
+PSNR: 87.21253967285156    id   624
+Sum SPSNR:  54116.24447631836
+Sum SSSIM:  624.0
+SSIM score: 1.0    id   625
+PSNR: 85.57544708251953    id   625
+Sum SPSNR:  54201.81992340088
+Sum SSSIM:  625.0
+SSIM score: 1.0    id   626
+PSNR: 86.600341796875    id   626
+Sum SPSNR:  54288.420265197754
+Sum SSSIM:  626.0
+SSIM score: 1.0    id   627
+PSNR: 84.96498107910156    id   627
+Sum SPSNR:  54373.385246276855
+Sum SSSIM:  627.0
+SSIM score: 1.0    id   628
+PSNR: 89.99638366699219    id   628
+Sum SPSNR:  54463.38162994385
+Sum SSSIM:  628.0
+SSIM score: 1.0    id   629
+PSNR: 89.40657806396484    id   629
+Sum SPSNR:  54552.78820800781
+Sum SSSIM:  629.0
+SSIM score: 1.0    id   630
+PSNR: 89.58610534667969    id   630
+Sum SPSNR:  54642.37431335449
+Sum SSSIM:  630.0
+SSIM score: 1.0    id   631
+PSNR: 86.89010620117188    id   631
+Sum SPSNR:  54729.264419555664
+Sum SSSIM:  631.0
+SSIM score: 1.0    id   632
+PSNR: 84.97306060791016    id   632
+Sum SPSNR:  54814.237480163574
+Sum SSSIM:  632.0
+SSIM score: 1.0    id   633
+PSNR: 83.57691955566406    id   633
+Sum SPSNR:  54897.81439971924
+Sum SSSIM:  633.0
+SSIM score: 1.0    id   634
+PSNR: 86.23665618896484    id   634
+Sum SPSNR:  54984.0510559082
+Sum SSSIM:  634.0
+SSIM score: 1.0    id   635
+PSNR: 85.57713317871094    id   635
+Sum SPSNR:  55069.628189086914
+Sum SSSIM:  635.0
+SSIM score: 1.0    id   636
+PSNR: 88.28182220458984    id   636
+Sum SPSNR:  55157.910011291504
+Sum SSSIM:  636.0
+SSIM score: 1.0    id   637
+PSNR: 84.43327331542969    id   637
+Sum SPSNR:  55242.34328460693
+Sum SSSIM:  637.0
+SSIM score: 1.0    id   638
+PSNR: 89.99604797363281    id   638
+Sum SPSNR:  55332.33933258057
+Sum SSSIM:  638.0
+SSIM score: 1.0    id   639
+PSNR: 86.71337127685547    id   639
+Sum SPSNR:  55419.05270385742
+Sum SSSIM:  639.0
+SSIM score: 1.0    id   640
+PSNR: 90.4625015258789    id   640
+Sum SPSNR:  55509.5152053833
+Sum SSSIM:  640.0
+SSIM score: 1.0    id   641
+PSNR: 84.9504165649414    id   641
+Sum SPSNR:  55594.46562194824
+Sum SSSIM:  641.0
+SSIM score: 1.0    id   642
+PSNR: 84.8272705078125    id   642
+Sum SPSNR:  55679.292892456055
+Sum SSSIM:  642.0
+SSIM score: 1.0    id   643
+PSNR: 88.12269592285156    id   643
+Sum SPSNR:  55767.415588378906
+Sum SSSIM:  643.0
+SSIM score: 1.0    id   644
+PSNR: 87.34566497802734    id   644
+Sum SPSNR:  55854.76125335693
+Sum SSSIM:  644.0
+SSIM score: 1.0    id   645
+PSNR: 86.68257904052734    id   645
+Sum SPSNR:  55941.44383239746
+Sum SSSIM:  645.0
+SSIM score: 1.0    id   646
+PSNR: 86.7298812866211    id   646
+Sum SPSNR:  56028.17371368408
+Sum SSSIM:  646.0
+SSIM score: 1.0    id   647
+PSNR: 87.26744842529297    id   647
+Sum SPSNR:  56115.441162109375
+Sum SSSIM:  647.0
+SSIM score: 1.0    id   648
+PSNR: 84.12652587890625    id   648
+Sum SPSNR:  56199.56768798828
+Sum SSSIM:  648.0
+SSIM score: 1.0    id   649
+PSNR: 85.56881713867188    id   649
+Sum SPSNR:  56285.13650512695
+Sum SSSIM:  649.0
+SSIM score: 1.0    id   650
+PSNR: 89.68136596679688    id   650
+Sum SPSNR:  56374.81787109375
+Sum SSSIM:  650.0
+SSIM score: 1.0    id   651
+PSNR: 84.46858215332031    id   651
+Sum SPSNR:  56459.28645324707
+Sum SSSIM:  651.0
+SSIM score: 1.0    id   652
+PSNR: 87.10958862304688    id   652
+Sum SPSNR:  56546.39604187012
+Sum SSSIM:  652.0
+SSIM score: 1.0    id   653
+PSNR: 88.171142578125    id   653
+Sum SPSNR:  56634.56718444824
+Sum SSSIM:  653.0
+SSIM score: 1.0    id   654
+PSNR: 89.26399993896484    id   654
+Sum SPSNR:  56723.83118438721
+Sum SSSIM:  654.0
+SSIM score: 1.0    id   655
+PSNR: 85.20750427246094    id   655
+Sum SPSNR:  56809.03868865967
+Sum SSSIM:  655.0
+SSIM score: 1.0    id   656
+PSNR: 87.7852554321289    id   656
+Sum SPSNR:  56896.8239440918
+Sum SSSIM:  656.0
+SSIM score: 1.0    id   657
+PSNR: 88.19644927978516    id   657
+Sum SPSNR:  56985.02039337158
+Sum SSSIM:  657.0
+SSIM score: 1.0    id   658
+PSNR: 87.80780029296875    id   658
+Sum SPSNR:  57072.82819366455
+Sum SSSIM:  658.0
+SSIM score: 1.0    id   659
+PSNR: 87.07501220703125    id   659
+Sum SPSNR:  57159.90320587158
+Sum SSSIM:  659.0
+SSIM score: 1.0    id   660
+PSNR: 85.7783203125    id   660
+Sum SPSNR:  57245.68152618408
+Sum SSSIM:  660.0
+SSIM score: 1.0    id   661
+PSNR: 84.08180236816406    id   661
+Sum SPSNR:  57329.763328552246
+Sum SSSIM:  661.0
+SSIM score: 1.0    id   662
+PSNR: 86.74375915527344    id   662
+Sum SPSNR:  57416.50708770752
+Sum SSSIM:  662.0
+SSIM score: 1.0    id   663
+PSNR: 86.65230560302734    id   663
+Sum SPSNR:  57503.15939331055
+Sum SSSIM:  663.0
+SSIM score: 1.0    id   664
+PSNR: 83.67735290527344    id   664
+Sum SPSNR:  57586.83674621582
+Sum SSSIM:  664.0
+SSIM score: 1.0    id   665
+PSNR: 88.54537963867188    id   665
+Sum SPSNR:  57675.38212585449
+Sum SSSIM:  665.0
+SSIM score: 1.0    id   666
+PSNR: 83.71548461914062    id   666
+Sum SPSNR:  57759.09761047363
+Sum SSSIM:  666.0
+SSIM score: 1.0    id   667
+PSNR: 83.48613739013672    id   667
+Sum SPSNR:  57842.58374786377
+Sum SSSIM:  667.0
+SSIM score: 1.0    id   668
+PSNR: 89.99171447753906    id   668
+Sum SPSNR:  57932.57546234131
+Sum SSSIM:  668.0
+SSIM score: 1.0    id   669
+PSNR: 90.81366729736328    id   669
+Sum SPSNR:  58023.38912963867
+Sum SSSIM:  669.0
+SSIM score: 1.0    id   670
+PSNR: 90.33858489990234    id   670
+Sum SPSNR:  58113.727714538574
+Sum SSSIM:  670.0
+SSIM score: 1.0    id   671
+PSNR: 87.29408264160156    id   671
+Sum SPSNR:  58201.021797180176
+Sum SSSIM:  671.0
+SSIM score: 1.0    id   672
+PSNR: 85.96781921386719    id   672
+Sum SPSNR:  58286.98961639404
+Sum SSSIM:  672.0
+SSIM score: 1.0    id   673
+PSNR: 84.0335464477539    id   673
+Sum SPSNR:  58371.0231628418
+Sum SSSIM:  673.0
+SSIM score: 1.0    id   674
+PSNR: 86.59194946289062    id   674
+Sum SPSNR:  58457.61511230469
+Sum SSSIM:  674.0
+SSIM score: 1.0    id   675
+PSNR: 86.45588684082031    id   675
+Sum SPSNR:  58544.07099914551
+Sum SSSIM:  675.0
+SSIM score: 1.0    id   676
+PSNR: 86.7439193725586    id   676
+Sum SPSNR:  58630.81491851807
+Sum SSSIM:  676.0
+SSIM score: 1.0    id   677
+PSNR: 90.17471313476562    id   677
+Sum SPSNR:  58720.98963165283
+Sum SSSIM:  677.0
+SSIM score: 1.0    id   678
+PSNR: 83.19882202148438    id   678
+Sum SPSNR:  58804.18845367432
+Sum SSSIM:  678.0
+SSIM score: 1.0    id   679
+PSNR: 88.8881607055664    id   679
+Sum SPSNR:  58893.07661437988
+Sum SSSIM:  679.0
+SSIM score: 1.0    id   680
+PSNR: 84.29877471923828    id   680
+Sum SPSNR:  58977.37538909912
+Sum SSSIM:  680.0
+SSIM score: 1.0    id   681
+PSNR: 85.38717651367188    id   681
+Sum SPSNR:  59062.76256561279
+Sum SSSIM:  681.0
+SSIM score: 1.0    id   682
+PSNR: 90.35269927978516    id   682
+Sum SPSNR:  59153.11526489258
+Sum SSSIM:  682.0
+SSIM score: 1.0    id   683
+PSNR: 87.1197509765625    id   683
+Sum SPSNR:  59240.23501586914
+Sum SSSIM:  683.0
+SSIM score: 1.0    id   684
+PSNR: 86.44127655029297    id   684
+Sum SPSNR:  59326.67629241943
+Sum SSSIM:  684.0
+SSIM score: 1.0    id   685
+PSNR: 85.87178039550781    id   685
+Sum SPSNR:  59412.54807281494
+Sum SSSIM:  685.0
+SSIM score: 1.0    id   686
+PSNR: 89.80107116699219    id   686
+Sum SPSNR:  59502.34914398193
+Sum SSSIM:  686.0
+SSIM score: 1.0    id   687
+PSNR: 85.08621978759766    id   687
+Sum SPSNR:  59587.43536376953
+Sum SSSIM:  687.0
+SSIM score: 1.0    id   688
+PSNR: 85.39920806884766    id   688
+Sum SPSNR:  59672.83457183838
+Sum SSSIM:  688.0
+SSIM score: 1.0    id   689
+PSNR: 88.99268341064453    id   689
+Sum SPSNR:  59761.82725524902
+Sum SSSIM:  689.0
+SSIM score: 1.0    id   690
+PSNR: 86.88961029052734    id   690
+Sum SPSNR:  59848.71686553955
+Sum SSSIM:  690.0
+SSIM score: 1.0    id   691
+PSNR: 90.61387634277344    id   691
+Sum SPSNR:  59939.330741882324
+Sum SSSIM:  691.0
+SSIM score: 1.0    id   692
+PSNR: 90.97342681884766    id   692
+Sum SPSNR:  60030.30416870117
+Sum SSSIM:  692.0
+SSIM score: 1.0    id   693
+PSNR: 88.34440612792969    id   693
+Sum SPSNR:  60118.6485748291
+Sum SSSIM:  693.0
+SSIM score: 1.0    id   694
+PSNR: 86.40402221679688    id   694
+Sum SPSNR:  60205.0525970459
+Sum SSSIM:  694.0
+SSIM score: 1.0    id   695
+PSNR: 91.5866470336914    id   695
+Sum SPSNR:  60296.63924407959
+Sum SSSIM:  695.0
+SSIM score: 1.0    id   696
+PSNR: 88.32503509521484    id   696
+Sum SPSNR:  60384.964279174805
+Sum SSSIM:  696.0
+SSIM score: 1.0    id   697
+PSNR: 86.43333435058594    id   697
+Sum SPSNR:  60471.39761352539
+Sum SSSIM:  697.0
+SSIM score: 1.0    id   698
+PSNR: 84.09886169433594    id   698
+Sum SPSNR:  60555.49647521973
+Sum SSSIM:  698.0
+SSIM score: 1.0    id   699
+PSNR: 88.73957824707031    id   699
+Sum SPSNR:  60644.2360534668
+Sum SSSIM:  699.0
+SSIM score: 1.0    id   700
+PSNR: 88.87574768066406    id   700
+Sum SPSNR:  60733.11180114746
+Sum SSSIM:  700.0
+SSIM score: 1.0    id   701
+PSNR: 89.1196517944336    id   701
+Sum SPSNR:  60822.231452941895
+Sum SSSIM:  701.0
+SSIM score: 1.0    id   702
+PSNR: 83.05918884277344    id   702
+Sum SPSNR:  60905.29064178467
+Sum SSSIM:  702.0
+SSIM score: 1.0    id   703
+PSNR: 87.56256866455078    id   703
+Sum SPSNR:  60992.85321044922
+Sum SSSIM:  703.0
+SSIM score: 1.0    id   704
+PSNR: 83.24664306640625    id   704
+Sum SPSNR:  61076.099853515625
+Sum SSSIM:  704.0
+SSIM score: 1.0    id   705
+PSNR: 84.97148132324219    id   705
+Sum SPSNR:  61161.07133483887
+Sum SSSIM:  705.0
+SSIM score: 1.0    id   706
+PSNR: 83.89823150634766    id   706
+Sum SPSNR:  61244.969566345215
+Sum SSSIM:  706.0
+SSIM score: 1.0    id   707
+PSNR: 84.73040771484375    id   707
+Sum SPSNR:  61329.69997406006
+Sum SSSIM:  707.0
+SSIM score: 1.0    id   708
+PSNR: 90.3537826538086    id   708
+Sum SPSNR:  61420.05375671387
+Sum SSSIM:  708.0
+SSIM score: 1.0    id   709
+PSNR: 89.41329193115234    id   709
+Sum SPSNR:  61509.46704864502
+Sum SSSIM:  709.0
+SSIM score: 1.0    id   710
+PSNR: 88.85540771484375    id   710
+Sum SPSNR:  61598.32245635986
+Sum SSSIM:  710.0
+SSIM score: 1.0    id   711
+PSNR: 88.23592376708984    id   711
+Sum SPSNR:  61686.55838012695
+Sum SSSIM:  711.0
+SSIM score: 1.0    id   712
+PSNR: 87.32846069335938    id   712
+Sum SPSNR:  61773.88684082031
+Sum SSSIM:  712.0
+SSIM score: 1.0    id   713
+PSNR: 88.42972564697266    id   713
+Sum SPSNR:  61862.316566467285
+Sum SSSIM:  713.0
+SSIM score: 1.0    id   714
+PSNR: 88.35903930664062    id   714
+Sum SPSNR:  61950.675605773926
+Sum SSSIM:  714.0
+SSIM score: 1.0    id   715
+PSNR: 83.57295989990234    id   715
+Sum SPSNR:  62034.24856567383
+Sum SSSIM:  715.0
+SSIM score: 1.0    id   716
+PSNR: 90.37742614746094    id   716
+Sum SPSNR:  62124.62599182129
+Sum SSSIM:  716.0
+SSIM score: 1.0    id   717
+PSNR: 88.00411224365234    id   717
+Sum SPSNR:  62212.63010406494
+Sum SSSIM:  717.0
+SSIM score: 1.0    id   718
+PSNR: 88.74457550048828    id   718
+Sum SPSNR:  62301.37467956543
+Sum SSSIM:  718.0
+SSIM score: 1.0    id   719
+PSNR: 86.8271713256836    id   719
+Sum SPSNR:  62388.20185089111
+Sum SSSIM:  719.0
+SSIM score: 1.0    id   720
+PSNR: 88.03058624267578    id   720
+Sum SPSNR:  62476.23243713379
+Sum SSSIM:  720.0
+SSIM score: 1.0    id   721
+PSNR: 86.2171630859375    id   721
+Sum SPSNR:  62562.44960021973
+Sum SSSIM:  721.0
+SSIM score: 1.0    id   722
+PSNR: 82.70280456542969    id   722
+Sum SPSNR:  62645.152404785156
+Sum SSSIM:  722.0
+SSIM score: 1.0    id   723
+PSNR: 84.89134979248047    id   723
+Sum SPSNR:  62730.04375457764
+Sum SSSIM:  723.0
+SSIM score: 1.0    id   724
+PSNR: 84.23146057128906    id   724
+Sum SPSNR:  62814.275215148926
+Sum SSSIM:  724.0
+SSIM score: 1.0    id   725
+PSNR: 84.16465759277344    id   725
+Sum SPSNR:  62898.4398727417
+Sum SSSIM:  725.0
+SSIM score: 1.0    id   726
+PSNR: 87.14237213134766    id   726
+Sum SPSNR:  62985.58224487305
+Sum SSSIM:  726.0
+SSIM score: 1.0    id   727
+PSNR: 88.4669189453125    id   727
+Sum SPSNR:  63074.04916381836
+Sum SSSIM:  727.0
+SSIM score: 1.0    id   728
+PSNR: 83.52767944335938    id   728
+Sum SPSNR:  63157.57684326172
+Sum SSSIM:  728.0
+SSIM score: 1.0    id   729
+PSNR: 88.6335678100586    id   729
+Sum SPSNR:  63246.21041107178
+Sum SSSIM:  729.0
+SSIM score: 1.0    id   730
+PSNR: 88.6600112915039    id   730
+Sum SPSNR:  63334.87042236328
+Sum SSSIM:  730.0
+SSIM score: 1.0    id   731
+PSNR: 82.83038330078125    id   731
+Sum SPSNR:  63417.70080566406
+Sum SSSIM:  731.0
+SSIM score: 1.0    id   732
+PSNR: 90.42178344726562    id   732
+Sum SPSNR:  63508.12258911133
+Sum SSSIM:  732.0
+SSIM score: 1.0    id   733
+PSNR: 84.18827056884766    id   733
+Sum SPSNR:  63592.310859680176
+Sum SSSIM:  733.0
+SSIM score: 1.0    id   734
+PSNR: 86.11578369140625    id   734
+Sum SPSNR:  63678.42664337158
+Sum SSSIM:  734.0
+SSIM score: 1.0    id   735
+PSNR: 82.73444366455078    id   735
+Sum SPSNR:  63761.16108703613
+Sum SSSIM:  735.0
+SSIM score: 1.0    id   736
+PSNR: 89.28976440429688    id   736
+Sum SPSNR:  63850.45085144043
+Sum SSSIM:  736.0
+SSIM score: 1.0    id   737
+PSNR: 87.67013549804688    id   737
+Sum SPSNR:  63938.12098693848
+Sum SSSIM:  737.0
+SSIM score: 1.0    id   738
+PSNR: 88.0552978515625    id   738
+Sum SPSNR:  64026.17628479004
+Sum SSSIM:  738.0
+SSIM score: 1.0    id   739
+PSNR: 86.53721618652344    id   739
+Sum SPSNR:  64112.71350097656
+Sum SSSIM:  739.0
+SSIM score: 1.0    id   740
+PSNR: 83.4604721069336    id   740
+Sum SPSNR:  64196.173973083496
+Sum SSSIM:  740.0
+SSIM score: 1.0    id   741
+PSNR: 84.44004821777344    id   741
+Sum SPSNR:  64280.61402130127
+Sum SSSIM:  741.0
+SSIM score: 1.0    id   742
+PSNR: 87.3665771484375    id   742
+Sum SPSNR:  64367.98059844971
+Sum SSSIM:  742.0
+SSIM score: 1.0    id   743
+PSNR: 89.77369689941406    id   743
+Sum SPSNR:  64457.75429534912
+Sum SSSIM:  743.0
+SSIM score: 1.0    id   744
+PSNR: 89.14952087402344    id   744
+Sum SPSNR:  64546.903816223145
+Sum SSSIM:  744.0
+SSIM score: 1.0    id   745
+PSNR: 88.61141204833984    id   745
+Sum SPSNR:  64635.515228271484
+Sum SSSIM:  745.0
+SSIM score: 1.0    id   746
+PSNR: 84.71988677978516    id   746
+Sum SPSNR:  64720.23511505127
+Sum SSSIM:  746.0
+SSIM score: 1.0    id   747
+PSNR: 88.06535339355469    id   747
+Sum SPSNR:  64808.300468444824
+Sum SSSIM:  747.0
+SSIM score: 1.0    id   748
+PSNR: 82.97300720214844    id   748
+Sum SPSNR:  64891.27347564697
+Sum SSSIM:  748.0
+SSIM score: 1.0    id   749
+PSNR: 86.16748809814453    id   749
+Sum SPSNR:  64977.44096374512
+Sum SSSIM:  749.0
+SSIM score: 1.0    id   750
+PSNR: 88.96361541748047    id   750
+Sum SPSNR:  65066.4045791626
+Sum SSSIM:  750.0
+SSIM score: 1.0    id   751
+PSNR: 85.51026916503906    id   751
+Sum SPSNR:  65151.91484832764
+Sum SSSIM:  751.0
+SSIM score: 1.0    id   752
+PSNR: 87.15902709960938    id   752
+Sum SPSNR:  65239.073875427246
+Sum SSSIM:  752.0
+SSIM score: 1.0    id   753
+PSNR: 87.00885772705078    id   753
+Sum SPSNR:  65326.0827331543
+Sum SSSIM:  753.0
+SSIM score: 1.0    id   754
+PSNR: 85.637451171875    id   754
+Sum SPSNR:  65411.72018432617
+Sum SSSIM:  754.0
+SSIM score: 1.0    id   755
+PSNR: 83.57288360595703    id   755
+Sum SPSNR:  65495.29306793213
+Sum SSSIM:  755.0
+SSIM score: 1.0    id   756
+PSNR: 86.37881469726562    id   756
+Sum SPSNR:  65581.6718826294
+Sum SSSIM:  756.0
+SSIM score: 1.0    id   757
+PSNR: 92.1201400756836    id   757
+Sum SPSNR:  65673.79202270508
+Sum SSSIM:  757.0
+SSIM score: 1.0    id   758
+PSNR: 87.0574951171875    id   758
+Sum SPSNR:  65760.84951782227
+Sum SSSIM:  758.0
+SSIM score: 1.0    id   759
+PSNR: 89.37056732177734    id   759
+Sum SPSNR:  65850.22008514404
+Sum SSSIM:  759.0
+SSIM score: 1.0    id   760
+PSNR: 86.71807861328125    id   760
+Sum SPSNR:  65936.93816375732
+Sum SSSIM:  760.0
+SSIM score: 1.0    id   761
+PSNR: 86.98909759521484    id   761
+Sum SPSNR:  66023.92726135254
+Sum SSSIM:  761.0
+SSIM score: 1.0    id   762
+PSNR: 84.76252746582031    id   762
+Sum SPSNR:  66108.68978881836
+Sum SSSIM:  762.0
+SSIM score: 1.0    id   763
+PSNR: 83.62950134277344    id   763
+Sum SPSNR:  66192.31929016113
+Sum SSSIM:  763.0
+SSIM score: 1.0    id   764
+PSNR: 87.61669921875    id   764
+Sum SPSNR:  66279.93598937988
+Sum SSSIM:  764.0
+SSIM score: 1.0    id   765
+PSNR: 91.089599609375    id   765
+Sum SPSNR:  66371.02558898926
+Sum SSSIM:  765.0
+SSIM score: 1.0    id   766
+PSNR: 86.86956787109375    id   766
+Sum SPSNR:  66457.89515686035
+Sum SSSIM:  766.0
+SSIM score: 1.0    id   767
+PSNR: 91.34899139404297    id   767
+Sum SPSNR:  66549.2441482544
+Sum SSSIM:  767.0
+SSIM score: 1.0    id   768
+PSNR: 89.16825103759766    id   768
+Sum SPSNR:  66638.41239929199
+Sum SSSIM:  768.0
+SSIM score: 1.0    id   769
+PSNR: 85.1975326538086    id   769
+Sum SPSNR:  66723.6099319458
+Sum SSSIM:  769.0
+SSIM score: 1.0    id   770
+PSNR: 88.99268341064453    id   770
+Sum SPSNR:  66812.60261535645
+Sum SSSIM:  770.0
+SSIM score: 1.0    id   771
+PSNR: 89.50927734375    id   771
+Sum SPSNR:  66902.1118927002
+Sum SSSIM:  771.0
+SSIM score: 1.0    id   772
+PSNR: 87.15972137451172    id   772
+Sum SPSNR:  66989.2716140747
+Sum SSSIM:  772.0
+SSIM score: 1.0    id   773
+PSNR: 86.35145568847656    id   773
+Sum SPSNR:  67075.62306976318
+Sum SSSIM:  773.0
+SSIM score: 1.0    id   774
+PSNR: 88.75385284423828    id   774
+Sum SPSNR:  67164.37692260742
+Sum SSSIM:  774.0
+SSIM score: 1.0    id   775
+PSNR: 83.99336242675781    id   775
+Sum SPSNR:  67248.37028503418
+Sum SSSIM:  775.0
+SSIM score: 1.0    id   776
+PSNR: 88.94076538085938    id   776
+Sum SPSNR:  67337.31105041504
+Sum SSSIM:  776.0
+SSIM score: 1.0    id   777
+PSNR: 84.81155395507812    id   777
+Sum SPSNR:  67422.12260437012
+Sum SSSIM:  777.0
+SSIM score: 1.0    id   778
+PSNR: 87.51136779785156    id   778
+Sum SPSNR:  67509.63397216797
+Sum SSSIM:  778.0
+SSIM score: 1.0    id   779
+PSNR: 83.48733520507812    id   779
+Sum SPSNR:  67593.12130737305
+Sum SSSIM:  779.0
+SSIM: TB  1.0
+PSNR: TB  86.7690902533672
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  2293
+adv_correct:  779
+accuracy of adv imgs in testing set: 0.746419
+
+adv succeeded 0.253581
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 74,
+        "adv_succeed_%": 0.3333333333333333
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 35,
+        "adv_succeed_%": 0.3181818181818182
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 45,
+        "adv_succeed_%": 0.2727272727272727
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 108,
+        "adv_succeed_%": 0.11203319502074689
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 81,
+        "adv_succeed_%": 0.3403361344537815
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 52,
+        "adv_succeed_%": 0.26666666666666666
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 42,
+        "adv_succeed_%": 0.21428571428571427
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 85,
+        "adv_succeed_%": 0.38990825688073394
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 243,
+        "adv_succeed_%": 0.36377245508982037
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 14,
+        "adv_succeed_%": 0.14583333333333334
+    }
+}
+222.21866869926453
+==================================================================
+667.9790906906128
+1691875029.9054315 running
+CUDA Available:  True
+=================== cifar10_shufflenetv2_x2_0 ===============================================
+./models/netG.pth.tar.600
+1691875032.3240404  running gen  8
+Files already downloaded and verified
+len(test_dataloader):  10000
+8 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 84.80345916748047    id   1
+Sum SPSNR:  84.80345916748047
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 84.92343139648438    id   2
+Sum SPSNR:  169.72689056396484
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 87.22382354736328    id   3
+Sum SPSNR:  256.9507141113281
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 82.73745727539062    id   4
+Sum SPSNR:  339.68817138671875
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 85.0083999633789    id   5
+Sum SPSNR:  424.69657135009766
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 84.85540771484375    id   6
+Sum SPSNR:  509.5519790649414
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 86.77133178710938    id   7
+Sum SPSNR:  596.3233108520508
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 87.6803207397461    id   8
+Sum SPSNR:  684.0036315917969
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 82.65824127197266    id   9
+Sum SPSNR:  766.6618728637695
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 83.24078369140625    id   10
+Sum SPSNR:  849.9026565551758
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 83.11931610107422    id   11
+Sum SPSNR:  933.02197265625
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 84.65437316894531    id   12
+Sum SPSNR:  1017.6763458251953
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 91.88372802734375    id   13
+Sum SPSNR:  1109.560073852539
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 89.3772201538086    id   14
+Sum SPSNR:  1198.9372940063477
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 82.45796203613281    id   15
+Sum SPSNR:  1281.3952560424805
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 85.67322540283203    id   16
+Sum SPSNR:  1367.0684814453125
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 87.20989990234375    id   17
+Sum SPSNR:  1454.2783813476562
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 83.87498474121094    id   18
+Sum SPSNR:  1538.1533660888672
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 83.80979919433594    id   19
+Sum SPSNR:  1621.9631652832031
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 82.51641082763672    id   20
+Sum SPSNR:  1704.4795761108398
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 84.79225158691406    id   21
+Sum SPSNR:  1789.271827697754
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 82.5572509765625    id   22
+Sum SPSNR:  1871.8290786743164
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 88.01976013183594    id   23
+Sum SPSNR:  1959.8488388061523
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 84.2562484741211    id   24
+Sum SPSNR:  2044.1050872802734
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 82.25009155273438    id   25
+Sum SPSNR:  2126.355178833008
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 82.58365631103516    id   26
+Sum SPSNR:  2208.938835144043
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 90.10565948486328    id   27
+Sum SPSNR:  2299.0444946289062
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 88.12617492675781    id   28
+Sum SPSNR:  2387.170669555664
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 83.19428253173828    id   29
+Sum SPSNR:  2470.3649520874023
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 85.68547058105469    id   30
+Sum SPSNR:  2556.050422668457
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 81.33155822753906    id   31
+Sum SPSNR:  2637.381980895996
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 88.32730102539062    id   32
+Sum SPSNR:  2725.7092819213867
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 89.69879913330078    id   33
+Sum SPSNR:  2815.4080810546875
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 89.60437774658203    id   34
+Sum SPSNR:  2905.0124588012695
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 82.72598266601562    id   35
+Sum SPSNR:  2987.738441467285
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 84.82838439941406    id   36
+Sum SPSNR:  3072.566825866699
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 84.21061706542969    id   37
+Sum SPSNR:  3156.777442932129
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 83.79446411132812    id   38
+Sum SPSNR:  3240.571907043457
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 84.36979675292969    id   39
+Sum SPSNR:  3324.9417037963867
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 82.34703826904297    id   40
+Sum SPSNR:  3407.2887420654297
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 83.16085815429688    id   41
+Sum SPSNR:  3490.4496002197266
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 84.7053451538086    id   42
+Sum SPSNR:  3575.154945373535
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 87.63993072509766    id   43
+Sum SPSNR:  3662.794876098633
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 84.72614288330078    id   44
+Sum SPSNR:  3747.5210189819336
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 85.59056091308594    id   45
+Sum SPSNR:  3833.1115798950195
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 84.30949401855469    id   46
+Sum SPSNR:  3917.421073913574
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 88.5823745727539    id   47
+Sum SPSNR:  4006.003448486328
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 81.06243896484375    id   48
+Sum SPSNR:  4087.065887451172
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 85.91216278076172    id   49
+Sum SPSNR:  4172.978050231934
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 84.73051452636719    id   50
+Sum SPSNR:  4257.708564758301
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 86.89762878417969    id   51
+Sum SPSNR:  4344.6061935424805
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 83.76858520507812    id   52
+Sum SPSNR:  4428.374778747559
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 87.55780029296875    id   53
+Sum SPSNR:  4515.932579040527
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 86.96442413330078    id   54
+Sum SPSNR:  4602.897003173828
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 85.00617980957031    id   55
+Sum SPSNR:  4687.903182983398
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 86.39453125    id   56
+Sum SPSNR:  4774.297714233398
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 88.76189422607422    id   57
+Sum SPSNR:  4863.059608459473
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 83.18843078613281    id   58
+Sum SPSNR:  4946.2480392456055
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 86.15850830078125    id   59
+Sum SPSNR:  5032.406547546387
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 83.38845825195312    id   60
+Sum SPSNR:  5115.79500579834
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 85.96240997314453    id   61
+Sum SPSNR:  5201.757415771484
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 87.91300964355469    id   62
+Sum SPSNR:  5289.670425415039
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 85.818603515625    id   63
+Sum SPSNR:  5375.489028930664
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 84.10565185546875    id   64
+Sum SPSNR:  5459.594680786133
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 85.71080017089844    id   65
+Sum SPSNR:  5545.305480957031
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 86.56942749023438    id   66
+Sum SPSNR:  5631.874908447266
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 82.01908111572266    id   67
+Sum SPSNR:  5713.893989562988
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 90.48076629638672    id   68
+Sum SPSNR:  5804.374755859375
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 87.58475494384766    id   69
+Sum SPSNR:  5891.959510803223
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 83.99940490722656    id   70
+Sum SPSNR:  5975.958915710449
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 88.3732681274414    id   71
+Sum SPSNR:  6064.332183837891
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 87.02584838867188    id   72
+Sum SPSNR:  6151.3580322265625
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 87.68836212158203    id   73
+Sum SPSNR:  6239.0463943481445
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 83.49301147460938    id   74
+Sum SPSNR:  6322.539405822754
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 85.1840591430664    id   75
+Sum SPSNR:  6407.72346496582
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 83.01350402832031    id   76
+Sum SPSNR:  6490.736968994141
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 88.90839385986328    id   77
+Sum SPSNR:  6579.645362854004
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 85.14015197753906    id   78
+Sum SPSNR:  6664.785514831543
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 89.8189926147461    id   79
+Sum SPSNR:  6754.604507446289
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 83.39934539794922    id   80
+Sum SPSNR:  6838.003852844238
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 88.64138793945312    id   81
+Sum SPSNR:  6926.645240783691
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 86.56304931640625    id   82
+Sum SPSNR:  7013.208290100098
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 86.66532897949219    id   83
+Sum SPSNR:  7099.87361907959
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 87.35783386230469    id   84
+Sum SPSNR:  7187.2314529418945
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 83.49547576904297    id   85
+Sum SPSNR:  7270.7269287109375
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 81.91017150878906    id   86
+Sum SPSNR:  7352.637100219727
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 86.38841247558594    id   87
+Sum SPSNR:  7439.0255126953125
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 88.26766204833984    id   88
+Sum SPSNR:  7527.293174743652
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 84.94666290283203    id   89
+Sum SPSNR:  7612.239837646484
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 85.96029663085938    id   90
+Sum SPSNR:  7698.200134277344
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 85.02528381347656    id   91
+Sum SPSNR:  7783.22541809082
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 89.41242218017578    id   92
+Sum SPSNR:  7872.637840270996
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 87.63043212890625    id   93
+Sum SPSNR:  7960.268272399902
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 83.55305480957031    id   94
+Sum SPSNR:  8043.821327209473
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 84.40192413330078    id   95
+Sum SPSNR:  8128.223251342773
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 85.09561157226562    id   96
+Sum SPSNR:  8213.318862915039
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 88.96361541748047    id   97
+Sum SPSNR:  8302.28247833252
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 86.19329833984375    id   98
+Sum SPSNR:  8388.475776672363
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 81.7532730102539    id   99
+Sum SPSNR:  8470.229049682617
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 84.94790649414062    id   100
+Sum SPSNR:  8555.176956176758
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 86.21017456054688    id   101
+Sum SPSNR:  8641.387130737305
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 86.77387237548828    id   102
+Sum SPSNR:  8728.161003112793
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 82.64573669433594    id   103
+Sum SPSNR:  8810.806739807129
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 89.88752746582031    id   104
+Sum SPSNR:  8900.69426727295
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 88.40696716308594    id   105
+Sum SPSNR:  8989.101234436035
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 86.54219818115234    id   106
+Sum SPSNR:  9075.643432617188
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 87.4173812866211    id   107
+Sum SPSNR:  9163.060813903809
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 90.14834594726562    id   108
+Sum SPSNR:  9253.209159851074
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 82.71185302734375    id   109
+Sum SPSNR:  9335.921012878418
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 85.03081512451172    id   110
+Sum SPSNR:  9420.95182800293
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 88.42041778564453    id   111
+Sum SPSNR:  9509.372245788574
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 82.51791381835938    id   112
+Sum SPSNR:  9591.890159606934
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 89.05490112304688    id   113
+Sum SPSNR:  9680.94506072998
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 81.27029418945312    id   114
+Sum SPSNR:  9762.215354919434
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 84.6689453125    id   115
+Sum SPSNR:  9846.884300231934
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 87.95455932617188    id   116
+Sum SPSNR:  9934.838859558105
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 87.03581237792969    id   117
+Sum SPSNR:  10021.874671936035
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 82.87870788574219    id   118
+Sum SPSNR:  10104.753379821777
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 86.9705810546875    id   119
+Sum SPSNR:  10191.723960876465
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 85.07103729248047    id   120
+Sum SPSNR:  10276.794998168945
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 85.04061889648438    id   121
+Sum SPSNR:  10361.83561706543
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 84.75363159179688    id   122
+Sum SPSNR:  10446.589248657227
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 83.65556335449219    id   123
+Sum SPSNR:  10530.244812011719
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 85.26579284667969    id   124
+Sum SPSNR:  10615.510604858398
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 83.69163513183594    id   125
+Sum SPSNR:  10699.202239990234
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 88.32798767089844    id   126
+Sum SPSNR:  10787.530227661133
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 87.10839080810547    id   127
+Sum SPSNR:  10874.638618469238
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 82.95951080322266    id   128
+Sum SPSNR:  10957.598129272461
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 86.06563568115234    id   129
+Sum SPSNR:  11043.663764953613
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 85.60730743408203    id   130
+Sum SPSNR:  11129.271072387695
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 83.743896484375    id   131
+Sum SPSNR:  11213.01496887207
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 85.691162109375    id   132
+Sum SPSNR:  11298.706130981445
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 87.95539093017578    id   133
+Sum SPSNR:  11386.661521911621
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 87.8724594116211    id   134
+Sum SPSNR:  11474.533981323242
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 85.7566146850586    id   135
+Sum SPSNR:  11560.2905960083
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 88.15581512451172    id   136
+Sum SPSNR:  11648.446411132812
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 85.46473693847656    id   137
+Sum SPSNR:  11733.911148071289
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 88.62405395507812    id   138
+Sum SPSNR:  11822.535202026367
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 86.93394470214844    id   139
+Sum SPSNR:  11909.469146728516
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 85.83369445800781    id   140
+Sum SPSNR:  11995.302841186523
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 83.4852523803711    id   141
+Sum SPSNR:  12078.788093566895
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 90.04644775390625    id   142
+Sum SPSNR:  12168.8345413208
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 85.88252258300781    id   143
+Sum SPSNR:  12254.717063903809
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 86.6963119506836    id   144
+Sum SPSNR:  12341.413375854492
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 80.77896118164062    id   145
+Sum SPSNR:  12422.192337036133
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 83.98163604736328    id   146
+Sum SPSNR:  12506.173973083496
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 87.36021423339844    id   147
+Sum SPSNR:  12593.534187316895
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 84.60533142089844    id   148
+Sum SPSNR:  12678.139518737793
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 86.04432678222656    id   149
+Sum SPSNR:  12764.18384552002
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 88.1856460571289    id   150
+Sum SPSNR:  12852.369491577148
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 84.58299255371094    id   151
+Sum SPSNR:  12936.95248413086
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 86.81896209716797    id   152
+Sum SPSNR:  13023.771446228027
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 88.96150207519531    id   153
+Sum SPSNR:  13112.732948303223
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 89.37258911132812    id   154
+Sum SPSNR:  13202.10553741455
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 83.51345825195312    id   155
+Sum SPSNR:  13285.618995666504
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 85.88809204101562    id   156
+Sum SPSNR:  13371.50708770752
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 86.40430450439453    id   157
+Sum SPSNR:  13457.911392211914
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 84.38941192626953    id   158
+Sum SPSNR:  13542.300804138184
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 89.84892272949219    id   159
+Sum SPSNR:  13632.149726867676
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 82.51832580566406    id   160
+Sum SPSNR:  13714.66805267334
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 86.86339569091797    id   161
+Sum SPSNR:  13801.531448364258
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 86.70349884033203    id   162
+Sum SPSNR:  13888.23494720459
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 85.12130737304688    id   163
+Sum SPSNR:  13973.356254577637
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 81.32728576660156    id   164
+Sum SPSNR:  14054.683540344238
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 84.98989868164062    id   165
+Sum SPSNR:  14139.673439025879
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 85.29330444335938    id   166
+Sum SPSNR:  14224.966743469238
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 87.63159942626953    id   167
+Sum SPSNR:  14312.598342895508
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 84.28162384033203    id   168
+Sum SPSNR:  14396.87996673584
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 87.71475219726562    id   169
+Sum SPSNR:  14484.594718933105
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 82.63677978515625    id   170
+Sum SPSNR:  14567.231498718262
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 82.88792419433594    id   171
+Sum SPSNR:  14650.119422912598
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 89.16522216796875    id   172
+Sum SPSNR:  14739.284645080566
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 91.47439575195312    id   173
+Sum SPSNR:  14830.75904083252
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 86.04110717773438    id   174
+Sum SPSNR:  14916.800148010254
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 85.71466064453125    id   175
+Sum SPSNR:  15002.514808654785
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 86.85107421875    id   176
+Sum SPSNR:  15089.365882873535
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 85.63819122314453    id   177
+Sum SPSNR:  15175.00407409668
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 88.51795959472656    id   178
+Sum SPSNR:  15263.522033691406
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 89.96277618408203    id   179
+Sum SPSNR:  15353.484809875488
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 86.34150695800781    id   180
+Sum SPSNR:  15439.826316833496
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 83.71273040771484    id   181
+Sum SPSNR:  15523.539047241211
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 85.72802734375    id   182
+Sum SPSNR:  15609.267074584961
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 87.18535614013672    id   183
+Sum SPSNR:  15696.452430725098
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 85.27355194091797    id   184
+Sum SPSNR:  15781.725982666016
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 83.63999938964844    id   185
+Sum SPSNR:  15865.365982055664
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 86.59423065185547    id   186
+Sum SPSNR:  15951.96021270752
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 90.73533630371094    id   187
+Sum SPSNR:  16042.69554901123
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 89.66121673583984    id   188
+Sum SPSNR:  16132.35676574707
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 83.43939208984375    id   189
+Sum SPSNR:  16215.796157836914
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 82.82666015625    id   190
+Sum SPSNR:  16298.622817993164
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 83.8203353881836    id   191
+Sum SPSNR:  16382.443153381348
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 87.13995361328125    id   192
+Sum SPSNR:  16469.58310699463
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 83.697509765625    id   193
+Sum SPSNR:  16553.280616760254
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 86.40664672851562    id   194
+Sum SPSNR:  16639.68726348877
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 86.72972106933594    id   195
+Sum SPSNR:  16726.416984558105
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 85.20750427246094    id   196
+Sum SPSNR:  16811.624488830566
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 82.31250762939453    id   197
+Sum SPSNR:  16893.93699645996
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 81.90301513671875    id   198
+Sum SPSNR:  16975.84001159668
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 81.2904052734375    id   199
+Sum SPSNR:  17057.130416870117
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 85.01858520507812    id   200
+Sum SPSNR:  17142.149002075195
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 86.28997802734375    id   201
+Sum SPSNR:  17228.43898010254
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 83.33128356933594    id   202
+Sum SPSNR:  17311.770263671875
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 88.71662139892578    id   203
+Sum SPSNR:  17400.4868850708
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 83.66340637207031    id   204
+Sum SPSNR:  17484.15029144287
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 87.85304260253906    id   205
+Sum SPSNR:  17572.00333404541
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 87.93476867675781    id   206
+Sum SPSNR:  17659.938102722168
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 89.09217834472656    id   207
+Sum SPSNR:  17749.030281066895
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 81.66795349121094    id   208
+Sum SPSNR:  17830.698234558105
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 89.6199722290039    id   209
+Sum SPSNR:  17920.31820678711
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 87.41425323486328    id   210
+Sum SPSNR:  18007.732460021973
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 83.54866790771484    id   211
+Sum SPSNR:  18091.281127929688
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 82.66967010498047    id   212
+Sum SPSNR:  18173.950798034668
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 83.12727355957031    id   213
+Sum SPSNR:  18257.07807159424
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 82.76947784423828    id   214
+Sum SPSNR:  18339.847549438477
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 84.95555114746094    id   215
+Sum SPSNR:  18424.803100585938
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 82.06375122070312    id   216
+Sum SPSNR:  18506.86685180664
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 86.79029846191406    id   217
+Sum SPSNR:  18593.657150268555
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 86.2661361694336    id   218
+Sum SPSNR:  18679.92328643799
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 81.96092224121094    id   219
+Sum SPSNR:  18761.8842086792
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 82.24022674560547    id   220
+Sum SPSNR:  18844.124435424805
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 83.5899658203125    id   221
+Sum SPSNR:  18927.714401245117
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 89.4089126586914    id   222
+Sum SPSNR:  19017.12331390381
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 89.66678619384766    id   223
+Sum SPSNR:  19106.790100097656
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 82.04202270507812    id   224
+Sum SPSNR:  19188.832122802734
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 89.2201919555664    id   225
+Sum SPSNR:  19278.0523147583
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 85.58245849609375    id   226
+Sum SPSNR:  19363.634773254395
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 83.15069580078125    id   227
+Sum SPSNR:  19446.785469055176
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 83.72367095947266    id   228
+Sum SPSNR:  19530.50914001465
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 87.61611938476562    id   229
+Sum SPSNR:  19618.125259399414
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 84.30553436279297    id   230
+Sum SPSNR:  19702.430793762207
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 86.28314971923828    id   231
+Sum SPSNR:  19788.713943481445
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 88.82061004638672    id   232
+Sum SPSNR:  19877.534553527832
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 84.82229614257812    id   233
+Sum SPSNR:  19962.35684967041
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 87.93892669677734    id   234
+Sum SPSNR:  20050.295776367188
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 88.75762176513672    id   235
+Sum SPSNR:  20139.053398132324
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 85.5662841796875    id   236
+Sum SPSNR:  20224.61968231201
+Sum SSSIM:  236.0
+SSIM score: 1.0    id   237
+PSNR: 87.7454833984375    id   237
+Sum SPSNR:  20312.36516571045
+Sum SSSIM:  237.0
+SSIM score: 1.0    id   238
+PSNR: 82.61383056640625    id   238
+Sum SPSNR:  20394.978996276855
+Sum SSSIM:  238.0
+SSIM score: 1.0    id   239
+PSNR: 83.79902648925781    id   239
+Sum SPSNR:  20478.778022766113
+Sum SSSIM:  239.0
+SSIM score: 1.0    id   240
+PSNR: 83.09639739990234    id   240
+Sum SPSNR:  20561.874420166016
+Sum SSSIM:  240.0
+SSIM score: 1.0    id   241
+PSNR: 86.46773529052734    id   241
+Sum SPSNR:  20648.342155456543
+Sum SSSIM:  241.0
+SSIM score: 1.0    id   242
+PSNR: 84.57521057128906    id   242
+Sum SPSNR:  20732.917366027832
+Sum SSSIM:  242.0
+SSIM score: 1.0    id   243
+PSNR: 85.7063217163086    id   243
+Sum SPSNR:  20818.62368774414
+Sum SSSIM:  243.0
+SSIM score: 1.0    id   244
+PSNR: 87.10272979736328    id   244
+Sum SPSNR:  20905.726417541504
+Sum SSSIM:  244.0
+SSIM score: 1.0    id   245
+PSNR: 86.6361083984375    id   245
+Sum SPSNR:  20992.36252593994
+Sum SSSIM:  245.0
+SSIM score: 1.0    id   246
+PSNR: 87.29318237304688    id   246
+Sum SPSNR:  21079.65570831299
+Sum SSSIM:  246.0
+SSIM score: 1.0    id   247
+PSNR: 88.13095092773438    id   247
+Sum SPSNR:  21167.786659240723
+Sum SSSIM:  247.0
+SSIM score: 1.0    id   248
+PSNR: 86.17774200439453    id   248
+Sum SPSNR:  21253.964401245117
+Sum SSSIM:  248.0
+SSIM score: 1.0    id   249
+PSNR: 81.64445495605469    id   249
+Sum SPSNR:  21335.608856201172
+Sum SSSIM:  249.0
+SSIM score: 1.0    id   250
+PSNR: 83.58180236816406    id   250
+Sum SPSNR:  21419.190658569336
+Sum SSSIM:  250.0
+SSIM score: 1.0    id   251
+PSNR: 84.29527282714844    id   251
+Sum SPSNR:  21503.485931396484
+Sum SSSIM:  251.0
+SSIM score: 1.0    id   252
+PSNR: 84.41520690917969    id   252
+Sum SPSNR:  21587.901138305664
+Sum SSSIM:  252.0
+SSIM score: 1.0    id   253
+PSNR: 86.29708862304688    id   253
+Sum SPSNR:  21674.19822692871
+Sum SSSIM:  253.0
+SSIM score: 1.0    id   254
+PSNR: 89.24990844726562    id   254
+Sum SPSNR:  21763.448135375977
+Sum SSSIM:  254.0
+SSIM score: 1.0    id   255
+PSNR: 83.51676940917969    id   255
+Sum SPSNR:  21846.964904785156
+Sum SSSIM:  255.0
+SSIM score: 1.0    id   256
+PSNR: 86.70037078857422    id   256
+Sum SPSNR:  21933.66527557373
+Sum SSSIM:  256.0
+SSIM score: 1.0    id   257
+PSNR: 85.04937744140625    id   257
+Sum SPSNR:  22018.714653015137
+Sum SSSIM:  257.0
+SSIM score: 1.0    id   258
+PSNR: 82.89964294433594    id   258
+Sum SPSNR:  22101.614295959473
+Sum SSSIM:  258.0
+SSIM score: 1.0    id   259
+PSNR: 87.74508666992188    id   259
+Sum SPSNR:  22189.359382629395
+Sum SSSIM:  259.0
+SSIM score: 1.0    id   260
+PSNR: 87.51023864746094    id   260
+Sum SPSNR:  22276.869621276855
+Sum SSSIM:  260.0
+SSIM score: 1.0    id   261
+PSNR: 85.5446548461914    id   261
+Sum SPSNR:  22362.414276123047
+Sum SSSIM:  261.0
+SSIM score: 1.0    id   262
+PSNR: 89.46501159667969    id   262
+Sum SPSNR:  22451.879287719727
+Sum SSSIM:  262.0
+SSIM score: 1.0    id   263
+PSNR: 84.7645263671875    id   263
+Sum SPSNR:  22536.643814086914
+Sum SSSIM:  263.0
+SSIM score: 1.0    id   264
+PSNR: 85.04563903808594    id   264
+Sum SPSNR:  22621.689453125
+Sum SSSIM:  264.0
+SSIM score: 1.0    id   265
+PSNR: 86.75355529785156    id   265
+Sum SPSNR:  22708.44300842285
+Sum SSSIM:  265.0
+SSIM score: 1.0    id   266
+PSNR: 84.32675170898438    id   266
+Sum SPSNR:  22792.769760131836
+Sum SSSIM:  266.0
+SSIM score: 1.0    id   267
+PSNR: 83.43990325927734    id   267
+Sum SPSNR:  22876.209663391113
+Sum SSSIM:  267.0
+SSIM score: 1.0    id   268
+PSNR: 83.59608459472656    id   268
+Sum SPSNR:  22959.80574798584
+Sum SSSIM:  268.0
+SSIM score: 1.0    id   269
+PSNR: 83.73116302490234    id   269
+Sum SPSNR:  23043.536911010742
+Sum SSSIM:  269.0
+SSIM score: 1.0    id   270
+PSNR: 88.1083984375    id   270
+Sum SPSNR:  23131.645309448242
+Sum SSSIM:  270.0
+SSIM score: 1.0    id   271
+PSNR: 88.4281005859375    id   271
+Sum SPSNR:  23220.07341003418
+Sum SSSIM:  271.0
+SSIM score: 1.0    id   272
+PSNR: 87.6163101196289    id   272
+Sum SPSNR:  23307.68972015381
+Sum SSSIM:  272.0
+SSIM score: 1.0    id   273
+PSNR: 86.30194854736328    id   273
+Sum SPSNR:  23393.991668701172
+Sum SSSIM:  273.0
+SSIM score: 1.0    id   274
+PSNR: 83.43783569335938    id   274
+Sum SPSNR:  23477.42950439453
+Sum SSSIM:  274.0
+SSIM score: 1.0    id   275
+PSNR: 85.11521911621094    id   275
+Sum SPSNR:  23562.544723510742
+Sum SSSIM:  275.0
+SSIM score: 1.0    id   276
+PSNR: 87.00047302246094    id   276
+Sum SPSNR:  23649.545196533203
+Sum SSSIM:  276.0
+SSIM score: 1.0    id   277
+PSNR: 87.80457305908203    id   277
+Sum SPSNR:  23737.349769592285
+Sum SSSIM:  277.0
+SSIM score: 1.0    id   278
+PSNR: 89.97804260253906    id   278
+Sum SPSNR:  23827.327812194824
+Sum SSSIM:  278.0
+SSIM score: 1.0    id   279
+PSNR: 83.94084930419922    id   279
+Sum SPSNR:  23911.268661499023
+Sum SSSIM:  279.0
+SSIM score: 1.0    id   280
+PSNR: 83.38379669189453    id   280
+Sum SPSNR:  23994.652458190918
+Sum SSSIM:  280.0
+SSIM score: 1.0    id   281
+PSNR: 81.77505493164062    id   281
+Sum SPSNR:  24076.42751312256
+Sum SSSIM:  281.0
+SSIM score: 1.0    id   282
+PSNR: 83.07063293457031    id   282
+Sum SPSNR:  24159.49814605713
+Sum SSSIM:  282.0
+SSIM score: 1.0    id   283
+PSNR: 86.66160583496094    id   283
+Sum SPSNR:  24246.15975189209
+Sum SSSIM:  283.0
+SSIM score: 1.0    id   284
+PSNR: 88.74131774902344    id   284
+Sum SPSNR:  24334.901069641113
+Sum SSSIM:  284.0
+SSIM score: 1.0    id   285
+PSNR: 88.45706939697266    id   285
+Sum SPSNR:  24423.358139038086
+Sum SSSIM:  285.0
+SSIM score: 1.0    id   286
+PSNR: 83.46211242675781    id   286
+Sum SPSNR:  24506.820251464844
+Sum SSSIM:  286.0
+SSIM score: 1.0    id   287
+PSNR: 86.82958984375    id   287
+Sum SPSNR:  24593.649841308594
+Sum SSSIM:  287.0
+SSIM score: 1.0    id   288
+PSNR: 84.46736145019531    id   288
+Sum SPSNR:  24678.11720275879
+Sum SSSIM:  288.0
+SSIM score: 1.0    id   289
+PSNR: 88.79621887207031    id   289
+Sum SPSNR:  24766.91342163086
+Sum SSSIM:  289.0
+SSIM score: 1.0    id   290
+PSNR: 85.3004379272461    id   290
+Sum SPSNR:  24852.213859558105
+Sum SSSIM:  290.0
+SSIM score: 1.0    id   291
+PSNR: 90.81245422363281    id   291
+Sum SPSNR:  24943.02631378174
+Sum SSSIM:  291.0
+SSIM score: 1.0    id   292
+PSNR: 85.94963073730469    id   292
+Sum SPSNR:  25028.975944519043
+Sum SSSIM:  292.0
+SSIM score: 1.0    id   293
+PSNR: 83.32904815673828    id   293
+Sum SPSNR:  25112.30499267578
+Sum SSSIM:  293.0
+SSIM score: 1.0    id   294
+PSNR: 82.91060638427734    id   294
+Sum SPSNR:  25195.21559906006
+Sum SSSIM:  294.0
+SSIM score: 1.0    id   295
+PSNR: 89.20346069335938    id   295
+Sum SPSNR:  25284.419059753418
+Sum SSSIM:  295.0
+SSIM score: 1.0    id   296
+PSNR: 86.3740234375    id   296
+Sum SPSNR:  25370.793083190918
+Sum SSSIM:  296.0
+SSIM score: 1.0    id   297
+PSNR: 89.06163024902344    id   297
+Sum SPSNR:  25459.85471343994
+Sum SSSIM:  297.0
+SSIM score: 1.0    id   298
+PSNR: 82.9273681640625    id   298
+Sum SPSNR:  25542.782081604004
+Sum SSSIM:  298.0
+SSIM score: 1.0    id   299
+PSNR: 83.81993103027344    id   299
+Sum SPSNR:  25626.602012634277
+Sum SSSIM:  299.0
+SSIM score: 1.0    id   300
+PSNR: 84.0690689086914    id   300
+Sum SPSNR:  25710.67108154297
+Sum SSSIM:  300.0
+SSIM score: 1.0    id   301
+PSNR: 85.40501403808594    id   301
+Sum SPSNR:  25796.076095581055
+Sum SSSIM:  301.0
+SSIM score: 1.0    id   302
+PSNR: 85.45520782470703    id   302
+Sum SPSNR:  25881.53130340576
+Sum SSSIM:  302.0
+SSIM score: 1.0    id   303
+PSNR: 80.85173797607422    id   303
+Sum SPSNR:  25962.383041381836
+Sum SSSIM:  303.0
+SSIM score: 1.0    id   304
+PSNR: 85.90707397460938    id   304
+Sum SPSNR:  26048.290115356445
+Sum SSSIM:  304.0
+SSIM score: 1.0    id   305
+PSNR: 88.92219543457031    id   305
+Sum SPSNR:  26137.212310791016
+Sum SSSIM:  305.0
+SSIM score: 1.0    id   306
+PSNR: 83.38066101074219    id   306
+Sum SPSNR:  26220.592971801758
+Sum SSSIM:  306.0
+SSIM score: 1.0    id   307
+PSNR: 84.68513488769531    id   307
+Sum SPSNR:  26305.278106689453
+Sum SSSIM:  307.0
+SSIM score: 1.0    id   308
+PSNR: 86.13496398925781    id   308
+Sum SPSNR:  26391.41307067871
+Sum SSSIM:  308.0
+SSIM score: 1.0    id   309
+PSNR: 83.85707092285156    id   309
+Sum SPSNR:  26475.270141601562
+Sum SSSIM:  309.0
+SSIM score: 1.0    id   310
+PSNR: 87.35347747802734    id   310
+Sum SPSNR:  26562.62361907959
+Sum SSSIM:  310.0
+SSIM score: 1.0    id   311
+PSNR: 87.54866790771484    id   311
+Sum SPSNR:  26650.172286987305
+Sum SSSIM:  311.0
+SSIM score: 1.0    id   312
+PSNR: 83.53748321533203    id   312
+Sum SPSNR:  26733.709770202637
+Sum SSSIM:  312.0
+SSIM score: 1.0    id   313
+PSNR: 81.70928955078125    id   313
+Sum SPSNR:  26815.419059753418
+Sum SSSIM:  313.0
+SSIM score: 1.0    id   314
+PSNR: 85.53328704833984    id   314
+Sum SPSNR:  26900.952346801758
+Sum SSSIM:  314.0
+SSIM score: 1.0    id   315
+PSNR: 89.22914123535156    id   315
+Sum SPSNR:  26990.18148803711
+Sum SSSIM:  315.0
+SSIM score: 1.0    id   316
+PSNR: 84.03549194335938    id   316
+Sum SPSNR:  27074.21697998047
+Sum SSSIM:  316.0
+SSIM score: 1.0    id   317
+PSNR: 82.90192413330078    id   317
+Sum SPSNR:  27157.11890411377
+Sum SSSIM:  317.0
+SSIM score: 1.0    id   318
+PSNR: 84.34718322753906    id   318
+Sum SPSNR:  27241.46608734131
+Sum SSSIM:  318.0
+SSIM score: 1.0    id   319
+PSNR: 82.84471130371094    id   319
+Sum SPSNR:  27324.31079864502
+Sum SSSIM:  319.0
+SSIM score: 1.0    id   320
+PSNR: 81.30496978759766    id   320
+Sum SPSNR:  27405.615768432617
+Sum SSSIM:  320.0
+SSIM score: 1.0    id   321
+PSNR: 87.46934509277344    id   321
+Sum SPSNR:  27493.08511352539
+Sum SSSIM:  321.0
+SSIM score: 1.0    id   322
+PSNR: 87.22840881347656    id   322
+Sum SPSNR:  27580.313522338867
+Sum SSSIM:  322.0
+SSIM score: 1.0    id   323
+PSNR: 83.48084259033203    id   323
+Sum SPSNR:  27663.7943649292
+Sum SSSIM:  323.0
+SSIM score: 1.0    id   324
+PSNR: 83.46574401855469    id   324
+Sum SPSNR:  27747.260108947754
+Sum SSSIM:  324.0
+SSIM score: 1.0    id   325
+PSNR: 83.69343566894531    id   325
+Sum SPSNR:  27830.9535446167
+Sum SSSIM:  325.0
+SSIM score: 1.0    id   326
+PSNR: 83.51849365234375    id   326
+Sum SPSNR:  27914.472038269043
+Sum SSSIM:  326.0
+SSIM score: 1.0    id   327
+PSNR: 85.95213317871094    id   327
+Sum SPSNR:  28000.424171447754
+Sum SSSIM:  327.0
+SSIM score: 1.0    id   328
+PSNR: 89.71035766601562    id   328
+Sum SPSNR:  28090.13452911377
+Sum SSSIM:  328.0
+SSIM score: 1.0    id   329
+PSNR: 82.1919937133789    id   329
+Sum SPSNR:  28172.32652282715
+Sum SSSIM:  329.0
+SSIM score: 1.0    id   330
+PSNR: 86.34812927246094    id   330
+Sum SPSNR:  28258.67465209961
+Sum SSSIM:  330.0
+SSIM score: 1.0    id   331
+PSNR: 87.75383758544922    id   331
+Sum SPSNR:  28346.42848968506
+Sum SSSIM:  331.0
+SSIM score: 1.0    id   332
+PSNR: 83.18488311767578    id   332
+Sum SPSNR:  28429.613372802734
+Sum SSSIM:  332.0
+SSIM score: 1.0    id   333
+PSNR: 83.80690002441406    id   333
+Sum SPSNR:  28513.42027282715
+Sum SSSIM:  333.0
+SSIM score: 1.0    id   334
+PSNR: 88.27327728271484    id   334
+Sum SPSNR:  28601.693550109863
+Sum SSSIM:  334.0
+SSIM score: 1.0    id   335
+PSNR: 90.50736236572266    id   335
+Sum SPSNR:  28692.200912475586
+Sum SSSIM:  335.0
+SSIM score: 1.0    id   336
+PSNR: 89.13114929199219    id   336
+Sum SPSNR:  28781.332061767578
+Sum SSSIM:  336.0
+SSIM score: 1.0    id   337
+PSNR: 89.34288024902344    id   337
+Sum SPSNR:  28870.6749420166
+Sum SSSIM:  337.0
+SSIM score: 1.0    id   338
+PSNR: 82.31330871582031    id   338
+Sum SPSNR:  28952.988250732422
+Sum SSSIM:  338.0
+SSIM score: 1.0    id   339
+PSNR: 83.7679443359375    id   339
+Sum SPSNR:  29036.75619506836
+Sum SSSIM:  339.0
+SSIM score: 1.0    id   340
+PSNR: 84.30642700195312    id   340
+Sum SPSNR:  29121.062622070312
+Sum SSSIM:  340.0
+SSIM score: 1.0    id   341
+PSNR: 86.6459732055664    id   341
+Sum SPSNR:  29207.70859527588
+Sum SSSIM:  341.0
+SSIM score: 1.0    id   342
+PSNR: 88.42601013183594    id   342
+Sum SPSNR:  29296.134605407715
+Sum SSSIM:  342.0
+SSIM score: 1.0    id   343
+PSNR: 82.3934326171875    id   343
+Sum SPSNR:  29378.528038024902
+Sum SSSIM:  343.0
+SSIM score: 1.0    id   344
+PSNR: 85.78883361816406    id   344
+Sum SPSNR:  29464.316871643066
+Sum SSSIM:  344.0
+SSIM score: 1.0    id   345
+PSNR: 87.45182800292969    id   345
+Sum SPSNR:  29551.768699645996
+Sum SSSIM:  345.0
+SSIM score: 1.0    id   346
+PSNR: 83.82283020019531    id   346
+Sum SPSNR:  29635.59152984619
+Sum SSSIM:  346.0
+SSIM score: 1.0    id   347
+PSNR: 84.71305084228516    id   347
+Sum SPSNR:  29720.304580688477
+Sum SSSIM:  347.0
+SSIM score: 1.0    id   348
+PSNR: 83.06168365478516    id   348
+Sum SPSNR:  29803.36626434326
+Sum SSSIM:  348.0
+SSIM score: 1.0    id   349
+PSNR: 85.60160827636719    id   349
+Sum SPSNR:  29888.96787261963
+Sum SSSIM:  349.0
+SSIM score: 1.0    id   350
+PSNR: 89.33772277832031    id   350
+Sum SPSNR:  29978.30559539795
+Sum SSSIM:  350.0
+SSIM score: 1.0    id   351
+PSNR: 82.36833190917969    id   351
+Sum SPSNR:  30060.67392730713
+Sum SSSIM:  351.0
+SSIM score: 1.0    id   352
+PSNR: 86.61550903320312    id   352
+Sum SPSNR:  30147.289436340332
+Sum SSSIM:  352.0
+SSIM score: 1.0    id   353
+PSNR: 85.411865234375    id   353
+Sum SPSNR:  30232.701301574707
+Sum SSSIM:  353.0
+SSIM score: 1.0    id   354
+PSNR: 84.29716491699219    id   354
+Sum SPSNR:  30316.9984664917
+Sum SSSIM:  354.0
+SSIM score: 1.0    id   355
+PSNR: 84.76593017578125    id   355
+Sum SPSNR:  30401.76439666748
+Sum SSSIM:  355.0
+SSIM score: 1.0    id   356
+PSNR: 84.95429229736328    id   356
+Sum SPSNR:  30486.718688964844
+Sum SSSIM:  356.0
+SSIM score: 1.0    id   357
+PSNR: 88.23413848876953    id   357
+Sum SPSNR:  30574.952827453613
+Sum SSSIM:  357.0
+SSIM score: 1.0    id   358
+PSNR: 83.05838012695312    id   358
+Sum SPSNR:  30658.011207580566
+Sum SSSIM:  358.0
+SSIM score: 1.0    id   359
+PSNR: 82.27548217773438    id   359
+Sum SPSNR:  30740.2866897583
+Sum SSSIM:  359.0
+SSIM score: 1.0    id   360
+PSNR: 81.8502197265625    id   360
+Sum SPSNR:  30822.136909484863
+Sum SSSIM:  360.0
+SSIM score: 1.0    id   361
+PSNR: 88.6757583618164    id   361
+Sum SPSNR:  30910.81266784668
+Sum SSSIM:  361.0
+SSIM score: 1.0    id   362
+PSNR: 83.44005584716797    id   362
+Sum SPSNR:  30994.252723693848
+Sum SSSIM:  362.0
+SSIM score: 1.0    id   363
+PSNR: 88.94679260253906    id   363
+Sum SPSNR:  31083.199516296387
+Sum SSSIM:  363.0
+SSIM score: 1.0    id   364
+PSNR: 85.83010864257812    id   364
+Sum SPSNR:  31169.029624938965
+Sum SSSIM:  364.0
+SSIM score: 1.0    id   365
+PSNR: 82.05692291259766    id   365
+Sum SPSNR:  31251.086547851562
+Sum SSSIM:  365.0
+SSIM score: 1.0    id   366
+PSNR: 82.5705795288086    id   366
+Sum SPSNR:  31333.65712738037
+Sum SSSIM:  366.0
+SSIM score: 1.0    id   367
+PSNR: 82.8458023071289    id   367
+Sum SPSNR:  31416.5029296875
+Sum SSSIM:  367.0
+SSIM score: 1.0    id   368
+PSNR: 87.04393005371094    id   368
+Sum SPSNR:  31503.54685974121
+Sum SSSIM:  368.0
+SSIM score: 1.0    id   369
+PSNR: 83.94184112548828    id   369
+Sum SPSNR:  31587.4887008667
+Sum SSSIM:  369.0
+SSIM score: 1.0    id   370
+PSNR: 89.6572036743164    id   370
+Sum SPSNR:  31677.145904541016
+Sum SSSIM:  370.0
+SSIM score: 1.0    id   371
+PSNR: 90.14176940917969    id   371
+Sum SPSNR:  31767.287673950195
+Sum SSSIM:  371.0
+SSIM score: 1.0    id   372
+PSNR: 85.79517364501953    id   372
+Sum SPSNR:  31853.082847595215
+Sum SSSIM:  372.0
+SSIM score: 1.0    id   373
+PSNR: 85.55545806884766    id   373
+Sum SPSNR:  31938.638305664062
+Sum SSSIM:  373.0
+SSIM score: 1.0    id   374
+PSNR: 82.12401580810547    id   374
+Sum SPSNR:  32020.762321472168
+Sum SSSIM:  374.0
+SSIM score: 1.0    id   375
+PSNR: 85.72615051269531    id   375
+Sum SPSNR:  32106.488471984863
+Sum SSSIM:  375.0
+SSIM score: 1.0    id   376
+PSNR: 83.21162414550781    id   376
+Sum SPSNR:  32189.70009613037
+Sum SSSIM:  376.0
+SSIM score: 1.0    id   377
+PSNR: 88.12248229980469    id   377
+Sum SPSNR:  32277.822578430176
+Sum SSSIM:  377.0
+SSIM score: 1.0    id   378
+PSNR: 83.85374450683594    id   378
+Sum SPSNR:  32361.67632293701
+Sum SSSIM:  378.0
+SSIM score: 1.0    id   379
+PSNR: 86.98090362548828    id   379
+Sum SPSNR:  32448.6572265625
+Sum SSSIM:  379.0
+SSIM score: 1.0    id   380
+PSNR: 84.99349975585938    id   380
+Sum SPSNR:  32533.65072631836
+Sum SSSIM:  380.0
+SSIM score: 1.0    id   381
+PSNR: 84.58251190185547    id   381
+Sum SPSNR:  32618.233238220215
+Sum SSSIM:  381.0
+SSIM score: 1.0    id   382
+PSNR: 85.32303619384766    id   382
+Sum SPSNR:  32703.556274414062
+Sum SSSIM:  382.0
+SSIM score: 1.0    id   383
+PSNR: 86.05671691894531    id   383
+Sum SPSNR:  32789.61299133301
+Sum SSSIM:  383.0
+SSIM score: 1.0    id   384
+PSNR: 85.22828674316406    id   384
+Sum SPSNR:  32874.84127807617
+Sum SSSIM:  384.0
+SSIM score: 1.0    id   385
+PSNR: 83.4725112915039    id   385
+Sum SPSNR:  32958.313789367676
+Sum SSSIM:  385.0
+SSIM score: 1.0    id   386
+PSNR: 84.1572494506836    id   386
+Sum SPSNR:  33042.47103881836
+Sum SSSIM:  386.0
+SSIM score: 1.0    id   387
+PSNR: 83.71037292480469    id   387
+Sum SPSNR:  33126.181411743164
+Sum SSSIM:  387.0
+SSIM score: 1.0    id   388
+PSNR: 85.177001953125    id   388
+Sum SPSNR:  33211.35841369629
+Sum SSSIM:  388.0
+SSIM score: 1.0    id   389
+PSNR: 87.54790496826172    id   389
+Sum SPSNR:  33298.90631866455
+Sum SSSIM:  389.0
+SSIM score: 1.0    id   390
+PSNR: 87.6564712524414    id   390
+Sum SPSNR:  33386.56278991699
+Sum SSSIM:  390.0
+SSIM score: 1.0    id   391
+PSNR: 83.78302764892578    id   391
+Sum SPSNR:  33470.34581756592
+Sum SSSIM:  391.0
+SSIM score: 1.0    id   392
+PSNR: 83.41311645507812    id   392
+Sum SPSNR:  33553.758934020996
+Sum SSSIM:  392.0
+SSIM score: 1.0    id   393
+PSNR: 89.04710388183594    id   393
+Sum SPSNR:  33642.80603790283
+Sum SSSIM:  393.0
+SSIM score: 1.0    id   394
+PSNR: 84.86625671386719    id   394
+Sum SPSNR:  33727.6722946167
+Sum SSSIM:  394.0
+SSIM score: 1.0    id   395
+PSNR: 88.59565734863281    id   395
+Sum SPSNR:  33816.26795196533
+Sum SSSIM:  395.0
+SSIM score: 1.0    id   396
+PSNR: 84.81884765625    id   396
+Sum SPSNR:  33901.08679962158
+Sum SSSIM:  396.0
+SSIM score: 1.0    id   397
+PSNR: 83.26922607421875    id   397
+Sum SPSNR:  33984.3560256958
+Sum SSSIM:  397.0
+SSIM score: 1.0    id   398
+PSNR: 88.89022827148438    id   398
+Sum SPSNR:  34073.246253967285
+Sum SSSIM:  398.0
+SSIM score: 1.0    id   399
+PSNR: 81.94190216064453    id   399
+Sum SPSNR:  34155.18815612793
+Sum SSSIM:  399.0
+SSIM score: 1.0    id   400
+PSNR: 82.82089233398438    id   400
+Sum SPSNR:  34238.009048461914
+Sum SSSIM:  400.0
+SSIM score: 1.0    id   401
+PSNR: 85.85578918457031    id   401
+Sum SPSNR:  34323.864837646484
+Sum SSSIM:  401.0
+SSIM score: 1.0    id   402
+PSNR: 87.48131561279297    id   402
+Sum SPSNR:  34411.34615325928
+Sum SSSIM:  402.0
+SSIM score: 1.0    id   403
+PSNR: 86.48065185546875    id   403
+Sum SPSNR:  34497.826805114746
+Sum SSSIM:  403.0
+SSIM score: 1.0    id   404
+PSNR: 88.53987884521484    id   404
+Sum SPSNR:  34586.36668395996
+Sum SSSIM:  404.0
+SSIM score: 1.0    id   405
+PSNR: 84.03583526611328    id   405
+Sum SPSNR:  34670.402519226074
+Sum SSSIM:  405.0
+SSIM score: 1.0    id   406
+PSNR: 83.42796325683594    id   406
+Sum SPSNR:  34753.83048248291
+Sum SSSIM:  406.0
+SSIM score: 1.0    id   407
+PSNR: 85.80127716064453    id   407
+Sum SPSNR:  34839.631759643555
+Sum SSSIM:  407.0
+SSIM score: 1.0    id   408
+PSNR: 86.34784698486328    id   408
+Sum SPSNR:  34925.97960662842
+Sum SSSIM:  408.0
+SSIM score: 1.0    id   409
+PSNR: 87.90763092041016    id   409
+Sum SPSNR:  35013.88723754883
+Sum SSSIM:  409.0
+SSIM score: 1.0    id   410
+PSNR: 85.10806274414062    id   410
+Sum SPSNR:  35098.99530029297
+Sum SSSIM:  410.0
+SSIM score: 1.0    id   411
+PSNR: 87.9256362915039    id   411
+Sum SPSNR:  35186.92093658447
+Sum SSSIM:  411.0
+SSIM score: 1.0    id   412
+PSNR: 86.2160415649414    id   412
+Sum SPSNR:  35273.136978149414
+Sum SSSIM:  412.0
+SSIM score: 1.0    id   413
+PSNR: 86.99461364746094    id   413
+Sum SPSNR:  35360.131591796875
+Sum SSSIM:  413.0
+SSIM score: 1.0    id   414
+PSNR: 91.49700164794922    id   414
+Sum SPSNR:  35451.628593444824
+Sum SSSIM:  414.0
+SSIM score: 1.0    id   415
+PSNR: 83.85066223144531    id   415
+Sum SPSNR:  35535.47925567627
+Sum SSSIM:  415.0
+SSIM score: 1.0    id   416
+PSNR: 86.6737060546875    id   416
+Sum SPSNR:  35622.15296173096
+Sum SSSIM:  416.0
+SSIM score: 1.0    id   417
+PSNR: 86.37112426757812    id   417
+Sum SPSNR:  35708.524085998535
+Sum SSSIM:  417.0
+SSIM score: 1.0    id   418
+PSNR: 86.76322937011719    id   418
+Sum SPSNR:  35795.28731536865
+Sum SSSIM:  418.0
+SSIM score: 1.0    id   419
+PSNR: 84.15925598144531    id   419
+Sum SPSNR:  35879.4465713501
+Sum SSSIM:  419.0
+SSIM score: 1.0    id   420
+PSNR: 87.7096176147461    id   420
+Sum SPSNR:  35967.156188964844
+Sum SSSIM:  420.0
+SSIM score: 1.0    id   421
+PSNR: 84.2132568359375    id   421
+Sum SPSNR:  36051.36944580078
+Sum SSSIM:  421.0
+SSIM score: 1.0    id   422
+PSNR: 83.6821060180664    id   422
+Sum SPSNR:  36135.05155181885
+Sum SSSIM:  422.0
+SSIM score: 1.0    id   423
+PSNR: 82.75810241699219    id   423
+Sum SPSNR:  36217.80965423584
+Sum SSSIM:  423.0
+SSIM score: 1.0    id   424
+PSNR: 86.27661895751953    id   424
+Sum SPSNR:  36304.08627319336
+Sum SSSIM:  424.0
+SSIM score: 1.0    id   425
+PSNR: 89.7603759765625    id   425
+Sum SPSNR:  36393.84664916992
+Sum SSSIM:  425.0
+SSIM score: 1.0    id   426
+PSNR: 88.95203399658203    id   426
+Sum SPSNR:  36482.798683166504
+Sum SSSIM:  426.0
+SSIM score: 1.0    id   427
+PSNR: 84.30751037597656    id   427
+Sum SPSNR:  36567.10619354248
+Sum SSSIM:  427.0
+SSIM score: 1.0    id   428
+PSNR: 86.45855712890625    id   428
+Sum SPSNR:  36653.56475067139
+Sum SSSIM:  428.0
+SSIM score: 1.0    id   429
+PSNR: 86.85673522949219    id   429
+Sum SPSNR:  36740.42148590088
+Sum SSSIM:  429.0
+SSIM score: 1.0    id   430
+PSNR: 82.69520568847656    id   430
+Sum SPSNR:  36823.116691589355
+Sum SSSIM:  430.0
+SSIM score: 1.0    id   431
+PSNR: 89.17544555664062    id   431
+Sum SPSNR:  36912.292137145996
+Sum SSSIM:  431.0
+SSIM score: 1.0    id   432
+PSNR: 82.90884399414062    id   432
+Sum SPSNR:  36995.20098114014
+Sum SSSIM:  432.0
+SSIM score: 1.0    id   433
+PSNR: 82.9991455078125    id   433
+Sum SPSNR:  37078.20012664795
+Sum SSSIM:  433.0
+SSIM score: 1.0    id   434
+PSNR: 88.59905242919922    id   434
+Sum SPSNR:  37166.79917907715
+Sum SSSIM:  434.0
+SSIM score: 1.0    id   435
+PSNR: 89.28663635253906    id   435
+Sum SPSNR:  37256.08581542969
+Sum SSSIM:  435.0
+SSIM score: 1.0    id   436
+PSNR: 87.47122192382812    id   436
+Sum SPSNR:  37343.557037353516
+Sum SSSIM:  436.0
+SSIM score: 1.0    id   437
+PSNR: 88.03589630126953    id   437
+Sum SPSNR:  37431.592933654785
+Sum SSSIM:  437.0
+SSIM score: 1.0    id   438
+PSNR: 85.7856674194336    id   438
+Sum SPSNR:  37517.37860107422
+Sum SSSIM:  438.0
+SSIM score: 1.0    id   439
+PSNR: 90.77192687988281    id   439
+Sum SPSNR:  37608.1505279541
+Sum SSSIM:  439.0
+SSIM score: 1.0    id   440
+PSNR: 87.28781127929688    id   440
+Sum SPSNR:  37695.4383392334
+Sum SSSIM:  440.0
+SSIM score: 1.0    id   441
+PSNR: 83.19651794433594    id   441
+Sum SPSNR:  37778.634857177734
+Sum SSSIM:  441.0
+SSIM score: 1.0    id   442
+PSNR: 87.63352966308594    id   442
+Sum SPSNR:  37866.26838684082
+Sum SSSIM:  442.0
+SSIM score: 1.0    id   443
+PSNR: 85.02400207519531    id   443
+Sum SPSNR:  37951.292388916016
+Sum SSSIM:  443.0
+SSIM score: 1.0    id   444
+PSNR: 82.34612274169922    id   444
+Sum SPSNR:  38033.638511657715
+Sum SSSIM:  444.0
+SSIM score: 1.0    id   445
+PSNR: 85.4214096069336    id   445
+Sum SPSNR:  38119.05992126465
+Sum SSSIM:  445.0
+SSIM score: 1.0    id   446
+PSNR: 83.22368621826172    id   446
+Sum SPSNR:  38202.28360748291
+Sum SSSIM:  446.0
+SSIM score: 1.0    id   447
+PSNR: 88.65191650390625    id   447
+Sum SPSNR:  38290.93552398682
+Sum SSSIM:  447.0
+SSIM score: 1.0    id   448
+PSNR: 86.90565490722656    id   448
+Sum SPSNR:  38377.84117889404
+Sum SSSIM:  448.0
+SSIM score: 1.0    id   449
+PSNR: 83.35981750488281    id   449
+Sum SPSNR:  38461.200996398926
+Sum SSSIM:  449.0
+SSIM score: 1.0    id   450
+PSNR: 82.58002471923828    id   450
+Sum SPSNR:  38543.781021118164
+Sum SSSIM:  450.0
+SSIM score: 1.0    id   451
+PSNR: 85.65192413330078    id   451
+Sum SPSNR:  38629.432945251465
+Sum SSSIM:  451.0
+SSIM score: 1.0    id   452
+PSNR: 84.53370666503906    id   452
+Sum SPSNR:  38713.966651916504
+Sum SSSIM:  452.0
+SSIM score: 1.0    id   453
+PSNR: 86.00457000732422    id   453
+Sum SPSNR:  38799.97122192383
+Sum SSSIM:  453.0
+SSIM score: 1.0    id   454
+PSNR: 88.30937194824219    id   454
+Sum SPSNR:  38888.28059387207
+Sum SSSIM:  454.0
+SSIM score: 1.0    id   455
+PSNR: 82.54220581054688    id   455
+Sum SPSNR:  38970.82279968262
+Sum SSSIM:  455.0
+SSIM score: 1.0    id   456
+PSNR: 82.59725952148438    id   456
+Sum SPSNR:  39053.4200592041
+Sum SSSIM:  456.0
+SSIM score: 1.0    id   457
+PSNR: 82.496826171875    id   457
+Sum SPSNR:  39135.91688537598
+Sum SSSIM:  457.0
+SSIM score: 1.0    id   458
+PSNR: 87.32521057128906    id   458
+Sum SPSNR:  39223.242095947266
+Sum SSSIM:  458.0
+SSIM score: 1.0    id   459
+PSNR: 83.08822631835938    id   459
+Sum SPSNR:  39306.330322265625
+Sum SSSIM:  459.0
+SSIM score: 1.0    id   460
+PSNR: 86.69677734375    id   460
+Sum SPSNR:  39393.027099609375
+Sum SSSIM:  460.0
+SSIM score: 1.0    id   461
+PSNR: 83.50483703613281    id   461
+Sum SPSNR:  39476.53193664551
+Sum SSSIM:  461.0
+SSIM score: 1.0    id   462
+PSNR: 88.425537109375    id   462
+Sum SPSNR:  39564.95747375488
+Sum SSSIM:  462.0
+SSIM score: 1.0    id   463
+PSNR: 83.07252502441406    id   463
+Sum SPSNR:  39648.0299987793
+Sum SSSIM:  463.0
+SSIM score: 1.0    id   464
+PSNR: 89.60559844970703    id   464
+Sum SPSNR:  39737.635597229004
+Sum SSSIM:  464.0
+SSIM score: 1.0    id   465
+PSNR: 87.22576141357422    id   465
+Sum SPSNR:  39824.86135864258
+Sum SSSIM:  465.0
+SSIM score: 1.0    id   466
+PSNR: 85.031982421875    id   466
+Sum SPSNR:  39909.89334106445
+Sum SSSIM:  466.0
+SSIM score: 1.0    id   467
+PSNR: 87.58955383300781    id   467
+Sum SPSNR:  39997.48289489746
+Sum SSSIM:  467.0
+SSIM score: 1.0    id   468
+PSNR: 85.76960754394531    id   468
+Sum SPSNR:  40083.252502441406
+Sum SSSIM:  468.0
+SSIM score: 1.0    id   469
+PSNR: 88.62674713134766    id   469
+Sum SPSNR:  40171.879249572754
+Sum SSSIM:  469.0
+SSIM score: 1.0    id   470
+PSNR: 85.03826904296875    id   470
+Sum SPSNR:  40256.91751861572
+Sum SSSIM:  470.0
+SSIM score: 1.0    id   471
+PSNR: 83.60688781738281    id   471
+Sum SPSNR:  40340.524406433105
+Sum SSSIM:  471.0
+SSIM score: 1.0    id   472
+PSNR: 88.71910858154297    id   472
+Sum SPSNR:  40429.24351501465
+Sum SSSIM:  472.0
+SSIM score: 1.0    id   473
+PSNR: 86.93840789794922    id   473
+Sum SPSNR:  40516.1819229126
+Sum SSSIM:  473.0
+SSIM score: 1.0    id   474
+PSNR: 85.68646240234375    id   474
+Sum SPSNR:  40601.86838531494
+Sum SSSIM:  474.0
+SSIM score: 1.0    id   475
+PSNR: 80.87154388427734    id   475
+Sum SPSNR:  40682.73992919922
+Sum SSSIM:  475.0
+SSIM score: 1.0    id   476
+PSNR: 88.4521484375    id   476
+Sum SPSNR:  40771.19207763672
+Sum SSSIM:  476.0
+SSIM score: 1.0    id   477
+PSNR: 88.2784423828125    id   477
+Sum SPSNR:  40859.47052001953
+Sum SSSIM:  477.0
+SSIM score: 1.0    id   478
+PSNR: 89.3002700805664    id   478
+Sum SPSNR:  40948.7707901001
+Sum SSSIM:  478.0
+SSIM score: 1.0    id   479
+PSNR: 83.84822845458984    id   479
+Sum SPSNR:  41032.61901855469
+Sum SSSIM:  479.0
+SSIM score: 1.0    id   480
+PSNR: 83.79582214355469    id   480
+Sum SPSNR:  41116.41484069824
+Sum SSSIM:  480.0
+SSIM score: 1.0    id   481
+PSNR: 82.55387115478516    id   481
+Sum SPSNR:  41198.96871185303
+Sum SSSIM:  481.0
+SSIM score: 1.0    id   482
+PSNR: 81.58370971679688    id   482
+Sum SPSNR:  41280.552421569824
+Sum SSSIM:  482.0
+SSIM score: 1.0    id   483
+PSNR: 90.14419555664062    id   483
+Sum SPSNR:  41370.696617126465
+Sum SSSIM:  483.0
+SSIM score: 1.0    id   484
+PSNR: 86.67728424072266    id   484
+Sum SPSNR:  41457.37390136719
+Sum SSSIM:  484.0
+SSIM score: 1.0    id   485
+PSNR: 85.46261596679688    id   485
+Sum SPSNR:  41542.836517333984
+Sum SSSIM:  485.0
+SSIM score: 1.0    id   486
+PSNR: 82.02888488769531    id   486
+Sum SPSNR:  41624.86540222168
+Sum SSSIM:  486.0
+SSIM score: 1.0    id   487
+PSNR: 86.56639099121094    id   487
+Sum SPSNR:  41711.43179321289
+Sum SSSIM:  487.0
+SSIM score: 1.0    id   488
+PSNR: 86.7545166015625    id   488
+Sum SPSNR:  41798.18630981445
+Sum SSSIM:  488.0
+SSIM score: 1.0    id   489
+PSNR: 87.3594741821289    id   489
+Sum SPSNR:  41885.54578399658
+Sum SSSIM:  489.0
+SSIM score: 1.0    id   490
+PSNR: 84.3106689453125    id   490
+Sum SPSNR:  41969.856452941895
+Sum SSSIM:  490.0
+SSIM score: 1.0    id   491
+PSNR: 86.4066390991211    id   491
+Sum SPSNR:  42056.263092041016
+Sum SSSIM:  491.0
+SSIM score: 1.0    id   492
+PSNR: 82.53465270996094    id   492
+Sum SPSNR:  42138.79774475098
+Sum SSSIM:  492.0
+SSIM score: 1.0    id   493
+PSNR: 87.93331909179688    id   493
+Sum SPSNR:  42226.73106384277
+Sum SSSIM:  493.0
+SSIM score: 1.0    id   494
+PSNR: 84.49928283691406    id   494
+Sum SPSNR:  42311.23034667969
+Sum SSSIM:  494.0
+SSIM score: 1.0    id   495
+PSNR: 81.85139465332031    id   495
+Sum SPSNR:  42393.08174133301
+Sum SSSIM:  495.0
+SSIM score: 1.0    id   496
+PSNR: 84.71839904785156    id   496
+Sum SPSNR:  42477.80014038086
+Sum SSSIM:  496.0
+SSIM score: 1.0    id   497
+PSNR: 87.27690124511719    id   497
+Sum SPSNR:  42565.07704162598
+Sum SSSIM:  497.0
+SSIM score: 1.0    id   498
+PSNR: 86.32569122314453    id   498
+Sum SPSNR:  42651.40273284912
+Sum SSSIM:  498.0
+SSIM score: 1.0    id   499
+PSNR: 88.14335632324219    id   499
+Sum SPSNR:  42739.54608917236
+Sum SSSIM:  499.0
+SSIM score: 1.0    id   500
+PSNR: 83.07246398925781    id   500
+Sum SPSNR:  42822.61855316162
+Sum SSSIM:  500.0
+SSIM score: 1.0    id   501
+PSNR: 88.77397155761719    id   501
+Sum SPSNR:  42911.39252471924
+Sum SSSIM:  501.0
+SSIM score: 1.0    id   502
+PSNR: 88.35881042480469    id   502
+Sum SPSNR:  42999.75133514404
+Sum SSSIM:  502.0
+SSIM score: 1.0    id   503
+PSNR: 87.10169982910156    id   503
+Sum SPSNR:  43086.853034973145
+Sum SSSIM:  503.0
+SSIM score: 1.0    id   504
+PSNR: 83.4981689453125    id   504
+Sum SPSNR:  43170.35120391846
+Sum SSSIM:  504.0
+SSIM score: 1.0    id   505
+PSNR: 89.59950256347656    id   505
+Sum SPSNR:  43259.95070648193
+Sum SSSIM:  505.0
+SSIM score: 1.0    id   506
+PSNR: 84.63497924804688    id   506
+Sum SPSNR:  43344.58568572998
+Sum SSSIM:  506.0
+SSIM score: 1.0    id   507
+PSNR: 86.49494934082031    id   507
+Sum SPSNR:  43431.0806350708
+Sum SSSIM:  507.0
+SSIM score: 1.0    id   508
+PSNR: 83.77448272705078    id   508
+Sum SPSNR:  43514.85511779785
+Sum SSSIM:  508.0
+SSIM score: 1.0    id   509
+PSNR: 87.62037658691406    id   509
+Sum SPSNR:  43602.475494384766
+Sum SSSIM:  509.0
+SSIM score: 1.0    id   510
+PSNR: 84.12384796142578    id   510
+Sum SPSNR:  43686.59934234619
+Sum SSSIM:  510.0
+SSIM score: 1.0    id   511
+PSNR: 87.06956481933594    id   511
+Sum SPSNR:  43773.66890716553
+Sum SSSIM:  511.0
+SSIM score: 1.0    id   512
+PSNR: 88.59130859375    id   512
+Sum SPSNR:  43862.26021575928
+Sum SSSIM:  512.0
+SSIM score: 1.0    id   513
+PSNR: 83.38604736328125    id   513
+Sum SPSNR:  43945.64626312256
+Sum SSSIM:  513.0
+SSIM score: 1.0    id   514
+PSNR: 87.24327087402344    id   514
+Sum SPSNR:  44032.88953399658
+Sum SSSIM:  514.0
+SSIM score: 1.0    id   515
+PSNR: 84.88156127929688    id   515
+Sum SPSNR:  44117.77109527588
+Sum SSSIM:  515.0
+SSIM score: 1.0    id   516
+PSNR: 89.76258850097656    id   516
+Sum SPSNR:  44207.533683776855
+Sum SSSIM:  516.0
+SSIM score: 1.0    id   517
+PSNR: 86.0169906616211    id   517
+Sum SPSNR:  44293.55067443848
+Sum SSSIM:  517.0
+SSIM score: 1.0    id   518
+PSNR: 82.84323120117188    id   518
+Sum SPSNR:  44376.39390563965
+Sum SSSIM:  518.0
+SSIM score: 1.0    id   519
+PSNR: 86.37474822998047    id   519
+Sum SPSNR:  44462.76865386963
+Sum SSSIM:  519.0
+SSIM score: 1.0    id   520
+PSNR: 85.83331298828125    id   520
+Sum SPSNR:  44548.60196685791
+Sum SSSIM:  520.0
+SSIM score: 1.0    id   521
+PSNR: 83.61695098876953    id   521
+Sum SPSNR:  44632.21891784668
+Sum SSSIM:  521.0
+SSIM score: 1.0    id   522
+PSNR: 82.34629821777344    id   522
+Sum SPSNR:  44714.56521606445
+Sum SSSIM:  522.0
+SSIM score: 1.0    id   523
+PSNR: 86.79283905029297    id   523
+Sum SPSNR:  44801.358055114746
+Sum SSSIM:  523.0
+SSIM score: 1.0    id   524
+PSNR: 85.76002502441406    id   524
+Sum SPSNR:  44887.11808013916
+Sum SSSIM:  524.0
+SSIM score: 1.0    id   525
+PSNR: 86.41000366210938    id   525
+Sum SPSNR:  44973.52808380127
+Sum SSSIM:  525.0
+SSIM score: 1.0    id   526
+PSNR: 88.5712890625    id   526
+Sum SPSNR:  45062.09937286377
+Sum SSSIM:  526.0
+SSIM score: 1.0    id   527
+PSNR: 86.35795593261719    id   527
+Sum SPSNR:  45148.45732879639
+Sum SSSIM:  527.0
+SSIM score: 1.0    id   528
+PSNR: 82.00313568115234    id   528
+Sum SPSNR:  45230.46046447754
+Sum SSSIM:  528.0
+SSIM score: 1.0    id   529
+PSNR: 86.65541076660156    id   529
+Sum SPSNR:  45317.11587524414
+Sum SSSIM:  529.0
+SSIM score: 1.0    id   530
+PSNR: 90.79515075683594    id   530
+Sum SPSNR:  45407.91102600098
+Sum SSSIM:  530.0
+SSIM score: 1.0    id   531
+PSNR: 86.95712280273438    id   531
+Sum SPSNR:  45494.86814880371
+Sum SSSIM:  531.0
+SSIM score: 1.0    id   532
+PSNR: 82.93669891357422    id   532
+Sum SPSNR:  45577.804847717285
+Sum SSSIM:  532.0
+SSIM score: 1.0    id   533
+PSNR: 84.35920715332031    id   533
+Sum SPSNR:  45662.164054870605
+Sum SSSIM:  533.0
+SSIM score: 1.0    id   534
+PSNR: 85.6253433227539    id   534
+Sum SPSNR:  45747.78939819336
+Sum SSSIM:  534.0
+SSIM score: 1.0    id   535
+PSNR: 89.21377563476562    id   535
+Sum SPSNR:  45837.003173828125
+Sum SSSIM:  535.0
+SSIM score: 1.0    id   536
+PSNR: 82.29330444335938    id   536
+Sum SPSNR:  45919.296478271484
+Sum SSSIM:  536.0
+SSIM score: 1.0    id   537
+PSNR: 83.74642181396484    id   537
+Sum SPSNR:  46003.04290008545
+Sum SSSIM:  537.0
+SSIM score: 1.0    id   538
+PSNR: 91.42955780029297    id   538
+Sum SPSNR:  46094.47245788574
+Sum SSSIM:  538.0
+SSIM score: 1.0    id   539
+PSNR: 83.00835418701172    id   539
+Sum SPSNR:  46177.480812072754
+Sum SSSIM:  539.0
+SSIM score: 1.0    id   540
+PSNR: 82.70149993896484    id   540
+Sum SPSNR:  46260.18231201172
+Sum SSSIM:  540.0
+SSIM score: 1.0    id   541
+PSNR: 84.27445983886719    id   541
+Sum SPSNR:  46344.456771850586
+Sum SSSIM:  541.0
+SSIM score: 1.0    id   542
+PSNR: 90.92640686035156    id   542
+Sum SPSNR:  46435.38317871094
+Sum SSSIM:  542.0
+SSIM score: 1.0    id   543
+PSNR: 88.10364532470703    id   543
+Sum SPSNR:  46523.486824035645
+Sum SSSIM:  543.0
+SSIM score: 1.0    id   544
+PSNR: 87.46524810791016    id   544
+Sum SPSNR:  46610.952072143555
+Sum SSSIM:  544.0
+SSIM score: 1.0    id   545
+PSNR: 86.89517211914062    id   545
+Sum SPSNR:  46697.847244262695
+Sum SSSIM:  545.0
+SSIM score: 1.0    id   546
+PSNR: 82.98416137695312    id   546
+Sum SPSNR:  46780.83140563965
+Sum SSSIM:  546.0
+SSIM score: 1.0    id   547
+PSNR: 84.61945343017578    id   547
+Sum SPSNR:  46865.450859069824
+Sum SSSIM:  547.0
+SSIM score: 1.0    id   548
+PSNR: 87.40008544921875    id   548
+Sum SPSNR:  46952.85094451904
+Sum SSSIM:  548.0
+SSIM score: 1.0    id   549
+PSNR: 87.32322692871094    id   549
+Sum SPSNR:  47040.174171447754
+Sum SSSIM:  549.0
+SSIM score: 1.0    id   550
+PSNR: 86.7116470336914    id   550
+Sum SPSNR:  47126.885818481445
+Sum SSSIM:  550.0
+SSIM score: 1.0    id   551
+PSNR: 82.86781311035156    id   551
+Sum SPSNR:  47209.7536315918
+Sum SSSIM:  551.0
+SSIM score: 1.0    id   552
+PSNR: 83.56777954101562    id   552
+Sum SPSNR:  47293.32141113281
+Sum SSSIM:  552.0
+SSIM score: 1.0    id   553
+PSNR: 85.70594787597656    id   553
+Sum SPSNR:  47379.02735900879
+Sum SSSIM:  553.0
+SSIM score: 1.0    id   554
+PSNR: 90.11972045898438    id   554
+Sum SPSNR:  47469.14707946777
+Sum SSSIM:  554.0
+SSIM score: 1.0    id   555
+PSNR: 82.15938568115234    id   555
+Sum SPSNR:  47551.306465148926
+Sum SSSIM:  555.0
+SSIM score: 1.0    id   556
+PSNR: 88.40789031982422    id   556
+Sum SPSNR:  47639.71435546875
+Sum SSSIM:  556.0
+SSIM score: 1.0    id   557
+PSNR: 88.70097351074219    id   557
+Sum SPSNR:  47728.41532897949
+Sum SSSIM:  557.0
+SSIM score: 1.0    id   558
+PSNR: 83.31253051757812    id   558
+Sum SPSNR:  47811.72785949707
+Sum SSSIM:  558.0
+SSIM score: 1.0    id   559
+PSNR: 85.92980194091797    id   559
+Sum SPSNR:  47897.65766143799
+Sum SSSIM:  559.0
+SSIM score: 1.0    id   560
+PSNR: 88.80585479736328    id   560
+Sum SPSNR:  47986.46351623535
+Sum SSSIM:  560.0
+SSIM score: 1.0    id   561
+PSNR: 83.36140441894531    id   561
+Sum SPSNR:  48069.8249206543
+Sum SSSIM:  561.0
+SSIM score: 1.0    id   562
+PSNR: 85.81745147705078    id   562
+Sum SPSNR:  48155.64237213135
+Sum SSSIM:  562.0
+SSIM score: 1.0    id   563
+PSNR: 87.97254943847656    id   563
+Sum SPSNR:  48243.614921569824
+Sum SSSIM:  563.0
+SSIM score: 1.0    id   564
+PSNR: 85.0844955444336    id   564
+Sum SPSNR:  48328.69941711426
+Sum SSSIM:  564.0
+SSIM score: 1.0    id   565
+PSNR: 88.6063232421875    id   565
+Sum SPSNR:  48417.305740356445
+Sum SSSIM:  565.0
+SSIM score: 1.0    id   566
+PSNR: 88.54753112792969    id   566
+Sum SPSNR:  48505.853271484375
+Sum SSSIM:  566.0
+SSIM score: 1.0    id   567
+PSNR: 85.87397766113281    id   567
+Sum SPSNR:  48591.72724914551
+Sum SSSIM:  567.0
+SSIM score: 1.0    id   568
+PSNR: 87.69052124023438    id   568
+Sum SPSNR:  48679.41777038574
+Sum SSSIM:  568.0
+SSIM score: 1.0    id   569
+PSNR: 82.59403228759766    id   569
+Sum SPSNR:  48762.01180267334
+Sum SSSIM:  569.0
+SSIM score: 1.0    id   570
+PSNR: 85.0328369140625    id   570
+Sum SPSNR:  48847.0446395874
+Sum SSSIM:  570.0
+SSIM score: 1.0    id   571
+PSNR: 85.91868591308594    id   571
+Sum SPSNR:  48932.96332550049
+Sum SSSIM:  571.0
+SSIM score: 1.0    id   572
+PSNR: 82.8934555053711    id   572
+Sum SPSNR:  49015.85678100586
+Sum SSSIM:  572.0
+SSIM score: 1.0    id   573
+PSNR: 87.21377563476562    id   573
+Sum SPSNR:  49103.070556640625
+Sum SSSIM:  573.0
+SSIM score: 1.0    id   574
+PSNR: 83.90003204345703    id   574
+Sum SPSNR:  49186.97058868408
+Sum SSSIM:  574.0
+SSIM score: 1.0    id   575
+PSNR: 88.77902221679688    id   575
+Sum SPSNR:  49275.74961090088
+Sum SSSIM:  575.0
+SSIM score: 1.0    id   576
+PSNR: 86.6044692993164    id   576
+Sum SPSNR:  49362.354080200195
+Sum SSSIM:  576.0
+SSIM score: 1.0    id   577
+PSNR: 82.97161865234375    id   577
+Sum SPSNR:  49445.32569885254
+Sum SSSIM:  577.0
+SSIM score: 1.0    id   578
+PSNR: 88.27889251708984    id   578
+Sum SPSNR:  49533.60459136963
+Sum SSSIM:  578.0
+SSIM score: 1.0    id   579
+PSNR: 83.04379272460938    id   579
+Sum SPSNR:  49616.64838409424
+Sum SSSIM:  579.0
+SSIM score: 1.0    id   580
+PSNR: 83.89617919921875    id   580
+Sum SPSNR:  49700.54456329346
+Sum SSSIM:  580.0
+SSIM score: 1.0    id   581
+PSNR: 86.52188110351562    id   581
+Sum SPSNR:  49787.06644439697
+Sum SSSIM:  581.0
+SSIM score: 1.0    id   582
+PSNR: 88.19733428955078    id   582
+Sum SPSNR:  49875.26377868652
+Sum SSSIM:  582.0
+SSIM score: 1.0    id   583
+PSNR: 86.89452362060547    id   583
+Sum SPSNR:  49962.15830230713
+Sum SSSIM:  583.0
+SSIM score: 1.0    id   584
+PSNR: 82.53022003173828    id   584
+Sum SPSNR:  50044.68852233887
+Sum SSSIM:  584.0
+SSIM score: 1.0    id   585
+PSNR: 86.93890380859375    id   585
+Sum SPSNR:  50131.62742614746
+Sum SSSIM:  585.0
+SSIM score: 1.0    id   586
+PSNR: 84.75402069091797    id   586
+Sum SPSNR:  50216.38144683838
+Sum SSSIM:  586.0
+SSIM score: 1.0    id   587
+PSNR: 85.57798767089844    id   587
+Sum SPSNR:  50301.95943450928
+Sum SSSIM:  587.0
+SSIM score: 1.0    id   588
+PSNR: 88.14663696289062    id   588
+Sum SPSNR:  50390.10607147217
+Sum SSSIM:  588.0
+SSIM score: 1.0    id   589
+PSNR: 90.6697006225586    id   589
+Sum SPSNR:  50480.77577209473
+Sum SSSIM:  589.0
+SSIM score: 1.0    id   590
+PSNR: 86.20082092285156    id   590
+Sum SPSNR:  50566.97659301758
+Sum SSSIM:  590.0
+SSIM score: 1.0    id   591
+PSNR: 87.52005767822266    id   591
+Sum SPSNR:  50654.4966506958
+Sum SSSIM:  591.0
+SSIM score: 1.0    id   592
+PSNR: 85.3253173828125    id   592
+Sum SPSNR:  50739.82196807861
+Sum SSSIM:  592.0
+SSIM score: 1.0    id   593
+PSNR: 89.06890869140625    id   593
+Sum SPSNR:  50828.89087677002
+Sum SSSIM:  593.0
+SSIM score: 1.0    id   594
+PSNR: 86.7545166015625    id   594
+Sum SPSNR:  50915.64539337158
+Sum SSSIM:  594.0
+SSIM score: 1.0    id   595
+PSNR: 83.43583679199219    id   595
+Sum SPSNR:  50999.081230163574
+Sum SSSIM:  595.0
+SSIM score: 1.0    id   596
+PSNR: 84.48959350585938    id   596
+Sum SPSNR:  51083.57082366943
+Sum SSSIM:  596.0
+SSIM score: 1.0    id   597
+PSNR: 88.88427734375    id   597
+Sum SPSNR:  51172.45510101318
+Sum SSSIM:  597.0
+SSIM score: 1.0    id   598
+PSNR: 82.66089630126953    id   598
+Sum SPSNR:  51255.11599731445
+Sum SSSIM:  598.0
+SSIM score: 1.0    id   599
+PSNR: 82.09407806396484    id   599
+Sum SPSNR:  51337.21007537842
+Sum SSSIM:  599.0
+SSIM score: 1.0    id   600
+PSNR: 87.472900390625    id   600
+Sum SPSNR:  51424.68297576904
+Sum SSSIM:  600.0
+SSIM score: 1.0    id   601
+PSNR: 88.15318298339844    id   601
+Sum SPSNR:  51512.83615875244
+Sum SSSIM:  601.0
+SSIM score: 1.0    id   602
+PSNR: 89.06836700439453    id   602
+Sum SPSNR:  51601.904525756836
+Sum SSSIM:  602.0
+SSIM score: 1.0    id   603
+PSNR: 83.39539337158203    id   603
+Sum SPSNR:  51685.29991912842
+Sum SSSIM:  603.0
+SSIM score: 1.0    id   604
+PSNR: 85.33033752441406    id   604
+Sum SPSNR:  51770.63025665283
+Sum SSSIM:  604.0
+SSIM score: 1.0    id   605
+PSNR: 83.56565856933594    id   605
+Sum SPSNR:  51854.19591522217
+Sum SSSIM:  605.0
+SSIM score: 1.0    id   606
+PSNR: 84.2324447631836    id   606
+Sum SPSNR:  51938.42835998535
+Sum SSSIM:  606.0
+SSIM score: 1.0    id   607
+PSNR: 86.99913024902344    id   607
+Sum SPSNR:  52025.427490234375
+Sum SSSIM:  607.0
+SSIM score: 1.0    id   608
+PSNR: 86.26344299316406    id   608
+Sum SPSNR:  52111.69093322754
+Sum SSSIM:  608.0
+SSIM score: 1.0    id   609
+PSNR: 90.78152465820312    id   609
+Sum SPSNR:  52202.47245788574
+Sum SSSIM:  609.0
+SSIM score: 1.0    id   610
+PSNR: 82.7157211303711    id   610
+Sum SPSNR:  52285.18817901611
+Sum SSSIM:  610.0
+SSIM score: 1.0    id   611
+PSNR: 83.58370971679688    id   611
+Sum SPSNR:  52368.77188873291
+Sum SSSIM:  611.0
+SSIM score: 1.0    id   612
+PSNR: 84.33399963378906    id   612
+Sum SPSNR:  52453.1058883667
+Sum SSSIM:  612.0
+SSIM score: 1.0    id   613
+PSNR: 83.1025390625    id   613
+Sum SPSNR:  52536.2084274292
+Sum SSSIM:  613.0
+SSIM score: 1.0    id   614
+PSNR: 85.81465148925781    id   614
+Sum SPSNR:  52622.02307891846
+Sum SSSIM:  614.0
+SSIM score: 1.0    id   615
+PSNR: 82.99880981445312    id   615
+Sum SPSNR:  52705.02188873291
+Sum SSSIM:  615.0
+SSIM score: 1.0    id   616
+PSNR: 89.22270965576172    id   616
+Sum SPSNR:  52794.24459838867
+Sum SSSIM:  616.0
+SSIM score: 1.0    id   617
+PSNR: 83.7938232421875    id   617
+Sum SPSNR:  52878.03842163086
+Sum SSSIM:  617.0
+SSIM score: 1.0    id   618
+PSNR: 89.10467529296875    id   618
+Sum SPSNR:  52967.14309692383
+Sum SSSIM:  618.0
+SSIM score: 1.0    id   619
+PSNR: 83.5682373046875    id   619
+Sum SPSNR:  53050.711334228516
+Sum SSSIM:  619.0
+SSIM score: 1.0    id   620
+PSNR: 86.98574829101562    id   620
+Sum SPSNR:  53137.69708251953
+Sum SSSIM:  620.0
+SSIM score: 1.0    id   621
+PSNR: 84.95481872558594    id   621
+Sum SPSNR:  53222.65190124512
+Sum SSSIM:  621.0
+SSIM score: 1.0    id   622
+PSNR: 88.25779724121094    id   622
+Sum SPSNR:  53310.90969848633
+Sum SSSIM:  622.0
+SSIM score: 1.0    id   623
+PSNR: 83.94515991210938    id   623
+Sum SPSNR:  53394.85485839844
+Sum SSSIM:  623.0
+SSIM score: 1.0    id   624
+PSNR: 83.63274383544922    id   624
+Sum SPSNR:  53478.48760223389
+Sum SSSIM:  624.0
+SSIM score: 1.0    id   625
+PSNR: 86.45663452148438    id   625
+Sum SPSNR:  53564.94423675537
+Sum SSSIM:  625.0
+SSIM score: 1.0    id   626
+PSNR: 88.4791488647461    id   626
+Sum SPSNR:  53653.42338562012
+Sum SSSIM:  626.0
+SSIM score: 1.0    id   627
+PSNR: 86.17316436767578    id   627
+Sum SPSNR:  53739.59654998779
+Sum SSSIM:  627.0
+SSIM score: 1.0    id   628
+PSNR: 87.80376434326172    id   628
+Sum SPSNR:  53827.400314331055
+Sum SSSIM:  628.0
+SSIM score: 1.0    id   629
+PSNR: 82.53471374511719    id   629
+Sum SPSNR:  53909.93502807617
+Sum SSSIM:  629.0
+SSIM score: 1.0    id   630
+PSNR: 83.77791595458984    id   630
+Sum SPSNR:  53993.71294403076
+Sum SSSIM:  630.0
+SSIM score: 1.0    id   631
+PSNR: 84.30931091308594    id   631
+Sum SPSNR:  54078.02225494385
+Sum SSSIM:  631.0
+SSIM score: 1.0    id   632
+PSNR: 86.63917541503906    id   632
+Sum SPSNR:  54164.66143035889
+Sum SSSIM:  632.0
+SSIM score: 1.0    id   633
+PSNR: 82.44456481933594    id   633
+Sum SPSNR:  54247.10599517822
+Sum SSSIM:  633.0
+SSIM score: 1.0    id   634
+PSNR: 88.86415100097656    id   634
+Sum SPSNR:  54335.9701461792
+Sum SSSIM:  634.0
+SSIM score: 1.0    id   635
+PSNR: 86.53752136230469    id   635
+Sum SPSNR:  54422.507667541504
+Sum SSSIM:  635.0
+SSIM score: 1.0    id   636
+PSNR: 88.12812805175781    id   636
+Sum SPSNR:  54510.63579559326
+Sum SSSIM:  636.0
+SSIM score: 1.0    id   637
+PSNR: 86.57246398925781    id   637
+Sum SPSNR:  54597.20825958252
+Sum SSSIM:  637.0
+SSIM score: 1.0    id   638
+PSNR: 85.64395141601562    id   638
+Sum SPSNR:  54682.852210998535
+Sum SSSIM:  638.0
+SSIM score: 1.0    id   639
+PSNR: 84.85806274414062    id   639
+Sum SPSNR:  54767.710273742676
+Sum SSSIM:  639.0
+SSIM score: 1.0    id   640
+PSNR: 83.56695556640625    id   640
+Sum SPSNR:  54851.27722930908
+Sum SSSIM:  640.0
+SSIM score: 1.0    id   641
+PSNR: 88.77725219726562    id   641
+Sum SPSNR:  54940.05448150635
+Sum SSSIM:  641.0
+SSIM score: 1.0    id   642
+PSNR: 83.32904815673828    id   642
+Sum SPSNR:  55023.383529663086
+Sum SSSIM:  642.0
+SSIM score: 1.0    id   643
+PSNR: 87.31060791015625    id   643
+Sum SPSNR:  55110.69413757324
+Sum SSSIM:  643.0
+SSIM score: 1.0    id   644
+PSNR: 88.61117553710938    id   644
+Sum SPSNR:  55199.30531311035
+Sum SSSIM:  644.0
+SSIM score: 1.0    id   645
+PSNR: 86.58554077148438    id   645
+Sum SPSNR:  55285.890853881836
+Sum SSSIM:  645.0
+SSIM score: 1.0    id   646
+PSNR: 87.2000732421875    id   646
+Sum SPSNR:  55373.09092712402
+Sum SSSIM:  646.0
+SSIM score: 1.0    id   647
+PSNR: 88.6752700805664    id   647
+Sum SPSNR:  55461.76619720459
+Sum SSSIM:  647.0
+SSIM score: 1.0    id   648
+PSNR: 83.83477783203125    id   648
+Sum SPSNR:  55545.60097503662
+Sum SSSIM:  648.0
+SSIM score: 1.0    id   649
+PSNR: 84.05696868896484    id   649
+Sum SPSNR:  55629.657943725586
+Sum SSSIM:  649.0
+SSIM score: 1.0    id   650
+PSNR: 85.5108642578125    id   650
+Sum SPSNR:  55715.1688079834
+Sum SSSIM:  650.0
+SSIM score: 1.0    id   651
+PSNR: 82.29710388183594    id   651
+Sum SPSNR:  55797.465911865234
+Sum SSSIM:  651.0
+SSIM score: 1.0    id   652
+PSNR: 88.0538101196289    id   652
+Sum SPSNR:  55885.51972198486
+Sum SSSIM:  652.0
+SSIM score: 1.0    id   653
+PSNR: 85.92587280273438    id   653
+Sum SPSNR:  55971.4455947876
+Sum SSSIM:  653.0
+SSIM score: 1.0    id   654
+PSNR: 84.77294921875    id   654
+Sum SPSNR:  56056.21854400635
+Sum SSSIM:  654.0
+SSIM score: 1.0    id   655
+PSNR: 82.21855163574219    id   655
+Sum SPSNR:  56138.43709564209
+Sum SSSIM:  655.0
+SSIM score: 1.0    id   656
+PSNR: 88.98949432373047    id   656
+Sum SPSNR:  56227.42658996582
+Sum SSSIM:  656.0
+SSIM score: 1.0    id   657
+PSNR: 83.13731384277344    id   657
+Sum SPSNR:  56310.563903808594
+Sum SSSIM:  657.0
+SSIM score: 1.0    id   658
+PSNR: 86.52699279785156    id   658
+Sum SPSNR:  56397.090896606445
+Sum SSSIM:  658.0
+SSIM score: 1.0    id   659
+PSNR: 85.63880157470703    id   659
+Sum SPSNR:  56482.72969818115
+Sum SSSIM:  659.0
+SSIM score: 1.0    id   660
+PSNR: 89.21935272216797    id   660
+Sum SPSNR:  56571.94905090332
+Sum SSSIM:  660.0
+SSIM score: 1.0    id   661
+PSNR: 83.2332534790039    id   661
+Sum SPSNR:  56655.182304382324
+Sum SSSIM:  661.0
+SSIM score: 1.0    id   662
+PSNR: 82.1913833618164    id   662
+Sum SPSNR:  56737.37368774414
+Sum SSSIM:  662.0
+SSIM score: 1.0    id   663
+PSNR: 87.3221435546875    id   663
+Sum SPSNR:  56824.69583129883
+Sum SSSIM:  663.0
+SSIM score: 1.0    id   664
+PSNR: 88.79191589355469    id   664
+Sum SPSNR:  56913.48774719238
+Sum SSSIM:  664.0
+SSIM score: 1.0    id   665
+PSNR: 88.02252197265625    id   665
+Sum SPSNR:  57001.51026916504
+Sum SSSIM:  665.0
+SSIM score: 1.0    id   666
+PSNR: 86.84573364257812    id   666
+Sum SPSNR:  57088.35600280762
+Sum SSSIM:  666.0
+SSIM score: 1.0    id   667
+PSNR: 87.06412506103516    id   667
+Sum SPSNR:  57175.42012786865
+Sum SSSIM:  667.0
+SSIM score: 1.0    id   668
+PSNR: 81.37553405761719    id   668
+Sum SPSNR:  57256.79566192627
+Sum SSSIM:  668.0
+SSIM score: 1.0    id   669
+PSNR: 83.07557678222656    id   669
+Sum SPSNR:  57339.871238708496
+Sum SSSIM:  669.0
+SSIM score: 1.0    id   670
+PSNR: 83.08992004394531    id   670
+Sum SPSNR:  57422.96115875244
+Sum SSSIM:  670.0
+SSIM score: 1.0    id   671
+PSNR: 84.77334594726562    id   671
+Sum SPSNR:  57507.73450469971
+Sum SSSIM:  671.0
+SSIM score: 1.0    id   672
+PSNR: 88.33049011230469    id   672
+Sum SPSNR:  57596.06499481201
+Sum SSSIM:  672.0
+SSIM score: 1.0    id   673
+PSNR: 87.70409393310547    id   673
+Sum SPSNR:  57683.76908874512
+Sum SSSIM:  673.0
+SSIM score: 1.0    id   674
+PSNR: 82.74600982666016    id   674
+Sum SPSNR:  57766.51509857178
+Sum SSSIM:  674.0
+SSIM score: 1.0    id   675
+PSNR: 85.22662353515625    id   675
+Sum SPSNR:  57851.74172210693
+Sum SSSIM:  675.0
+SSIM score: 1.0    id   676
+PSNR: 86.58401489257812    id   676
+Sum SPSNR:  57938.32573699951
+Sum SSSIM:  676.0
+SSIM score: 1.0    id   677
+PSNR: 86.54068756103516    id   677
+Sum SPSNR:  58024.86642456055
+Sum SSSIM:  677.0
+SSIM score: 1.0    id   678
+PSNR: 86.56350708007812    id   678
+Sum SPSNR:  58111.429931640625
+Sum SSSIM:  678.0
+SSIM score: 1.0    id   679
+PSNR: 88.13704681396484    id   679
+Sum SPSNR:  58199.56697845459
+Sum SSSIM:  679.0
+SSIM score: 1.0    id   680
+PSNR: 87.35347747802734    id   680
+Sum SPSNR:  58286.92045593262
+Sum SSSIM:  680.0
+SSIM score: 1.0    id   681
+PSNR: 86.06278991699219    id   681
+Sum SPSNR:  58372.98324584961
+Sum SSSIM:  681.0
+SSIM score: 1.0    id   682
+PSNR: 89.84085083007812    id   682
+Sum SPSNR:  58462.82409667969
+Sum SSSIM:  682.0
+SSIM score: 1.0    id   683
+PSNR: 90.49610900878906    id   683
+Sum SPSNR:  58553.32020568848
+Sum SSSIM:  683.0
+SSIM score: 1.0    id   684
+PSNR: 82.92422485351562    id   684
+Sum SPSNR:  58636.24443054199
+Sum SSSIM:  684.0
+SSIM score: 1.0    id   685
+PSNR: 86.8936996459961    id   685
+Sum SPSNR:  58723.13813018799
+Sum SSSIM:  685.0
+SSIM score: 1.0    id   686
+PSNR: 84.87539672851562    id   686
+Sum SPSNR:  58808.013526916504
+Sum SSSIM:  686.0
+SSIM score: 1.0    id   687
+PSNR: 87.93228149414062    id   687
+Sum SPSNR:  58895.945808410645
+Sum SSSIM:  687.0
+SSIM score: 1.0    id   688
+PSNR: 84.71879577636719    id   688
+Sum SPSNR:  58980.66460418701
+Sum SSSIM:  688.0
+SSIM score: 1.0    id   689
+PSNR: 90.01580047607422    id   689
+Sum SPSNR:  59070.680404663086
+Sum SSSIM:  689.0
+SSIM score: 1.0    id   690
+PSNR: 90.79595947265625    id   690
+Sum SPSNR:  59161.47636413574
+Sum SSSIM:  690.0
+SSIM score: 1.0    id   691
+PSNR: 87.67777252197266    id   691
+Sum SPSNR:  59249.154136657715
+Sum SSSIM:  691.0
+SSIM score: 1.0    id   692
+PSNR: 88.6024398803711    id   692
+Sum SPSNR:  59337.756576538086
+Sum SSSIM:  692.0
+SSIM score: 1.0    id   693
+PSNR: 83.1917724609375    id   693
+Sum SPSNR:  59420.94834899902
+Sum SSSIM:  693.0
+SSIM score: 1.0    id   694
+PSNR: 82.86076354980469    id   694
+Sum SPSNR:  59503.80911254883
+Sum SSSIM:  694.0
+SSIM score: 1.0    id   695
+PSNR: 87.94684600830078    id   695
+Sum SPSNR:  59591.75595855713
+Sum SSSIM:  695.0
+SSIM score: 1.0    id   696
+PSNR: 87.49969482421875    id   696
+Sum SPSNR:  59679.25565338135
+Sum SSSIM:  696.0
+SSIM score: 1.0    id   697
+PSNR: 85.03433227539062    id   697
+Sum SPSNR:  59764.28998565674
+Sum SSSIM:  697.0
+SSIM score: 1.0    id   698
+PSNR: 84.05807495117188    id   698
+Sum SPSNR:  59848.34806060791
+Sum SSSIM:  698.0
+SSIM score: 1.0    id   699
+PSNR: 87.80658721923828    id   699
+Sum SPSNR:  59936.15464782715
+Sum SSSIM:  699.0
+SSIM score: 1.0    id   700
+PSNR: 81.98805236816406    id   700
+Sum SPSNR:  60018.14270019531
+Sum SSSIM:  700.0
+SSIM score: 1.0    id   701
+PSNR: 83.09033203125    id   701
+Sum SPSNR:  60101.23303222656
+Sum SSSIM:  701.0
+SSIM score: 1.0    id   702
+PSNR: 82.66645812988281    id   702
+Sum SPSNR:  60183.899490356445
+Sum SSSIM:  702.0
+SSIM score: 1.0    id   703
+PSNR: 85.30883026123047    id   703
+Sum SPSNR:  60269.208320617676
+Sum SSSIM:  703.0
+SSIM score: 1.0    id   704
+PSNR: 88.53105163574219    id   704
+Sum SPSNR:  60357.73937225342
+Sum SSSIM:  704.0
+SSIM score: 1.0    id   705
+PSNR: 84.68238067626953    id   705
+Sum SPSNR:  60442.42175292969
+Sum SSSIM:  705.0
+SSIM score: 1.0    id   706
+PSNR: 86.6537094116211    id   706
+Sum SPSNR:  60529.07546234131
+Sum SSSIM:  706.0
+SSIM score: 1.0    id   707
+PSNR: 87.46710968017578    id   707
+Sum SPSNR:  60616.542572021484
+Sum SSSIM:  707.0
+SSIM score: 1.0    id   708
+PSNR: 85.14878845214844    id   708
+Sum SPSNR:  60701.69136047363
+Sum SSSIM:  708.0
+SSIM score: 1.0    id   709
+PSNR: 81.8522720336914    id   709
+Sum SPSNR:  60783.543632507324
+Sum SSSIM:  709.0
+SSIM score: 1.0    id   710
+PSNR: 86.90434265136719    id   710
+Sum SPSNR:  60870.44797515869
+Sum SSSIM:  710.0
+SSIM score: 1.0    id   711
+PSNR: 88.54322814941406    id   711
+Sum SPSNR:  60958.991203308105
+Sum SSSIM:  711.0
+SSIM score: 1.0    id   712
+PSNR: 82.12347412109375    id   712
+Sum SPSNR:  61041.1146774292
+Sum SSSIM:  712.0
+SSIM score: 1.0    id   713
+PSNR: 83.99092864990234    id   713
+Sum SPSNR:  61125.1056060791
+Sum SSSIM:  713.0
+SSIM score: 1.0    id   714
+PSNR: 88.55040740966797    id   714
+Sum SPSNR:  61213.65601348877
+Sum SSSIM:  714.0
+SSIM score: 1.0    id   715
+PSNR: 89.76576232910156    id   715
+Sum SPSNR:  61303.42177581787
+Sum SSSIM:  715.0
+SSIM score: 1.0    id   716
+PSNR: 90.34074401855469    id   716
+Sum SPSNR:  61393.762519836426
+Sum SSSIM:  716.0
+SSIM score: 1.0    id   717
+PSNR: 86.02420806884766    id   717
+Sum SPSNR:  61479.78672790527
+Sum SSSIM:  717.0
+SSIM score: 1.0    id   718
+PSNR: 85.62010192871094    id   718
+Sum SPSNR:  61565.406829833984
+Sum SSSIM:  718.0
+SSIM score: 1.0    id   719
+PSNR: 88.10428619384766    id   719
+Sum SPSNR:  61653.51111602783
+Sum SSSIM:  719.0
+SSIM score: 1.0    id   720
+PSNR: 84.17217254638672    id   720
+Sum SPSNR:  61737.68328857422
+Sum SSSIM:  720.0
+SSIM score: 1.0    id   721
+PSNR: 82.61798095703125    id   721
+Sum SPSNR:  61820.30126953125
+Sum SSSIM:  721.0
+SSIM score: 1.0    id   722
+PSNR: 83.54594421386719    id   722
+Sum SPSNR:  61903.84721374512
+Sum SSSIM:  722.0
+SSIM score: 1.0    id   723
+PSNR: 86.38215637207031    id   723
+Sum SPSNR:  61990.22937011719
+Sum SSSIM:  723.0
+SSIM score: 1.0    id   724
+PSNR: 86.22906494140625    id   724
+Sum SPSNR:  62076.458435058594
+Sum SSSIM:  724.0
+SSIM score: 1.0    id   725
+PSNR: 86.14665222167969    id   725
+Sum SPSNR:  62162.60508728027
+Sum SSSIM:  725.0
+SSIM score: 1.0    id   726
+PSNR: 83.98766326904297    id   726
+Sum SPSNR:  62246.59275054932
+Sum SSSIM:  726.0
+SSIM score: 1.0    id   727
+PSNR: 90.3541488647461    id   727
+Sum SPSNR:  62336.94689941406
+Sum SSSIM:  727.0
+SSIM score: 1.0    id   728
+PSNR: 87.61959075927734    id   728
+Sum SPSNR:  62424.56649017334
+Sum SSSIM:  728.0
+SSIM score: 1.0    id   729
+PSNR: 88.3981704711914    id   729
+Sum SPSNR:  62512.96466064453
+Sum SSSIM:  729.0
+SSIM score: 1.0    id   730
+PSNR: 87.68894958496094    id   730
+Sum SPSNR:  62600.65361022949
+Sum SSSIM:  730.0
+SSIM score: 1.0    id   731
+PSNR: 83.06148529052734    id   731
+Sum SPSNR:  62683.71509552002
+Sum SSSIM:  731.0
+SSIM score: 1.0    id   732
+PSNR: 86.67044830322266    id   732
+Sum SPSNR:  62770.38554382324
+Sum SSSIM:  732.0
+SSIM score: 1.0    id   733
+PSNR: 84.21820068359375    id   733
+Sum SPSNR:  62854.603744506836
+Sum SSSIM:  733.0
+SSIM score: 1.0    id   734
+PSNR: 86.9118881225586    id   734
+Sum SPSNR:  62941.515632629395
+Sum SSSIM:  734.0
+SSIM score: 1.0    id   735
+PSNR: 88.77371978759766    id   735
+Sum SPSNR:  63030.28935241699
+Sum SSSIM:  735.0
+SSIM score: 1.0    id   736
+PSNR: 86.53827667236328    id   736
+Sum SPSNR:  63116.827629089355
+Sum SSSIM:  736.0
+SSIM score: 1.0    id   737
+PSNR: 84.96330261230469    id   737
+Sum SPSNR:  63201.79093170166
+Sum SSSIM:  737.0
+SSIM score: 1.0    id   738
+PSNR: 86.69334411621094    id   738
+Sum SPSNR:  63288.48427581787
+Sum SSSIM:  738.0
+SSIM score: 1.0    id   739
+PSNR: 83.46530151367188    id   739
+Sum SPSNR:  63371.94957733154
+Sum SSSIM:  739.0
+SSIM score: 1.0    id   740
+PSNR: 85.66841888427734    id   740
+Sum SPSNR:  63457.61799621582
+Sum SSSIM:  740.0
+SSIM score: 1.0    id   741
+PSNR: 86.28385925292969    id   741
+Sum SPSNR:  63543.90185546875
+Sum SSSIM:  741.0
+SSIM score: 1.0    id   742
+PSNR: 88.425537109375    id   742
+Sum SPSNR:  63632.327392578125
+Sum SSSIM:  742.0
+SSIM score: 1.0    id   743
+PSNR: 88.37579345703125    id   743
+Sum SPSNR:  63720.703186035156
+Sum SSSIM:  743.0
+SSIM score: 1.0    id   744
+PSNR: 87.54505920410156    id   744
+Sum SPSNR:  63808.24824523926
+Sum SSSIM:  744.0
+SSIM score: 1.0    id   745
+PSNR: 86.091796875    id   745
+Sum SPSNR:  63894.34004211426
+Sum SSSIM:  745.0
+SSIM score: 1.0    id   746
+PSNR: 86.50032043457031    id   746
+Sum SPSNR:  63980.84036254883
+Sum SSSIM:  746.0
+SSIM score: 1.0    id   747
+PSNR: 83.82880401611328    id   747
+Sum SPSNR:  64064.66916656494
+Sum SSSIM:  747.0
+SSIM score: 1.0    id   748
+PSNR: 84.97431945800781    id   748
+Sum SPSNR:  64149.64348602295
+Sum SSSIM:  748.0
+SSIM score: 1.0    id   749
+PSNR: 83.60757446289062    id   749
+Sum SPSNR:  64233.25106048584
+Sum SSSIM:  749.0
+SSIM score: 1.0    id   750
+PSNR: 89.8573226928711    id   750
+Sum SPSNR:  64323.10838317871
+Sum SSSIM:  750.0
+SSIM score: 1.0    id   751
+PSNR: 82.93728637695312    id   751
+Sum SPSNR:  64406.045669555664
+Sum SSSIM:  751.0
+SSIM score: 1.0    id   752
+PSNR: 84.5633544921875    id   752
+Sum SPSNR:  64490.60902404785
+Sum SSSIM:  752.0
+SSIM score: 1.0    id   753
+PSNR: 87.97213745117188    id   753
+Sum SPSNR:  64578.58116149902
+Sum SSSIM:  753.0
+SSIM score: 1.0    id   754
+PSNR: 83.0464859008789    id   754
+Sum SPSNR:  64661.6276473999
+Sum SSSIM:  754.0
+SSIM score: 1.0    id   755
+PSNR: 83.06013488769531    id   755
+Sum SPSNR:  64744.6877822876
+Sum SSSIM:  755.0
+SSIM score: 1.0    id   756
+PSNR: 89.45555877685547    id   756
+Sum SPSNR:  64834.14334106445
+Sum SSSIM:  756.0
+SSIM score: 1.0    id   757
+PSNR: 87.82073974609375    id   757
+Sum SPSNR:  64921.96408081055
+Sum SSSIM:  757.0
+SSIM score: 1.0    id   758
+PSNR: 88.78104400634766    id   758
+Sum SPSNR:  65010.745124816895
+Sum SSSIM:  758.0
+SSIM score: 1.0    id   759
+PSNR: 84.04651641845703    id   759
+Sum SPSNR:  65094.79164123535
+Sum SSSIM:  759.0
+SSIM score: 1.0    id   760
+PSNR: 88.1808090209961    id   760
+Sum SPSNR:  65182.97245025635
+Sum SSSIM:  760.0
+SSIM score: 1.0    id   761
+PSNR: 86.61550903320312    id   761
+Sum SPSNR:  65269.58795928955
+Sum SSSIM:  761.0
+SSIM score: 1.0    id   762
+PSNR: 85.41989135742188    id   762
+Sum SPSNR:  65355.00785064697
+Sum SSSIM:  762.0
+SSIM score: 1.0    id   763
+PSNR: 83.4520263671875    id   763
+Sum SPSNR:  65438.45987701416
+Sum SSSIM:  763.0
+SSIM score: 1.0    id   764
+PSNR: 82.72271728515625    id   764
+Sum SPSNR:  65521.18259429932
+Sum SSSIM:  764.0
+SSIM score: 1.0    id   765
+PSNR: 83.55518341064453    id   765
+Sum SPSNR:  65604.73777770996
+Sum SSSIM:  765.0
+SSIM score: 1.0    id   766
+PSNR: 86.43038940429688    id   766
+Sum SPSNR:  65691.16816711426
+Sum SSSIM:  766.0
+SSIM score: 1.0    id   767
+PSNR: 88.64579010009766    id   767
+Sum SPSNR:  65779.81395721436
+Sum SSSIM:  767.0
+SSIM score: 1.0    id   768
+PSNR: 82.6903076171875    id   768
+Sum SPSNR:  65862.50426483154
+Sum SSSIM:  768.0
+SSIM score: 1.0    id   769
+PSNR: 87.68247985839844    id   769
+Sum SPSNR:  65950.18674468994
+Sum SSSIM:  769.0
+SSIM score: 1.0    id   770
+PSNR: 83.16792297363281    id   770
+Sum SPSNR:  66033.35466766357
+Sum SSSIM:  770.0
+SSIM score: 1.0    id   771
+PSNR: 88.2392578125    id   771
+Sum SPSNR:  66121.59392547607
+Sum SSSIM:  771.0
+SSIM score: 1.0    id   772
+PSNR: 86.8168716430664    id   772
+Sum SPSNR:  66208.41079711914
+Sum SSSIM:  772.0
+SSIM score: 1.0    id   773
+PSNR: 83.24989318847656    id   773
+Sum SPSNR:  66291.66069030762
+Sum SSSIM:  773.0
+SSIM score: 1.0    id   774
+PSNR: 87.05274963378906    id   774
+Sum SPSNR:  66378.7134399414
+Sum SSSIM:  774.0
+SSIM score: 1.0    id   775
+PSNR: 89.32624816894531    id   775
+Sum SPSNR:  66468.03968811035
+Sum SSSIM:  775.0
+SSIM score: 1.0    id   776
+PSNR: 86.02487182617188    id   776
+Sum SPSNR:  66554.06455993652
+Sum SSSIM:  776.0
+SSIM score: 1.0    id   777
+PSNR: 89.50718688964844    id   777
+Sum SPSNR:  66643.57174682617
+Sum SSSIM:  777.0
+SSIM score: 1.0    id   778
+PSNR: 88.80281066894531    id   778
+Sum SPSNR:  66732.37455749512
+Sum SSSIM:  778.0
+SSIM score: 1.0    id   779
+PSNR: 86.5139389038086    id   779
+Sum SPSNR:  66818.88849639893
+Sum SSSIM:  779.0
+SSIM score: 1.0    id   780
+PSNR: 83.05702209472656    id   780
+Sum SPSNR:  66901.94551849365
+Sum SSSIM:  780.0
+SSIM score: 1.0    id   781
+PSNR: 83.4469223022461    id   781
+Sum SPSNR:  66985.3924407959
+Sum SSSIM:  781.0
+SSIM score: 1.0    id   782
+PSNR: 86.3906021118164    id   782
+Sum SPSNR:  67071.78304290771
+Sum SSSIM:  782.0
+SSIM score: 1.0    id   783
+PSNR: 87.5562744140625    id   783
+Sum SPSNR:  67159.33931732178
+Sum SSSIM:  783.0
+SSIM score: 1.0    id   784
+PSNR: 90.32342529296875    id   784
+Sum SPSNR:  67249.66274261475
+Sum SSSIM:  784.0
+SSIM score: 1.0    id   785
+PSNR: 87.4453353881836    id   785
+Sum SPSNR:  67337.10807800293
+Sum SSSIM:  785.0
+SSIM score: 1.0    id   786
+PSNR: 86.12934112548828    id   786
+Sum SPSNR:  67423.23741912842
+Sum SSSIM:  786.0
+SSIM score: 1.0    id   787
+PSNR: 84.60494995117188    id   787
+Sum SPSNR:  67507.84236907959
+Sum SSSIM:  787.0
+SSIM score: 1.0    id   788
+PSNR: 88.52057647705078    id   788
+Sum SPSNR:  67596.36294555664
+Sum SSSIM:  788.0
+SSIM score: 1.0    id   789
+PSNR: 86.13716125488281    id   789
+Sum SPSNR:  67682.50010681152
+Sum SSSIM:  789.0
+SSIM score: 1.0    id   790
+PSNR: 84.1670150756836    id   790
+Sum SPSNR:  67766.6671218872
+Sum SSSIM:  790.0
+SSIM score: 1.0    id   791
+PSNR: 88.12899780273438    id   791
+Sum SPSNR:  67854.79611968994
+Sum SSSIM:  791.0
+SSIM score: 1.0    id   792
+PSNR: 89.25637817382812    id   792
+Sum SPSNR:  67944.05249786377
+Sum SSSIM:  792.0
+SSIM score: 1.0    id   793
+PSNR: 91.19705200195312    id   793
+Sum SPSNR:  68035.24954986572
+Sum SSSIM:  793.0
+SSIM score: 1.0    id   794
+PSNR: 87.42938995361328    id   794
+Sum SPSNR:  68122.67893981934
+Sum SSSIM:  794.0
+SSIM score: 1.0    id   795
+PSNR: 87.04341888427734    id   795
+Sum SPSNR:  68209.72235870361
+Sum SSSIM:  795.0
+SSIM score: 1.0    id   796
+PSNR: 83.16300201416016    id   796
+Sum SPSNR:  68292.88536071777
+Sum SSSIM:  796.0
+SSIM score: 1.0    id   797
+PSNR: 83.70260620117188    id   797
+Sum SPSNR:  68376.58796691895
+Sum SSSIM:  797.0
+SSIM score: 1.0    id   798
+PSNR: 87.80880737304688    id   798
+Sum SPSNR:  68464.39677429199
+Sum SSSIM:  798.0
+SSIM score: 1.0    id   799
+PSNR: 88.5098876953125    id   799
+Sum SPSNR:  68552.9066619873
+Sum SSSIM:  799.0
+SSIM score: 1.0    id   800
+PSNR: 87.9378890991211    id   800
+Sum SPSNR:  68640.84455108643
+Sum SSSIM:  800.0
+SSIM score: 1.0    id   801
+PSNR: 86.87867736816406    id   801
+Sum SPSNR:  68727.72322845459
+Sum SSSIM:  801.0
+SSIM score: 1.0    id   802
+PSNR: 86.08717346191406    id   802
+Sum SPSNR:  68813.8104019165
+Sum SSSIM:  802.0
+SSIM score: 1.0    id   803
+PSNR: 82.44056701660156    id   803
+Sum SPSNR:  68896.2509689331
+Sum SSSIM:  803.0
+SSIM score: 1.0    id   804
+PSNR: 83.57943725585938    id   804
+Sum SPSNR:  68979.83040618896
+Sum SSSIM:  804.0
+SSIM score: 1.0    id   805
+PSNR: 88.58743286132812    id   805
+Sum SPSNR:  69068.4178390503
+Sum SSSIM:  805.0
+SSIM score: 1.0    id   806
+PSNR: 88.00601196289062    id   806
+Sum SPSNR:  69156.42385101318
+Sum SSSIM:  806.0
+SSIM score: 1.0    id   807
+PSNR: 85.95951080322266    id   807
+Sum SPSNR:  69242.3833618164
+Sum SSSIM:  807.0
+SSIM score: 1.0    id   808
+PSNR: 82.81315612792969    id   808
+Sum SPSNR:  69325.19651794434
+Sum SSSIM:  808.0
+SSIM score: 1.0    id   809
+PSNR: 86.17745971679688    id   809
+Sum SPSNR:  69411.37397766113
+Sum SSSIM:  809.0
+SSIM score: 1.0    id   810
+PSNR: 90.92062377929688    id   810
+Sum SPSNR:  69502.29460144043
+Sum SSSIM:  810.0
+SSIM score: 1.0    id   811
+PSNR: 86.95048522949219    id   811
+Sum SPSNR:  69589.24508666992
+Sum SSSIM:  811.0
+SSIM score: 1.0    id   812
+PSNR: 85.16468048095703    id   812
+Sum SPSNR:  69674.40976715088
+Sum SSSIM:  812.0
+SSIM score: 1.0    id   813
+PSNR: 84.96005249023438    id   813
+Sum SPSNR:  69759.36981964111
+Sum SSSIM:  813.0
+SSIM score: 1.0    id   814
+PSNR: 87.64790344238281    id   814
+Sum SPSNR:  69847.0177230835
+Sum SSSIM:  814.0
+SSIM score: 1.0    id   815
+PSNR: 83.60903930664062    id   815
+Sum SPSNR:  69930.62676239014
+Sum SSSIM:  815.0
+SSIM score: 1.0    id   816
+PSNR: 87.19007873535156    id   816
+Sum SPSNR:  70017.81684112549
+Sum SSSIM:  816.0
+SSIM score: 1.0    id   817
+PSNR: 83.07693481445312    id   817
+Sum SPSNR:  70100.89377593994
+Sum SSSIM:  817.0
+SSIM score: 1.0    id   818
+PSNR: 83.13187408447266    id   818
+Sum SPSNR:  70184.02565002441
+Sum SSSIM:  818.0
+SSIM score: 1.0    id   819
+PSNR: 88.64261627197266    id   819
+Sum SPSNR:  70272.66826629639
+Sum SSSIM:  819.0
+SSIM score: 1.0    id   820
+PSNR: 85.40199279785156    id   820
+Sum SPSNR:  70358.07025909424
+Sum SSSIM:  820.0
+SSIM score: 1.0    id   821
+PSNR: 85.4718017578125    id   821
+Sum SPSNR:  70443.54206085205
+Sum SSSIM:  821.0
+SSIM score: 1.0    id   822
+PSNR: 88.09327697753906    id   822
+Sum SPSNR:  70531.63533782959
+Sum SSSIM:  822.0
+SSIM score: 1.0    id   823
+PSNR: 82.91465759277344    id   823
+Sum SPSNR:  70614.54999542236
+Sum SSSIM:  823.0
+SSIM score: 1.0    id   824
+PSNR: 86.33129119873047    id   824
+Sum SPSNR:  70700.8812866211
+Sum SSSIM:  824.0
+SSIM score: 1.0    id   825
+PSNR: 82.3139877319336    id   825
+Sum SPSNR:  70783.19527435303
+Sum SSSIM:  825.0
+SSIM score: 1.0    id   826
+PSNR: 81.70958709716797    id   826
+Sum SPSNR:  70864.9048614502
+Sum SSSIM:  826.0
+SSIM score: 1.0    id   827
+PSNR: 84.16989135742188    id   827
+Sum SPSNR:  70949.07475280762
+Sum SSSIM:  827.0
+SSIM score: 1.0    id   828
+PSNR: 86.1141357421875    id   828
+Sum SPSNR:  71035.1888885498
+Sum SSSIM:  828.0
+SSIM score: 1.0    id   829
+PSNR: 84.96833038330078    id   829
+Sum SPSNR:  71120.1572189331
+Sum SSSIM:  829.0
+SSIM score: 1.0    id   830
+PSNR: 89.0211410522461    id   830
+Sum SPSNR:  71209.17835998535
+Sum SSSIM:  830.0
+SSIM score: 1.0    id   831
+PSNR: 82.67913818359375    id   831
+Sum SPSNR:  71291.85749816895
+Sum SSSIM:  831.0
+SSIM score: 1.0    id   832
+PSNR: 85.8961410522461    id   832
+Sum SPSNR:  71377.75363922119
+Sum SSSIM:  832.0
+SSIM score: 1.0    id   833
+PSNR: 83.83477783203125    id   833
+Sum SPSNR:  71461.58841705322
+Sum SSSIM:  833.0
+SSIM score: 1.0    id   834
+PSNR: 83.57059478759766    id   834
+Sum SPSNR:  71545.15901184082
+Sum SSSIM:  834.0
+SSIM score: 1.0    id   835
+PSNR: 83.28038024902344    id   835
+Sum SPSNR:  71628.43939208984
+Sum SSSIM:  835.0
+SSIM score: 1.0    id   836
+PSNR: 84.38720703125    id   836
+Sum SPSNR:  71712.8265991211
+Sum SSSIM:  836.0
+SSIM score: 1.0    id   837
+PSNR: 88.82341003417969    id   837
+Sum SPSNR:  71801.65000915527
+Sum SSSIM:  837.0
+SSIM score: 1.0    id   838
+PSNR: 83.01483917236328    id   838
+Sum SPSNR:  71884.66484832764
+Sum SSSIM:  838.0
+SSIM score: 1.0    id   839
+PSNR: 85.85977172851562    id   839
+Sum SPSNR:  71970.52462005615
+Sum SSSIM:  839.0
+SSIM score: 1.0    id   840
+PSNR: 88.17201232910156    id   840
+Sum SPSNR:  72058.69663238525
+Sum SSSIM:  840.0
+SSIM score: 1.0    id   841
+PSNR: 82.32123565673828    id   841
+Sum SPSNR:  72141.01786804199
+Sum SSSIM:  841.0
+SSIM score: 1.0    id   842
+PSNR: 90.11079406738281    id   842
+Sum SPSNR:  72231.12866210938
+Sum SSSIM:  842.0
+SSIM score: 1.0    id   843
+PSNR: 87.1415023803711    id   843
+Sum SPSNR:  72318.27016448975
+Sum SSSIM:  843.0
+SSIM score: 1.0    id   844
+PSNR: 82.5986557006836    id   844
+Sum SPSNR:  72400.86882019043
+Sum SSSIM:  844.0
+SSIM score: 1.0    id   845
+PSNR: 82.60157775878906    id   845
+Sum SPSNR:  72483.47039794922
+Sum SSSIM:  845.0
+SSIM score: 1.0    id   846
+PSNR: 88.52413940429688    id   846
+Sum SPSNR:  72571.99453735352
+Sum SSSIM:  846.0
+SSIM score: 1.0    id   847
+PSNR: 87.03141784667969    id   847
+Sum SPSNR:  72659.0259552002
+Sum SSSIM:  847.0
+SSIM score: 1.0    id   848
+PSNR: 90.35633087158203    id   848
+Sum SPSNR:  72749.38228607178
+Sum SSSIM:  848.0
+SSIM score: 1.0    id   849
+PSNR: 83.29864501953125    id   849
+Sum SPSNR:  72832.68093109131
+Sum SSSIM:  849.0
+SSIM score: 1.0    id   850
+PSNR: 83.97854614257812    id   850
+Sum SPSNR:  72916.65947723389
+Sum SSSIM:  850.0
+SSIM score: 1.0    id   851
+PSNR: 82.54329681396484    id   851
+Sum SPSNR:  72999.20277404785
+Sum SSSIM:  851.0
+SSIM score: 1.0    id   852
+PSNR: 82.6985092163086    id   852
+Sum SPSNR:  73081.90128326416
+Sum SSSIM:  852.0
+SSIM score: 1.0    id   853
+PSNR: 90.03059387207031    id   853
+Sum SPSNR:  73171.93187713623
+Sum SSSIM:  853.0
+SSIM score: 1.0    id   854
+PSNR: 86.73097229003906    id   854
+Sum SPSNR:  73258.66284942627
+Sum SSSIM:  854.0
+SSIM score: 1.0    id   855
+PSNR: 82.36579132080078    id   855
+Sum SPSNR:  73341.02864074707
+Sum SSSIM:  855.0
+SSIM score: 1.0    id   856
+PSNR: 85.27693176269531    id   856
+Sum SPSNR:  73426.30557250977
+Sum SSSIM:  856.0
+SSIM score: 1.0    id   857
+PSNR: 85.70046997070312    id   857
+Sum SPSNR:  73512.00604248047
+Sum SSSIM:  857.0
+SSIM score: 1.0    id   858
+PSNR: 84.56181335449219    id   858
+Sum SPSNR:  73596.56785583496
+Sum SSSIM:  858.0
+SSIM score: 1.0    id   859
+PSNR: 89.23895263671875    id   859
+Sum SPSNR:  73685.80680847168
+Sum SSSIM:  859.0
+SSIM score: 1.0    id   860
+PSNR: 88.87033081054688    id   860
+Sum SPSNR:  73774.67713928223
+Sum SSSIM:  860.0
+SSIM score: 1.0    id   861
+PSNR: 88.47021484375    id   861
+Sum SPSNR:  73863.14735412598
+Sum SSSIM:  861.0
+SSIM score: 1.0    id   862
+PSNR: 83.26298522949219    id   862
+Sum SPSNR:  73946.41033935547
+Sum SSSIM:  862.0
+SSIM score: 1.0    id   863
+PSNR: 86.05497741699219    id   863
+Sum SPSNR:  74032.46531677246
+Sum SSSIM:  863.0
+SSIM score: 1.0    id   864
+PSNR: 84.33636474609375    id   864
+Sum SPSNR:  74116.80168151855
+Sum SSSIM:  864.0
+SSIM score: 1.0    id   865
+PSNR: 83.09517669677734    id   865
+Sum SPSNR:  74199.89685821533
+Sum SSSIM:  865.0
+SSIM score: 1.0    id   866
+PSNR: 85.32782745361328    id   866
+Sum SPSNR:  74285.22468566895
+Sum SSSIM:  866.0
+SSIM score: 1.0    id   867
+PSNR: 81.2242202758789    id   867
+Sum SPSNR:  74366.44890594482
+Sum SSSIM:  867.0
+SSIM score: 1.0    id   868
+PSNR: 84.74574279785156    id   868
+Sum SPSNR:  74451.19464874268
+Sum SSSIM:  868.0
+SSIM score: 1.0    id   869
+PSNR: 87.74667358398438    id   869
+Sum SPSNR:  74538.94132232666
+Sum SSSIM:  869.0
+SSIM score: 1.0    id   870
+PSNR: 83.03047180175781    id   870
+Sum SPSNR:  74621.97179412842
+Sum SSSIM:  870.0
+SSIM score: 1.0    id   871
+PSNR: 83.59638977050781    id   871
+Sum SPSNR:  74705.56818389893
+Sum SSSIM:  871.0
+SSIM score: 1.0    id   872
+PSNR: 83.93852996826172    id   872
+Sum SPSNR:  74789.50671386719
+Sum SSSIM:  872.0
+SSIM score: 1.0    id   873
+PSNR: 89.1751708984375    id   873
+Sum SPSNR:  74878.68188476562
+Sum SSSIM:  873.0
+SSIM score: 1.0    id   874
+PSNR: 82.6051025390625    id   874
+Sum SPSNR:  74961.28698730469
+Sum SSSIM:  874.0
+SSIM score: 1.0    id   875
+PSNR: 82.04266357421875    id   875
+Sum SPSNR:  75043.3296508789
+Sum SSSIM:  875.0
+SSIM score: 1.0    id   876
+PSNR: 85.65032958984375    id   876
+Sum SPSNR:  75128.97998046875
+Sum SSSIM:  876.0
+SSIM score: 1.0    id   877
+PSNR: 89.96841430664062    id   877
+Sum SPSNR:  75218.94839477539
+Sum SSSIM:  877.0
+SSIM score: 1.0    id   878
+PSNR: 84.232177734375    id   878
+Sum SPSNR:  75303.18057250977
+Sum SSSIM:  878.0
+SSIM score: 1.0    id   879
+PSNR: 84.07846069335938    id   879
+Sum SPSNR:  75387.25903320312
+Sum SSSIM:  879.0
+SSIM score: 1.0    id   880
+PSNR: 87.02046203613281    id   880
+Sum SPSNR:  75474.27949523926
+Sum SSSIM:  880.0
+SSIM score: 1.0    id   881
+PSNR: 82.8106689453125    id   881
+Sum SPSNR:  75557.09016418457
+Sum SSSIM:  881.0
+SSIM score: 1.0    id   882
+PSNR: 83.56475067138672    id   882
+Sum SPSNR:  75640.65491485596
+Sum SSSIM:  882.0
+SSIM score: 1.0    id   883
+PSNR: 86.42965698242188    id   883
+Sum SPSNR:  75727.08457183838
+Sum SSSIM:  883.0
+SSIM score: 1.0    id   884
+PSNR: 85.59516906738281    id   884
+Sum SPSNR:  75812.67974090576
+Sum SSSIM:  884.0
+SSIM score: 1.0    id   885
+PSNR: 85.66447448730469    id   885
+Sum SPSNR:  75898.34421539307
+Sum SSSIM:  885.0
+SSIM score: 1.0    id   886
+PSNR: 86.60355377197266    id   886
+Sum SPSNR:  75984.94776916504
+Sum SSSIM:  886.0
+SSIM score: 1.0    id   887
+PSNR: 83.635986328125    id   887
+Sum SPSNR:  76068.58375549316
+Sum SSSIM:  887.0
+SSIM score: 1.0    id   888
+PSNR: 88.55711364746094    id   888
+Sum SPSNR:  76157.14086914062
+Sum SSSIM:  888.0
+SSIM score: 1.0    id   889
+PSNR: 87.50759887695312    id   889
+Sum SPSNR:  76244.64846801758
+Sum SSSIM:  889.0
+SSIM score: 1.0    id   890
+PSNR: 84.90084838867188    id   890
+Sum SPSNR:  76329.54931640625
+Sum SSSIM:  890.0
+SSIM score: 1.0    id   891
+PSNR: 83.07747650146484    id   891
+Sum SPSNR:  76412.62679290771
+Sum SSSIM:  891.0
+SSIM score: 1.0    id   892
+PSNR: 89.44819641113281    id   892
+Sum SPSNR:  76502.07498931885
+Sum SSSIM:  892.0
+SSIM score: 1.0    id   893
+PSNR: 86.5348129272461    id   893
+Sum SPSNR:  76588.6098022461
+Sum SSSIM:  893.0
+SSIM score: 1.0    id   894
+PSNR: 83.89773559570312    id   894
+Sum SPSNR:  76672.5075378418
+Sum SSSIM:  894.0
+SSIM score: 1.0    id   895
+PSNR: 86.20276641845703    id   895
+Sum SPSNR:  76758.71030426025
+Sum SSSIM:  895.0
+SSIM score: 1.0    id   896
+PSNR: 86.93939971923828    id   896
+Sum SPSNR:  76845.64970397949
+Sum SSSIM:  896.0
+SSIM score: 1.0    id   897
+PSNR: 88.22413635253906    id   897
+Sum SPSNR:  76933.87384033203
+Sum SSSIM:  897.0
+SSIM score: 1.0    id   898
+PSNR: 86.76544952392578    id   898
+Sum SPSNR:  77020.63928985596
+Sum SSSIM:  898.0
+SSIM score: 1.0    id   899
+PSNR: 87.05918884277344    id   899
+Sum SPSNR:  77107.69847869873
+Sum SSSIM:  899.0
+SSIM score: 1.0    id   900
+PSNR: 84.5585708618164    id   900
+Sum SPSNR:  77192.25704956055
+Sum SSSIM:  900.0
+SSIM score: 1.0    id   901
+PSNR: 87.24044036865234    id   901
+Sum SPSNR:  77279.4974899292
+Sum SSSIM:  901.0
+SSIM score: 1.0    id   902
+PSNR: 87.6447982788086    id   902
+Sum SPSNR:  77367.14228820801
+Sum SSSIM:  902.0
+SSIM score: 1.0    id   903
+PSNR: 87.85345458984375    id   903
+Sum SPSNR:  77454.99574279785
+Sum SSSIM:  903.0
+SSIM score: 1.0    id   904
+PSNR: 86.21968078613281    id   904
+Sum SPSNR:  77541.21542358398
+Sum SSSIM:  904.0
+SSIM score: 1.0    id   905
+PSNR: 88.15865325927734    id   905
+Sum SPSNR:  77629.37407684326
+Sum SSSIM:  905.0
+SSIM score: 1.0    id   906
+PSNR: 85.04777526855469    id   906
+Sum SPSNR:  77714.42185211182
+Sum SSSIM:  906.0
+SSIM score: 1.0    id   907
+PSNR: 83.54790496826172    id   907
+Sum SPSNR:  77797.96975708008
+Sum SSSIM:  907.0
+SSIM score: 1.0    id   908
+PSNR: 83.05404663085938    id   908
+Sum SPSNR:  77881.02380371094
+Sum SSSIM:  908.0
+SSIM score: 1.0    id   909
+PSNR: 85.94779205322266    id   909
+Sum SPSNR:  77966.97159576416
+Sum SSSIM:  909.0
+SSIM score: 1.0    id   910
+PSNR: 82.57711791992188    id   910
+Sum SPSNR:  78049.54871368408
+Sum SSSIM:  910.0
+SSIM score: 1.0    id   911
+PSNR: 86.10350036621094    id   911
+Sum SPSNR:  78135.6522140503
+Sum SSSIM:  911.0
+SSIM score: 1.0    id   912
+PSNR: 82.75154876708984    id   912
+Sum SPSNR:  78218.40376281738
+Sum SSSIM:  912.0
+SSIM score: 1.0    id   913
+PSNR: 87.89588165283203    id   913
+Sum SPSNR:  78306.29964447021
+Sum SSSIM:  913.0
+SSIM score: 1.0    id   914
+PSNR: 83.33740234375    id   914
+Sum SPSNR:  78389.63704681396
+Sum SSSIM:  914.0
+SSIM score: 1.0    id   915
+PSNR: 83.31302642822266    id   915
+Sum SPSNR:  78472.95007324219
+Sum SSSIM:  915.0
+SSIM score: 1.0    id   916
+PSNR: 82.45643615722656    id   916
+Sum SPSNR:  78555.40650939941
+Sum SSSIM:  916.0
+SSIM score: 1.0    id   917
+PSNR: 83.34230041503906    id   917
+Sum SPSNR:  78638.74880981445
+Sum SSSIM:  917.0
+SSIM score: 1.0    id   918
+PSNR: 83.04742431640625    id   918
+Sum SPSNR:  78721.79623413086
+Sum SSSIM:  918.0
+SSIM score: 1.0    id   919
+PSNR: 89.83345031738281    id   919
+Sum SPSNR:  78811.62968444824
+Sum SSSIM:  919.0
+SSIM score: 1.0    id   920
+PSNR: 86.13716125488281    id   920
+Sum SPSNR:  78897.76684570312
+Sum SSSIM:  920.0
+SSIM score: 1.0    id   921
+PSNR: 89.83731079101562    id   921
+Sum SPSNR:  78987.60415649414
+Sum SSSIM:  921.0
+SSIM score: 1.0    id   922
+PSNR: 88.78482818603516    id   922
+Sum SPSNR:  79076.38898468018
+Sum SSSIM:  922.0
+SSIM score: 1.0    id   923
+PSNR: 86.66812133789062    id   923
+Sum SPSNR:  79163.05710601807
+Sum SSSIM:  923.0
+SSIM score: 1.0    id   924
+PSNR: 84.8891830444336    id   924
+Sum SPSNR:  79247.9462890625
+Sum SSSIM:  924.0
+SSIM score: 1.0    id   925
+PSNR: 83.3371810913086    id   925
+Sum SPSNR:  79331.28347015381
+Sum SSSIM:  925.0
+SSIM score: 1.0    id   926
+PSNR: 85.99605560302734    id   926
+Sum SPSNR:  79417.27952575684
+Sum SSSIM:  926.0
+SSIM score: 1.0    id   927
+PSNR: 85.6119384765625    id   927
+Sum SPSNR:  79502.8914642334
+Sum SSSIM:  927.0
+SSIM score: 1.0    id   928
+PSNR: 85.79987335205078    id   928
+Sum SPSNR:  79588.69133758545
+Sum SSSIM:  928.0
+SSIM score: 1.0    id   929
+PSNR: 89.24400329589844    id   929
+Sum SPSNR:  79677.93534088135
+Sum SSSIM:  929.0
+SSIM score: 1.0    id   930
+PSNR: 85.40153503417969    id   930
+Sum SPSNR:  79763.33687591553
+Sum SSSIM:  930.0
+SSIM score: 1.0    id   931
+PSNR: 87.31942749023438    id   931
+Sum SPSNR:  79850.65630340576
+Sum SSSIM:  931.0
+SSIM score: 1.0    id   932
+PSNR: 90.00039672851562    id   932
+Sum SPSNR:  79940.65670013428
+Sum SSSIM:  932.0
+SSIM score: 1.0    id   933
+PSNR: 82.29443359375    id   933
+Sum SPSNR:  80022.95113372803
+Sum SSSIM:  933.0
+SSIM score: 1.0    id   934
+PSNR: 88.19601440429688    id   934
+Sum SPSNR:  80111.14714813232
+Sum SSSIM:  934.0
+SSIM score: 1.0    id   935
+PSNR: 87.34385681152344    id   935
+Sum SPSNR:  80198.49100494385
+Sum SSSIM:  935.0
+SSIM score: 1.0    id   936
+PSNR: 82.9847640991211    id   936
+Sum SPSNR:  80281.47576904297
+Sum SSSIM:  936.0
+SSIM score: 1.0    id   937
+PSNR: 83.75872802734375    id   937
+Sum SPSNR:  80365.23449707031
+Sum SSSIM:  937.0
+SSIM score: 1.0    id   938
+PSNR: 84.21792602539062    id   938
+Sum SPSNR:  80449.4524230957
+Sum SSSIM:  938.0
+SSIM score: 1.0    id   939
+PSNR: 89.37346649169922    id   939
+Sum SPSNR:  80538.8258895874
+Sum SSSIM:  939.0
+SSIM score: 1.0    id   940
+PSNR: 86.755615234375    id   940
+Sum SPSNR:  80625.58150482178
+Sum SSSIM:  940.0
+SSIM score: 1.0    id   941
+PSNR: 85.94331359863281    id   941
+Sum SPSNR:  80711.52481842041
+Sum SSSIM:  941.0
+SSIM score: 1.0    id   942
+PSNR: 85.44196319580078    id   942
+Sum SPSNR:  80796.96678161621
+Sum SSSIM:  942.0
+SSIM score: 1.0    id   943
+PSNR: 85.25153350830078    id   943
+Sum SPSNR:  80882.21831512451
+Sum SSSIM:  943.0
+SSIM score: 1.0    id   944
+PSNR: 89.75942993164062    id   944
+Sum SPSNR:  80971.97774505615
+Sum SSSIM:  944.0
+SSIM score: 1.0    id   945
+PSNR: 84.9710693359375    id   945
+Sum SPSNR:  81056.94881439209
+Sum SSSIM:  945.0
+SSIM score: 1.0    id   946
+PSNR: 84.8965072631836    id   946
+Sum SPSNR:  81141.84532165527
+Sum SSSIM:  946.0
+SSIM score: 1.0    id   947
+PSNR: 88.36683654785156    id   947
+Sum SPSNR:  81230.21215820312
+Sum SSSIM:  947.0
+SSIM score: 1.0    id   948
+PSNR: 80.89630126953125    id   948
+Sum SPSNR:  81311.10845947266
+Sum SSSIM:  948.0
+SSIM score: 1.0    id   949
+PSNR: 86.29367065429688    id   949
+Sum SPSNR:  81397.40213012695
+Sum SSSIM:  949.0
+SSIM score: 1.0    id   950
+PSNR: 89.61140441894531    id   950
+Sum SPSNR:  81487.0135345459
+Sum SSSIM:  950.0
+SSIM score: 1.0    id   951
+PSNR: 90.62506866455078    id   951
+Sum SPSNR:  81577.63860321045
+Sum SSSIM:  951.0
+SSIM score: 1.0    id   952
+PSNR: 87.92335510253906    id   952
+Sum SPSNR:  81665.56195831299
+Sum SSSIM:  952.0
+SSIM score: 1.0    id   953
+PSNR: 85.60646057128906    id   953
+Sum SPSNR:  81751.16841888428
+Sum SSSIM:  953.0
+SSIM score: 1.0    id   954
+PSNR: 85.75423431396484    id   954
+Sum SPSNR:  81836.92265319824
+Sum SSSIM:  954.0
+SSIM score: 1.0    id   955
+PSNR: 90.43433380126953    id   955
+Sum SPSNR:  81927.35698699951
+Sum SSSIM:  955.0
+SSIM score: 1.0    id   956
+PSNR: 87.52648162841797    id   956
+Sum SPSNR:  82014.88346862793
+Sum SSSIM:  956.0
+SSIM score: 1.0    id   957
+PSNR: 85.52337646484375    id   957
+Sum SPSNR:  82100.40684509277
+Sum SSSIM:  957.0
+SSIM score: 1.0    id   958
+PSNR: 83.27029418945312    id   958
+Sum SPSNR:  82183.67713928223
+Sum SSSIM:  958.0
+SSIM score: 1.0    id   959
+PSNR: 88.02061462402344    id   959
+Sum SPSNR:  82271.69775390625
+Sum SSSIM:  959.0
+SSIM score: 1.0    id   960
+PSNR: 88.04058074951172    id   960
+Sum SPSNR:  82359.73833465576
+Sum SSSIM:  960.0
+SSIM score: 1.0    id   961
+PSNR: 85.3865966796875    id   961
+Sum SPSNR:  82445.12493133545
+Sum SSSIM:  961.0
+SSIM score: 1.0    id   962
+PSNR: 88.28902435302734    id   962
+Sum SPSNR:  82533.41395568848
+Sum SSSIM:  962.0
+SSIM score: 1.0    id   963
+PSNR: 82.2244644165039    id   963
+Sum SPSNR:  82615.63842010498
+Sum SSSIM:  963.0
+SSIM score: 1.0    id   964
+PSNR: 86.59912109375    id   964
+Sum SPSNR:  82702.23754119873
+Sum SSSIM:  964.0
+SSIM score: 1.0    id   965
+PSNR: 82.58887481689453    id   965
+Sum SPSNR:  82784.82641601562
+Sum SSSIM:  965.0
+SSIM score: 1.0    id   966
+PSNR: 83.70213317871094    id   966
+Sum SPSNR:  82868.52854919434
+Sum SSSIM:  966.0
+SSIM score: 1.0    id   967
+PSNR: 82.44914245605469    id   967
+Sum SPSNR:  82950.97769165039
+Sum SSSIM:  967.0
+SSIM score: 1.0    id   968
+PSNR: 85.41919708251953    id   968
+Sum SPSNR:  83036.39688873291
+Sum SSSIM:  968.0
+SSIM score: 1.0    id   969
+PSNR: 87.05239868164062    id   969
+Sum SPSNR:  83123.44928741455
+Sum SSSIM:  969.0
+SSIM score: 1.0    id   970
+PSNR: 83.22305297851562    id   970
+Sum SPSNR:  83206.67234039307
+Sum SSSIM:  970.0
+SSIM score: 1.0    id   971
+PSNR: 83.08101654052734    id   971
+Sum SPSNR:  83289.7533569336
+Sum SSSIM:  971.0
+SSIM score: 1.0    id   972
+PSNR: 83.9363784790039    id   972
+Sum SPSNR:  83373.6897354126
+Sum SSSIM:  972.0
+SSIM score: 1.0    id   973
+PSNR: 86.6983413696289    id   973
+Sum SPSNR:  83460.38807678223
+Sum SSSIM:  973.0
+SSIM score: 1.0    id   974
+PSNR: 83.04251098632812    id   974
+Sum SPSNR:  83543.43058776855
+Sum SSSIM:  974.0
+SSIM score: 1.0    id   975
+PSNR: 89.62364959716797    id   975
+Sum SPSNR:  83633.05423736572
+Sum SSSIM:  975.0
+SSIM score: 1.0    id   976
+PSNR: 88.01531982421875    id   976
+Sum SPSNR:  83721.06955718994
+Sum SSSIM:  976.0
+SSIM score: 1.0    id   977
+PSNR: 82.54119110107422    id   977
+Sum SPSNR:  83803.61074829102
+Sum SSSIM:  977.0
+SSIM score: 1.0    id   978
+PSNR: 88.22856903076172    id   978
+Sum SPSNR:  83891.83931732178
+Sum SSSIM:  978.0
+SSIM score: 1.0    id   979
+PSNR: 87.52496337890625    id   979
+Sum SPSNR:  83979.36428070068
+Sum SSSIM:  979.0
+SSIM score: 1.0    id   980
+PSNR: 86.98541259765625    id   980
+Sum SPSNR:  84066.34969329834
+Sum SSSIM:  980.0
+SSIM score: 1.0    id   981
+PSNR: 88.54920196533203    id   981
+Sum SPSNR:  84154.89889526367
+Sum SSSIM:  981.0
+SSIM score: 1.0    id   982
+PSNR: 82.05343627929688    id   982
+Sum SPSNR:  84236.95233154297
+Sum SSSIM:  982.0
+SSIM score: 1.0    id   983
+PSNR: 88.4706802368164    id   983
+Sum SPSNR:  84325.42301177979
+Sum SSSIM:  983.0
+SSIM score: 1.0    id   984
+PSNR: 84.44377136230469    id   984
+Sum SPSNR:  84409.86678314209
+Sum SSSIM:  984.0
+SSIM score: 1.0    id   985
+PSNR: 87.2770767211914    id   985
+Sum SPSNR:  84497.14385986328
+Sum SSSIM:  985.0
+SSIM score: 1.0    id   986
+PSNR: 82.77042388916016    id   986
+Sum SPSNR:  84579.91428375244
+Sum SSSIM:  986.0
+SSIM score: 1.0    id   987
+PSNR: 90.18342590332031    id   987
+Sum SPSNR:  84670.09770965576
+Sum SSSIM:  987.0
+SSIM score: 1.0    id   988
+PSNR: 87.54410552978516    id   988
+Sum SPSNR:  84757.64181518555
+Sum SSSIM:  988.0
+SSIM score: 1.0    id   989
+PSNR: 88.53462982177734    id   989
+Sum SPSNR:  84846.17644500732
+Sum SSSIM:  989.0
+SSIM score: 1.0    id   990
+PSNR: 86.18148803710938    id   990
+Sum SPSNR:  84932.35793304443
+Sum SSSIM:  990.0
+SSIM score: 1.0    id   991
+PSNR: 88.33026123046875    id   991
+Sum SPSNR:  85020.6881942749
+Sum SSSIM:  991.0
+SSIM score: 1.0    id   992
+PSNR: 85.68856048583984    id   992
+Sum SPSNR:  85106.37675476074
+Sum SSSIM:  992.0
+SSIM score: 1.0    id   993
+PSNR: 87.70882415771484    id   993
+Sum SPSNR:  85194.08557891846
+Sum SSSIM:  993.0
+SSIM score: 1.0    id   994
+PSNR: 86.19622039794922    id   994
+Sum SPSNR:  85280.2817993164
+Sum SSSIM:  994.0
+SSIM score: 1.0    id   995
+PSNR: 81.68724060058594    id   995
+Sum SPSNR:  85361.96903991699
+Sum SSSIM:  995.0
+SSIM score: 1.0    id   996
+PSNR: 82.74481201171875    id   996
+Sum SPSNR:  85444.71385192871
+Sum SSSIM:  996.0
+SSIM score: 1.0    id   997
+PSNR: 84.37464904785156    id   997
+Sum SPSNR:  85529.08850097656
+Sum SSSIM:  997.0
+SSIM score: 1.0    id   998
+PSNR: 83.51691436767578    id   998
+Sum SPSNR:  85612.60541534424
+Sum SSSIM:  998.0
+SSIM score: 1.0    id   999
+PSNR: 83.73970031738281    id   999
+Sum SPSNR:  85696.34511566162
+Sum SSSIM:  999.0
+SSIM score: 1.0    id   1000
+PSNR: 86.21870422363281    id   1000
+Sum SPSNR:  85782.56381988525
+Sum SSSIM:  1000.0
+SSIM score: 1.0    id   1001
+PSNR: 87.42809295654297    id   1001
+Sum SPSNR:  85869.9919128418
+Sum SSSIM:  1001.0
+SSIM score: 1.0    id   1002
+PSNR: 82.63610076904297    id   1002
+Sum SPSNR:  85952.62801361084
+Sum SSSIM:  1002.0
+SSIM score: 1.0    id   1003
+PSNR: 88.22567749023438    id   1003
+Sum SPSNR:  86040.85369110107
+Sum SSSIM:  1003.0
+SSIM score: 1.0    id   1004
+PSNR: 87.43328094482422    id   1004
+Sum SPSNR:  86128.2869720459
+Sum SSSIM:  1004.0
+SSIM score: 1.0    id   1005
+PSNR: 88.11532592773438    id   1005
+Sum SPSNR:  86216.40229797363
+Sum SSSIM:  1005.0
+SSIM score: 1.0    id   1006
+PSNR: 82.06283569335938    id   1006
+Sum SPSNR:  86298.46513366699
+Sum SSSIM:  1006.0
+SSIM score: 1.0    id   1007
+PSNR: 86.80660247802734    id   1007
+Sum SPSNR:  86385.27173614502
+Sum SSSIM:  1007.0
+SSIM score: 1.0    id   1008
+PSNR: 90.53753662109375    id   1008
+Sum SPSNR:  86475.80927276611
+Sum SSSIM:  1008.0
+SSIM score: 1.0    id   1009
+PSNR: 83.42479705810547    id   1009
+Sum SPSNR:  86559.23406982422
+Sum SSSIM:  1009.0
+SSIM score: 1.0    id   1010
+PSNR: 89.57730102539062    id   1010
+Sum SPSNR:  86648.81137084961
+Sum SSSIM:  1010.0
+SSIM score: 1.0    id   1011
+PSNR: 85.81886291503906    id   1011
+Sum SPSNR:  86734.63023376465
+Sum SSSIM:  1011.0
+SSIM score: 1.0    id   1012
+PSNR: 81.79750061035156    id   1012
+Sum SPSNR:  86816.427734375
+Sum SSSIM:  1012.0
+SSIM score: 1.0    id   1013
+PSNR: 88.12117767333984    id   1013
+Sum SPSNR:  86904.54891204834
+Sum SSSIM:  1013.0
+SSIM score: 1.0    id   1014
+PSNR: 87.69405364990234    id   1014
+Sum SPSNR:  86992.24296569824
+Sum SSSIM:  1014.0
+SSIM score: 1.0    id   1015
+PSNR: 87.31835174560547    id   1015
+Sum SPSNR:  87079.56131744385
+Sum SSSIM:  1015.0
+SSIM score: 1.0    id   1016
+PSNR: 85.85630798339844    id   1016
+Sum SPSNR:  87165.41762542725
+Sum SSSIM:  1016.0
+SSIM score: 1.0    id   1017
+PSNR: 82.64420318603516    id   1017
+Sum SPSNR:  87248.06182861328
+Sum SSSIM:  1017.0
+SSIM score: 1.0    id   1018
+PSNR: 83.7452392578125    id   1018
+Sum SPSNR:  87331.8070678711
+Sum SSSIM:  1018.0
+SSIM score: 1.0    id   1019
+PSNR: 91.93614959716797    id   1019
+Sum SPSNR:  87423.74321746826
+Sum SSSIM:  1019.0
+SSIM score: 1.0    id   1020
+PSNR: 86.85527801513672    id   1020
+Sum SPSNR:  87510.5984954834
+Sum SSSIM:  1020.0
+SSIM score: 1.0    id   1021
+PSNR: 89.0078125    id   1021
+Sum SPSNR:  87599.6063079834
+Sum SSSIM:  1021.0
+SSIM score: 1.0    id   1022
+PSNR: 89.17655181884766    id   1022
+Sum SPSNR:  87688.78285980225
+Sum SSSIM:  1022.0
+SSIM score: 1.0    id   1023
+PSNR: 87.85752868652344    id   1023
+Sum SPSNR:  87776.64038848877
+Sum SSSIM:  1023.0
+SSIM score: 1.0    id   1024
+PSNR: 83.78614807128906    id   1024
+Sum SPSNR:  87860.42653656006
+Sum SSSIM:  1024.0
+SSIM score: 1.0    id   1025
+PSNR: 87.3680419921875    id   1025
+Sum SPSNR:  87947.79457855225
+Sum SSSIM:  1025.0
+SSIM score: 1.0    id   1026
+PSNR: 87.10513305664062    id   1026
+Sum SPSNR:  88034.89971160889
+Sum SSSIM:  1026.0
+SSIM score: 1.0    id   1027
+PSNR: 82.05021667480469    id   1027
+Sum SPSNR:  88116.94992828369
+Sum SSSIM:  1027.0
+SSIM score: 1.0    id   1028
+PSNR: 85.69749450683594    id   1028
+Sum SPSNR:  88202.64742279053
+Sum SSSIM:  1028.0
+SSIM score: 1.0    id   1029
+PSNR: 87.96940612792969    id   1029
+Sum SPSNR:  88290.61682891846
+Sum SSSIM:  1029.0
+SSIM score: 1.0    id   1030
+PSNR: 85.28617858886719    id   1030
+Sum SPSNR:  88375.90300750732
+Sum SSSIM:  1030.0
+SSIM score: 1.0    id   1031
+PSNR: 87.54562377929688    id   1031
+Sum SPSNR:  88463.44863128662
+Sum SSSIM:  1031.0
+SSIM score: 1.0    id   1032
+PSNR: 85.89874267578125    id   1032
+Sum SPSNR:  88549.3473739624
+Sum SSSIM:  1032.0
+SSIM score: 1.0    id   1033
+PSNR: 88.42972564697266    id   1033
+Sum SPSNR:  88637.77709960938
+Sum SSSIM:  1033.0
+SSIM score: 1.0    id   1034
+PSNR: 86.85690307617188    id   1034
+Sum SPSNR:  88724.63400268555
+Sum SSSIM:  1034.0
+SSIM score: 1.0    id   1035
+PSNR: 85.94581604003906    id   1035
+Sum SPSNR:  88810.57981872559
+Sum SSSIM:  1035.0
+SSIM score: 1.0    id   1036
+PSNR: 85.28290557861328    id   1036
+Sum SPSNR:  88895.8627243042
+Sum SSSIM:  1036.0
+SSIM score: 1.0    id   1037
+PSNR: 82.67449188232422    id   1037
+Sum SPSNR:  88978.53721618652
+Sum SSSIM:  1037.0
+SSIM score: 1.0    id   1038
+PSNR: 85.8128662109375    id   1038
+Sum SPSNR:  89064.35008239746
+Sum SSSIM:  1038.0
+SSIM score: 1.0    id   1039
+PSNR: 87.99967956542969    id   1039
+Sum SPSNR:  89152.34976196289
+Sum SSSIM:  1039.0
+SSIM score: 1.0    id   1040
+PSNR: 90.35124969482422    id   1040
+Sum SPSNR:  89242.70101165771
+Sum SSSIM:  1040.0
+SSIM score: 1.0    id   1041
+PSNR: 86.5949935913086    id   1041
+Sum SPSNR:  89329.29600524902
+Sum SSSIM:  1041.0
+SSIM score: 1.0    id   1042
+PSNR: 88.69180297851562    id   1042
+Sum SPSNR:  89417.98780822754
+Sum SSSIM:  1042.0
+SSIM score: 1.0    id   1043
+PSNR: 85.74568939208984    id   1043
+Sum SPSNR:  89503.73349761963
+Sum SSSIM:  1043.0
+SSIM score: 1.0    id   1044
+PSNR: 87.92875671386719    id   1044
+Sum SPSNR:  89591.6622543335
+Sum SSSIM:  1044.0
+SSIM score: 1.0    id   1045
+PSNR: 85.97046661376953    id   1045
+Sum SPSNR:  89677.63272094727
+Sum SSSIM:  1045.0
+SSIM score: 1.0    id   1046
+PSNR: 86.36417388916016    id   1046
+Sum SPSNR:  89763.99689483643
+Sum SSSIM:  1046.0
+SSIM score: 1.0    id   1047
+PSNR: 83.03550720214844    id   1047
+Sum SPSNR:  89847.03240203857
+Sum SSSIM:  1047.0
+SSIM score: 1.0    id   1048
+PSNR: 84.11376190185547    id   1048
+Sum SPSNR:  89931.14616394043
+Sum SSSIM:  1048.0
+SSIM score: 1.0    id   1049
+PSNR: 86.3435287475586    id   1049
+Sum SPSNR:  90017.48969268799
+Sum SSSIM:  1049.0
+SSIM score: 1.0    id   1050
+PSNR: 82.96710968017578    id   1050
+Sum SPSNR:  90100.45680236816
+Sum SSSIM:  1050.0
+SSIM score: 1.0    id   1051
+PSNR: 86.98692321777344    id   1051
+Sum SPSNR:  90187.44372558594
+Sum SSSIM:  1051.0
+SSIM score: 1.0    id   1052
+PSNR: 90.02420043945312    id   1052
+Sum SPSNR:  90277.46792602539
+Sum SSSIM:  1052.0
+SSIM score: 1.0    id   1053
+PSNR: 86.51753234863281    id   1053
+Sum SPSNR:  90363.98545837402
+Sum SSSIM:  1053.0
+SSIM score: 1.0    id   1054
+PSNR: 86.34395599365234    id   1054
+Sum SPSNR:  90450.32941436768
+Sum SSSIM:  1054.0
+SSIM score: 1.0    id   1055
+PSNR: 90.90328979492188    id   1055
+Sum SPSNR:  90541.2327041626
+Sum SSSIM:  1055.0
+SSIM score: 1.0    id   1056
+PSNR: 88.44956970214844    id   1056
+Sum SPSNR:  90629.68227386475
+Sum SSSIM:  1056.0
+SSIM score: 1.0    id   1057
+PSNR: 84.31608581542969    id   1057
+Sum SPSNR:  90713.99835968018
+Sum SSSIM:  1057.0
+SSIM score: 1.0    id   1058
+PSNR: 88.3675308227539    id   1058
+Sum SPSNR:  90802.36589050293
+Sum SSSIM:  1058.0
+SSIM score: 1.0    id   1059
+PSNR: 84.67031860351562    id   1059
+Sum SPSNR:  90887.03620910645
+Sum SSSIM:  1059.0
+SSIM score: 1.0    id   1060
+PSNR: 89.39347076416016    id   1060
+Sum SPSNR:  90976.4296798706
+Sum SSSIM:  1060.0
+SSIM score: 1.0    id   1061
+PSNR: 86.58386993408203    id   1061
+Sum SPSNR:  91063.01354980469
+Sum SSSIM:  1061.0
+SSIM score: 1.0    id   1062
+PSNR: 85.81477355957031    id   1062
+Sum SPSNR:  91148.82832336426
+Sum SSSIM:  1062.0
+SSIM score: 1.0    id   1063
+PSNR: 87.89710998535156    id   1063
+Sum SPSNR:  91236.72543334961
+Sum SSSIM:  1063.0
+SSIM score: 1.0    id   1064
+PSNR: 84.53247833251953    id   1064
+Sum SPSNR:  91321.25791168213
+Sum SSSIM:  1064.0
+SSIM score: 1.0    id   1065
+PSNR: 83.43791198730469    id   1065
+Sum SPSNR:  91404.69582366943
+Sum SSSIM:  1065.0
+SSIM score: 1.0    id   1066
+PSNR: 87.62849426269531    id   1066
+Sum SPSNR:  91492.32431793213
+Sum SSSIM:  1066.0
+SSIM score: 1.0    id   1067
+PSNR: 88.50135040283203    id   1067
+Sum SPSNR:  91580.82566833496
+Sum SSSIM:  1067.0
+SSIM score: 1.0    id   1068
+PSNR: 85.8834228515625    id   1068
+Sum SPSNR:  91666.70909118652
+Sum SSSIM:  1068.0
+SSIM score: 1.0    id   1069
+PSNR: 83.95112609863281    id   1069
+Sum SPSNR:  91750.66021728516
+Sum SSSIM:  1069.0
+SSIM score: 1.0    id   1070
+PSNR: 86.7017822265625    id   1070
+Sum SPSNR:  91837.36199951172
+Sum SSSIM:  1070.0
+SSIM score: 1.0    id   1071
+PSNR: 82.63843536376953    id   1071
+Sum SPSNR:  91920.00043487549
+Sum SSSIM:  1071.0
+SSIM: TB  1.0
+PSNR: TB  85.82633093825909
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  2001
+adv_correct:  1071
+accuracy of adv imgs in testing set: 0.651367
+
+adv succeeded 0.348633
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 89,
+        "adv_succeed_%": 0.4009009009009009
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 44,
+        "adv_succeed_%": 0.4
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 52,
+        "adv_succeed_%": 0.3151515151515151
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 223,
+        "adv_succeed_%": 0.23132780082987553
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 96,
+        "adv_succeed_%": 0.40336134453781514
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 72,
+        "adv_succeed_%": 0.36923076923076925
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 50,
+        "adv_succeed_%": 0.25510204081632654
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 113,
+        "adv_succeed_%": 0.518348623853211
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 313,
+        "adv_succeed_%": 0.468562874251497
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 19,
+        "adv_succeed_%": 0.19791666666666666
+    }
+}
+172.2852246761322
+==================================================================
+1691875204.609265  running gen  9
+Files already downloaded and verified
+len(test_dataloader):  10000
+9 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 84.19705200195312    id   1
+Sum SPSNR:  84.19705200195312
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 85.58790588378906    id   2
+Sum SPSNR:  169.7849578857422
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 84.23350524902344    id   3
+Sum SPSNR:  254.01846313476562
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 86.73255920410156    id   4
+Sum SPSNR:  340.7510223388672
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 82.32848358154297    id   5
+Sum SPSNR:  423.07950592041016
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 84.36797332763672    id   6
+Sum SPSNR:  507.4474792480469
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 84.37052917480469    id   7
+Sum SPSNR:  591.8180084228516
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 85.76910400390625    id   8
+Sum SPSNR:  677.5871124267578
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 87.45667266845703    id   9
+Sum SPSNR:  765.0437850952148
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 82.26837158203125    id   10
+Sum SPSNR:  847.3121566772461
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 83.07530212402344    id   11
+Sum SPSNR:  930.3874588012695
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 82.69166564941406    id   12
+Sum SPSNR:  1013.0791244506836
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 82.42791748046875    id   13
+Sum SPSNR:  1095.5070419311523
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 84.10299682617188    id   14
+Sum SPSNR:  1179.6100387573242
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 82.38017272949219    id   15
+Sum SPSNR:  1261.9902114868164
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 82.40220642089844    id   16
+Sum SPSNR:  1344.3924179077148
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 90.35015869140625    id   17
+Sum SPSNR:  1434.742576599121
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 90.69670104980469    id   18
+Sum SPSNR:  1525.4392776489258
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 89.15530395507812    id   19
+Sum SPSNR:  1614.594581604004
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 81.76937103271484    id   20
+Sum SPSNR:  1696.3639526367188
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 85.39839935302734    id   21
+Sum SPSNR:  1781.762351989746
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 83.79582214355469    id   22
+Sum SPSNR:  1865.5581741333008
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 86.57975769042969    id   23
+Sum SPSNR:  1952.1379318237305
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 80.89909362792969    id   24
+Sum SPSNR:  2033.0370254516602
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 82.95685577392578    id   25
+Sum SPSNR:  2115.993881225586
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 82.71234130859375    id   26
+Sum SPSNR:  2198.7062225341797
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 82.0306396484375    id   27
+Sum SPSNR:  2280.736862182617
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 84.2514419555664    id   28
+Sum SPSNR:  2364.9883041381836
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 82.16554260253906    id   29
+Sum SPSNR:  2447.1538467407227
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 87.32231903076172    id   30
+Sum SPSNR:  2534.4761657714844
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 83.3184814453125    id   31
+Sum SPSNR:  2617.794647216797
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 81.47276306152344    id   32
+Sum SPSNR:  2699.2674102783203
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 81.88187408447266    id   33
+Sum SPSNR:  2781.149284362793
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 89.35670471191406    id   34
+Sum SPSNR:  2870.505989074707
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 87.39181518554688    id   35
+Sum SPSNR:  2957.897804260254
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 82.61241912841797    id   36
+Sum SPSNR:  3040.510223388672
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 84.7037582397461    id   37
+Sum SPSNR:  3125.213981628418
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 88.00960540771484    id   38
+Sum SPSNR:  3213.223587036133
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 80.75012969970703    id   39
+Sum SPSNR:  3293.97371673584
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 87.81851196289062    id   40
+Sum SPSNR:  3381.7922286987305
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 89.54887390136719    id   41
+Sum SPSNR:  3471.3411026000977
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 88.20197296142578    id   42
+Sum SPSNR:  3559.5430755615234
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 81.72244262695312    id   43
+Sum SPSNR:  3641.2655181884766
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 84.05271911621094    id   44
+Sum SPSNR:  3725.3182373046875
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 83.3897705078125    id   45
+Sum SPSNR:  3808.7080078125
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 83.22066497802734    id   46
+Sum SPSNR:  3891.9286727905273
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 83.90626525878906    id   47
+Sum SPSNR:  3975.8349380493164
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 82.27570343017578    id   48
+Sum SPSNR:  4058.110641479492
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 81.59508514404297    id   49
+Sum SPSNR:  4139.705726623535
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 82.49896240234375    id   50
+Sum SPSNR:  4222.204689025879
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 84.27482604980469    id   51
+Sum SPSNR:  4306.479515075684
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 86.35708618164062    id   52
+Sum SPSNR:  4392.836601257324
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 83.71124267578125    id   53
+Sum SPSNR:  4476.5478439331055
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 84.70899963378906    id   54
+Sum SPSNR:  4561.2568435668945
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 83.24340057373047    id   55
+Sum SPSNR:  4644.500244140625
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 87.91300964355469    id   56
+Sum SPSNR:  4732.41325378418
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 82.68025207519531    id   57
+Sum SPSNR:  4815.093505859375
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 80.16869354248047    id   58
+Sum SPSNR:  4895.2621994018555
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 85.40966033935547    id   59
+Sum SPSNR:  4980.671859741211
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 80.97769927978516    id   60
+Sum SPSNR:  5061.649559020996
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 83.89289855957031    id   61
+Sum SPSNR:  5145.542457580566
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 86.45308685302734    id   62
+Sum SPSNR:  5231.995544433594
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 83.29578399658203    id   63
+Sum SPSNR:  5315.291328430176
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 86.91665649414062    id   64
+Sum SPSNR:  5402.207984924316
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 86.34886169433594    id   65
+Sum SPSNR:  5488.556846618652
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 84.51362609863281    id   66
+Sum SPSNR:  5573.070472717285
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 85.68572235107422    id   67
+Sum SPSNR:  5658.756195068359
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 88.19733428955078    id   68
+Sum SPSNR:  5746.95352935791
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 82.56158447265625    id   69
+Sum SPSNR:  5829.515113830566
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 85.46226501464844    id   70
+Sum SPSNR:  5914.977378845215
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 82.45430755615234    id   71
+Sum SPSNR:  5997.431686401367
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 85.47875213623047    id   72
+Sum SPSNR:  6082.910438537598
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 87.87348937988281    id   73
+Sum SPSNR:  6170.7839279174805
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 86.34986877441406    id   74
+Sum SPSNR:  6257.1337966918945
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 84.94279479980469    id   75
+Sum SPSNR:  6342.076591491699
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 83.34765625    id   76
+Sum SPSNR:  6425.424247741699
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 85.0245361328125    id   77
+Sum SPSNR:  6510.448783874512
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 84.15550994873047    id   78
+Sum SPSNR:  6594.604293823242
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 82.06562805175781    id   79
+Sum SPSNR:  6676.669921875
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 86.25440979003906    id   80
+Sum SPSNR:  6762.924331665039
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 81.15715026855469    id   81
+Sum SPSNR:  6844.081481933594
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 90.02555084228516    id   82
+Sum SPSNR:  6934.107032775879
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 86.6860122680664    id   83
+Sum SPSNR:  7020.793045043945
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 81.96707153320312    id   84
+Sum SPSNR:  7102.760116577148
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 83.35691833496094    id   85
+Sum SPSNR:  7186.117034912109
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 84.3604736328125    id   86
+Sum SPSNR:  7270.477508544922
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 87.40155029296875    id   87
+Sum SPSNR:  7357.879058837891
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 86.44097900390625    id   88
+Sum SPSNR:  7444.320037841797
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 86.52428436279297    id   89
+Sum SPSNR:  7530.84432220459
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 82.72467041015625    id   90
+Sum SPSNR:  7613.568992614746
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 84.39787292480469    id   91
+Sum SPSNR:  7697.966865539551
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 84.8606185913086    id   92
+Sum SPSNR:  7782.827484130859
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 86.97508239746094    id   93
+Sum SPSNR:  7869.80256652832
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 82.44995880126953    id   94
+Sum SPSNR:  7952.25252532959
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 88.67945861816406    id   95
+Sum SPSNR:  8040.931983947754
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 84.21176147460938    id   96
+Sum SPSNR:  8125.143745422363
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 89.85408782958984    id   97
+Sum SPSNR:  8214.997833251953
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 82.82672882080078    id   98
+Sum SPSNR:  8297.824562072754
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 87.77342987060547    id   99
+Sum SPSNR:  8385.59799194336
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 85.7162857055664    id   100
+Sum SPSNR:  8471.314277648926
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 85.99166870117188    id   101
+Sum SPSNR:  8557.305946350098
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 87.03209686279297    id   102
+Sum SPSNR:  8644.33804321289
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 82.4271011352539    id   103
+Sum SPSNR:  8726.765144348145
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 81.24884796142578    id   104
+Sum SPSNR:  8808.01399230957
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 85.56555938720703    id   105
+Sum SPSNR:  8893.579551696777
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 87.31889343261719    id   106
+Sum SPSNR:  8980.898445129395
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 84.12316131591797    id   107
+Sum SPSNR:  9065.021606445312
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 85.19023895263672    id   108
+Sum SPSNR:  9150.21184539795
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 84.32575988769531    id   109
+Sum SPSNR:  9234.537605285645
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 88.48858642578125    id   110
+Sum SPSNR:  9323.026191711426
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 87.57518005371094    id   111
+Sum SPSNR:  9410.601371765137
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 83.06297302246094    id   112
+Sum SPSNR:  9493.664344787598
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 84.01690673828125    id   113
+Sum SPSNR:  9577.681251525879
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 81.79381561279297    id   114
+Sum SPSNR:  9659.475067138672
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 84.13909149169922    id   115
+Sum SPSNR:  9743.614158630371
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 88.62796020507812    id   116
+Sum SPSNR:  9832.24211883545
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 80.38436889648438    id   117
+Sum SPSNR:  9912.626487731934
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 85.63365936279297    id   118
+Sum SPSNR:  9998.260147094727
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 81.22852325439453    id   119
+Sum SPSNR:  10079.488670349121
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 88.9224624633789    id   120
+Sum SPSNR:  10168.4111328125
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 84.32250213623047    id   121
+Sum SPSNR:  10252.73363494873
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 87.05528259277344    id   122
+Sum SPSNR:  10339.788917541504
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 86.32554626464844    id   123
+Sum SPSNR:  10426.114463806152
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 85.92535400390625    id   124
+Sum SPSNR:  10512.039817810059
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 82.14418029785156    id   125
+Sum SPSNR:  10594.18399810791
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 89.18318939208984    id   126
+Sum SPSNR:  10683.3671875
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 87.06887817382812    id   127
+Sum SPSNR:  10770.436065673828
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 87.92626190185547    id   128
+Sum SPSNR:  10858.362327575684
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 81.62934112548828    id   129
+Sum SPSNR:  10939.991668701172
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 81.84976196289062    id   130
+Sum SPSNR:  11021.841430664062
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 88.13334655761719    id   131
+Sum SPSNR:  11109.97477722168
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 86.07347106933594    id   132
+Sum SPSNR:  11196.048248291016
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 87.41683197021484    id   133
+Sum SPSNR:  11283.46508026123
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 82.68434143066406    id   134
+Sum SPSNR:  11366.149421691895
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 89.5888442993164    id   135
+Sum SPSNR:  11455.738265991211
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 82.1733169555664    id   136
+Sum SPSNR:  11537.911582946777
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 81.23074340820312    id   137
+Sum SPSNR:  11619.14232635498
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 84.361572265625    id   138
+Sum SPSNR:  11703.503898620605
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 82.62042236328125    id   139
+Sum SPSNR:  11786.124320983887
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 82.69265747070312    id   140
+Sum SPSNR:  11868.81697845459
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 87.36275482177734    id   141
+Sum SPSNR:  11956.179733276367
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 81.70523071289062    id   142
+Sum SPSNR:  12037.884963989258
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 88.14575958251953    id   143
+Sum SPSNR:  12126.030723571777
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 80.42347717285156    id   144
+Sum SPSNR:  12206.454200744629
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 83.541259765625    id   145
+Sum SPSNR:  12289.995460510254
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 84.18038940429688    id   146
+Sum SPSNR:  12374.17584991455
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 87.00282287597656    id   147
+Sum SPSNR:  12461.178672790527
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 86.70693969726562    id   148
+Sum SPSNR:  12547.885612487793
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 82.13876342773438    id   149
+Sum SPSNR:  12630.024375915527
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 86.96458435058594    id   150
+Sum SPSNR:  12716.988960266113
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 84.4326171875    id   151
+Sum SPSNR:  12801.421577453613
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 84.52175903320312    id   152
+Sum SPSNR:  12885.943336486816
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 88.79621887207031    id   153
+Sum SPSNR:  12974.739555358887
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 83.92381286621094    id   154
+Sum SPSNR:  13058.663368225098
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 82.881103515625    id   155
+Sum SPSNR:  13141.544471740723
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 83.89494323730469    id   156
+Sum SPSNR:  13225.439414978027
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 84.49127960205078    id   157
+Sum SPSNR:  13309.930694580078
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 83.59953308105469    id   158
+Sum SPSNR:  13393.530227661133
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 82.89247131347656    id   159
+Sum SPSNR:  13476.42269897461
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 87.3458480834961    id   160
+Sum SPSNR:  13563.768547058105
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 86.36779022216797    id   161
+Sum SPSNR:  13650.136337280273
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 82.34508514404297    id   162
+Sum SPSNR:  13732.481422424316
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 85.35688781738281    id   163
+Sum SPSNR:  13817.8383102417
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 84.7623291015625    id   164
+Sum SPSNR:  13902.600639343262
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 82.9988784790039    id   165
+Sum SPSNR:  13985.599517822266
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 82.70162963867188    id   166
+Sum SPSNR:  14068.301147460938
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 85.1308822631836    id   167
+Sum SPSNR:  14153.432029724121
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 87.3050308227539    id   168
+Sum SPSNR:  14240.737060546875
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 87.18150329589844    id   169
+Sum SPSNR:  14327.918563842773
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 84.42020416259766    id   170
+Sum SPSNR:  14412.338768005371
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 84.78148651123047    id   171
+Sum SPSNR:  14497.120254516602
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 88.0433578491211    id   172
+Sum SPSNR:  14585.163612365723
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 85.01423645019531    id   173
+Sum SPSNR:  14670.177848815918
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 86.146240234375    id   174
+Sum SPSNR:  14756.324089050293
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 88.1678466796875    id   175
+Sum SPSNR:  14844.49193572998
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 86.543701171875    id   176
+Sum SPSNR:  14931.035636901855
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 85.22683715820312    id   177
+Sum SPSNR:  15016.262474060059
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 82.93984985351562    id   178
+Sum SPSNR:  15099.202323913574
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 89.90972900390625    id   179
+Sum SPSNR:  15189.11205291748
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 85.42595672607422    id   180
+Sum SPSNR:  15274.538009643555
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 86.03331756591797    id   181
+Sum SPSNR:  15360.571327209473
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 82.334716796875    id   182
+Sum SPSNR:  15442.906044006348
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 79.99298095703125    id   183
+Sum SPSNR:  15522.899024963379
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 85.51123046875    id   184
+Sum SPSNR:  15608.410255432129
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 83.38677978515625    id   185
+Sum SPSNR:  15691.797035217285
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 86.7519760131836    id   186
+Sum SPSNR:  15778.549011230469
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 83.9615249633789    id   187
+Sum SPSNR:  15862.510536193848
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 85.3580322265625    id   188
+Sum SPSNR:  15947.86856842041
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 87.22171020507812    id   189
+Sum SPSNR:  16035.090278625488
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 85.40838623046875    id   190
+Sum SPSNR:  16120.498664855957
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 84.0793228149414    id   191
+Sum SPSNR:  16204.577987670898
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 82.74085235595703    id   192
+Sum SPSNR:  16287.318840026855
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 85.8858871459961    id   193
+Sum SPSNR:  16373.204727172852
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 88.2484130859375    id   194
+Sum SPSNR:  16461.45314025879
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 88.74884033203125    id   195
+Sum SPSNR:  16550.20198059082
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 83.03833770751953    id   196
+Sum SPSNR:  16633.24031829834
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 85.28087615966797    id   197
+Sum SPSNR:  16718.521194458008
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 85.87126922607422    id   198
+Sum SPSNR:  16804.392463684082
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 83.55950164794922    id   199
+Sum SPSNR:  16887.95196533203
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 89.18734741210938    id   200
+Sum SPSNR:  16977.13931274414
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 85.34164428710938    id   201
+Sum SPSNR:  17062.48095703125
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 81.89665222167969    id   202
+Sum SPSNR:  17144.37760925293
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 86.39934539794922    id   203
+Sum SPSNR:  17230.77695465088
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 86.27803802490234    id   204
+Sum SPSNR:  17317.05499267578
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 84.56287384033203    id   205
+Sum SPSNR:  17401.617866516113
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 80.59317779541016    id   206
+Sum SPSNR:  17482.211044311523
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 84.5167465209961    id   207
+Sum SPSNR:  17566.72779083252
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 84.52119445800781    id   208
+Sum SPSNR:  17651.248985290527
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 86.00350952148438    id   209
+Sum SPSNR:  17737.25249481201
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 83.68000030517578    id   210
+Sum SPSNR:  17820.932495117188
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 87.2535629272461    id   211
+Sum SPSNR:  17908.186058044434
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 83.03477478027344    id   212
+Sum SPSNR:  17991.220832824707
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 83.17945861816406    id   213
+Sum SPSNR:  18074.40029144287
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 82.83064270019531    id   214
+Sum SPSNR:  18157.230934143066
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 81.97022247314453    id   215
+Sum SPSNR:  18239.20115661621
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 82.88460540771484    id   216
+Sum SPSNR:  18322.085762023926
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 82.09786224365234    id   217
+Sum SPSNR:  18404.183624267578
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 87.12509155273438    id   218
+Sum SPSNR:  18491.308715820312
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 88.34074401855469    id   219
+Sum SPSNR:  18579.649459838867
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 88.39424133300781    id   220
+Sum SPSNR:  18668.043701171875
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 91.22887420654297    id   221
+Sum SPSNR:  18759.272575378418
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 85.87708282470703    id   222
+Sum SPSNR:  18845.149658203125
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 85.21849822998047    id   223
+Sum SPSNR:  18930.368156433105
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 86.27081298828125    id   224
+Sum SPSNR:  19016.638969421387
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 85.02633666992188    id   225
+Sum SPSNR:  19101.66530609131
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 88.10234832763672    id   226
+Sum SPSNR:  19189.767654418945
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 88.54777526855469    id   227
+Sum SPSNR:  19278.3154296875
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 85.4788818359375    id   228
+Sum SPSNR:  19363.794311523438
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 83.00261688232422    id   229
+Sum SPSNR:  19446.79692840576
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 84.83163452148438    id   230
+Sum SPSNR:  19531.628562927246
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 86.35346984863281    id   231
+Sum SPSNR:  19617.98203277588
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 84.38941192626953    id   232
+Sum SPSNR:  19702.37144470215
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 82.55020141601562    id   233
+Sum SPSNR:  19784.921646118164
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 82.73846435546875    id   234
+Sum SPSNR:  19867.660110473633
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 81.67533111572266    id   235
+Sum SPSNR:  19949.335441589355
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 85.63340759277344    id   236
+Sum SPSNR:  20034.96884918213
+Sum SSSIM:  236.0
+SSIM score: 1.0    id   237
+PSNR: 89.94721984863281    id   237
+Sum SPSNR:  20124.91606903076
+Sum SSSIM:  237.0
+SSIM score: 1.0    id   238
+PSNR: 88.40580749511719    id   238
+Sum SPSNR:  20213.32187652588
+Sum SSSIM:  238.0
+SSIM score: 1.0    id   239
+PSNR: 82.41390991210938    id   239
+Sum SPSNR:  20295.73578643799
+Sum SSSIM:  239.0
+SSIM score: 1.0    id   240
+PSNR: 82.3635482788086    id   240
+Sum SPSNR:  20378.099334716797
+Sum SSSIM:  240.0
+SSIM score: 1.0    id   241
+PSNR: 83.49689483642578    id   241
+Sum SPSNR:  20461.596229553223
+Sum SSSIM:  241.0
+SSIM score: 1.0    id   242
+PSNR: 83.88774108886719    id   242
+Sum SPSNR:  20545.48397064209
+Sum SSSIM:  242.0
+SSIM score: 1.0    id   243
+PSNR: 86.21156311035156    id   243
+Sum SPSNR:  20631.69553375244
+Sum SSSIM:  243.0
+SSIM score: 1.0    id   244
+PSNR: 83.03336334228516    id   244
+Sum SPSNR:  20714.728897094727
+Sum SSSIM:  244.0
+SSIM score: 1.0    id   245
+PSNR: 88.18762969970703    id   245
+Sum SPSNR:  20802.916526794434
+Sum SSSIM:  245.0
+SSIM score: 1.0    id   246
+PSNR: 86.13249969482422    id   246
+Sum SPSNR:  20889.049026489258
+Sum SSSIM:  246.0
+SSIM score: 1.0    id   247
+PSNR: 86.13565063476562    id   247
+Sum SPSNR:  20975.184677124023
+Sum SSSIM:  247.0
+SSIM score: 1.0    id   248
+PSNR: 86.07347106933594    id   248
+Sum SPSNR:  21061.25814819336
+Sum SSSIM:  248.0
+SSIM score: 1.0    id   249
+PSNR: 84.23199462890625    id   249
+Sum SPSNR:  21145.490142822266
+Sum SSSIM:  249.0
+SSIM score: 1.0    id   250
+PSNR: 85.58584594726562    id   250
+Sum SPSNR:  21231.07598876953
+Sum SSSIM:  250.0
+SSIM score: 1.0    id   251
+PSNR: 81.390380859375    id   251
+Sum SPSNR:  21312.466369628906
+Sum SSSIM:  251.0
+SSIM score: 1.0    id   252
+PSNR: 84.59877014160156    id   252
+Sum SPSNR:  21397.065139770508
+Sum SSSIM:  252.0
+SSIM score: 1.0    id   253
+PSNR: 81.8636474609375    id   253
+Sum SPSNR:  21478.928787231445
+Sum SSSIM:  253.0
+SSIM score: 1.0    id   254
+PSNR: 81.07681274414062    id   254
+Sum SPSNR:  21560.005599975586
+Sum SSSIM:  254.0
+SSIM score: 1.0    id   255
+PSNR: 80.71380615234375    id   255
+Sum SPSNR:  21640.71940612793
+Sum SSSIM:  255.0
+SSIM score: 1.0    id   256
+PSNR: 84.11349487304688    id   256
+Sum SPSNR:  21724.832901000977
+Sum SSSIM:  256.0
+SSIM score: 1.0    id   257
+PSNR: 85.40930938720703    id   257
+Sum SPSNR:  21810.242210388184
+Sum SSSIM:  257.0
+SSIM score: 1.0    id   258
+PSNR: 82.52369689941406    id   258
+Sum SPSNR:  21892.765907287598
+Sum SSSIM:  258.0
+SSIM score: 1.0    id   259
+PSNR: 87.99714660644531    id   259
+Sum SPSNR:  21980.763053894043
+Sum SSSIM:  259.0
+SSIM score: 1.0    id   260
+PSNR: 82.91230773925781    id   260
+Sum SPSNR:  22063.6753616333
+Sum SSSIM:  260.0
+SSIM score: 1.0    id   261
+PSNR: 87.15745544433594    id   261
+Sum SPSNR:  22150.832817077637
+Sum SSSIM:  261.0
+SSIM score: 1.0    id   262
+PSNR: 87.6748275756836    id   262
+Sum SPSNR:  22238.50764465332
+Sum SSSIM:  262.0
+SSIM score: 1.0    id   263
+PSNR: 83.63374328613281    id   263
+Sum SPSNR:  22322.141387939453
+Sum SSSIM:  263.0
+SSIM score: 1.0    id   264
+PSNR: 83.65184783935547    id   264
+Sum SPSNR:  22405.79323577881
+Sum SSSIM:  264.0
+SSIM score: 1.0    id   265
+PSNR: 88.764404296875    id   265
+Sum SPSNR:  22494.557640075684
+Sum SSSIM:  265.0
+SSIM score: 1.0    id   266
+PSNR: 81.01373291015625    id   266
+Sum SPSNR:  22575.57137298584
+Sum SSSIM:  266.0
+SSIM score: 1.0    id   267
+PSNR: 88.60099029541016    id   267
+Sum SPSNR:  22664.17236328125
+Sum SSSIM:  267.0
+SSIM score: 1.0    id   268
+PSNR: 87.14496612548828    id   268
+Sum SPSNR:  22751.31732940674
+Sum SSSIM:  268.0
+SSIM score: 1.0    id   269
+PSNR: 82.46846008300781    id   269
+Sum SPSNR:  22833.785789489746
+Sum SSSIM:  269.0
+SSIM score: 1.0    id   270
+PSNR: 82.07737731933594    id   270
+Sum SPSNR:  22915.863166809082
+Sum SSSIM:  270.0
+SSIM score: 1.0    id   271
+PSNR: 81.86016082763672    id   271
+Sum SPSNR:  22997.72332763672
+Sum SSSIM:  271.0
+SSIM score: 1.0    id   272
+PSNR: 82.29500579833984    id   272
+Sum SPSNR:  23080.01833343506
+Sum SSSIM:  272.0
+SSIM score: 1.0    id   273
+PSNR: 84.18968200683594    id   273
+Sum SPSNR:  23164.208015441895
+Sum SSSIM:  273.0
+SSIM score: 1.0    id   274
+PSNR: 81.63255310058594    id   274
+Sum SPSNR:  23245.84056854248
+Sum SSSIM:  274.0
+SSIM score: 1.0    id   275
+PSNR: 86.344970703125    id   275
+Sum SPSNR:  23332.185539245605
+Sum SSSIM:  275.0
+SSIM score: 1.0    id   276
+PSNR: 85.6087646484375    id   276
+Sum SPSNR:  23417.794303894043
+Sum SSSIM:  276.0
+SSIM score: 1.0    id   277
+PSNR: 81.23198699951172    id   277
+Sum SPSNR:  23499.026290893555
+Sum SSSIM:  277.0
+SSIM score: 1.0    id   278
+PSNR: 81.50653839111328    id   278
+Sum SPSNR:  23580.532829284668
+Sum SSSIM:  278.0
+SSIM score: 1.0    id   279
+PSNR: 82.82717895507812    id   279
+Sum SPSNR:  23663.360008239746
+Sum SSSIM:  279.0
+SSIM score: 1.0    id   280
+PSNR: 88.32866668701172    id   280
+Sum SPSNR:  23751.688674926758
+Sum SSSIM:  280.0
+SSIM score: 1.0    id   281
+PSNR: 89.35958862304688    id   281
+Sum SPSNR:  23841.048263549805
+Sum SSSIM:  281.0
+SSIM score: 1.0    id   282
+PSNR: 88.24037170410156    id   282
+Sum SPSNR:  23929.288635253906
+Sum SSSIM:  282.0
+SSIM score: 1.0    id   283
+PSNR: 81.24105834960938    id   283
+Sum SPSNR:  24010.529693603516
+Sum SSSIM:  283.0
+SSIM score: 1.0    id   284
+PSNR: 88.56047821044922    id   284
+Sum SPSNR:  24099.090171813965
+Sum SSSIM:  284.0
+SSIM score: 1.0    id   285
+PSNR: 84.74684143066406    id   285
+Sum SPSNR:  24183.83701324463
+Sum SSSIM:  285.0
+SSIM score: 1.0    id   286
+PSNR: 85.02082061767578    id   286
+Sum SPSNR:  24268.857833862305
+Sum SSSIM:  286.0
+SSIM score: 1.0    id   287
+PSNR: 82.60486602783203    id   287
+Sum SPSNR:  24351.462699890137
+Sum SSSIM:  287.0
+SSIM score: 1.0    id   288
+PSNR: 83.10711669921875    id   288
+Sum SPSNR:  24434.569816589355
+Sum SSSIM:  288.0
+SSIM score: 1.0    id   289
+PSNR: 86.55276489257812    id   289
+Sum SPSNR:  24521.122581481934
+Sum SSSIM:  289.0
+SSIM score: 1.0    id   290
+PSNR: 83.36714172363281    id   290
+Sum SPSNR:  24604.489723205566
+Sum SSSIM:  290.0
+SSIM score: 1.0    id   291
+PSNR: 85.62962341308594    id   291
+Sum SPSNR:  24690.119346618652
+Sum SSSIM:  291.0
+SSIM score: 1.0    id   292
+PSNR: 87.85590362548828    id   292
+Sum SPSNR:  24777.97525024414
+Sum SSSIM:  292.0
+SSIM score: 1.0    id   293
+PSNR: 84.80325317382812    id   293
+Sum SPSNR:  24862.77850341797
+Sum SSSIM:  293.0
+SSIM score: 1.0    id   294
+PSNR: 83.97921752929688    id   294
+Sum SPSNR:  24946.757720947266
+Sum SSSIM:  294.0
+SSIM score: 1.0    id   295
+PSNR: 82.42979431152344    id   295
+Sum SPSNR:  25029.18751525879
+Sum SSSIM:  295.0
+SSIM score: 1.0    id   296
+PSNR: 87.69602966308594    id   296
+Sum SPSNR:  25116.883544921875
+Sum SSSIM:  296.0
+SSIM score: 1.0    id   297
+PSNR: 87.9499740600586    id   297
+Sum SPSNR:  25204.833518981934
+Sum SSSIM:  297.0
+SSIM score: 1.0    id   298
+PSNR: 85.09614562988281    id   298
+Sum SPSNR:  25289.929664611816
+Sum SSSIM:  298.0
+SSIM score: 1.0    id   299
+PSNR: 87.35783386230469    id   299
+Sum SPSNR:  25377.28749847412
+Sum SSSIM:  299.0
+SSIM score: 1.0    id   300
+PSNR: 81.9223403930664    id   300
+Sum SPSNR:  25459.209838867188
+Sum SSSIM:  300.0
+SSIM score: 1.0    id   301
+PSNR: 83.4537353515625    id   301
+Sum SPSNR:  25542.66357421875
+Sum SSSIM:  301.0
+SSIM score: 1.0    id   302
+PSNR: 82.42908477783203    id   302
+Sum SPSNR:  25625.092658996582
+Sum SSSIM:  302.0
+SSIM score: 1.0    id   303
+PSNR: 85.45086669921875    id   303
+Sum SPSNR:  25710.5435256958
+Sum SSSIM:  303.0
+SSIM score: 1.0    id   304
+PSNR: 81.77496337890625    id   304
+Sum SPSNR:  25792.318489074707
+Sum SSSIM:  304.0
+SSIM score: 1.0    id   305
+PSNR: 84.93653869628906    id   305
+Sum SPSNR:  25877.255027770996
+Sum SSSIM:  305.0
+SSIM score: 1.0    id   306
+PSNR: 86.5943832397461    id   306
+Sum SPSNR:  25963.849411010742
+Sum SSSIM:  306.0
+SSIM score: 1.0    id   307
+PSNR: 83.19428253173828    id   307
+Sum SPSNR:  26047.04369354248
+Sum SSSIM:  307.0
+SSIM score: 1.0    id   308
+PSNR: 83.99041748046875    id   308
+Sum SPSNR:  26131.03411102295
+Sum SSSIM:  308.0
+SSIM score: 1.0    id   309
+PSNR: 85.45027923583984    id   309
+Sum SPSNR:  26216.48439025879
+Sum SSSIM:  309.0
+SSIM score: 1.0    id   310
+PSNR: 86.5110855102539    id   310
+Sum SPSNR:  26302.995475769043
+Sum SSSIM:  310.0
+SSIM score: 1.0    id   311
+PSNR: 85.99525451660156    id   311
+Sum SPSNR:  26388.990730285645
+Sum SSSIM:  311.0
+SSIM score: 1.0    id   312
+PSNR: 83.0240249633789    id   312
+Sum SPSNR:  26472.014755249023
+Sum SSSIM:  312.0
+SSIM score: 1.0    id   313
+PSNR: 86.36127471923828    id   313
+Sum SPSNR:  26558.37602996826
+Sum SSSIM:  313.0
+SSIM score: 1.0    id   314
+PSNR: 87.91632080078125    id   314
+Sum SPSNR:  26646.292350769043
+Sum SSSIM:  314.0
+SSIM score: 1.0    id   315
+PSNR: 85.261962890625    id   315
+Sum SPSNR:  26731.554313659668
+Sum SSSIM:  315.0
+SSIM score: 1.0    id   316
+PSNR: 80.70223999023438    id   316
+Sum SPSNR:  26812.256553649902
+Sum SSSIM:  316.0
+SSIM score: 1.0    id   317
+PSNR: 82.92586517333984    id   317
+Sum SPSNR:  26895.182418823242
+Sum SSSIM:  317.0
+SSIM score: 1.0    id   318
+PSNR: 81.79695129394531    id   318
+Sum SPSNR:  26976.979370117188
+Sum SSSIM:  318.0
+SSIM score: 1.0    id   319
+PSNR: 83.7545166015625    id   319
+Sum SPSNR:  27060.73388671875
+Sum SSSIM:  319.0
+SSIM score: 1.0    id   320
+PSNR: 83.45217895507812    id   320
+Sum SPSNR:  27144.186065673828
+Sum SSSIM:  320.0
+SSIM score: 1.0    id   321
+PSNR: 85.66287231445312    id   321
+Sum SPSNR:  27229.84893798828
+Sum SSSIM:  321.0
+SSIM score: 1.0    id   322
+PSNR: 88.38108825683594    id   322
+Sum SPSNR:  27318.230026245117
+Sum SSSIM:  322.0
+SSIM score: 1.0    id   323
+PSNR: 83.01959991455078    id   323
+Sum SPSNR:  27401.249626159668
+Sum SSSIM:  323.0
+SSIM score: 1.0    id   324
+PSNR: 85.6260757446289    id   324
+Sum SPSNR:  27486.875701904297
+Sum SSSIM:  324.0
+SSIM score: 1.0    id   325
+PSNR: 84.85305786132812    id   325
+Sum SPSNR:  27571.728759765625
+Sum SSSIM:  325.0
+SSIM score: 1.0    id   326
+PSNR: 82.33889770507812    id   326
+Sum SPSNR:  27654.067657470703
+Sum SSSIM:  326.0
+SSIM score: 1.0    id   327
+PSNR: 87.28959655761719    id   327
+Sum SPSNR:  27741.35725402832
+Sum SSSIM:  327.0
+SSIM score: 1.0    id   328
+PSNR: 86.56623840332031    id   328
+Sum SPSNR:  27827.92349243164
+Sum SSSIM:  328.0
+SSIM score: 1.0    id   329
+PSNR: 84.74285125732422    id   329
+Sum SPSNR:  27912.666343688965
+Sum SSSIM:  329.0
+SSIM score: 1.0    id   330
+PSNR: 88.81169128417969    id   330
+Sum SPSNR:  28001.478034973145
+Sum SSSIM:  330.0
+SSIM score: 1.0    id   331
+PSNR: 83.59011840820312    id   331
+Sum SPSNR:  28085.068153381348
+Sum SSSIM:  331.0
+SSIM score: 1.0    id   332
+PSNR: 84.23164367675781    id   332
+Sum SPSNR:  28169.299797058105
+Sum SSSIM:  332.0
+SSIM score: 1.0    id   333
+PSNR: 86.12399291992188    id   333
+Sum SPSNR:  28255.423789978027
+Sum SSSIM:  333.0
+SSIM score: 1.0    id   334
+PSNR: 90.32306671142578    id   334
+Sum SPSNR:  28345.746856689453
+Sum SSSIM:  334.0
+SSIM score: 1.0    id   335
+PSNR: 83.59371185302734    id   335
+Sum SPSNR:  28429.34056854248
+Sum SSSIM:  335.0
+SSIM score: 1.0    id   336
+PSNR: 81.9673843383789    id   336
+Sum SPSNR:  28511.30795288086
+Sum SSSIM:  336.0
+SSIM score: 1.0    id   337
+PSNR: 82.54083251953125    id   337
+Sum SPSNR:  28593.84878540039
+Sum SSSIM:  337.0
+SSIM score: 1.0    id   338
+PSNR: 82.8023681640625    id   338
+Sum SPSNR:  28676.651153564453
+Sum SSSIM:  338.0
+SSIM score: 1.0    id   339
+PSNR: 83.04669189453125    id   339
+Sum SPSNR:  28759.697845458984
+Sum SSSIM:  339.0
+SSIM score: 1.0    id   340
+PSNR: 87.4861831665039    id   340
+Sum SPSNR:  28847.18402862549
+Sum SSSIM:  340.0
+SSIM score: 1.0    id   341
+PSNR: 88.07671356201172    id   341
+Sum SPSNR:  28935.2607421875
+Sum SSSIM:  341.0
+SSIM score: 1.0    id   342
+PSNR: 87.16145324707031    id   342
+Sum SPSNR:  29022.42219543457
+Sum SSSIM:  342.0
+SSIM score: 1.0    id   343
+PSNR: 86.22500610351562    id   343
+Sum SPSNR:  29108.647201538086
+Sum SSSIM:  343.0
+SSIM score: 1.0    id   344
+PSNR: 86.1222152709961    id   344
+Sum SPSNR:  29194.769416809082
+Sum SSSIM:  344.0
+SSIM score: 1.0    id   345
+PSNR: 82.83070373535156    id   345
+Sum SPSNR:  29277.600120544434
+Sum SSSIM:  345.0
+SSIM score: 1.0    id   346
+PSNR: 83.87980651855469    id   346
+Sum SPSNR:  29361.47992706299
+Sum SSSIM:  346.0
+SSIM score: 1.0    id   347
+PSNR: 86.09505462646484    id   347
+Sum SPSNR:  29447.574981689453
+Sum SSSIM:  347.0
+SSIM score: 1.0    id   348
+PSNR: 87.2315902709961    id   348
+Sum SPSNR:  29534.80657196045
+Sum SSSIM:  348.0
+SSIM score: 1.0    id   349
+PSNR: 89.33197784423828    id   349
+Sum SPSNR:  29624.138549804688
+Sum SSSIM:  349.0
+SSIM score: 1.0    id   350
+PSNR: 83.38233947753906    id   350
+Sum SPSNR:  29707.520889282227
+Sum SSSIM:  350.0
+SSIM score: 1.0    id   351
+PSNR: 82.7303695678711    id   351
+Sum SPSNR:  29790.251258850098
+Sum SSSIM:  351.0
+SSIM score: 1.0    id   352
+PSNR: 80.64852905273438    id   352
+Sum SPSNR:  29870.899787902832
+Sum SSSIM:  352.0
+SSIM score: 1.0    id   353
+PSNR: 82.36868286132812    id   353
+Sum SPSNR:  29953.26847076416
+Sum SSSIM:  353.0
+SSIM score: 1.0    id   354
+PSNR: 82.52627563476562    id   354
+Sum SPSNR:  30035.794746398926
+Sum SSSIM:  354.0
+SSIM score: 1.0    id   355
+PSNR: 86.03103637695312    id   355
+Sum SPSNR:  30121.82578277588
+Sum SSSIM:  355.0
+SSIM score: 1.0    id   356
+PSNR: 88.25221252441406    id   356
+Sum SPSNR:  30210.077995300293
+Sum SSSIM:  356.0
+SSIM score: 1.0    id   357
+PSNR: 88.56024169921875    id   357
+Sum SPSNR:  30298.63823699951
+Sum SSSIM:  357.0
+SSIM score: 1.0    id   358
+PSNR: 87.84326171875    id   358
+Sum SPSNR:  30386.48149871826
+Sum SSSIM:  358.0
+SSIM score: 1.0    id   359
+PSNR: 84.6611099243164    id   359
+Sum SPSNR:  30471.142608642578
+Sum SSSIM:  359.0
+SSIM score: 1.0    id   360
+PSNR: 82.74714660644531    id   360
+Sum SPSNR:  30553.889755249023
+Sum SSSIM:  360.0
+SSIM score: 1.0    id   361
+PSNR: 86.7513427734375    id   361
+Sum SPSNR:  30640.64109802246
+Sum SSSIM:  361.0
+SSIM score: 1.0    id   362
+PSNR: 84.02711486816406    id   362
+Sum SPSNR:  30724.668212890625
+Sum SSSIM:  362.0
+SSIM score: 1.0    id   363
+PSNR: 88.45425415039062    id   363
+Sum SPSNR:  30813.122467041016
+Sum SSSIM:  363.0
+SSIM score: 1.0    id   364
+PSNR: 82.76019287109375    id   364
+Sum SPSNR:  30895.88265991211
+Sum SSSIM:  364.0
+SSIM score: 1.0    id   365
+PSNR: 84.43020629882812    id   365
+Sum SPSNR:  30980.312866210938
+Sum SSSIM:  365.0
+SSIM score: 1.0    id   366
+PSNR: 90.62931823730469    id   366
+Sum SPSNR:  31070.942184448242
+Sum SSSIM:  366.0
+SSIM score: 1.0    id   367
+PSNR: 85.2444839477539    id   367
+Sum SPSNR:  31156.186668395996
+Sum SSSIM:  367.0
+SSIM score: 1.0    id   368
+PSNR: 82.65257263183594    id   368
+Sum SPSNR:  31238.839241027832
+Sum SSSIM:  368.0
+SSIM score: 1.0    id   369
+PSNR: 83.00808715820312    id   369
+Sum SPSNR:  31321.847328186035
+Sum SSSIM:  369.0
+SSIM score: 1.0    id   370
+PSNR: 82.1957015991211    id   370
+Sum SPSNR:  31404.043029785156
+Sum SSSIM:  370.0
+SSIM score: 1.0    id   371
+PSNR: 85.71977233886719    id   371
+Sum SPSNR:  31489.762802124023
+Sum SSSIM:  371.0
+SSIM score: 1.0    id   372
+PSNR: 88.69725036621094    id   372
+Sum SPSNR:  31578.460052490234
+Sum SSSIM:  372.0
+SSIM score: 1.0    id   373
+PSNR: 85.58705139160156    id   373
+Sum SPSNR:  31664.047103881836
+Sum SSSIM:  373.0
+SSIM score: 1.0    id   374
+PSNR: 89.03504180908203    id   374
+Sum SPSNR:  31753.082145690918
+Sum SSSIM:  374.0
+SSIM score: 1.0    id   375
+PSNR: 82.32420349121094    id   375
+Sum SPSNR:  31835.40634918213
+Sum SSSIM:  375.0
+SSIM score: 1.0    id   376
+PSNR: 83.42530822753906    id   376
+Sum SPSNR:  31918.831657409668
+Sum SSSIM:  376.0
+SSIM score: 1.0    id   377
+PSNR: 83.13236236572266    id   377
+Sum SPSNR:  32001.96401977539
+Sum SSSIM:  377.0
+SSIM score: 1.0    id   378
+PSNR: 84.95932006835938    id   378
+Sum SPSNR:  32086.92333984375
+Sum SSSIM:  378.0
+SSIM score: 1.0    id   379
+PSNR: 84.693603515625    id   379
+Sum SPSNR:  32171.616943359375
+Sum SSSIM:  379.0
+SSIM score: 1.0    id   380
+PSNR: 79.74774169921875    id   380
+Sum SPSNR:  32251.364685058594
+Sum SSSIM:  380.0
+SSIM score: 1.0    id   381
+PSNR: 85.32952880859375    id   381
+Sum SPSNR:  32336.694213867188
+Sum SSSIM:  381.0
+SSIM score: 1.0    id   382
+PSNR: 88.44161987304688    id   382
+Sum SPSNR:  32425.135833740234
+Sum SSSIM:  382.0
+SSIM score: 1.0    id   383
+PSNR: 82.79682922363281    id   383
+Sum SPSNR:  32507.932662963867
+Sum SSSIM:  383.0
+SSIM score: 1.0    id   384
+PSNR: 84.20814514160156    id   384
+Sum SPSNR:  32592.14080810547
+Sum SSSIM:  384.0
+SSIM score: 1.0    id   385
+PSNR: 82.92973327636719    id   385
+Sum SPSNR:  32675.070541381836
+Sum SSSIM:  385.0
+SSIM score: 1.0    id   386
+PSNR: 85.58003234863281    id   386
+Sum SPSNR:  32760.65057373047
+Sum SSSIM:  386.0
+SSIM score: 1.0    id   387
+PSNR: 82.79409790039062    id   387
+Sum SPSNR:  32843.44467163086
+Sum SSSIM:  387.0
+SSIM score: 1.0    id   388
+PSNR: 81.37672424316406    id   388
+Sum SPSNR:  32924.82139587402
+Sum SSSIM:  388.0
+SSIM score: 1.0    id   389
+PSNR: 82.97427368164062    id   389
+Sum SPSNR:  33007.795669555664
+Sum SSSIM:  389.0
+SSIM score: 1.0    id   390
+PSNR: 87.0174331665039    id   390
+Sum SPSNR:  33094.81310272217
+Sum SSSIM:  390.0
+SSIM score: 1.0    id   391
+PSNR: 87.27474975585938    id   391
+Sum SPSNR:  33182.08785247803
+Sum SSSIM:  391.0
+SSIM score: 1.0    id   392
+PSNR: 82.24516296386719    id   392
+Sum SPSNR:  33264.333015441895
+Sum SSSIM:  392.0
+SSIM score: 1.0    id   393
+PSNR: 82.7119140625    id   393
+Sum SPSNR:  33347.044929504395
+Sum SSSIM:  393.0
+SSIM score: 1.0    id   394
+PSNR: 82.48857116699219    id   394
+Sum SPSNR:  33429.53350067139
+Sum SSSIM:  394.0
+SSIM score: 1.0    id   395
+PSNR: 81.22368621826172    id   395
+Sum SPSNR:  33510.75718688965
+Sum SSSIM:  395.0
+SSIM score: 1.0    id   396
+PSNR: 85.05794525146484    id   396
+Sum SPSNR:  33595.81513214111
+Sum SSSIM:  396.0
+SSIM score: 1.0    id   397
+PSNR: 88.74934387207031    id   397
+Sum SPSNR:  33684.56447601318
+Sum SSSIM:  397.0
+SSIM score: 1.0    id   398
+PSNR: 81.19212341308594    id   398
+Sum SPSNR:  33765.75659942627
+Sum SSSIM:  398.0
+SSIM score: 1.0    id   399
+PSNR: 85.141357421875    id   399
+Sum SPSNR:  33850.897956848145
+Sum SSSIM:  399.0
+SSIM score: 1.0    id   400
+PSNR: 81.64543151855469    id   400
+Sum SPSNR:  33932.5433883667
+Sum SSSIM:  400.0
+SSIM score: 1.0    id   401
+PSNR: 83.72918701171875    id   401
+Sum SPSNR:  34016.27257537842
+Sum SSSIM:  401.0
+SSIM score: 1.0    id   402
+PSNR: 82.51725006103516    id   402
+Sum SPSNR:  34098.78982543945
+Sum SSSIM:  402.0
+SSIM score: 1.0    id   403
+PSNR: 83.80794525146484    id   403
+Sum SPSNR:  34182.59777069092
+Sum SSSIM:  403.0
+SSIM score: 1.0    id   404
+PSNR: 85.3638916015625    id   404
+Sum SPSNR:  34267.96166229248
+Sum SSSIM:  404.0
+SSIM score: 1.0    id   405
+PSNR: 88.04463195800781    id   405
+Sum SPSNR:  34356.00629425049
+Sum SSSIM:  405.0
+SSIM score: 1.0    id   406
+PSNR: 81.9429931640625    id   406
+Sum SPSNR:  34437.94928741455
+Sum SSSIM:  406.0
+SSIM score: 1.0    id   407
+PSNR: 80.51666259765625    id   407
+Sum SPSNR:  34518.46595001221
+Sum SSSIM:  407.0
+SSIM score: 1.0    id   408
+PSNR: 86.6348648071289    id   408
+Sum SPSNR:  34605.100814819336
+Sum SSSIM:  408.0
+SSIM score: 1.0    id   409
+PSNR: 86.44172668457031    id   409
+Sum SPSNR:  34691.542541503906
+Sum SSSIM:  409.0
+SSIM score: 1.0    id   410
+PSNR: 82.8720932006836    id   410
+Sum SPSNR:  34774.41463470459
+Sum SSSIM:  410.0
+SSIM score: 1.0    id   411
+PSNR: 82.88499450683594    id   411
+Sum SPSNR:  34857.299629211426
+Sum SSSIM:  411.0
+SSIM score: 1.0    id   412
+PSNR: 82.37295532226562    id   412
+Sum SPSNR:  34939.67258453369
+Sum SSSIM:  412.0
+SSIM score: 1.0    id   413
+PSNR: 82.92533874511719    id   413
+Sum SPSNR:  35022.59792327881
+Sum SSSIM:  413.0
+SSIM score: 1.0    id   414
+PSNR: 85.46591186523438    id   414
+Sum SPSNR:  35108.06383514404
+Sum SSSIM:  414.0
+SSIM score: 1.0    id   415
+PSNR: 82.75785827636719    id   415
+Sum SPSNR:  35190.82169342041
+Sum SSSIM:  415.0
+SSIM score: 1.0    id   416
+PSNR: 85.6236343383789    id   416
+Sum SPSNR:  35276.44532775879
+Sum SSSIM:  416.0
+SSIM score: 1.0    id   417
+PSNR: 89.4964599609375    id   417
+Sum SPSNR:  35365.94178771973
+Sum SSSIM:  417.0
+SSIM score: 1.0    id   418
+PSNR: 81.56497192382812    id   418
+Sum SPSNR:  35447.506759643555
+Sum SSSIM:  418.0
+SSIM score: 1.0    id   419
+PSNR: 85.50148010253906    id   419
+Sum SPSNR:  35533.008239746094
+Sum SSSIM:  419.0
+SSIM score: 1.0    id   420
+PSNR: 87.0085220336914    id   420
+Sum SPSNR:  35620.016761779785
+Sum SSSIM:  420.0
+SSIM score: 1.0    id   421
+PSNR: 82.78532409667969    id   421
+Sum SPSNR:  35702.802085876465
+Sum SSSIM:  421.0
+SSIM score: 1.0    id   422
+PSNR: 82.36856079101562    id   422
+Sum SPSNR:  35785.17064666748
+Sum SSSIM:  422.0
+SSIM score: 1.0    id   423
+PSNR: 83.21449279785156    id   423
+Sum SPSNR:  35868.38513946533
+Sum SSSIM:  423.0
+SSIM score: 1.0    id   424
+PSNR: 87.50703430175781    id   424
+Sum SPSNR:  35955.89217376709
+Sum SSSIM:  424.0
+SSIM score: 1.0    id   425
+PSNR: 89.50569915771484    id   425
+Sum SPSNR:  36045.397872924805
+Sum SSSIM:  425.0
+SSIM score: 1.0    id   426
+PSNR: 88.87910461425781    id   426
+Sum SPSNR:  36134.27697753906
+Sum SSSIM:  426.0
+SSIM score: 1.0    id   427
+PSNR: 88.52081298828125    id   427
+Sum SPSNR:  36222.797790527344
+Sum SSSIM:  427.0
+SSIM score: 1.0    id   428
+PSNR: 81.20785522460938    id   428
+Sum SPSNR:  36304.00564575195
+Sum SSSIM:  428.0
+SSIM score: 1.0    id   429
+PSNR: 82.96571350097656    id   429
+Sum SPSNR:  36386.97135925293
+Sum SSSIM:  429.0
+SSIM score: 1.0    id   430
+PSNR: 83.00308227539062    id   430
+Sum SPSNR:  36469.97444152832
+Sum SSSIM:  430.0
+SSIM score: 1.0    id   431
+PSNR: 83.62133026123047    id   431
+Sum SPSNR:  36553.59577178955
+Sum SSSIM:  431.0
+SSIM score: 1.0    id   432
+PSNR: 83.51203918457031    id   432
+Sum SPSNR:  36637.10781097412
+Sum SSSIM:  432.0
+SSIM score: 1.0    id   433
+PSNR: 86.33488464355469    id   433
+Sum SPSNR:  36723.442695617676
+Sum SSSIM:  433.0
+SSIM score: 1.0    id   434
+PSNR: 88.21148681640625    id   434
+Sum SPSNR:  36811.65418243408
+Sum SSSIM:  434.0
+SSIM score: 1.0    id   435
+PSNR: 82.07878112792969    id   435
+Sum SPSNR:  36893.73296356201
+Sum SSSIM:  435.0
+SSIM score: 1.0    id   436
+PSNR: 81.8636474609375    id   436
+Sum SPSNR:  36975.59661102295
+Sum SSSIM:  436.0
+SSIM score: 1.0    id   437
+PSNR: 85.01858520507812    id   437
+Sum SPSNR:  37060.61519622803
+Sum SSSIM:  437.0
+SSIM score: 1.0    id   438
+PSNR: 82.81431579589844    id   438
+Sum SPSNR:  37143.429512023926
+Sum SSSIM:  438.0
+SSIM score: 1.0    id   439
+PSNR: 86.7572021484375    id   439
+Sum SPSNR:  37230.18671417236
+Sum SSSIM:  439.0
+SSIM score: 1.0    id   440
+PSNR: 83.0133056640625    id   440
+Sum SPSNR:  37313.200019836426
+Sum SSSIM:  440.0
+SSIM score: 1.0    id   441
+PSNR: 84.17767333984375    id   441
+Sum SPSNR:  37397.37769317627
+Sum SSSIM:  441.0
+SSIM score: 1.0    id   442
+PSNR: 82.47874450683594    id   442
+Sum SPSNR:  37479.856437683105
+Sum SSSIM:  442.0
+SSIM score: 1.0    id   443
+PSNR: 86.64226531982422    id   443
+Sum SPSNR:  37566.49870300293
+Sum SSSIM:  443.0
+SSIM score: 1.0    id   444
+PSNR: 84.63926696777344    id   444
+Sum SPSNR:  37651.1379699707
+Sum SSSIM:  444.0
+SSIM score: 1.0    id   445
+PSNR: 83.6707992553711    id   445
+Sum SPSNR:  37734.808769226074
+Sum SSSIM:  445.0
+SSIM score: 1.0    id   446
+PSNR: 88.49259948730469    id   446
+Sum SPSNR:  37823.30136871338
+Sum SSSIM:  446.0
+SSIM score: 1.0    id   447
+PSNR: 81.7149429321289    id   447
+Sum SPSNR:  37905.01631164551
+Sum SSSIM:  447.0
+SSIM score: 1.0    id   448
+PSNR: 85.89653778076172    id   448
+Sum SPSNR:  37990.91284942627
+Sum SSSIM:  448.0
+SSIM score: 1.0    id   449
+PSNR: 84.1651840209961    id   449
+Sum SPSNR:  38075.078033447266
+Sum SSSIM:  449.0
+SSIM score: 1.0    id   450
+PSNR: 83.54617309570312    id   450
+Sum SPSNR:  38158.62420654297
+Sum SSSIM:  450.0
+SSIM score: 1.0    id   451
+PSNR: 84.34417724609375    id   451
+Sum SPSNR:  38242.96838378906
+Sum SSSIM:  451.0
+SSIM score: 1.0    id   452
+PSNR: 84.84264373779297    id   452
+Sum SPSNR:  38327.811027526855
+Sum SSSIM:  452.0
+SSIM score: 1.0    id   453
+PSNR: 84.38812255859375    id   453
+Sum SPSNR:  38412.19915008545
+Sum SSSIM:  453.0
+SSIM score: 1.0    id   454
+PSNR: 89.54496765136719    id   454
+Sum SPSNR:  38501.74411773682
+Sum SSSIM:  454.0
+SSIM score: 1.0    id   455
+PSNR: 88.62187194824219    id   455
+Sum SPSNR:  38590.36598968506
+Sum SSSIM:  455.0
+SSIM score: 1.0    id   456
+PSNR: 82.33489227294922    id   456
+Sum SPSNR:  38672.70088195801
+Sum SSSIM:  456.0
+SSIM score: 1.0    id   457
+PSNR: 81.66893768310547    id   457
+Sum SPSNR:  38754.36981964111
+Sum SSSIM:  457.0
+SSIM score: 1.0    id   458
+PSNR: 83.96086120605469    id   458
+Sum SPSNR:  38838.33068084717
+Sum SSSIM:  458.0
+SSIM score: 1.0    id   459
+PSNR: 81.28699493408203    id   459
+Sum SPSNR:  38919.61767578125
+Sum SSSIM:  459.0
+SSIM score: 1.0    id   460
+PSNR: 88.29827880859375    id   460
+Sum SPSNR:  39007.915954589844
+Sum SSSIM:  460.0
+SSIM score: 1.0    id   461
+PSNR: 82.87986755371094    id   461
+Sum SPSNR:  39090.795822143555
+Sum SSSIM:  461.0
+SSIM score: 1.0    id   462
+PSNR: 88.03738403320312    id   462
+Sum SPSNR:  39178.83320617676
+Sum SSSIM:  462.0
+SSIM score: 1.0    id   463
+PSNR: 82.90982055664062    id   463
+Sum SPSNR:  39261.7430267334
+Sum SSSIM:  463.0
+SSIM score: 1.0    id   464
+PSNR: 85.01020812988281    id   464
+Sum SPSNR:  39346.75323486328
+Sum SSSIM:  464.0
+SSIM score: 1.0    id   465
+PSNR: 81.35466003417969    id   465
+Sum SPSNR:  39428.10789489746
+Sum SSSIM:  465.0
+SSIM score: 1.0    id   466
+PSNR: 87.72761535644531    id   466
+Sum SPSNR:  39515.835510253906
+Sum SSSIM:  466.0
+SSIM score: 1.0    id   467
+PSNR: 81.24671173095703    id   467
+Sum SPSNR:  39597.08222198486
+Sum SSSIM:  467.0
+SSIM score: 1.0    id   468
+PSNR: 85.03443908691406    id   468
+Sum SPSNR:  39682.11666107178
+Sum SSSIM:  468.0
+SSIM score: 1.0    id   469
+PSNR: 84.77787017822266    id   469
+Sum SPSNR:  39766.89453125
+Sum SSSIM:  469.0
+SSIM score: 1.0    id   470
+PSNR: 86.66563415527344    id   470
+Sum SPSNR:  39853.56016540527
+Sum SSSIM:  470.0
+SSIM score: 1.0    id   471
+PSNR: 82.22830963134766    id   471
+Sum SPSNR:  39935.78847503662
+Sum SSSIM:  471.0
+SSIM score: 1.0    id   472
+PSNR: 86.64288330078125    id   472
+Sum SPSNR:  40022.4313583374
+Sum SSSIM:  472.0
+SSIM score: 1.0    id   473
+PSNR: 83.33697509765625    id   473
+Sum SPSNR:  40105.76833343506
+Sum SSSIM:  473.0
+SSIM score: 1.0    id   474
+PSNR: 89.17820739746094    id   474
+Sum SPSNR:  40194.94654083252
+Sum SSSIM:  474.0
+SSIM score: 1.0    id   475
+PSNR: 89.20067596435547    id   475
+Sum SPSNR:  40284.147216796875
+Sum SSSIM:  475.0
+SSIM score: 1.0    id   476
+PSNR: 85.1711654663086    id   476
+Sum SPSNR:  40369.31838226318
+Sum SSSIM:  476.0
+SSIM score: 1.0    id   477
+PSNR: 84.74095153808594    id   477
+Sum SPSNR:  40454.05933380127
+Sum SSSIM:  477.0
+SSIM score: 1.0    id   478
+PSNR: 81.6287612915039    id   478
+Sum SPSNR:  40535.68809509277
+Sum SSSIM:  478.0
+SSIM score: 1.0    id   479
+PSNR: 81.64508819580078    id   479
+Sum SPSNR:  40617.333183288574
+Sum SSSIM:  479.0
+SSIM score: 1.0    id   480
+PSNR: 85.2645492553711    id   480
+Sum SPSNR:  40702.597732543945
+Sum SSSIM:  480.0
+SSIM score: 1.0    id   481
+PSNR: 82.7510986328125    id   481
+Sum SPSNR:  40785.34883117676
+Sum SSSIM:  481.0
+SSIM score: 1.0    id   482
+PSNR: 83.32523345947266    id   482
+Sum SPSNR:  40868.67406463623
+Sum SSSIM:  482.0
+SSIM score: 1.0    id   483
+PSNR: 87.64868927001953    id   483
+Sum SPSNR:  40956.32275390625
+Sum SSSIM:  483.0
+SSIM score: 1.0    id   484
+PSNR: 83.34649658203125    id   484
+Sum SPSNR:  41039.66925048828
+Sum SSSIM:  484.0
+SSIM score: 1.0    id   485
+PSNR: 86.42554473876953    id   485
+Sum SPSNR:  41126.09479522705
+Sum SSSIM:  485.0
+SSIM score: 1.0    id   486
+PSNR: 84.7413558959961    id   486
+Sum SPSNR:  41210.83615112305
+Sum SSSIM:  486.0
+SSIM score: 1.0    id   487
+PSNR: 84.3048095703125    id   487
+Sum SPSNR:  41295.14096069336
+Sum SSSIM:  487.0
+SSIM score: 1.0    id   488
+PSNR: 85.09225463867188    id   488
+Sum SPSNR:  41380.23321533203
+Sum SSSIM:  488.0
+SSIM score: 1.0    id   489
+PSNR: 81.92676544189453    id   489
+Sum SPSNR:  41462.159980773926
+Sum SSSIM:  489.0
+SSIM score: 1.0    id   490
+PSNR: 85.42268371582031    id   490
+Sum SPSNR:  41547.582664489746
+Sum SSSIM:  490.0
+SSIM score: 1.0    id   491
+PSNR: 82.39273834228516    id   491
+Sum SPSNR:  41629.97540283203
+Sum SSSIM:  491.0
+SSIM score: 1.0    id   492
+PSNR: 82.73400115966797    id   492
+Sum SPSNR:  41712.7094039917
+Sum SSSIM:  492.0
+SSIM score: 1.0    id   493
+PSNR: 84.349365234375    id   493
+Sum SPSNR:  41797.058769226074
+Sum SSSIM:  493.0
+SSIM score: 1.0    id   494
+PSNR: 82.84362030029297    id   494
+Sum SPSNR:  41879.90238952637
+Sum SSSIM:  494.0
+SSIM score: 1.0    id   495
+PSNR: 83.2350082397461    id   495
+Sum SPSNR:  41963.13739776611
+Sum SSSIM:  495.0
+SSIM score: 1.0    id   496
+PSNR: 83.04891967773438    id   496
+Sum SPSNR:  42046.18631744385
+Sum SSSIM:  496.0
+SSIM score: 1.0    id   497
+PSNR: 84.61964416503906    id   497
+Sum SPSNR:  42130.80596160889
+Sum SSSIM:  497.0
+SSIM score: 1.0    id   498
+PSNR: 86.64010620117188    id   498
+Sum SPSNR:  42217.44606781006
+Sum SSSIM:  498.0
+SSIM score: 1.0    id   499
+PSNR: 87.77362823486328    id   499
+Sum SPSNR:  42305.21969604492
+Sum SSSIM:  499.0
+SSIM score: 1.0    id   500
+PSNR: 87.00299072265625    id   500
+Sum SPSNR:  42392.22268676758
+Sum SSSIM:  500.0
+SSIM score: 1.0    id   501
+PSNR: 82.80154418945312    id   501
+Sum SPSNR:  42475.02423095703
+Sum SSSIM:  501.0
+SSIM score: 1.0    id   502
+PSNR: 82.69520568847656    id   502
+Sum SPSNR:  42557.71943664551
+Sum SSSIM:  502.0
+SSIM score: 1.0    id   503
+PSNR: 89.21013641357422    id   503
+Sum SPSNR:  42646.92957305908
+Sum SSSIM:  503.0
+SSIM score: 1.0    id   504
+PSNR: 84.00881958007812    id   504
+Sum SPSNR:  42730.93839263916
+Sum SSSIM:  504.0
+SSIM score: 1.0    id   505
+PSNR: 88.61360168457031    id   505
+Sum SPSNR:  42819.55199432373
+Sum SSSIM:  505.0
+SSIM score: 1.0    id   506
+PSNR: 84.26766967773438    id   506
+Sum SPSNR:  42903.819664001465
+Sum SSSIM:  506.0
+SSIM score: 1.0    id   507
+PSNR: 82.3532485961914    id   507
+Sum SPSNR:  42986.172912597656
+Sum SSSIM:  507.0
+SSIM score: 1.0    id   508
+PSNR: 82.61932373046875    id   508
+Sum SPSNR:  43068.792236328125
+Sum SSSIM:  508.0
+SSIM score: 1.0    id   509
+PSNR: 88.2634048461914    id   509
+Sum SPSNR:  43157.05564117432
+Sum SSSIM:  509.0
+SSIM score: 1.0    id   510
+PSNR: 81.38508605957031    id   510
+Sum SPSNR:  43238.44072723389
+Sum SSSIM:  510.0
+SSIM score: 1.0    id   511
+PSNR: 82.42265319824219    id   511
+Sum SPSNR:  43320.86338043213
+Sum SSSIM:  511.0
+SSIM score: 1.0    id   512
+PSNR: 83.9945297241211    id   512
+Sum SPSNR:  43404.85791015625
+Sum SSSIM:  512.0
+SSIM score: 1.0    id   513
+PSNR: 84.83551025390625    id   513
+Sum SPSNR:  43489.693420410156
+Sum SSSIM:  513.0
+SSIM score: 1.0    id   514
+PSNR: 87.06378173828125    id   514
+Sum SPSNR:  43576.75720214844
+Sum SSSIM:  514.0
+SSIM score: 1.0    id   515
+PSNR: 85.84176635742188    id   515
+Sum SPSNR:  43662.59896850586
+Sum SSSIM:  515.0
+SSIM score: 1.0    id   516
+PSNR: 87.69819641113281    id   516
+Sum SPSNR:  43750.29716491699
+Sum SSSIM:  516.0
+SSIM score: 1.0    id   517
+PSNR: 83.20623779296875    id   517
+Sum SPSNR:  43833.50340270996
+Sum SSSIM:  517.0
+SSIM score: 1.0    id   518
+PSNR: 82.75331115722656    id   518
+Sum SPSNR:  43916.25671386719
+Sum SSSIM:  518.0
+SSIM score: 1.0    id   519
+PSNR: 84.8874282836914    id   519
+Sum SPSNR:  44001.14414215088
+Sum SSSIM:  519.0
+SSIM score: 1.0    id   520
+PSNR: 86.04271697998047    id   520
+Sum SPSNR:  44087.18685913086
+Sum SSSIM:  520.0
+SSIM score: 1.0    id   521
+PSNR: 87.76721954345703    id   521
+Sum SPSNR:  44174.95407867432
+Sum SSSIM:  521.0
+SSIM score: 1.0    id   522
+PSNR: 84.34027099609375    id   522
+Sum SPSNR:  44259.29434967041
+Sum SSSIM:  522.0
+SSIM score: 1.0    id   523
+PSNR: 86.98391723632812    id   523
+Sum SPSNR:  44346.27826690674
+Sum SSSIM:  523.0
+SSIM score: 1.0    id   524
+PSNR: 85.04606628417969    id   524
+Sum SPSNR:  44431.32433319092
+Sum SSSIM:  524.0
+SSIM score: 1.0    id   525
+PSNR: 86.99713134765625    id   525
+Sum SPSNR:  44518.321464538574
+Sum SSSIM:  525.0
+SSIM score: 1.0    id   526
+PSNR: 90.80278015136719    id   526
+Sum SPSNR:  44609.12424468994
+Sum SSSIM:  526.0
+SSIM score: 1.0    id   527
+PSNR: 83.0940170288086    id   527
+Sum SPSNR:  44692.21826171875
+Sum SSSIM:  527.0
+SSIM score: 1.0    id   528
+PSNR: 85.57388305664062    id   528
+Sum SPSNR:  44777.79214477539
+Sum SSSIM:  528.0
+SSIM score: 1.0    id   529
+PSNR: 86.49017333984375    id   529
+Sum SPSNR:  44864.282318115234
+Sum SSSIM:  529.0
+SSIM score: 1.0    id   530
+PSNR: 85.63121032714844    id   530
+Sum SPSNR:  44949.91352844238
+Sum SSSIM:  530.0
+SSIM score: 1.0    id   531
+PSNR: 85.8786392211914    id   531
+Sum SPSNR:  45035.792167663574
+Sum SSSIM:  531.0
+SSIM score: 1.0    id   532
+PSNR: 83.2267074584961    id   532
+Sum SPSNR:  45119.01887512207
+Sum SSSIM:  532.0
+SSIM score: 1.0    id   533
+PSNR: 87.30988311767578    id   533
+Sum SPSNR:  45206.328758239746
+Sum SSSIM:  533.0
+SSIM score: 1.0    id   534
+PSNR: 90.08685302734375    id   534
+Sum SPSNR:  45296.41561126709
+Sum SSSIM:  534.0
+SSIM score: 1.0    id   535
+PSNR: 83.42428588867188    id   535
+Sum SPSNR:  45379.83989715576
+Sum SSSIM:  535.0
+SSIM score: 1.0    id   536
+PSNR: 83.2424087524414    id   536
+Sum SPSNR:  45463.0823059082
+Sum SSSIM:  536.0
+SSIM score: 1.0    id   537
+PSNR: 81.6468505859375    id   537
+Sum SPSNR:  45544.72915649414
+Sum SSSIM:  537.0
+SSIM score: 1.0    id   538
+PSNR: 85.46707916259766    id   538
+Sum SPSNR:  45630.19623565674
+Sum SSSIM:  538.0
+SSIM score: 1.0    id   539
+PSNR: 81.83810424804688    id   539
+Sum SPSNR:  45712.034339904785
+Sum SSSIM:  539.0
+SSIM score: 1.0    id   540
+PSNR: 90.35305786132812    id   540
+Sum SPSNR:  45802.38739776611
+Sum SSSIM:  540.0
+SSIM score: 1.0    id   541
+PSNR: 88.9091796875    id   541
+Sum SPSNR:  45891.29657745361
+Sum SSSIM:  541.0
+SSIM score: 1.0    id   542
+PSNR: 88.11988067626953    id   542
+Sum SPSNR:  45979.41645812988
+Sum SSSIM:  542.0
+SSIM score: 1.0    id   543
+PSNR: 87.9794692993164    id   543
+Sum SPSNR:  46067.3959274292
+Sum SSSIM:  543.0
+SSIM score: 1.0    id   544
+PSNR: 83.57257843017578    id   544
+Sum SPSNR:  46150.968505859375
+Sum SSSIM:  544.0
+SSIM score: 1.0    id   545
+PSNR: 86.0181884765625    id   545
+Sum SPSNR:  46236.98669433594
+Sum SSSIM:  545.0
+SSIM score: 1.0    id   546
+PSNR: 86.39453125    id   546
+Sum SPSNR:  46323.38122558594
+Sum SSSIM:  546.0
+SSIM score: 1.0    id   547
+PSNR: 82.02360534667969    id   547
+Sum SPSNR:  46405.40483093262
+Sum SSSIM:  547.0
+SSIM score: 1.0    id   548
+PSNR: 88.39262390136719    id   548
+Sum SPSNR:  46493.797454833984
+Sum SSSIM:  548.0
+SSIM score: 1.0    id   549
+PSNR: 82.349853515625    id   549
+Sum SPSNR:  46576.14730834961
+Sum SSSIM:  549.0
+SSIM score: 1.0    id   550
+PSNR: 81.84929656982422    id   550
+Sum SPSNR:  46657.99660491943
+Sum SSSIM:  550.0
+SSIM score: 1.0    id   551
+PSNR: 88.25713348388672    id   551
+Sum SPSNR:  46746.25373840332
+Sum SSSIM:  551.0
+SSIM score: 1.0    id   552
+PSNR: 88.78836822509766    id   552
+Sum SPSNR:  46835.04210662842
+Sum SSSIM:  552.0
+SSIM score: 1.0    id   553
+PSNR: 86.99947357177734    id   553
+Sum SPSNR:  46922.041580200195
+Sum SSSIM:  553.0
+SSIM score: 1.0    id   554
+PSNR: 83.02074432373047    id   554
+Sum SPSNR:  47005.062324523926
+Sum SSSIM:  554.0
+SSIM score: 1.0    id   555
+PSNR: 87.28744506835938    id   555
+Sum SPSNR:  47092.349769592285
+Sum SSSIM:  555.0
+SSIM score: 1.0    id   556
+PSNR: 85.66311645507812    id   556
+Sum SPSNR:  47178.01288604736
+Sum SSSIM:  556.0
+SSIM score: 1.0    id   557
+PSNR: 90.17089080810547    id   557
+Sum SPSNR:  47268.18377685547
+Sum SSSIM:  557.0
+SSIM score: 1.0    id   558
+PSNR: 86.24199676513672    id   558
+Sum SPSNR:  47354.425773620605
+Sum SSSIM:  558.0
+SSIM score: 1.0    id   559
+PSNR: 88.2948989868164    id   559
+Sum SPSNR:  47442.72067260742
+Sum SSSIM:  559.0
+SSIM score: 1.0    id   560
+PSNR: 82.4112777709961    id   560
+Sum SPSNR:  47525.13195037842
+Sum SSSIM:  560.0
+SSIM score: 1.0    id   561
+PSNR: 87.0614013671875    id   561
+Sum SPSNR:  47612.193351745605
+Sum SSSIM:  561.0
+SSIM score: 1.0    id   562
+PSNR: 84.30580139160156    id   562
+Sum SPSNR:  47696.49915313721
+Sum SSSIM:  562.0
+SSIM score: 1.0    id   563
+PSNR: 81.74887084960938    id   563
+Sum SPSNR:  47778.24802398682
+Sum SSSIM:  563.0
+SSIM score: 1.0    id   564
+PSNR: 84.98368072509766    id   564
+Sum SPSNR:  47863.231704711914
+Sum SSSIM:  564.0
+SSIM score: 1.0    id   565
+PSNR: 86.27661895751953    id   565
+Sum SPSNR:  47949.50832366943
+Sum SSSIM:  565.0
+SSIM score: 1.0    id   566
+PSNR: 82.62360382080078    id   566
+Sum SPSNR:  48032.131927490234
+Sum SSSIM:  566.0
+SSIM score: 1.0    id   567
+PSNR: 84.61054992675781    id   567
+Sum SPSNR:  48116.74247741699
+Sum SSSIM:  567.0
+SSIM score: 1.0    id   568
+PSNR: 88.06513977050781    id   568
+Sum SPSNR:  48204.8076171875
+Sum SSSIM:  568.0
+SSIM score: 1.0    id   569
+PSNR: 86.50137329101562    id   569
+Sum SPSNR:  48291.308990478516
+Sum SSSIM:  569.0
+SSIM score: 1.0    id   570
+PSNR: 82.24364471435547    id   570
+Sum SPSNR:  48373.55263519287
+Sum SSSIM:  570.0
+SSIM score: 1.0    id   571
+PSNR: 81.94377899169922    id   571
+Sum SPSNR:  48455.49641418457
+Sum SSSIM:  571.0
+SSIM score: 1.0    id   572
+PSNR: 85.2677001953125    id   572
+Sum SPSNR:  48540.76411437988
+Sum SSSIM:  572.0
+SSIM score: 1.0    id   573
+PSNR: 83.61087799072266    id   573
+Sum SPSNR:  48624.374992370605
+Sum SSSIM:  573.0
+SSIM score: 1.0    id   574
+PSNR: 85.40396881103516    id   574
+Sum SPSNR:  48709.77896118164
+Sum SSSIM:  574.0
+SSIM score: 1.0    id   575
+PSNR: 87.87677001953125    id   575
+Sum SPSNR:  48797.65573120117
+Sum SSSIM:  575.0
+SSIM score: 1.0    id   576
+PSNR: 81.67567443847656    id   576
+Sum SPSNR:  48879.33140563965
+Sum SSSIM:  576.0
+SSIM score: 1.0    id   577
+PSNR: 81.95074462890625    id   577
+Sum SPSNR:  48961.282150268555
+Sum SSSIM:  577.0
+SSIM score: 1.0    id   578
+PSNR: 82.07413482666016    id   578
+Sum SPSNR:  49043.356285095215
+Sum SSSIM:  578.0
+SSIM score: 1.0    id   579
+PSNR: 86.85253143310547    id   579
+Sum SPSNR:  49130.20881652832
+Sum SSSIM:  579.0
+SSIM score: 1.0    id   580
+PSNR: 81.99720764160156    id   580
+Sum SPSNR:  49212.20602416992
+Sum SSSIM:  580.0
+SSIM score: 1.0    id   581
+PSNR: 86.1598892211914    id   581
+Sum SPSNR:  49298.36591339111
+Sum SSSIM:  581.0
+SSIM score: 1.0    id   582
+PSNR: 82.97990417480469    id   582
+Sum SPSNR:  49381.34581756592
+Sum SSSIM:  582.0
+SSIM score: 1.0    id   583
+PSNR: 87.85773468017578    id   583
+Sum SPSNR:  49469.203552246094
+Sum SSSIM:  583.0
+SSIM score: 1.0    id   584
+PSNR: 81.73588562011719    id   584
+Sum SPSNR:  49550.93943786621
+Sum SSSIM:  584.0
+SSIM score: 1.0    id   585
+PSNR: 82.16681671142578    id   585
+Sum SPSNR:  49633.10625457764
+Sum SSSIM:  585.0
+SSIM score: 1.0    id   586
+PSNR: 89.28663635253906    id   586
+Sum SPSNR:  49722.392890930176
+Sum SSSIM:  586.0
+SSIM score: 1.0    id   587
+PSNR: 86.61780548095703    id   587
+Sum SPSNR:  49809.01069641113
+Sum SSSIM:  587.0
+SSIM score: 1.0    id   588
+PSNR: 84.10376739501953    id   588
+Sum SPSNR:  49893.11446380615
+Sum SSSIM:  588.0
+SSIM score: 1.0    id   589
+PSNR: 86.98458862304688    id   589
+Sum SPSNR:  49980.0990524292
+Sum SSSIM:  589.0
+SSIM score: 1.0    id   590
+PSNR: 85.14179229736328    id   590
+Sum SPSNR:  50065.24084472656
+Sum SSSIM:  590.0
+SSIM score: 1.0    id   591
+PSNR: 88.17070007324219    id   591
+Sum SPSNR:  50153.411544799805
+Sum SSSIM:  591.0
+SSIM score: 1.0    id   592
+PSNR: 84.63526916503906    id   592
+Sum SPSNR:  50238.046813964844
+Sum SSSIM:  592.0
+SSIM score: 1.0    id   593
+PSNR: 82.6882553100586    id   593
+Sum SPSNR:  50320.7350692749
+Sum SSSIM:  593.0
+SSIM score: 1.0    id   594
+PSNR: 88.45425415039062    id   594
+Sum SPSNR:  50409.18932342529
+Sum SSSIM:  594.0
+SSIM score: 1.0    id   595
+PSNR: 86.31981658935547    id   595
+Sum SPSNR:  50495.50914001465
+Sum SSSIM:  595.0
+SSIM score: 1.0    id   596
+PSNR: 85.04200744628906    id   596
+Sum SPSNR:  50580.55114746094
+Sum SSSIM:  596.0
+SSIM score: 1.0    id   597
+PSNR: 80.40289306640625    id   597
+Sum SPSNR:  50660.954040527344
+Sum SSSIM:  597.0
+SSIM score: 1.0    id   598
+PSNR: 87.9990463256836    id   598
+Sum SPSNR:  50748.95308685303
+Sum SSSIM:  598.0
+SSIM score: 1.0    id   599
+PSNR: 87.82154846191406    id   599
+Sum SPSNR:  50836.77463531494
+Sum SSSIM:  599.0
+SSIM score: 1.0    id   600
+PSNR: 88.60826110839844    id   600
+Sum SPSNR:  50925.38289642334
+Sum SSSIM:  600.0
+SSIM score: 1.0    id   601
+PSNR: 83.29335021972656    id   601
+Sum SPSNR:  51008.67624664307
+Sum SSSIM:  601.0
+SSIM score: 1.0    id   602
+PSNR: 83.45092010498047    id   602
+Sum SPSNR:  51092.12716674805
+Sum SSSIM:  602.0
+SSIM score: 1.0    id   603
+PSNR: 81.57611083984375    id   603
+Sum SPSNR:  51173.70327758789
+Sum SSSIM:  603.0
+SSIM score: 1.0    id   604
+PSNR: 81.76054382324219    id   604
+Sum SPSNR:  51255.46382141113
+Sum SSSIM:  604.0
+SSIM score: 1.0    id   605
+PSNR: 80.98637390136719    id   605
+Sum SPSNR:  51336.4501953125
+Sum SSSIM:  605.0
+SSIM score: 1.0    id   606
+PSNR: 88.73332977294922    id   606
+Sum SPSNR:  51425.18352508545
+Sum SSSIM:  606.0
+SSIM score: 1.0    id   607
+PSNR: 86.02554321289062    id   607
+Sum SPSNR:  51511.20906829834
+Sum SSSIM:  607.0
+SSIM score: 1.0    id   608
+PSNR: 84.45008850097656    id   608
+Sum SPSNR:  51595.65915679932
+Sum SSSIM:  608.0
+SSIM score: 1.0    id   609
+PSNR: 81.40934753417969    id   609
+Sum SPSNR:  51677.068504333496
+Sum SSSIM:  609.0
+SSIM score: 1.0    id   610
+PSNR: 86.37098693847656    id   610
+Sum SPSNR:  51763.43949127197
+Sum SSSIM:  610.0
+SSIM score: 1.0    id   611
+PSNR: 85.15624237060547    id   611
+Sum SPSNR:  51848.59573364258
+Sum SSSIM:  611.0
+SSIM score: 1.0    id   612
+PSNR: 82.5857162475586    id   612
+Sum SPSNR:  51931.18144989014
+Sum SSSIM:  612.0
+SSIM score: 1.0    id   613
+PSNR: 86.3100814819336    id   613
+Sum SPSNR:  52017.49153137207
+Sum SSSIM:  613.0
+SSIM score: 1.0    id   614
+PSNR: 83.24734497070312    id   614
+Sum SPSNR:  52100.73887634277
+Sum SSSIM:  614.0
+SSIM score: 1.0    id   615
+PSNR: 85.5866928100586    id   615
+Sum SPSNR:  52186.32556915283
+Sum SSSIM:  615.0
+SSIM score: 1.0    id   616
+PSNR: 82.0998764038086    id   616
+Sum SPSNR:  52268.42544555664
+Sum SSSIM:  616.0
+SSIM score: 1.0    id   617
+PSNR: 87.57479858398438    id   617
+Sum SPSNR:  52356.000244140625
+Sum SSSIM:  617.0
+SSIM score: 1.0    id   618
+PSNR: 83.7657241821289    id   618
+Sum SPSNR:  52439.765968322754
+Sum SSSIM:  618.0
+SSIM score: 1.0    id   619
+PSNR: 81.29072570800781    id   619
+Sum SPSNR:  52521.05669403076
+Sum SSSIM:  619.0
+SSIM score: 1.0    id   620
+PSNR: 83.67742919921875    id   620
+Sum SPSNR:  52604.73412322998
+Sum SSSIM:  620.0
+SSIM score: 1.0    id   621
+PSNR: 86.6260986328125    id   621
+Sum SPSNR:  52691.36022186279
+Sum SSSIM:  621.0
+SSIM score: 1.0    id   622
+PSNR: 86.13606262207031    id   622
+Sum SPSNR:  52777.49628448486
+Sum SSSIM:  622.0
+SSIM score: 1.0    id   623
+PSNR: 87.02180480957031    id   623
+Sum SPSNR:  52864.51808929443
+Sum SSSIM:  623.0
+SSIM score: 1.0    id   624
+PSNR: 82.16372680664062    id   624
+Sum SPSNR:  52946.681816101074
+Sum SSSIM:  624.0
+SSIM score: 1.0    id   625
+PSNR: 88.23792266845703    id   625
+Sum SPSNR:  53034.91973876953
+Sum SSSIM:  625.0
+SSIM score: 1.0    id   626
+PSNR: 87.40577697753906    id   626
+Sum SPSNR:  53122.32551574707
+Sum SSSIM:  626.0
+SSIM score: 1.0    id   627
+PSNR: 82.77037048339844    id   627
+Sum SPSNR:  53205.09588623047
+Sum SSSIM:  627.0
+SSIM score: 1.0    id   628
+PSNR: 86.44953918457031    id   628
+Sum SPSNR:  53291.54542541504
+Sum SSSIM:  628.0
+SSIM score: 1.0    id   629
+PSNR: 82.73494720458984    id   629
+Sum SPSNR:  53374.28037261963
+Sum SSSIM:  629.0
+SSIM score: 1.0    id   630
+PSNR: 86.84007263183594    id   630
+Sum SPSNR:  53461.120445251465
+Sum SSSIM:  630.0
+SSIM score: 1.0    id   631
+PSNR: 89.1366195678711    id   631
+Sum SPSNR:  53550.257064819336
+Sum SSSIM:  631.0
+SSIM score: 1.0    id   632
+PSNR: 82.53129577636719    id   632
+Sum SPSNR:  53632.7883605957
+Sum SSSIM:  632.0
+SSIM score: 1.0    id   633
+PSNR: 83.64974975585938    id   633
+Sum SPSNR:  53716.43811035156
+Sum SSSIM:  633.0
+SSIM score: 1.0    id   634
+PSNR: 86.1172866821289    id   634
+Sum SPSNR:  53802.55539703369
+Sum SSSIM:  634.0
+SSIM score: 1.0    id   635
+PSNR: 84.4046859741211    id   635
+Sum SPSNR:  53886.96008300781
+Sum SSSIM:  635.0
+SSIM score: 1.0    id   636
+PSNR: 83.07170867919922    id   636
+Sum SPSNR:  53970.03179168701
+Sum SSSIM:  636.0
+SSIM score: 1.0    id   637
+PSNR: 87.05834197998047    id   637
+Sum SPSNR:  54057.09013366699
+Sum SSSIM:  637.0
+SSIM score: 1.0    id   638
+PSNR: 86.66734313964844    id   638
+Sum SPSNR:  54143.75747680664
+Sum SSSIM:  638.0
+SSIM score: 1.0    id   639
+PSNR: 83.5720443725586    id   639
+Sum SPSNR:  54227.3295211792
+Sum SSSIM:  639.0
+SSIM score: 1.0    id   640
+PSNR: 87.9531021118164    id   640
+Sum SPSNR:  54315.282623291016
+Sum SSSIM:  640.0
+SSIM score: 1.0    id   641
+PSNR: 86.3082275390625    id   641
+Sum SPSNR:  54401.59085083008
+Sum SSSIM:  641.0
+SSIM score: 1.0    id   642
+PSNR: 88.55159759521484    id   642
+Sum SPSNR:  54490.14244842529
+Sum SSSIM:  642.0
+SSIM score: 1.0    id   643
+PSNR: 82.8261489868164    id   643
+Sum SPSNR:  54572.96859741211
+Sum SSSIM:  643.0
+SSIM score: 1.0    id   644
+PSNR: 86.84185028076172    id   644
+Sum SPSNR:  54659.81044769287
+Sum SSSIM:  644.0
+SSIM score: 1.0    id   645
+PSNR: 81.89411163330078    id   645
+Sum SPSNR:  54741.70455932617
+Sum SSSIM:  645.0
+SSIM score: 1.0    id   646
+PSNR: 84.00991821289062    id   646
+Sum SPSNR:  54825.71447753906
+Sum SSSIM:  646.0
+SSIM score: 1.0    id   647
+PSNR: 86.40240478515625    id   647
+Sum SPSNR:  54912.11688232422
+Sum SSSIM:  647.0
+SSIM score: 1.0    id   648
+PSNR: 89.27643585205078    id   648
+Sum SPSNR:  55001.39331817627
+Sum SSSIM:  648.0
+SSIM score: 1.0    id   649
+PSNR: 85.49176025390625    id   649
+Sum SPSNR:  55086.885078430176
+Sum SSSIM:  649.0
+SSIM score: 1.0    id   650
+PSNR: 82.33203125    id   650
+Sum SPSNR:  55169.217109680176
+Sum SSSIM:  650.0
+SSIM score: 1.0    id   651
+PSNR: 85.90160369873047    id   651
+Sum SPSNR:  55255.118713378906
+Sum SSSIM:  651.0
+SSIM score: 1.0    id   652
+PSNR: 85.46637725830078    id   652
+Sum SPSNR:  55340.58509063721
+Sum SSSIM:  652.0
+SSIM score: 1.0    id   653
+PSNR: 82.7913589477539    id   653
+Sum SPSNR:  55423.37644958496
+Sum SSSIM:  653.0
+SSIM score: 1.0    id   654
+PSNR: 81.64680480957031    id   654
+Sum SPSNR:  55505.02325439453
+Sum SSSIM:  654.0
+SSIM score: 1.0    id   655
+PSNR: 86.17759704589844    id   655
+Sum SPSNR:  55591.20085144043
+Sum SSSIM:  655.0
+SSIM score: 1.0    id   656
+PSNR: 85.15196228027344    id   656
+Sum SPSNR:  55676.3528137207
+Sum SSSIM:  656.0
+SSIM score: 1.0    id   657
+PSNR: 81.50238037109375    id   657
+Sum SPSNR:  55757.8551940918
+Sum SSSIM:  657.0
+SSIM score: 1.0    id   658
+PSNR: 85.44277954101562    id   658
+Sum SPSNR:  55843.29797363281
+Sum SSSIM:  658.0
+SSIM score: 1.0    id   659
+PSNR: 88.35675048828125    id   659
+Sum SPSNR:  55931.654724121094
+Sum SSSIM:  659.0
+SSIM score: 1.0    id   660
+PSNR: 85.56351470947266    id   660
+Sum SPSNR:  56017.21823883057
+Sum SSSIM:  660.0
+SSIM score: 1.0    id   661
+PSNR: 81.05220031738281    id   661
+Sum SPSNR:  56098.27043914795
+Sum SSSIM:  661.0
+SSIM score: 1.0    id   662
+PSNR: 86.23384094238281    id   662
+Sum SPSNR:  56184.50428009033
+Sum SSSIM:  662.0
+SSIM score: 1.0    id   663
+PSNR: 86.12728118896484    id   663
+Sum SPSNR:  56270.6315612793
+Sum SSSIM:  663.0
+SSIM score: 1.0    id   664
+PSNR: 90.31803131103516    id   664
+Sum SPSNR:  56360.94959259033
+Sum SSSIM:  664.0
+SSIM score: 1.0    id   665
+PSNR: 86.250732421875    id   665
+Sum SPSNR:  56447.20032501221
+Sum SSSIM:  665.0
+SSIM score: 1.0    id   666
+PSNR: 82.43055725097656    id   666
+Sum SPSNR:  56529.63088226318
+Sum SSSIM:  666.0
+SSIM score: 1.0    id   667
+PSNR: 82.1641616821289    id   667
+Sum SPSNR:  56611.79504394531
+Sum SSSIM:  667.0
+SSIM score: 1.0    id   668
+PSNR: 84.0572280883789    id   668
+Sum SPSNR:  56695.85227203369
+Sum SSSIM:  668.0
+SSIM score: 1.0    id   669
+PSNR: 85.26050567626953    id   669
+Sum SPSNR:  56781.11277770996
+Sum SSSIM:  669.0
+SSIM score: 1.0    id   670
+PSNR: 88.70817565917969    id   670
+Sum SPSNR:  56869.82095336914
+Sum SSSIM:  670.0
+SSIM score: 1.0    id   671
+PSNR: 81.70289611816406    id   671
+Sum SPSNR:  56951.523849487305
+Sum SSSIM:  671.0
+SSIM score: 1.0    id   672
+PSNR: 83.36408996582031    id   672
+Sum SPSNR:  57034.887939453125
+Sum SSSIM:  672.0
+SSIM score: 1.0    id   673
+PSNR: 91.92623901367188    id   673
+Sum SPSNR:  57126.8141784668
+Sum SSSIM:  673.0
+SSIM score: 1.0    id   674
+PSNR: 82.40069580078125    id   674
+Sum SPSNR:  57209.21487426758
+Sum SSSIM:  674.0
+SSIM score: 1.0    id   675
+PSNR: 81.65648651123047    id   675
+Sum SPSNR:  57290.87136077881
+Sum SSSIM:  675.0
+SSIM score: 1.0    id   676
+PSNR: 82.30567932128906    id   676
+Sum SPSNR:  57373.1770401001
+Sum SSSIM:  676.0
+SSIM score: 1.0    id   677
+PSNR: 83.38948059082031    id   677
+Sum SPSNR:  57456.56652069092
+Sum SSSIM:  677.0
+SSIM score: 1.0    id   678
+PSNR: 89.36854553222656    id   678
+Sum SPSNR:  57545.935066223145
+Sum SSSIM:  678.0
+SSIM score: 1.0    id   679
+PSNR: 87.53765106201172    id   679
+Sum SPSNR:  57633.472717285156
+Sum SSSIM:  679.0
+SSIM score: 1.0    id   680
+PSNR: 83.2889404296875    id   680
+Sum SPSNR:  57716.761657714844
+Sum SSSIM:  680.0
+SSIM score: 1.0    id   681
+PSNR: 86.69506072998047    id   681
+Sum SPSNR:  57803.456718444824
+Sum SSSIM:  681.0
+SSIM score: 1.0    id   682
+PSNR: 86.10350036621094    id   682
+Sum SPSNR:  57889.560218811035
+Sum SSSIM:  682.0
+SSIM score: 1.0    id   683
+PSNR: 82.25920104980469    id   683
+Sum SPSNR:  57971.81941986084
+Sum SSSIM:  683.0
+SSIM score: 1.0    id   684
+PSNR: 81.62234497070312    id   684
+Sum SPSNR:  58053.44176483154
+Sum SSSIM:  684.0
+SSIM score: 1.0    id   685
+PSNR: 87.7580337524414    id   685
+Sum SPSNR:  58141.199798583984
+Sum SSSIM:  685.0
+SSIM score: 1.0    id   686
+PSNR: 84.19223022460938    id   686
+Sum SPSNR:  58225.392028808594
+Sum SSSIM:  686.0
+SSIM score: 1.0    id   687
+PSNR: 82.15202331542969    id   687
+Sum SPSNR:  58307.54405212402
+Sum SSSIM:  687.0
+SSIM score: 1.0    id   688
+PSNR: 86.89533996582031    id   688
+Sum SPSNR:  58394.439392089844
+Sum SSSIM:  688.0
+SSIM score: 1.0    id   689
+PSNR: 87.14600372314453    id   689
+Sum SPSNR:  58481.58539581299
+Sum SSSIM:  689.0
+SSIM score: 1.0    id   690
+PSNR: 86.21575927734375    id   690
+Sum SPSNR:  58567.80115509033
+Sum SSSIM:  690.0
+SSIM score: 1.0    id   691
+PSNR: 86.24368286132812    id   691
+Sum SPSNR:  58654.04483795166
+Sum SSSIM:  691.0
+SSIM score: 1.0    id   692
+PSNR: 82.93341064453125    id   692
+Sum SPSNR:  58736.97824859619
+Sum SSSIM:  692.0
+SSIM score: 1.0    id   693
+PSNR: 86.20054626464844    id   693
+Sum SPSNR:  58823.17879486084
+Sum SSSIM:  693.0
+SSIM score: 1.0    id   694
+PSNR: 82.30682373046875    id   694
+Sum SPSNR:  58905.48561859131
+Sum SSSIM:  694.0
+SSIM score: 1.0    id   695
+PSNR: 82.84181213378906    id   695
+Sum SPSNR:  58988.3274307251
+Sum SSSIM:  695.0
+SSIM score: 1.0    id   696
+PSNR: 81.88017272949219    id   696
+Sum SPSNR:  59070.20760345459
+Sum SSSIM:  696.0
+SSIM score: 1.0    id   697
+PSNR: 85.01953887939453    id   697
+Sum SPSNR:  59155.227142333984
+Sum SSSIM:  697.0
+SSIM score: 1.0    id   698
+PSNR: 89.4426040649414    id   698
+Sum SPSNR:  59244.669746398926
+Sum SSSIM:  698.0
+SSIM score: 1.0    id   699
+PSNR: 81.41059875488281    id   699
+Sum SPSNR:  59326.08034515381
+Sum SSSIM:  699.0
+SSIM score: 1.0    id   700
+PSNR: 87.8687744140625    id   700
+Sum SPSNR:  59413.94911956787
+Sum SSSIM:  700.0
+SSIM score: 1.0    id   701
+PSNR: 87.8538589477539    id   701
+Sum SPSNR:  59501.802978515625
+Sum SSSIM:  701.0
+SSIM score: 1.0    id   702
+PSNR: 83.25440979003906    id   702
+Sum SPSNR:  59585.057388305664
+Sum SSSIM:  702.0
+SSIM score: 1.0    id   703
+PSNR: 82.26014709472656    id   703
+Sum SPSNR:  59667.31753540039
+Sum SSSIM:  703.0
+SSIM score: 1.0    id   704
+PSNR: 83.16432189941406    id   704
+Sum SPSNR:  59750.481857299805
+Sum SSSIM:  704.0
+SSIM score: 1.0    id   705
+PSNR: 82.48869323730469    id   705
+Sum SPSNR:  59832.97055053711
+Sum SSSIM:  705.0
+SSIM score: 1.0    id   706
+PSNR: 85.60135650634766    id   706
+Sum SPSNR:  59918.57190704346
+Sum SSSIM:  706.0
+SSIM score: 1.0    id   707
+PSNR: 88.63894653320312    id   707
+Sum SPSNR:  60007.21085357666
+Sum SSSIM:  707.0
+SSIM score: 1.0    id   708
+PSNR: 82.52334594726562    id   708
+Sum SPSNR:  60089.734199523926
+Sum SSSIM:  708.0
+SSIM score: 1.0    id   709
+PSNR: 83.02825164794922    id   709
+Sum SPSNR:  60172.762451171875
+Sum SSSIM:  709.0
+SSIM score: 1.0    id   710
+PSNR: 85.31563568115234    id   710
+Sum SPSNR:  60258.07808685303
+Sum SSSIM:  710.0
+SSIM score: 1.0    id   711
+PSNR: 83.324951171875    id   711
+Sum SPSNR:  60341.4030380249
+Sum SSSIM:  711.0
+SSIM score: 1.0    id   712
+PSNR: 81.56343078613281    id   712
+Sum SPSNR:  60422.966468811035
+Sum SSSIM:  712.0
+SSIM score: 1.0    id   713
+PSNR: 84.84805297851562    id   713
+Sum SPSNR:  60507.81452178955
+Sum SSSIM:  713.0
+SSIM score: 1.0    id   714
+PSNR: 87.5562744140625    id   714
+Sum SPSNR:  60595.37079620361
+Sum SSSIM:  714.0
+SSIM score: 1.0    id   715
+PSNR: 88.55423736572266    id   715
+Sum SPSNR:  60683.925033569336
+Sum SSSIM:  715.0
+SSIM score: 1.0    id   716
+PSNR: 82.91564178466797    id   716
+Sum SPSNR:  60766.840675354004
+Sum SSSIM:  716.0
+SSIM score: 1.0    id   717
+PSNR: 85.0423355102539    id   717
+Sum SPSNR:  60851.88301086426
+Sum SSSIM:  717.0
+SSIM score: 1.0    id   718
+PSNR: 87.81304931640625    id   718
+Sum SPSNR:  60939.696060180664
+Sum SSSIM:  718.0
+SSIM score: 1.0    id   719
+PSNR: 86.79252624511719    id   719
+Sum SPSNR:  61026.48858642578
+Sum SSSIM:  719.0
+SSIM score: 1.0    id   720
+PSNR: 88.3393783569336    id   720
+Sum SPSNR:  61114.827964782715
+Sum SSSIM:  720.0
+SSIM score: 1.0    id   721
+PSNR: 84.91761779785156    id   721
+Sum SPSNR:  61199.74558258057
+Sum SSSIM:  721.0
+SSIM score: 1.0    id   722
+PSNR: 87.23141479492188    id   722
+Sum SPSNR:  61286.97699737549
+Sum SSSIM:  722.0
+SSIM score: 1.0    id   723
+PSNR: 81.82159423828125    id   723
+Sum SPSNR:  61368.79859161377
+Sum SSSIM:  723.0
+SSIM score: 1.0    id   724
+PSNR: 83.04305267333984    id   724
+Sum SPSNR:  61451.84164428711
+Sum SSSIM:  724.0
+SSIM score: 1.0    id   725
+PSNR: 84.23137664794922    id   725
+Sum SPSNR:  61536.07302093506
+Sum SSSIM:  725.0
+SSIM score: 1.0    id   726
+PSNR: 85.15634155273438    id   726
+Sum SPSNR:  61621.22936248779
+Sum SSSIM:  726.0
+SSIM score: 1.0    id   727
+PSNR: 81.9700698852539    id   727
+Sum SPSNR:  61703.19943237305
+Sum SSSIM:  727.0
+SSIM score: 1.0    id   728
+PSNR: 85.7548599243164    id   728
+Sum SPSNR:  61788.95429229736
+Sum SSSIM:  728.0
+SSIM score: 1.0    id   729
+PSNR: 87.82965850830078    id   729
+Sum SPSNR:  61876.783950805664
+Sum SSSIM:  729.0
+SSIM score: 1.0    id   730
+PSNR: 81.60542297363281    id   730
+Sum SPSNR:  61958.3893737793
+Sum SSSIM:  730.0
+SSIM score: 1.0    id   731
+PSNR: 83.45018005371094    id   731
+Sum SPSNR:  62041.83955383301
+Sum SSSIM:  731.0
+SSIM score: 1.0    id   732
+PSNR: 81.78326416015625    id   732
+Sum SPSNR:  62123.622817993164
+Sum SSSIM:  732.0
+SSIM score: 1.0    id   733
+PSNR: 88.59469604492188    id   733
+Sum SPSNR:  62212.217514038086
+Sum SSSIM:  733.0
+SSIM score: 1.0    id   734
+PSNR: 86.11482238769531    id   734
+Sum SPSNR:  62298.33233642578
+Sum SSSIM:  734.0
+SSIM score: 1.0    id   735
+PSNR: 82.49647521972656    id   735
+Sum SPSNR:  62380.82881164551
+Sum SSSIM:  735.0
+SSIM score: 1.0    id   736
+PSNR: 88.09112548828125    id   736
+Sum SPSNR:  62468.91993713379
+Sum SSSIM:  736.0
+SSIM score: 1.0    id   737
+PSNR: 81.99339294433594    id   737
+Sum SPSNR:  62550.913330078125
+Sum SSSIM:  737.0
+SSIM score: 1.0    id   738
+PSNR: 82.93013000488281    id   738
+Sum SPSNR:  62633.84346008301
+Sum SSSIM:  738.0
+SSIM score: 1.0    id   739
+PSNR: 85.79924774169922    id   739
+Sum SPSNR:  62719.64270782471
+Sum SSSIM:  739.0
+SSIM score: 1.0    id   740
+PSNR: 87.91797637939453    id   740
+Sum SPSNR:  62807.5606842041
+Sum SSSIM:  740.0
+SSIM score: 1.0    id   741
+PSNR: 86.5595703125    id   741
+Sum SPSNR:  62894.1202545166
+Sum SSSIM:  741.0
+SSIM score: 1.0    id   742
+PSNR: 81.95441436767578    id   742
+Sum SPSNR:  62976.07466888428
+Sum SSSIM:  742.0
+SSIM score: 1.0    id   743
+PSNR: 85.57943725585938    id   743
+Sum SPSNR:  63061.65410614014
+Sum SSSIM:  743.0
+SSIM score: 1.0    id   744
+PSNR: 85.59068298339844    id   744
+Sum SPSNR:  63147.244789123535
+Sum SSSIM:  744.0
+SSIM score: 1.0    id   745
+PSNR: 84.2990493774414    id   745
+Sum SPSNR:  63231.54383850098
+Sum SSSIM:  745.0
+SSIM score: 1.0    id   746
+PSNR: 84.80760192871094    id   746
+Sum SPSNR:  63316.35144042969
+Sum SSSIM:  746.0
+SSIM score: 1.0    id   747
+PSNR: 87.52043151855469    id   747
+Sum SPSNR:  63403.87187194824
+Sum SSSIM:  747.0
+SSIM score: 1.0    id   748
+PSNR: 89.8819808959961    id   748
+Sum SPSNR:  63493.75385284424
+Sum SSSIM:  748.0
+SSIM score: 1.0    id   749
+PSNR: 85.48359680175781    id   749
+Sum SPSNR:  63579.237449645996
+Sum SSSIM:  749.0
+SSIM score: 1.0    id   750
+PSNR: 89.17765808105469    id   750
+Sum SPSNR:  63668.41510772705
+Sum SSSIM:  750.0
+SSIM score: 1.0    id   751
+PSNR: 86.42451477050781    id   751
+Sum SPSNR:  63754.83962249756
+Sum SSSIM:  751.0
+SSIM score: 1.0    id   752
+PSNR: 84.67423248291016    id   752
+Sum SPSNR:  63839.51385498047
+Sum SSSIM:  752.0
+SSIM score: 1.0    id   753
+PSNR: 88.97785949707031    id   753
+Sum SPSNR:  63928.49171447754
+Sum SSSIM:  753.0
+SSIM score: 1.0    id   754
+PSNR: 86.19246673583984    id   754
+Sum SPSNR:  64014.68418121338
+Sum SSSIM:  754.0
+SSIM score: 1.0    id   755
+PSNR: 84.42936706542969    id   755
+Sum SPSNR:  64099.11354827881
+Sum SSSIM:  755.0
+SSIM score: 1.0    id   756
+PSNR: 84.95063018798828    id   756
+Sum SPSNR:  64184.0641784668
+Sum SSSIM:  756.0
+SSIM score: 1.0    id   757
+PSNR: 82.97023010253906    id   757
+Sum SPSNR:  64267.034408569336
+Sum SSSIM:  757.0
+SSIM score: 1.0    id   758
+PSNR: 83.68366241455078    id   758
+Sum SPSNR:  64350.71807098389
+Sum SSSIM:  758.0
+SSIM score: 1.0    id   759
+PSNR: 88.32707214355469    id   759
+Sum SPSNR:  64439.04514312744
+Sum SSSIM:  759.0
+SSIM score: 1.0    id   760
+PSNR: 82.01790618896484    id   760
+Sum SPSNR:  64521.063049316406
+Sum SSSIM:  760.0
+SSIM score: 1.0    id   761
+PSNR: 81.13594818115234    id   761
+Sum SPSNR:  64602.19899749756
+Sum SSSIM:  761.0
+SSIM score: 1.0    id   762
+PSNR: 86.80500030517578    id   762
+Sum SPSNR:  64689.003997802734
+Sum SSSIM:  762.0
+SSIM score: 1.0    id   763
+PSNR: 81.28964233398438    id   763
+Sum SPSNR:  64770.29364013672
+Sum SSSIM:  763.0
+SSIM score: 1.0    id   764
+PSNR: 87.02383422851562    id   764
+Sum SPSNR:  64857.317474365234
+Sum SSSIM:  764.0
+SSIM score: 1.0    id   765
+PSNR: 87.60704803466797    id   765
+Sum SPSNR:  64944.9245223999
+Sum SSSIM:  765.0
+SSIM score: 1.0    id   766
+PSNR: 88.19204711914062    id   766
+Sum SPSNR:  65033.11656951904
+Sum SSSIM:  766.0
+SSIM score: 1.0    id   767
+PSNR: 82.951904296875    id   767
+Sum SPSNR:  65116.06847381592
+Sum SSSIM:  767.0
+SSIM score: 1.0    id   768
+PSNR: 84.51901245117188    id   768
+Sum SPSNR:  65200.58748626709
+Sum SSSIM:  768.0
+SSIM score: 1.0    id   769
+PSNR: 82.67975616455078    id   769
+Sum SPSNR:  65283.26724243164
+Sum SSSIM:  769.0
+SSIM score: 1.0    id   770
+PSNR: 83.79791259765625    id   770
+Sum SPSNR:  65367.0651550293
+Sum SSSIM:  770.0
+SSIM score: 1.0    id   771
+PSNR: 86.68304443359375    id   771
+Sum SPSNR:  65453.74819946289
+Sum SSSIM:  771.0
+SSIM score: 1.0    id   772
+PSNR: 85.35343933105469    id   772
+Sum SPSNR:  65539.10163879395
+Sum SSSIM:  772.0
+SSIM score: 1.0    id   773
+PSNR: 90.217041015625    id   773
+Sum SPSNR:  65629.31867980957
+Sum SSSIM:  773.0
+SSIM score: 1.0    id   774
+PSNR: 88.61943054199219    id   774
+Sum SPSNR:  65717.93811035156
+Sum SSSIM:  774.0
+SSIM score: 1.0    id   775
+PSNR: 81.99799346923828    id   775
+Sum SPSNR:  65799.9361038208
+Sum SSSIM:  775.0
+SSIM score: 1.0    id   776
+PSNR: 82.84451293945312    id   776
+Sum SPSNR:  65882.78061676025
+Sum SSSIM:  776.0
+SSIM score: 1.0    id   777
+PSNR: 81.7298583984375    id   777
+Sum SPSNR:  65964.51047515869
+Sum SSSIM:  777.0
+SSIM score: 1.0    id   778
+PSNR: 83.56680297851562    id   778
+Sum SPSNR:  66048.0772781372
+Sum SSSIM:  778.0
+SSIM score: 1.0    id   779
+PSNR: 82.53609466552734    id   779
+Sum SPSNR:  66130.61337280273
+Sum SSSIM:  779.0
+SSIM score: 1.0    id   780
+PSNR: 85.25826263427734    id   780
+Sum SPSNR:  66215.87163543701
+Sum SSSIM:  780.0
+SSIM score: 1.0    id   781
+PSNR: 82.31963348388672    id   781
+Sum SPSNR:  66298.1912689209
+Sum SSSIM:  781.0
+SSIM score: 1.0    id   782
+PSNR: 89.16880798339844    id   782
+Sum SPSNR:  66387.3600769043
+Sum SSSIM:  782.0
+SSIM score: 1.0    id   783
+PSNR: 83.21358489990234    id   783
+Sum SPSNR:  66470.5736618042
+Sum SSSIM:  783.0
+SSIM score: 1.0    id   784
+PSNR: 88.21392059326172    id   784
+Sum SPSNR:  66558.78758239746
+Sum SSSIM:  784.0
+SSIM score: 1.0    id   785
+PSNR: 82.94327545166016    id   785
+Sum SPSNR:  66641.73085784912
+Sum SSSIM:  785.0
+SSIM score: 1.0    id   786
+PSNR: 86.37474822998047    id   786
+Sum SPSNR:  66728.1056060791
+Sum SSSIM:  786.0
+SSIM score: 1.0    id   787
+PSNR: 81.73284912109375    id   787
+Sum SPSNR:  66809.8384552002
+Sum SSSIM:  787.0
+SSIM score: 1.0    id   788
+PSNR: 84.36148834228516    id   788
+Sum SPSNR:  66894.19994354248
+Sum SSSIM:  788.0
+SSIM score: 1.0    id   789
+PSNR: 87.44551849365234    id   789
+Sum SPSNR:  66981.64546203613
+Sum SSSIM:  789.0
+SSIM score: 1.0    id   790
+PSNR: 83.71768951416016    id   790
+Sum SPSNR:  67065.3631515503
+Sum SSSIM:  790.0
+SSIM score: 1.0    id   791
+PSNR: 83.18682861328125    id   791
+Sum SPSNR:  67148.54998016357
+Sum SSSIM:  791.0
+SSIM score: 1.0    id   792
+PSNR: 85.5662841796875    id   792
+Sum SPSNR:  67234.11626434326
+Sum SSSIM:  792.0
+SSIM score: 1.0    id   793
+PSNR: 88.75234985351562    id   793
+Sum SPSNR:  67322.86861419678
+Sum SSSIM:  793.0
+SSIM score: 1.0    id   794
+PSNR: 87.8463134765625    id   794
+Sum SPSNR:  67410.71492767334
+Sum SSSIM:  794.0
+SSIM score: 1.0    id   795
+PSNR: 85.42129516601562    id   795
+Sum SPSNR:  67496.13622283936
+Sum SSSIM:  795.0
+SSIM score: 1.0    id   796
+PSNR: 86.8505859375    id   796
+Sum SPSNR:  67582.98680877686
+Sum SSSIM:  796.0
+SSIM score: 1.0    id   797
+PSNR: 81.93672943115234    id   797
+Sum SPSNR:  67664.92353820801
+Sum SSSIM:  797.0
+SSIM score: 1.0    id   798
+PSNR: 83.30135345458984    id   798
+Sum SPSNR:  67748.2248916626
+Sum SSSIM:  798.0
+SSIM score: 1.0    id   799
+PSNR: 83.79286193847656    id   799
+Sum SPSNR:  67832.01775360107
+Sum SSSIM:  799.0
+SSIM score: 1.0    id   800
+PSNR: 87.09466552734375    id   800
+Sum SPSNR:  67919.11241912842
+Sum SSSIM:  800.0
+SSIM score: 1.0    id   801
+PSNR: 85.90160369873047    id   801
+Sum SPSNR:  68005.01402282715
+Sum SSSIM:  801.0
+SSIM score: 1.0    id   802
+PSNR: 82.88018798828125    id   802
+Sum SPSNR:  68087.89421081543
+Sum SSSIM:  802.0
+SSIM score: 1.0    id   803
+PSNR: 81.71028137207031    id   803
+Sum SPSNR:  68169.6044921875
+Sum SSSIM:  803.0
+SSIM score: 1.0    id   804
+PSNR: 88.33914947509766    id   804
+Sum SPSNR:  68257.9436416626
+Sum SSSIM:  804.0
+SSIM score: 1.0    id   805
+PSNR: 85.24537658691406    id   805
+Sum SPSNR:  68343.18901824951
+Sum SSSIM:  805.0
+SSIM score: 1.0    id   806
+PSNR: 87.48524475097656    id   806
+Sum SPSNR:  68430.67426300049
+Sum SSSIM:  806.0
+SSIM score: 1.0    id   807
+PSNR: 85.94279479980469    id   807
+Sum SPSNR:  68516.6170578003
+Sum SSSIM:  807.0
+SSIM score: 1.0    id   808
+PSNR: 85.29975128173828    id   808
+Sum SPSNR:  68601.91680908203
+Sum SSSIM:  808.0
+SSIM score: 1.0    id   809
+PSNR: 84.00621032714844    id   809
+Sum SPSNR:  68685.92301940918
+Sum SSSIM:  809.0
+SSIM score: 1.0    id   810
+PSNR: 82.77346801757812    id   810
+Sum SPSNR:  68768.69648742676
+Sum SSSIM:  810.0
+SSIM score: 1.0    id   811
+PSNR: 88.2802505493164    id   811
+Sum SPSNR:  68856.97673797607
+Sum SSSIM:  811.0
+SSIM score: 1.0    id   812
+PSNR: 82.2138671875    id   812
+Sum SPSNR:  68939.19060516357
+Sum SSSIM:  812.0
+SSIM score: 1.0    id   813
+PSNR: 86.83135986328125    id   813
+Sum SPSNR:  69026.02196502686
+Sum SSSIM:  813.0
+SSIM score: 1.0    id   814
+PSNR: 87.71673583984375    id   814
+Sum SPSNR:  69113.7387008667
+Sum SSSIM:  814.0
+SSIM score: 1.0    id   815
+PSNR: 86.34812927246094    id   815
+Sum SPSNR:  69200.08683013916
+Sum SSSIM:  815.0
+SSIM score: 1.0    id   816
+PSNR: 86.98641967773438    id   816
+Sum SPSNR:  69287.0732498169
+Sum SSSIM:  816.0
+SSIM score: 1.0    id   817
+PSNR: 88.15974426269531    id   817
+Sum SPSNR:  69375.23299407959
+Sum SSSIM:  817.0
+SSIM score: 1.0    id   818
+PSNR: 83.42442321777344    id   818
+Sum SPSNR:  69458.65741729736
+Sum SSSIM:  818.0
+SSIM score: 1.0    id   819
+PSNR: 83.26107025146484    id   819
+Sum SPSNR:  69541.91848754883
+Sum SSSIM:  819.0
+SSIM score: 1.0    id   820
+PSNR: 81.23741149902344    id   820
+Sum SPSNR:  69623.15589904785
+Sum SSSIM:  820.0
+SSIM score: 1.0    id   821
+PSNR: 85.12947082519531    id   821
+Sum SPSNR:  69708.28536987305
+Sum SSSIM:  821.0
+SSIM score: 1.0    id   822
+PSNR: 81.7715835571289    id   822
+Sum SPSNR:  69790.05695343018
+Sum SSSIM:  822.0
+SSIM score: 1.0    id   823
+PSNR: 87.96208190917969    id   823
+Sum SPSNR:  69878.01903533936
+Sum SSSIM:  823.0
+SSIM score: 1.0    id   824
+PSNR: 85.71990203857422    id   824
+Sum SPSNR:  69963.73893737793
+Sum SSSIM:  824.0
+SSIM score: 1.0    id   825
+PSNR: 82.89527893066406    id   825
+Sum SPSNR:  70046.6342163086
+Sum SSSIM:  825.0
+SSIM score: 1.0    id   826
+PSNR: 86.17385864257812    id   826
+Sum SPSNR:  70132.80807495117
+Sum SSSIM:  826.0
+SSIM score: 1.0    id   827
+PSNR: 84.22190856933594    id   827
+Sum SPSNR:  70217.02998352051
+Sum SSSIM:  827.0
+SSIM score: 1.0    id   828
+PSNR: 81.70008850097656    id   828
+Sum SPSNR:  70298.73007202148
+Sum SSSIM:  828.0
+SSIM score: 1.0    id   829
+PSNR: 88.5427474975586    id   829
+Sum SPSNR:  70387.27281951904
+Sum SSSIM:  829.0
+SSIM score: 1.0    id   830
+PSNR: 82.47005462646484    id   830
+Sum SPSNR:  70469.74287414551
+Sum SSSIM:  830.0
+SSIM score: 1.0    id   831
+PSNR: 82.57112121582031    id   831
+Sum SPSNR:  70552.31399536133
+Sum SSSIM:  831.0
+SSIM score: 1.0    id   832
+PSNR: 85.73628234863281    id   832
+Sum SPSNR:  70638.05027770996
+Sum SSSIM:  832.0
+SSIM score: 1.0    id   833
+PSNR: 84.61393737792969    id   833
+Sum SPSNR:  70722.66421508789
+Sum SSSIM:  833.0
+SSIM score: 1.0    id   834
+PSNR: 87.55247497558594    id   834
+Sum SPSNR:  70810.21669006348
+Sum SSSIM:  834.0
+SSIM score: 1.0    id   835
+PSNR: 88.2339096069336    id   835
+Sum SPSNR:  70898.45059967041
+Sum SSSIM:  835.0
+SSIM score: 1.0    id   836
+PSNR: 82.39633178710938    id   836
+Sum SPSNR:  70980.84693145752
+Sum SSSIM:  836.0
+SSIM score: 1.0    id   837
+PSNR: 81.24661254882812    id   837
+Sum SPSNR:  71062.09354400635
+Sum SSSIM:  837.0
+SSIM score: 1.0    id   838
+PSNR: 81.32647705078125    id   838
+Sum SPSNR:  71143.42002105713
+Sum SSSIM:  838.0
+SSIM score: 1.0    id   839
+PSNR: 86.82975006103516    id   839
+Sum SPSNR:  71230.24977111816
+Sum SSSIM:  839.0
+SSIM score: 1.0    id   840
+PSNR: 88.23837280273438    id   840
+Sum SPSNR:  71318.4881439209
+Sum SSSIM:  840.0
+SSIM score: 1.0    id   841
+PSNR: 87.90495300292969    id   841
+Sum SPSNR:  71406.39309692383
+Sum SSSIM:  841.0
+SSIM score: 1.0    id   842
+PSNR: 86.3180923461914    id   842
+Sum SPSNR:  71492.71118927002
+Sum SSSIM:  842.0
+SSIM score: 1.0    id   843
+PSNR: 86.60983276367188    id   843
+Sum SPSNR:  71579.32102203369
+Sum SSSIM:  843.0
+SSIM score: 1.0    id   844
+PSNR: 80.668212890625    id   844
+Sum SPSNR:  71659.98923492432
+Sum SSSIM:  844.0
+SSIM score: 1.0    id   845
+PSNR: 82.66459655761719    id   845
+Sum SPSNR:  71742.65383148193
+Sum SSSIM:  845.0
+SSIM score: 1.0    id   846
+PSNR: 82.3680419921875    id   846
+Sum SPSNR:  71825.02187347412
+Sum SSSIM:  846.0
+SSIM score: 1.0    id   847
+PSNR: 84.40966796875    id   847
+Sum SPSNR:  71909.43154144287
+Sum SSSIM:  847.0
+SSIM score: 1.0    id   848
+PSNR: 87.66447448730469    id   848
+Sum SPSNR:  71997.09601593018
+Sum SSSIM:  848.0
+SSIM score: 1.0    id   849
+PSNR: 87.23371887207031    id   849
+Sum SPSNR:  72084.32973480225
+Sum SSSIM:  849.0
+SSIM score: 1.0    id   850
+PSNR: 81.90876770019531    id   850
+Sum SPSNR:  72166.23850250244
+Sum SSSIM:  850.0
+SSIM score: 1.0    id   851
+PSNR: 84.27062225341797    id   851
+Sum SPSNR:  72250.50912475586
+Sum SSSIM:  851.0
+SSIM score: 1.0    id   852
+PSNR: 84.83193969726562    id   852
+Sum SPSNR:  72335.34106445312
+Sum SSSIM:  852.0
+SSIM score: 1.0    id   853
+PSNR: 84.19978332519531    id   853
+Sum SPSNR:  72419.54084777832
+Sum SSSIM:  853.0
+SSIM score: 1.0    id   854
+PSNR: 83.43791198730469    id   854
+Sum SPSNR:  72502.97875976562
+Sum SSSIM:  854.0
+SSIM score: 1.0    id   855
+PSNR: 86.09123992919922    id   855
+Sum SPSNR:  72589.06999969482
+Sum SSSIM:  855.0
+SSIM score: 1.0    id   856
+PSNR: 83.73503875732422    id   856
+Sum SPSNR:  72672.80503845215
+Sum SSSIM:  856.0
+SSIM score: 1.0    id   857
+PSNR: 88.43952178955078    id   857
+Sum SPSNR:  72761.2445602417
+Sum SSSIM:  857.0
+SSIM score: 1.0    id   858
+PSNR: 85.6097412109375    id   858
+Sum SPSNR:  72846.85430145264
+Sum SSSIM:  858.0
+SSIM score: 1.0    id   859
+PSNR: 86.03184509277344    id   859
+Sum SPSNR:  72932.88614654541
+Sum SSSIM:  859.0
+SSIM score: 1.0    id   860
+PSNR: 87.36640167236328    id   860
+Sum SPSNR:  73020.25254821777
+Sum SSSIM:  860.0
+SSIM score: 1.0    id   861
+PSNR: 86.062255859375    id   861
+Sum SPSNR:  73106.31480407715
+Sum SSSIM:  861.0
+SSIM score: 1.0    id   862
+PSNR: 82.57820129394531    id   862
+Sum SPSNR:  73188.8930053711
+Sum SSSIM:  862.0
+SSIM score: 1.0    id   863
+PSNR: 85.99446105957031    id   863
+Sum SPSNR:  73274.88746643066
+Sum SSSIM:  863.0
+SSIM score: 1.0    id   864
+PSNR: 85.18604278564453    id   864
+Sum SPSNR:  73360.07350921631
+Sum SSSIM:  864.0
+SSIM score: 1.0    id   865
+PSNR: 89.20819091796875    id   865
+Sum SPSNR:  73449.28170013428
+Sum SSSIM:  865.0
+SSIM score: 1.0    id   866
+PSNR: 86.5196304321289    id   866
+Sum SPSNR:  73535.8013305664
+Sum SSSIM:  866.0
+SSIM score: 1.0    id   867
+PSNR: 90.19530487060547    id   867
+Sum SPSNR:  73625.99663543701
+Sum SSSIM:  867.0
+SSIM score: 1.0    id   868
+PSNR: 82.62837219238281    id   868
+Sum SPSNR:  73708.6250076294
+Sum SSSIM:  868.0
+SSIM score: 1.0    id   869
+PSNR: 86.56927490234375    id   869
+Sum SPSNR:  73795.19428253174
+Sum SSSIM:  869.0
+SSIM score: 1.0    id   870
+PSNR: 84.36714935302734    id   870
+Sum SPSNR:  73879.56143188477
+Sum SSSIM:  870.0
+SSIM score: 1.0    id   871
+PSNR: 82.72372436523438    id   871
+Sum SPSNR:  73962.28515625
+Sum SSSIM:  871.0
+SSIM score: 1.0    id   872
+PSNR: 87.5853271484375    id   872
+Sum SPSNR:  74049.87048339844
+Sum SSSIM:  872.0
+SSIM score: 1.0    id   873
+PSNR: 83.81904602050781    id   873
+Sum SPSNR:  74133.68952941895
+Sum SSSIM:  873.0
+SSIM score: 1.0    id   874
+PSNR: 90.10600280761719    id   874
+Sum SPSNR:  74223.79553222656
+Sum SSSIM:  874.0
+SSIM score: 1.0    id   875
+PSNR: 90.15422821044922    id   875
+Sum SPSNR:  74313.94976043701
+Sum SSSIM:  875.0
+SSIM score: 1.0    id   876
+PSNR: 86.74801635742188    id   876
+Sum SPSNR:  74400.69777679443
+Sum SSSIM:  876.0
+SSIM score: 1.0    id   877
+PSNR: 88.06492614746094    id   877
+Sum SPSNR:  74488.7627029419
+Sum SSSIM:  877.0
+SSIM score: 1.0    id   878
+PSNR: 82.55851745605469    id   878
+Sum SPSNR:  74571.32122039795
+Sum SSSIM:  878.0
+SSIM score: 1.0    id   879
+PSNR: 82.31917572021484    id   879
+Sum SPSNR:  74653.64039611816
+Sum SSSIM:  879.0
+SSIM score: 1.0    id   880
+PSNR: 85.25041198730469    id   880
+Sum SPSNR:  74738.89080810547
+Sum SSSIM:  880.0
+SSIM score: 1.0    id   881
+PSNR: 87.4680404663086    id   881
+Sum SPSNR:  74826.35884857178
+Sum SSSIM:  881.0
+SSIM score: 1.0    id   882
+PSNR: 87.39787292480469    id   882
+Sum SPSNR:  74913.75672149658
+Sum SSSIM:  882.0
+SSIM score: 1.0    id   883
+PSNR: 86.9660873413086    id   883
+Sum SPSNR:  75000.72280883789
+Sum SSSIM:  883.0
+SSIM score: 1.0    id   884
+PSNR: 84.60398864746094    id   884
+Sum SPSNR:  75085.32679748535
+Sum SSSIM:  884.0
+SSIM score: 1.0    id   885
+PSNR: 83.51383972167969    id   885
+Sum SPSNR:  75168.84063720703
+Sum SSSIM:  885.0
+SSIM score: 1.0    id   886
+PSNR: 88.42787170410156    id   886
+Sum SPSNR:  75257.26850891113
+Sum SSSIM:  886.0
+SSIM score: 1.0    id   887
+PSNR: 87.65861511230469    id   887
+Sum SPSNR:  75344.92712402344
+Sum SSSIM:  887.0
+SSIM score: 1.0    id   888
+PSNR: 83.09892272949219    id   888
+Sum SPSNR:  75428.02604675293
+Sum SSSIM:  888.0
+SSIM score: 1.0    id   889
+PSNR: 81.36146545410156    id   889
+Sum SPSNR:  75509.38751220703
+Sum SSSIM:  889.0
+SSIM score: 1.0    id   890
+PSNR: 82.28062438964844    id   890
+Sum SPSNR:  75591.66813659668
+Sum SSSIM:  890.0
+SSIM score: 1.0    id   891
+PSNR: 81.89111328125    id   891
+Sum SPSNR:  75673.55924987793
+Sum SSSIM:  891.0
+SSIM score: 1.0    id   892
+PSNR: 85.10437774658203    id   892
+Sum SPSNR:  75758.66362762451
+Sum SSSIM:  892.0
+SSIM score: 1.0    id   893
+PSNR: 88.3010025024414    id   893
+Sum SPSNR:  75846.96463012695
+Sum SSSIM:  893.0
+SSIM score: 1.0    id   894
+PSNR: 83.92876434326172    id   894
+Sum SPSNR:  75930.89339447021
+Sum SSSIM:  894.0
+SSIM score: 1.0    id   895
+PSNR: 85.72526550292969    id   895
+Sum SPSNR:  76016.61865997314
+Sum SSSIM:  895.0
+SSIM score: 1.0    id   896
+PSNR: 87.03970336914062    id   896
+Sum SPSNR:  76103.65836334229
+Sum SSSIM:  896.0
+SSIM score: 1.0    id   897
+PSNR: 84.38739013671875    id   897
+Sum SPSNR:  76188.045753479
+Sum SSSIM:  897.0
+SSIM score: 1.0    id   898
+PSNR: 81.06102752685547    id   898
+Sum SPSNR:  76269.10678100586
+Sum SSSIM:  898.0
+SSIM score: 1.0    id   899
+PSNR: 86.22444152832031    id   899
+Sum SPSNR:  76355.33122253418
+Sum SSSIM:  899.0
+SSIM score: 1.0    id   900
+PSNR: 87.44347381591797    id   900
+Sum SPSNR:  76442.7746963501
+Sum SSSIM:  900.0
+SSIM score: 1.0    id   901
+PSNR: 81.26595306396484    id   901
+Sum SPSNR:  76524.04064941406
+Sum SSSIM:  901.0
+SSIM score: 1.0    id   902
+PSNR: 83.08393859863281    id   902
+Sum SPSNR:  76607.1245880127
+Sum SSSIM:  902.0
+SSIM score: 1.0    id   903
+PSNR: 87.65763854980469    id   903
+Sum SPSNR:  76694.7822265625
+Sum SSSIM:  903.0
+SSIM score: 1.0    id   904
+PSNR: 82.65922546386719    id   904
+Sum SPSNR:  76777.44145202637
+Sum SSSIM:  904.0
+SSIM score: 1.0    id   905
+PSNR: 90.06303405761719    id   905
+Sum SPSNR:  76867.50448608398
+Sum SSSIM:  905.0
+SSIM score: 1.0    id   906
+PSNR: 82.96321105957031    id   906
+Sum SPSNR:  76950.46769714355
+Sum SSSIM:  906.0
+SSIM score: 1.0    id   907
+PSNR: 89.81129455566406    id   907
+Sum SPSNR:  77040.27899169922
+Sum SSSIM:  907.0
+SSIM score: 1.0    id   908
+PSNR: 84.81063842773438    id   908
+Sum SPSNR:  77125.08963012695
+Sum SSSIM:  908.0
+SSIM score: 1.0    id   909
+PSNR: 84.98389434814453    id   909
+Sum SPSNR:  77210.0735244751
+Sum SSSIM:  909.0
+SSIM score: 1.0    id   910
+PSNR: 87.25018310546875    id   910
+Sum SPSNR:  77297.32370758057
+Sum SSSIM:  910.0
+SSIM score: 1.0    id   911
+PSNR: 83.749755859375    id   911
+Sum SPSNR:  77381.07346343994
+Sum SSSIM:  911.0
+SSIM score: 1.0    id   912
+PSNR: 82.92127990722656    id   912
+Sum SPSNR:  77463.99474334717
+Sum SSSIM:  912.0
+SSIM score: 1.0    id   913
+PSNR: 81.93437194824219    id   913
+Sum SPSNR:  77545.92911529541
+Sum SSSIM:  913.0
+SSIM score: 1.0    id   914
+PSNR: 86.84185028076172    id   914
+Sum SPSNR:  77632.77096557617
+Sum SSSIM:  914.0
+SSIM score: 1.0    id   915
+PSNR: 82.94116973876953    id   915
+Sum SPSNR:  77715.71213531494
+Sum SSSIM:  915.0
+SSIM score: 1.0    id   916
+PSNR: 85.77693176269531    id   916
+Sum SPSNR:  77801.48906707764
+Sum SSSIM:  916.0
+SSIM score: 1.0    id   917
+PSNR: 85.35504150390625    id   917
+Sum SPSNR:  77886.84410858154
+Sum SSSIM:  917.0
+SSIM score: 1.0    id   918
+PSNR: 85.23397827148438    id   918
+Sum SPSNR:  77972.07808685303
+Sum SSSIM:  918.0
+SSIM score: 1.0    id   919
+PSNR: 83.15097045898438    id   919
+Sum SPSNR:  78055.22905731201
+Sum SSSIM:  919.0
+SSIM score: 1.0    id   920
+PSNR: 90.37705993652344    id   920
+Sum SPSNR:  78145.60611724854
+Sum SSSIM:  920.0
+SSIM score: 1.0    id   921
+PSNR: 84.67403411865234    id   921
+Sum SPSNR:  78230.28015136719
+Sum SSSIM:  921.0
+SSIM score: 1.0    id   922
+PSNR: 82.12718200683594    id   922
+Sum SPSNR:  78312.40733337402
+Sum SSSIM:  922.0
+SSIM score: 1.0    id   923
+PSNR: 87.07058715820312    id   923
+Sum SPSNR:  78399.47792053223
+Sum SSSIM:  923.0
+SSIM score: 1.0    id   924
+PSNR: 88.11359405517578    id   924
+Sum SPSNR:  78487.5915145874
+Sum SSSIM:  924.0
+SSIM score: 1.0    id   925
+PSNR: 83.57318878173828    id   925
+Sum SPSNR:  78571.16470336914
+Sum SSSIM:  925.0
+SSIM score: 1.0    id   926
+PSNR: 87.36476135253906    id   926
+Sum SPSNR:  78658.52946472168
+Sum SSSIM:  926.0
+SSIM score: 1.0    id   927
+PSNR: 82.34130859375    id   927
+Sum SPSNR:  78740.87077331543
+Sum SSSIM:  927.0
+SSIM score: 1.0    id   928
+PSNR: 87.81063079833984    id   928
+Sum SPSNR:  78828.68140411377
+Sum SSSIM:  928.0
+SSIM score: 1.0    id   929
+PSNR: 85.90668487548828    id   929
+Sum SPSNR:  78914.58808898926
+Sum SSSIM:  929.0
+SSIM score: 1.0    id   930
+PSNR: 83.58096313476562    id   930
+Sum SPSNR:  78998.16905212402
+Sum SSSIM:  930.0
+SSIM score: 1.0    id   931
+PSNR: 86.43789672851562    id   931
+Sum SPSNR:  79084.60694885254
+Sum SSSIM:  931.0
+SSIM score: 1.0    id   932
+PSNR: 87.61071014404297    id   932
+Sum SPSNR:  79172.21765899658
+Sum SSSIM:  932.0
+SSIM score: 1.0    id   933
+PSNR: 85.65277862548828    id   933
+Sum SPSNR:  79257.87043762207
+Sum SSSIM:  933.0
+SSIM score: 1.0    id   934
+PSNR: 84.00822448730469    id   934
+Sum SPSNR:  79341.87866210938
+Sum SSSIM:  934.0
+SSIM score: 1.0    id   935
+PSNR: 85.65856170654297    id   935
+Sum SPSNR:  79427.53722381592
+Sum SSSIM:  935.0
+SSIM score: 1.0    id   936
+PSNR: 83.00642395019531    id   936
+Sum SPSNR:  79510.54364776611
+Sum SSSIM:  936.0
+SSIM score: 1.0    id   937
+PSNR: 84.76021575927734    id   937
+Sum SPSNR:  79595.30386352539
+Sum SSSIM:  937.0
+SSIM score: 1.0    id   938
+PSNR: 81.98831176757812    id   938
+Sum SPSNR:  79677.29217529297
+Sum SSSIM:  938.0
+SSIM score: 1.0    id   939
+PSNR: 85.97535705566406    id   939
+Sum SPSNR:  79763.26753234863
+Sum SSSIM:  939.0
+SSIM score: 1.0    id   940
+PSNR: 87.74726867675781    id   940
+Sum SPSNR:  79851.01480102539
+Sum SSSIM:  940.0
+SSIM score: 1.0    id   941
+PSNR: 87.73435974121094    id   941
+Sum SPSNR:  79938.7491607666
+Sum SSSIM:  941.0
+SSIM score: 1.0    id   942
+PSNR: 88.58937072753906    id   942
+Sum SPSNR:  80027.33853149414
+Sum SSSIM:  942.0
+SSIM score: 1.0    id   943
+PSNR: 86.95828247070312    id   943
+Sum SPSNR:  80114.29681396484
+Sum SSSIM:  943.0
+SSIM score: 1.0    id   944
+PSNR: 84.82676696777344    id   944
+Sum SPSNR:  80199.12358093262
+Sum SSSIM:  944.0
+SSIM score: 1.0    id   945
+PSNR: 88.71985626220703    id   945
+Sum SPSNR:  80287.84343719482
+Sum SSSIM:  945.0
+SSIM score: 1.0    id   946
+PSNR: 85.24616241455078    id   946
+Sum SPSNR:  80373.08959960938
+Sum SSSIM:  946.0
+SSIM score: 1.0    id   947
+PSNR: 83.4535140991211    id   947
+Sum SPSNR:  80456.5431137085
+Sum SSSIM:  947.0
+SSIM score: 1.0    id   948
+PSNR: 84.45587158203125    id   948
+Sum SPSNR:  80540.99898529053
+Sum SSSIM:  948.0
+SSIM score: 1.0    id   949
+PSNR: 82.1614761352539    id   949
+Sum SPSNR:  80623.16046142578
+Sum SSSIM:  949.0
+SSIM score: 1.0    id   950
+PSNR: 82.9586410522461    id   950
+Sum SPSNR:  80706.11910247803
+Sum SSSIM:  950.0
+SSIM score: 1.0    id   951
+PSNR: 85.03678131103516    id   951
+Sum SPSNR:  80791.15588378906
+Sum SSSIM:  951.0
+SSIM score: 1.0    id   952
+PSNR: 89.49407958984375    id   952
+Sum SPSNR:  80880.6499633789
+Sum SSSIM:  952.0
+SSIM score: 1.0    id   953
+PSNR: 82.43722534179688    id   953
+Sum SPSNR:  80963.0871887207
+Sum SSSIM:  953.0
+SSIM score: 1.0    id   954
+PSNR: 83.92513275146484    id   954
+Sum SPSNR:  81047.01232147217
+Sum SSSIM:  954.0
+SSIM score: 1.0    id   955
+PSNR: 83.3021469116211    id   955
+Sum SPSNR:  81130.31446838379
+Sum SSSIM:  955.0
+SSIM score: 1.0    id   956
+PSNR: 86.92471313476562    id   956
+Sum SPSNR:  81217.23918151855
+Sum SSSIM:  956.0
+SSIM score: 1.0    id   957
+PSNR: 82.5482177734375    id   957
+Sum SPSNR:  81299.78739929199
+Sum SSSIM:  957.0
+SSIM score: 1.0    id   958
+PSNR: 82.38307189941406    id   958
+Sum SPSNR:  81382.1704711914
+Sum SSSIM:  958.0
+SSIM score: 1.0    id   959
+PSNR: 88.80052185058594    id   959
+Sum SPSNR:  81470.97099304199
+Sum SSSIM:  959.0
+SSIM score: 1.0    id   960
+PSNR: 87.17993927001953    id   960
+Sum SPSNR:  81558.15093231201
+Sum SSSIM:  960.0
+SSIM score: 1.0    id   961
+PSNR: 84.78379821777344    id   961
+Sum SPSNR:  81642.93473052979
+Sum SSSIM:  961.0
+SSIM score: 1.0    id   962
+PSNR: 89.04120635986328    id   962
+Sum SPSNR:  81731.97593688965
+Sum SSSIM:  962.0
+SSIM score: 1.0    id   963
+PSNR: 83.4345932006836    id   963
+Sum SPSNR:  81815.41053009033
+Sum SSSIM:  963.0
+SSIM score: 1.0    id   964
+PSNR: 88.18696594238281    id   964
+Sum SPSNR:  81903.59749603271
+Sum SSSIM:  964.0
+SSIM score: 1.0    id   965
+PSNR: 88.37395477294922    id   965
+Sum SPSNR:  81991.97145080566
+Sum SSSIM:  965.0
+SSIM score: 1.0    id   966
+PSNR: 86.05038452148438    id   966
+Sum SPSNR:  82078.02183532715
+Sum SSSIM:  966.0
+SSIM score: 1.0    id   967
+PSNR: 84.47288513183594    id   967
+Sum SPSNR:  82162.49472045898
+Sum SSSIM:  967.0
+SSIM score: 1.0    id   968
+PSNR: 82.51868438720703    id   968
+Sum SPSNR:  82245.01340484619
+Sum SSSIM:  968.0
+SSIM score: 1.0    id   969
+PSNR: 82.24644470214844    id   969
+Sum SPSNR:  82327.25984954834
+Sum SSSIM:  969.0
+SSIM score: 1.0    id   970
+PSNR: 81.85944366455078    id   970
+Sum SPSNR:  82409.11929321289
+Sum SSSIM:  970.0
+SSIM score: 1.0    id   971
+PSNR: 82.77809143066406    id   971
+Sum SPSNR:  82491.89738464355
+Sum SSSIM:  971.0
+SSIM score: 1.0    id   972
+PSNR: 87.26156616210938    id   972
+Sum SPSNR:  82579.15895080566
+Sum SSSIM:  972.0
+SSIM score: 1.0    id   973
+PSNR: 85.33924102783203    id   973
+Sum SPSNR:  82664.4981918335
+Sum SSSIM:  973.0
+SSIM score: 1.0    id   974
+PSNR: 82.06654357910156    id   974
+Sum SPSNR:  82746.5647354126
+Sum SSSIM:  974.0
+SSIM score: 1.0    id   975
+PSNR: 87.34856414794922    id   975
+Sum SPSNR:  82833.91329956055
+Sum SSSIM:  975.0
+SSIM score: 1.0    id   976
+PSNR: 88.38777160644531    id   976
+Sum SPSNR:  82922.30107116699
+Sum SSSIM:  976.0
+SSIM score: 1.0    id   977
+PSNR: 81.89793395996094    id   977
+Sum SPSNR:  83004.19900512695
+Sum SSSIM:  977.0
+SSIM score: 1.0    id   978
+PSNR: 86.66222381591797    id   978
+Sum SPSNR:  83090.86122894287
+Sum SSSIM:  978.0
+SSIM score: 1.0    id   979
+PSNR: 82.47608184814453    id   979
+Sum SPSNR:  83173.33731079102
+Sum SSSIM:  979.0
+SSIM score: 1.0    id   980
+PSNR: 87.82215118408203    id   980
+Sum SPSNR:  83261.1594619751
+Sum SSSIM:  980.0
+SSIM score: 1.0    id   981
+PSNR: 86.478271484375    id   981
+Sum SPSNR:  83347.63773345947
+Sum SSSIM:  981.0
+SSIM score: 1.0    id   982
+PSNR: 82.3922119140625    id   982
+Sum SPSNR:  83430.02994537354
+Sum SSSIM:  982.0
+SSIM score: 1.0    id   983
+PSNR: 86.20975494384766    id   983
+Sum SPSNR:  83516.23970031738
+Sum SSSIM:  983.0
+SSIM score: 1.0    id   984
+PSNR: 88.42088317871094    id   984
+Sum SPSNR:  83604.6605834961
+Sum SSSIM:  984.0
+SSIM score: 1.0    id   985
+PSNR: 85.45674133300781    id   985
+Sum SPSNR:  83690.1173248291
+Sum SSSIM:  985.0
+SSIM score: 1.0    id   986
+PSNR: 88.65756225585938    id   986
+Sum SPSNR:  83778.77488708496
+Sum SSSIM:  986.0
+SSIM score: 1.0    id   987
+PSNR: 88.0416488647461    id   987
+Sum SPSNR:  83866.8165359497
+Sum SSSIM:  987.0
+SSIM score: 1.0    id   988
+PSNR: 86.52159118652344    id   988
+Sum SPSNR:  83953.33812713623
+Sum SSSIM:  988.0
+SSIM score: 1.0    id   989
+PSNR: 85.26927185058594    id   989
+Sum SPSNR:  84038.60739898682
+Sum SSSIM:  989.0
+SSIM score: 1.0    id   990
+PSNR: 82.42990112304688    id   990
+Sum SPSNR:  84121.03730010986
+Sum SSSIM:  990.0
+SSIM score: 1.0    id   991
+PSNR: 86.1495361328125    id   991
+Sum SPSNR:  84207.18683624268
+Sum SSSIM:  991.0
+SSIM score: 1.0    id   992
+PSNR: 82.59768676757812    id   992
+Sum SPSNR:  84289.78452301025
+Sum SSSIM:  992.0
+SSIM score: 1.0    id   993
+PSNR: 85.66730499267578    id   993
+Sum SPSNR:  84375.45182800293
+Sum SSSIM:  993.0
+SSIM score: 1.0    id   994
+PSNR: 87.1451416015625    id   994
+Sum SPSNR:  84462.59696960449
+Sum SSSIM:  994.0
+SSIM score: 1.0    id   995
+PSNR: 89.71724700927734    id   995
+Sum SPSNR:  84552.31421661377
+Sum SSSIM:  995.0
+SSIM score: 1.0    id   996
+PSNR: 86.83877563476562    id   996
+Sum SPSNR:  84639.15299224854
+Sum SSSIM:  996.0
+SSIM score: 1.0    id   997
+PSNR: 85.00194549560547    id   997
+Sum SPSNR:  84724.15493774414
+Sum SSSIM:  997.0
+SSIM score: 1.0    id   998
+PSNR: 86.03278350830078    id   998
+Sum SPSNR:  84810.18772125244
+Sum SSSIM:  998.0
+SSIM score: 1.0    id   999
+PSNR: 82.48347473144531    id   999
+Sum SPSNR:  84892.67119598389
+Sum SSSIM:  999.0
+SSIM score: 1.0    id   1000
+PSNR: 88.6881103515625    id   1000
+Sum SPSNR:  84981.35930633545
+Sum SSSIM:  1000.0
+SSIM score: 1.0    id   1001
+PSNR: 84.19678497314453    id   1001
+Sum SPSNR:  85065.5560913086
+Sum SSSIM:  1001.0
+SSIM score: 1.0    id   1002
+PSNR: 88.22124481201172    id   1002
+Sum SPSNR:  85153.7773361206
+Sum SSSIM:  1002.0
+SSIM score: 1.0    id   1003
+PSNR: 84.80264282226562    id   1003
+Sum SPSNR:  85238.57997894287
+Sum SSSIM:  1003.0
+SSIM score: 1.0    id   1004
+PSNR: 85.72227478027344    id   1004
+Sum SPSNR:  85324.30225372314
+Sum SSSIM:  1004.0
+SSIM score: 1.0    id   1005
+PSNR: 83.83647918701172    id   1005
+Sum SPSNR:  85408.13873291016
+Sum SSSIM:  1005.0
+SSIM score: 1.0    id   1006
+PSNR: 83.48845672607422    id   1006
+Sum SPSNR:  85491.62718963623
+Sum SSSIM:  1006.0
+SSIM score: 1.0    id   1007
+PSNR: 83.41259765625    id   1007
+Sum SPSNR:  85575.03978729248
+Sum SSSIM:  1007.0
+SSIM score: 1.0    id   1008
+PSNR: 87.81993103027344    id   1008
+Sum SPSNR:  85662.85971832275
+Sum SSSIM:  1008.0
+SSIM score: 1.0    id   1009
+PSNR: 88.61457061767578    id   1009
+Sum SPSNR:  85751.47428894043
+Sum SSSIM:  1009.0
+SSIM score: 1.0    id   1010
+PSNR: 82.21114349365234    id   1010
+Sum SPSNR:  85833.68543243408
+Sum SSSIM:  1010.0
+SSIM score: 1.0    id   1011
+PSNR: 82.50544738769531    id   1011
+Sum SPSNR:  85916.19087982178
+Sum SSSIM:  1011.0
+SSIM score: 1.0    id   1012
+PSNR: 90.65489959716797    id   1012
+Sum SPSNR:  86006.84577941895
+Sum SSSIM:  1012.0
+SSIM score: 1.0    id   1013
+PSNR: 86.93279266357422    id   1013
+Sum SPSNR:  86093.77857208252
+Sum SSSIM:  1013.0
+SSIM score: 1.0    id   1014
+PSNR: 82.92356872558594    id   1014
+Sum SPSNR:  86176.7021408081
+Sum SSSIM:  1014.0
+SSIM score: 1.0    id   1015
+PSNR: 86.00364685058594    id   1015
+Sum SPSNR:  86262.70578765869
+Sum SSSIM:  1015.0
+SSIM score: 1.0    id   1016
+PSNR: 82.89137268066406    id   1016
+Sum SPSNR:  86345.59716033936
+Sum SSSIM:  1016.0
+SSIM score: 1.0    id   1017
+PSNR: 83.13876342773438    id   1017
+Sum SPSNR:  86428.73592376709
+Sum SSSIM:  1017.0
+SSIM score: 1.0    id   1018
+PSNR: 87.0050048828125    id   1018
+Sum SPSNR:  86515.7409286499
+Sum SSSIM:  1018.0
+SSIM score: 1.0    id   1019
+PSNR: 87.37223815917969    id   1019
+Sum SPSNR:  86603.11316680908
+Sum SSSIM:  1019.0
+SSIM score: 1.0    id   1020
+PSNR: 87.59492492675781    id   1020
+Sum SPSNR:  86690.70809173584
+Sum SSSIM:  1020.0
+SSIM score: 1.0    id   1021
+PSNR: 86.42774963378906    id   1021
+Sum SPSNR:  86777.13584136963
+Sum SSSIM:  1021.0
+SSIM score: 1.0    id   1022
+PSNR: 85.39897918701172    id   1022
+Sum SPSNR:  86862.53482055664
+Sum SSSIM:  1022.0
+SSIM score: 1.0    id   1023
+PSNR: 81.92446899414062    id   1023
+Sum SPSNR:  86944.45928955078
+Sum SSSIM:  1023.0
+SSIM score: 1.0    id   1024
+PSNR: 82.84709167480469    id   1024
+Sum SPSNR:  87027.30638122559
+Sum SSSIM:  1024.0
+SSIM score: 1.0    id   1025
+PSNR: 88.43555450439453    id   1025
+Sum SPSNR:  87115.74193572998
+Sum SSSIM:  1025.0
+SSIM score: 1.0    id   1026
+PSNR: 87.63004302978516    id   1026
+Sum SPSNR:  87203.37197875977
+Sum SSSIM:  1026.0
+SSIM score: 1.0    id   1027
+PSNR: 85.1527328491211    id   1027
+Sum SPSNR:  87288.52471160889
+Sum SSSIM:  1027.0
+SSIM score: 1.0    id   1028
+PSNR: 81.95388793945312    id   1028
+Sum SPSNR:  87370.47859954834
+Sum SSSIM:  1028.0
+SSIM score: 1.0    id   1029
+PSNR: 85.68435668945312    id   1029
+Sum SPSNR:  87456.1629562378
+Sum SSSIM:  1029.0
+SSIM score: 1.0    id   1030
+PSNR: 90.06813049316406    id   1030
+Sum SPSNR:  87546.23108673096
+Sum SSSIM:  1030.0
+SSIM score: 1.0    id   1031
+PSNR: 86.56169128417969    id   1031
+Sum SPSNR:  87632.79277801514
+Sum SSSIM:  1031.0
+SSIM score: 1.0    id   1032
+PSNR: 84.47831726074219    id   1032
+Sum SPSNR:  87717.27109527588
+Sum SSSIM:  1032.0
+SSIM score: 1.0    id   1033
+PSNR: 81.82093811035156    id   1033
+Sum SPSNR:  87799.09203338623
+Sum SSSIM:  1033.0
+SSIM score: 1.0    id   1034
+PSNR: 84.62594604492188    id   1034
+Sum SPSNR:  87883.71797943115
+Sum SSSIM:  1034.0
+SSIM score: 1.0    id   1035
+PSNR: 86.78470611572266    id   1035
+Sum SPSNR:  87970.50268554688
+Sum SSSIM:  1035.0
+SSIM score: 1.0    id   1036
+PSNR: 83.03988647460938    id   1036
+Sum SPSNR:  88053.54257202148
+Sum SSSIM:  1036.0
+SSIM score: 1.0    id   1037
+PSNR: 86.16389465332031    id   1037
+Sum SPSNR:  88139.7064666748
+Sum SSSIM:  1037.0
+SSIM score: 1.0    id   1038
+PSNR: 82.46768951416016    id   1038
+Sum SPSNR:  88222.17415618896
+Sum SSSIM:  1038.0
+SSIM score: 1.0    id   1039
+PSNR: 82.48768615722656    id   1039
+Sum SPSNR:  88304.66184234619
+Sum SSSIM:  1039.0
+SSIM score: 1.0    id   1040
+PSNR: 88.34211730957031    id   1040
+Sum SPSNR:  88393.00395965576
+Sum SSSIM:  1040.0
+SSIM score: 1.0    id   1041
+PSNR: 86.04621887207031    id   1041
+Sum SPSNR:  88479.05017852783
+Sum SSSIM:  1041.0
+SSIM score: 1.0    id   1042
+PSNR: 84.4862060546875    id   1042
+Sum SPSNR:  88563.53638458252
+Sum SSSIM:  1042.0
+SSIM score: 1.0    id   1043
+PSNR: 88.39401245117188    id   1043
+Sum SPSNR:  88651.93039703369
+Sum SSSIM:  1043.0
+SSIM score: 1.0    id   1044
+PSNR: 84.74883270263672    id   1044
+Sum SPSNR:  88736.67922973633
+Sum SSSIM:  1044.0
+SSIM score: 1.0    id   1045
+PSNR: 86.34237670898438    id   1045
+Sum SPSNR:  88823.02160644531
+Sum SSSIM:  1045.0
+SSIM score: 1.0    id   1046
+PSNR: 87.11595153808594    id   1046
+Sum SPSNR:  88910.1375579834
+Sum SSSIM:  1046.0
+SSIM score: 1.0    id   1047
+PSNR: 82.22027587890625    id   1047
+Sum SPSNR:  88992.3578338623
+Sum SSSIM:  1047.0
+SSIM score: 1.0    id   1048
+PSNR: 85.09517669677734    id   1048
+Sum SPSNR:  89077.45301055908
+Sum SSSIM:  1048.0
+SSIM score: 1.0    id   1049
+PSNR: 82.34515380859375    id   1049
+Sum SPSNR:  89159.79816436768
+Sum SSSIM:  1049.0
+SSIM score: 1.0    id   1050
+PSNR: 85.5311279296875    id   1050
+Sum SPSNR:  89245.32929229736
+Sum SSSIM:  1050.0
+SSIM score: 1.0    id   1051
+PSNR: 81.94153594970703    id   1051
+Sum SPSNR:  89327.27082824707
+Sum SSSIM:  1051.0
+SSIM score: 1.0    id   1052
+PSNR: 81.45804595947266    id   1052
+Sum SPSNR:  89408.72887420654
+Sum SSSIM:  1052.0
+SSIM score: 1.0    id   1053
+PSNR: 81.02904510498047    id   1053
+Sum SPSNR:  89489.75791931152
+Sum SSSIM:  1053.0
+SSIM score: 1.0    id   1054
+PSNR: 83.30651092529297    id   1054
+Sum SPSNR:  89573.06443023682
+Sum SSSIM:  1054.0
+SSIM score: 1.0    id   1055
+PSNR: 85.35148620605469    id   1055
+Sum SPSNR:  89658.41591644287
+Sum SSSIM:  1055.0
+SSIM score: 1.0    id   1056
+PSNR: 85.7039566040039    id   1056
+Sum SPSNR:  89744.11987304688
+Sum SSSIM:  1056.0
+SSIM score: 1.0    id   1057
+PSNR: 87.5261001586914    id   1057
+Sum SPSNR:  89831.64597320557
+Sum SSSIM:  1057.0
+SSIM score: 1.0    id   1058
+PSNR: 84.22500610351562    id   1058
+Sum SPSNR:  89915.87097930908
+Sum SSSIM:  1058.0
+SSIM score: 1.0    id   1059
+PSNR: 88.68069458007812    id   1059
+Sum SPSNR:  90004.55167388916
+Sum SSSIM:  1059.0
+SSIM score: 1.0    id   1060
+PSNR: 82.10247802734375    id   1060
+Sum SPSNR:  90086.6541519165
+Sum SSSIM:  1060.0
+SSIM score: 1.0    id   1061
+PSNR: 85.27591705322266    id   1061
+Sum SPSNR:  90171.93006896973
+Sum SSSIM:  1061.0
+SSIM score: 1.0    id   1062
+PSNR: 83.27839660644531    id   1062
+Sum SPSNR:  90255.20846557617
+Sum SSSIM:  1062.0
+SSIM score: 1.0    id   1063
+PSNR: 82.72673797607422    id   1063
+Sum SPSNR:  90337.93520355225
+Sum SSSIM:  1063.0
+SSIM score: 1.0    id   1064
+PSNR: 82.7103500366211    id   1064
+Sum SPSNR:  90420.64555358887
+Sum SSSIM:  1064.0
+SSIM score: 1.0    id   1065
+PSNR: 83.62757873535156    id   1065
+Sum SPSNR:  90504.27313232422
+Sum SSSIM:  1065.0
+SSIM score: 1.0    id   1066
+PSNR: 88.03887939453125    id   1066
+Sum SPSNR:  90592.31201171875
+Sum SSSIM:  1066.0
+SSIM score: 1.0    id   1067
+PSNR: 82.31769561767578    id   1067
+Sum SPSNR:  90674.62970733643
+Sum SSSIM:  1067.0
+SSIM score: 1.0    id   1068
+PSNR: 82.35514831542969    id   1068
+Sum SPSNR:  90756.98485565186
+Sum SSSIM:  1068.0
+SSIM score: 1.0    id   1069
+PSNR: 85.24671936035156    id   1069
+Sum SPSNR:  90842.2315750122
+Sum SSSIM:  1069.0
+SSIM score: 1.0    id   1070
+PSNR: 82.76568603515625    id   1070
+Sum SPSNR:  90924.99726104736
+Sum SSSIM:  1070.0
+SSIM score: 1.0    id   1071
+PSNR: 87.49988555908203    id   1071
+Sum SPSNR:  91012.49714660645
+Sum SSSIM:  1071.0
+SSIM score: 1.0    id   1072
+PSNR: 81.69706726074219    id   1072
+Sum SPSNR:  91094.19421386719
+Sum SSSIM:  1072.0
+SSIM score: 1.0    id   1073
+PSNR: 89.274169921875    id   1073
+Sum SPSNR:  91183.46838378906
+Sum SSSIM:  1073.0
+SSIM score: 1.0    id   1074
+PSNR: 86.53164672851562    id   1074
+Sum SPSNR:  91270.00003051758
+Sum SSSIM:  1074.0
+SSIM score: 1.0    id   1075
+PSNR: 81.69998168945312    id   1075
+Sum SPSNR:  91351.70001220703
+Sum SSSIM:  1075.0
+SSIM score: 1.0    id   1076
+PSNR: 82.02339172363281    id   1076
+Sum SPSNR:  91433.72340393066
+Sum SSSIM:  1076.0
+SSIM score: 1.0    id   1077
+PSNR: 87.2361831665039    id   1077
+Sum SPSNR:  91520.95958709717
+Sum SSSIM:  1077.0
+SSIM score: 1.0    id   1078
+PSNR: 86.36272430419922    id   1078
+Sum SPSNR:  91607.32231140137
+Sum SSSIM:  1078.0
+SSIM score: 1.0    id   1079
+PSNR: 90.59966278076172    id   1079
+Sum SPSNR:  91697.92197418213
+Sum SSSIM:  1079.0
+SSIM score: 1.0    id   1080
+PSNR: 82.67170715332031    id   1080
+Sum SPSNR:  91780.59368133545
+Sum SSSIM:  1080.0
+SSIM score: 1.0    id   1081
+PSNR: 81.9234848022461    id   1081
+Sum SPSNR:  91862.5171661377
+Sum SSSIM:  1081.0
+SSIM score: 1.0    id   1082
+PSNR: 82.87138366699219    id   1082
+Sum SPSNR:  91945.38854980469
+Sum SSSIM:  1082.0
+SSIM score: 1.0    id   1083
+PSNR: 82.03010559082031    id   1083
+Sum SPSNR:  92027.41865539551
+Sum SSSIM:  1083.0
+SSIM score: 1.0    id   1084
+PSNR: 82.02259063720703    id   1084
+Sum SPSNR:  92109.44124603271
+Sum SSSIM:  1084.0
+SSIM score: 1.0    id   1085
+PSNR: 88.37235260009766    id   1085
+Sum SPSNR:  92197.81359863281
+Sum SSSIM:  1085.0
+SSIM score: 1.0    id   1086
+PSNR: 85.96769714355469    id   1086
+Sum SPSNR:  92283.78129577637
+Sum SSSIM:  1086.0
+SSIM score: 1.0    id   1087
+PSNR: 81.6121597290039    id   1087
+Sum SPSNR:  92365.39345550537
+Sum SSSIM:  1087.0
+SSIM score: 1.0    id   1088
+PSNR: 84.46343231201172    id   1088
+Sum SPSNR:  92449.85688781738
+Sum SSSIM:  1088.0
+SSIM score: 1.0    id   1089
+PSNR: 85.356201171875    id   1089
+Sum SPSNR:  92535.21308898926
+Sum SSSIM:  1089.0
+SSIM score: 1.0    id   1090
+PSNR: 83.64286804199219    id   1090
+Sum SPSNR:  92618.85595703125
+Sum SSSIM:  1090.0
+SSIM score: 1.0    id   1091
+PSNR: 86.50869750976562    id   1091
+Sum SPSNR:  92705.36465454102
+Sum SSSIM:  1091.0
+SSIM score: 1.0    id   1092
+PSNR: 88.69329833984375    id   1092
+Sum SPSNR:  92794.05795288086
+Sum SSSIM:  1092.0
+SSIM score: 1.0    id   1093
+PSNR: 83.0386734008789    id   1093
+Sum SPSNR:  92877.09662628174
+Sum SSSIM:  1093.0
+SSIM score: 1.0    id   1094
+PSNR: 88.13117218017578    id   1094
+Sum SPSNR:  92965.22779846191
+Sum SSSIM:  1094.0
+SSIM score: 1.0    id   1095
+PSNR: 82.15801239013672    id   1095
+Sum SPSNR:  93047.38581085205
+Sum SSSIM:  1095.0
+SSIM score: 1.0    id   1096
+PSNR: 88.3732681274414    id   1096
+Sum SPSNR:  93135.75907897949
+Sum SSSIM:  1096.0
+SSIM score: 1.0    id   1097
+PSNR: 82.82640075683594    id   1097
+Sum SPSNR:  93218.58547973633
+Sum SSSIM:  1097.0
+SSIM score: 1.0    id   1098
+PSNR: 85.0892333984375    id   1098
+Sum SPSNR:  93303.67471313477
+Sum SSSIM:  1098.0
+SSIM score: 1.0    id   1099
+PSNR: 83.45884704589844    id   1099
+Sum SPSNR:  93387.13356018066
+Sum SSSIM:  1099.0
+SSIM score: 1.0    id   1100
+PSNR: 83.0696792602539    id   1100
+Sum SPSNR:  93470.20323944092
+Sum SSSIM:  1100.0
+SSIM score: 1.0    id   1101
+PSNR: 82.58250427246094    id   1101
+Sum SPSNR:  93552.78574371338
+Sum SSSIM:  1101.0
+SSIM score: 1.0    id   1102
+PSNR: 84.59126281738281    id   1102
+Sum SPSNR:  93637.37700653076
+Sum SSSIM:  1102.0
+SSIM score: 1.0    id   1103
+PSNR: 80.42425537109375    id   1103
+Sum SPSNR:  93717.80126190186
+Sum SSSIM:  1103.0
+SSIM score: 1.0    id   1104
+PSNR: 81.52820587158203    id   1104
+Sum SPSNR:  93799.32946777344
+Sum SSSIM:  1104.0
+SSIM score: 1.0    id   1105
+PSNR: 83.8418197631836    id   1105
+Sum SPSNR:  93883.17128753662
+Sum SSSIM:  1105.0
+SSIM score: 1.0    id   1106
+PSNR: 86.6291732788086    id   1106
+Sum SPSNR:  93969.80046081543
+Sum SSSIM:  1106.0
+SSIM score: 1.0    id   1107
+PSNR: 82.55888366699219    id   1107
+Sum SPSNR:  94052.35934448242
+Sum SSSIM:  1107.0
+SSIM score: 1.0    id   1108
+PSNR: 83.06507110595703    id   1108
+Sum SPSNR:  94135.42441558838
+Sum SSSIM:  1108.0
+SSIM score: 1.0    id   1109
+PSNR: 83.37687683105469    id   1109
+Sum SPSNR:  94218.80129241943
+Sum SSSIM:  1109.0
+SSIM score: 1.0    id   1110
+PSNR: 89.15226745605469    id   1110
+Sum SPSNR:  94307.95355987549
+Sum SSSIM:  1110.0
+SSIM score: 1.0    id   1111
+PSNR: 81.69632720947266    id   1111
+Sum SPSNR:  94389.64988708496
+Sum SSSIM:  1111.0
+SSIM score: 1.0    id   1112
+PSNR: 83.12754821777344    id   1112
+Sum SPSNR:  94472.77743530273
+Sum SSSIM:  1112.0
+SSIM score: 1.0    id   1113
+PSNR: 81.48131561279297    id   1113
+Sum SPSNR:  94554.25875091553
+Sum SSSIM:  1113.0
+SSIM score: 1.0    id   1114
+PSNR: 84.91502380371094    id   1114
+Sum SPSNR:  94639.17377471924
+Sum SSSIM:  1114.0
+SSIM score: 1.0    id   1115
+PSNR: 89.89044952392578    id   1115
+Sum SPSNR:  94729.06422424316
+Sum SSSIM:  1115.0
+SSIM score: 1.0    id   1116
+PSNR: 82.36619567871094    id   1116
+Sum SPSNR:  94811.43041992188
+Sum SSSIM:  1116.0
+SSIM score: 1.0    id   1117
+PSNR: 83.53144836425781    id   1117
+Sum SPSNR:  94894.96186828613
+Sum SSSIM:  1117.0
+SSIM score: 1.0    id   1118
+PSNR: 82.17805480957031    id   1118
+Sum SPSNR:  94977.1399230957
+Sum SSSIM:  1118.0
+SSIM score: 1.0    id   1119
+PSNR: 89.2668228149414    id   1119
+Sum SPSNR:  95066.40674591064
+Sum SSSIM:  1119.0
+SSIM score: 1.0    id   1120
+PSNR: 83.50213623046875    id   1120
+Sum SPSNR:  95149.90888214111
+Sum SSSIM:  1120.0
+SSIM score: 1.0    id   1121
+PSNR: 81.66697692871094    id   1121
+Sum SPSNR:  95231.57585906982
+Sum SSSIM:  1121.0
+SSIM score: 1.0    id   1122
+PSNR: 86.61964416503906    id   1122
+Sum SPSNR:  95318.19550323486
+Sum SSSIM:  1122.0
+SSIM score: 1.0    id   1123
+PSNR: 81.87208557128906    id   1123
+Sum SPSNR:  95400.06758880615
+Sum SSSIM:  1123.0
+SSIM score: 1.0    id   1124
+PSNR: 82.7420425415039    id   1124
+Sum SPSNR:  95482.80963134766
+Sum SSSIM:  1124.0
+SSIM score: 1.0    id   1125
+PSNR: 85.90408325195312    id   1125
+Sum SPSNR:  95568.71371459961
+Sum SSSIM:  1125.0
+SSIM score: 1.0    id   1126
+PSNR: 85.26252746582031    id   1126
+Sum SPSNR:  95653.97624206543
+Sum SSSIM:  1126.0
+SSIM score: 1.0    id   1127
+PSNR: 85.2693862915039    id   1127
+Sum SPSNR:  95739.24562835693
+Sum SSSIM:  1127.0
+SSIM score: 1.0    id   1128
+PSNR: 85.70010375976562    id   1128
+Sum SPSNR:  95824.9457321167
+Sum SSSIM:  1128.0
+SSIM score: 1.0    id   1129
+PSNR: 83.04817199707031    id   1129
+Sum SPSNR:  95907.99390411377
+Sum SSSIM:  1129.0
+SSIM score: 1.0    id   1130
+PSNR: 88.27238464355469    id   1130
+Sum SPSNR:  95996.26628875732
+Sum SSSIM:  1130.0
+SSIM score: 1.0    id   1131
+PSNR: 86.67681884765625    id   1131
+Sum SPSNR:  96082.94310760498
+Sum SSSIM:  1131.0
+SSIM score: 1.0    id   1132
+PSNR: 83.94084930419922    id   1132
+Sum SPSNR:  96166.88395690918
+Sum SSSIM:  1132.0
+SSIM score: 1.0    id   1133
+PSNR: 82.46580505371094    id   1133
+Sum SPSNR:  96249.34976196289
+Sum SSSIM:  1133.0
+SSIM score: 1.0    id   1134
+PSNR: 88.54849243164062    id   1134
+Sum SPSNR:  96337.89825439453
+Sum SSSIM:  1134.0
+SSIM score: 1.0    id   1135
+PSNR: 85.64799499511719    id   1135
+Sum SPSNR:  96423.54624938965
+Sum SSSIM:  1135.0
+SSIM score: 1.0    id   1136
+PSNR: 82.52543640136719    id   1136
+Sum SPSNR:  96506.07168579102
+Sum SSSIM:  1136.0
+SSIM score: 1.0    id   1137
+PSNR: 83.08210754394531    id   1137
+Sum SPSNR:  96589.15379333496
+Sum SSSIM:  1137.0
+SSIM score: 1.0    id   1138
+PSNR: 85.42350006103516    id   1138
+Sum SPSNR:  96674.577293396
+Sum SSSIM:  1138.0
+SSIM score: 1.0    id   1139
+PSNR: 86.07266235351562    id   1139
+Sum SPSNR:  96760.64995574951
+Sum SSSIM:  1139.0
+SSIM score: 1.0    id   1140
+PSNR: 82.56912994384766    id   1140
+Sum SPSNR:  96843.21908569336
+Sum SSSIM:  1140.0
+SSIM score: 1.0    id   1141
+PSNR: 87.61418151855469    id   1141
+Sum SPSNR:  96930.83326721191
+Sum SSSIM:  1141.0
+SSIM score: 1.0    id   1142
+PSNR: 86.39876556396484    id   1142
+Sum SPSNR:  97017.23203277588
+Sum SSSIM:  1142.0
+SSIM score: 1.0    id   1143
+PSNR: 86.26231384277344    id   1143
+Sum SPSNR:  97103.49434661865
+Sum SSSIM:  1143.0
+SSIM score: 1.0    id   1144
+PSNR: 84.44236755371094    id   1144
+Sum SPSNR:  97187.93671417236
+Sum SSSIM:  1144.0
+SSIM score: 1.0    id   1145
+PSNR: 86.62133026123047    id   1145
+Sum SPSNR:  97274.5580444336
+Sum SSSIM:  1145.0
+SSIM score: 1.0    id   1146
+PSNR: 87.00584411621094    id   1146
+Sum SPSNR:  97361.5638885498
+Sum SSSIM:  1146.0
+SSIM score: 1.0    id   1147
+PSNR: 82.29319763183594    id   1147
+Sum SPSNR:  97443.85708618164
+Sum SSSIM:  1147.0
+SSIM score: 1.0    id   1148
+PSNR: 87.73872375488281    id   1148
+Sum SPSNR:  97531.59580993652
+Sum SSSIM:  1148.0
+SSIM score: 1.0    id   1149
+PSNR: 86.41732788085938    id   1149
+Sum SPSNR:  97618.01313781738
+Sum SSSIM:  1149.0
+SSIM score: 1.0    id   1150
+PSNR: 85.58185577392578    id   1150
+Sum SPSNR:  97703.59499359131
+Sum SSSIM:  1150.0
+SSIM score: 1.0    id   1151
+PSNR: 87.18569946289062    id   1151
+Sum SPSNR:  97790.7806930542
+Sum SSSIM:  1151.0
+SSIM score: 1.0    id   1152
+PSNR: 84.27356719970703    id   1152
+Sum SPSNR:  97875.0542602539
+Sum SSSIM:  1152.0
+SSIM score: 1.0    id   1153
+PSNR: 83.12905883789062    id   1153
+Sum SPSNR:  97958.1833190918
+Sum SSSIM:  1153.0
+SSIM score: 1.0    id   1154
+PSNR: 82.36123657226562    id   1154
+Sum SPSNR:  98040.54455566406
+Sum SSSIM:  1154.0
+SSIM score: 1.0    id   1155
+PSNR: 85.16875457763672    id   1155
+Sum SPSNR:  98125.7133102417
+Sum SSSIM:  1155.0
+SSIM score: 1.0    id   1156
+PSNR: 82.29926300048828    id   1156
+Sum SPSNR:  98208.01257324219
+Sum SSSIM:  1156.0
+SSIM score: 1.0    id   1157
+PSNR: 81.88414764404297    id   1157
+Sum SPSNR:  98289.89672088623
+Sum SSSIM:  1157.0
+SSIM score: 1.0    id   1158
+PSNR: 82.8926773071289    id   1158
+Sum SPSNR:  98372.78939819336
+Sum SSSIM:  1158.0
+SSIM score: 1.0    id   1159
+PSNR: 85.15251159667969    id   1159
+Sum SPSNR:  98457.94190979004
+Sum SSSIM:  1159.0
+SSIM score: 1.0    id   1160
+PSNR: 82.22306060791016    id   1160
+Sum SPSNR:  98540.16497039795
+Sum SSSIM:  1160.0
+SSIM score: 1.0    id   1161
+PSNR: 86.91961669921875    id   1161
+Sum SPSNR:  98627.08458709717
+Sum SSSIM:  1161.0
+SSIM score: 1.0    id   1162
+PSNR: 82.72766876220703    id   1162
+Sum SPSNR:  98709.81225585938
+Sum SSSIM:  1162.0
+SSIM score: 1.0    id   1163
+PSNR: 82.30709838867188    id   1163
+Sum SPSNR:  98792.11935424805
+Sum SSSIM:  1163.0
+SSIM score: 1.0    id   1164
+PSNR: 81.95294189453125    id   1164
+Sum SPSNR:  98874.07229614258
+Sum SSSIM:  1164.0
+SSIM score: 1.0    id   1165
+PSNR: 82.90851593017578    id   1165
+Sum SPSNR:  98956.98081207275
+Sum SSSIM:  1165.0
+SSIM score: 1.0    id   1166
+PSNR: 82.373291015625    id   1166
+Sum SPSNR:  99039.35410308838
+Sum SSSIM:  1166.0
+SSIM score: 1.0    id   1167
+PSNR: 89.37606811523438    id   1167
+Sum SPSNR:  99128.73017120361
+Sum SSSIM:  1167.0
+SSIM score: 1.0    id   1168
+PSNR: 85.08610534667969    id   1168
+Sum SPSNR:  99213.8162765503
+Sum SSSIM:  1168.0
+SSIM score: 1.0    id   1169
+PSNR: 89.689453125    id   1169
+Sum SPSNR:  99303.5057296753
+Sum SSSIM:  1169.0
+SSIM score: 1.0    id   1170
+PSNR: 87.97611236572266    id   1170
+Sum SPSNR:  99391.48184204102
+Sum SSSIM:  1170.0
+SSIM score: 1.0    id   1171
+PSNR: 86.30351257324219    id   1171
+Sum SPSNR:  99477.78535461426
+Sum SSSIM:  1171.0
+SSIM score: 1.0    id   1172
+PSNR: 84.42752075195312    id   1172
+Sum SPSNR:  99562.21287536621
+Sum SSSIM:  1172.0
+SSIM score: 1.0    id   1173
+PSNR: 82.30358123779297    id   1173
+Sum SPSNR:  99644.516456604
+Sum SSSIM:  1173.0
+SSIM score: 1.0    id   1174
+PSNR: 86.01258087158203    id   1174
+Sum SPSNR:  99730.52903747559
+Sum SSSIM:  1174.0
+SSIM score: 1.0    id   1175
+PSNR: 84.75701904296875    id   1175
+Sum SPSNR:  99815.28605651855
+Sum SSSIM:  1175.0
+SSIM score: 1.0    id   1176
+PSNR: 85.72514343261719    id   1176
+Sum SPSNR:  99901.01119995117
+Sum SSSIM:  1176.0
+SSIM score: 1.0    id   1177
+PSNR: 88.49071502685547    id   1177
+Sum SPSNR:  99989.50191497803
+Sum SSSIM:  1177.0
+SSIM score: 1.0    id   1178
+PSNR: 84.5479736328125    id   1178
+Sum SPSNR:  100074.04988861084
+Sum SSSIM:  1178.0
+SSIM score: 1.0    id   1179
+PSNR: 86.1503677368164    id   1179
+Sum SPSNR:  100160.20025634766
+Sum SSSIM:  1179.0
+SSIM score: 1.0    id   1180
+PSNR: 89.9061279296875    id   1180
+Sum SPSNR:  100250.10638427734
+Sum SSSIM:  1180.0
+SSIM score: 1.0    id   1181
+PSNR: 88.27193450927734    id   1181
+Sum SPSNR:  100338.37831878662
+Sum SSSIM:  1181.0
+SSIM score: 1.0    id   1182
+PSNR: 81.6478271484375    id   1182
+Sum SPSNR:  100420.02614593506
+Sum SSSIM:  1182.0
+SSIM score: 1.0    id   1183
+PSNR: 86.71431732177734    id   1183
+Sum SPSNR:  100506.74046325684
+Sum SSSIM:  1183.0
+SSIM score: 1.0    id   1184
+PSNR: 82.83531951904297    id   1184
+Sum SPSNR:  100589.57578277588
+Sum SSSIM:  1184.0
+SSIM score: 1.0    id   1185
+PSNR: 86.45278930664062    id   1185
+Sum SPSNR:  100676.02857208252
+Sum SSSIM:  1185.0
+SSIM score: 1.0    id   1186
+PSNR: 82.11937713623047    id   1186
+Sum SPSNR:  100758.14794921875
+Sum SSSIM:  1186.0
+SSIM score: 1.0    id   1187
+PSNR: 82.83301544189453    id   1187
+Sum SPSNR:  100840.98096466064
+Sum SSSIM:  1187.0
+SSIM score: 1.0    id   1188
+PSNR: 83.58012390136719    id   1188
+Sum SPSNR:  100924.56108856201
+Sum SSSIM:  1188.0
+SSIM score: 1.0    id   1189
+PSNR: 86.29922485351562    id   1189
+Sum SPSNR:  101010.86031341553
+Sum SSSIM:  1189.0
+SSIM score: 1.0    id   1190
+PSNR: 82.77423095703125    id   1190
+Sum SPSNR:  101093.63454437256
+Sum SSSIM:  1190.0
+SSIM score: 1.0    id   1191
+PSNR: 82.2671890258789    id   1191
+Sum SPSNR:  101175.90173339844
+Sum SSSIM:  1191.0
+SSIM score: 1.0    id   1192
+PSNR: 88.33755493164062    id   1192
+Sum SPSNR:  101264.23928833008
+Sum SSSIM:  1192.0
+SSIM score: 1.0    id   1193
+PSNR: 83.27235412597656    id   1193
+Sum SPSNR:  101347.51164245605
+Sum SSSIM:  1193.0
+SSIM score: 1.0    id   1194
+PSNR: 85.88226318359375    id   1194
+Sum SPSNR:  101433.39390563965
+Sum SSSIM:  1194.0
+SSIM score: 1.0    id   1195
+PSNR: 85.21582794189453    id   1195
+Sum SPSNR:  101518.60973358154
+Sum SSSIM:  1195.0
+SSIM score: 1.0    id   1196
+PSNR: 84.3351821899414    id   1196
+Sum SPSNR:  101602.94491577148
+Sum SSSIM:  1196.0
+SSIM score: 1.0    id   1197
+PSNR: 84.68109893798828    id   1197
+Sum SPSNR:  101687.62601470947
+Sum SSSIM:  1197.0
+SSIM score: 1.0    id   1198
+PSNR: 89.19761657714844    id   1198
+Sum SPSNR:  101776.82363128662
+Sum SSSIM:  1198.0
+SSIM score: 1.0    id   1199
+PSNR: 83.81646728515625    id   1199
+Sum SPSNR:  101860.64009857178
+Sum SSSIM:  1199.0
+SSIM score: 1.0    id   1200
+PSNR: 84.36805725097656    id   1200
+Sum SPSNR:  101945.00815582275
+Sum SSSIM:  1200.0
+SSIM score: 1.0    id   1201
+PSNR: 81.95342254638672    id   1201
+Sum SPSNR:  102026.96157836914
+Sum SSSIM:  1201.0
+SSIM score: 1.0    id   1202
+PSNR: 87.52043151855469    id   1202
+Sum SPSNR:  102114.4820098877
+Sum SSSIM:  1202.0
+SSIM score: 1.0    id   1203
+PSNR: 80.33052062988281    id   1203
+Sum SPSNR:  102194.81253051758
+Sum SSSIM:  1203.0
+SSIM score: 1.0    id   1204
+PSNR: 85.133056640625    id   1204
+Sum SPSNR:  102279.9455871582
+Sum SSSIM:  1204.0
+SSIM score: 1.0    id   1205
+PSNR: 89.37866973876953    id   1205
+Sum SPSNR:  102369.32425689697
+Sum SSSIM:  1205.0
+SSIM score: 1.0    id   1206
+PSNR: 80.99322509765625    id   1206
+Sum SPSNR:  102450.31748199463
+Sum SSSIM:  1206.0
+SSIM score: 1.0    id   1207
+PSNR: 89.98271179199219    id   1207
+Sum SPSNR:  102540.30019378662
+Sum SSSIM:  1207.0
+SSIM score: 1.0    id   1208
+PSNR: 88.13030242919922    id   1208
+Sum SPSNR:  102628.43049621582
+Sum SSSIM:  1208.0
+SSIM score: 1.0    id   1209
+PSNR: 85.25680541992188    id   1209
+Sum SPSNR:  102713.68730163574
+Sum SSSIM:  1209.0
+SSIM score: 1.0    id   1210
+PSNR: 84.91285705566406    id   1210
+Sum SPSNR:  102798.6001586914
+Sum SSSIM:  1210.0
+SSIM score: 1.0    id   1211
+PSNR: 90.50098419189453    id   1211
+Sum SPSNR:  102889.1011428833
+Sum SSSIM:  1211.0
+SSIM score: 1.0    id   1212
+PSNR: 86.42994689941406    id   1212
+Sum SPSNR:  102975.53108978271
+Sum SSSIM:  1212.0
+SSIM score: 1.0    id   1213
+PSNR: 84.66375732421875    id   1213
+Sum SPSNR:  103060.19484710693
+Sum SSSIM:  1213.0
+SSIM score: 1.0    id   1214
+PSNR: 82.57034301757812    id   1214
+Sum SPSNR:  103142.76519012451
+Sum SSSIM:  1214.0
+SSIM score: 1.0    id   1215
+PSNR: 81.76260375976562    id   1215
+Sum SPSNR:  103224.52779388428
+Sum SSSIM:  1215.0
+SSIM score: 1.0    id   1216
+PSNR: 87.88825988769531    id   1216
+Sum SPSNR:  103312.41605377197
+Sum SSSIM:  1216.0
+SSIM score: 1.0    id   1217
+PSNR: 87.61360931396484    id   1217
+Sum SPSNR:  103400.02966308594
+Sum SSSIM:  1217.0
+SSIM score: 1.0    id   1218
+PSNR: 84.59540557861328    id   1218
+Sum SPSNR:  103484.62506866455
+Sum SSSIM:  1218.0
+SSIM score: 1.0    id   1219
+PSNR: 87.03732299804688    id   1219
+Sum SPSNR:  103571.6623916626
+Sum SSSIM:  1219.0
+SSIM score: 1.0    id   1220
+PSNR: 81.90602111816406    id   1220
+Sum SPSNR:  103653.56841278076
+Sum SSSIM:  1220.0
+SSIM score: 1.0    id   1221
+PSNR: 85.89614868164062    id   1221
+Sum SPSNR:  103739.4645614624
+Sum SSSIM:  1221.0
+SSIM score: 1.0    id   1222
+PSNR: 81.9369888305664    id   1222
+Sum SPSNR:  103821.40155029297
+Sum SSSIM:  1222.0
+SSIM score: 1.0    id   1223
+PSNR: 82.2349624633789    id   1223
+Sum SPSNR:  103903.63651275635
+Sum SSSIM:  1223.0
+SSIM score: 1.0    id   1224
+PSNR: 81.77848052978516    id   1224
+Sum SPSNR:  103985.41499328613
+Sum SSSIM:  1224.0
+SSIM score: 1.0    id   1225
+PSNR: 83.23092651367188    id   1225
+Sum SPSNR:  104068.6459197998
+Sum SSSIM:  1225.0
+SSIM score: 1.0    id   1226
+PSNR: 81.83167266845703    id   1226
+Sum SPSNR:  104150.47759246826
+Sum SSSIM:  1226.0
+SSIM score: 1.0    id   1227
+PSNR: 84.598876953125    id   1227
+Sum SPSNR:  104235.07646942139
+Sum SSSIM:  1227.0
+SSIM score: 1.0    id   1228
+PSNR: 87.18273162841797    id   1228
+Sum SPSNR:  104322.2592010498
+Sum SSSIM:  1228.0
+SSIM score: 1.0    id   1229
+PSNR: 83.72013092041016    id   1229
+Sum SPSNR:  104405.97933197021
+Sum SSSIM:  1229.0
+SSIM score: 1.0    id   1230
+PSNR: 83.80095672607422    id   1230
+Sum SPSNR:  104489.78028869629
+Sum SSSIM:  1230.0
+SSIM score: 1.0    id   1231
+PSNR: 82.48542785644531    id   1231
+Sum SPSNR:  104572.26571655273
+Sum SSSIM:  1231.0
+SSIM score: 1.0    id   1232
+PSNR: 82.41653442382812    id   1232
+Sum SPSNR:  104654.68225097656
+Sum SSSIM:  1232.0
+SSIM score: 1.0    id   1233
+PSNR: 83.30406951904297    id   1233
+Sum SPSNR:  104737.9863204956
+Sum SSSIM:  1233.0
+SSIM score: 1.0    id   1234
+PSNR: 82.72422790527344    id   1234
+Sum SPSNR:  104820.71054840088
+Sum SSSIM:  1234.0
+SSIM score: 1.0    id   1235
+PSNR: 86.25059509277344    id   1235
+Sum SPSNR:  104906.96114349365
+Sum SSSIM:  1235.0
+SSIM score: 1.0    id   1236
+PSNR: 86.67510986328125    id   1236
+Sum SPSNR:  104993.63625335693
+Sum SSSIM:  1236.0
+SSIM score: 1.0    id   1237
+PSNR: 82.29500579833984    id   1237
+Sum SPSNR:  105075.93125915527
+Sum SSSIM:  1237.0
+SSIM score: 1.0    id   1238
+PSNR: 88.57392883300781    id   1238
+Sum SPSNR:  105164.50518798828
+Sum SSSIM:  1238.0
+SSIM score: 1.0    id   1239
+PSNR: 87.28744506835938    id   1239
+Sum SPSNR:  105251.79263305664
+Sum SSSIM:  1239.0
+SSIM score: 1.0    id   1240
+PSNR: 81.76746368408203    id   1240
+Sum SPSNR:  105333.56009674072
+Sum SSSIM:  1240.0
+SSIM score: 1.0    id   1241
+PSNR: 87.70015716552734    id   1241
+Sum SPSNR:  105421.26025390625
+Sum SSSIM:  1241.0
+SSIM score: 1.0    id   1242
+PSNR: 87.98641204833984    id   1242
+Sum SPSNR:  105509.24666595459
+Sum SSSIM:  1242.0
+SSIM score: 1.0    id   1243
+PSNR: 82.64064025878906    id   1243
+Sum SPSNR:  105591.88730621338
+Sum SSSIM:  1243.0
+SSIM score: 1.0    id   1244
+PSNR: 82.54515838623047    id   1244
+Sum SPSNR:  105674.43246459961
+Sum SSSIM:  1244.0
+SSIM score: 1.0    id   1245
+PSNR: 86.7689437866211    id   1245
+Sum SPSNR:  105761.20140838623
+Sum SSSIM:  1245.0
+SSIM score: 1.0    id   1246
+PSNR: 86.41908264160156    id   1246
+Sum SPSNR:  105847.62049102783
+Sum SSSIM:  1246.0
+SSIM score: 1.0    id   1247
+PSNR: 88.24974822998047    id   1247
+Sum SPSNR:  105935.87023925781
+Sum SSSIM:  1247.0
+SSIM score: 1.0    id   1248
+PSNR: 81.05467987060547    id   1248
+Sum SPSNR:  106016.92491912842
+Sum SSSIM:  1248.0
+SSIM score: 1.0    id   1249
+PSNR: 90.00407409667969    id   1249
+Sum SPSNR:  106106.9289932251
+Sum SSSIM:  1249.0
+SSIM score: 1.0    id   1250
+PSNR: 87.69700622558594    id   1250
+Sum SPSNR:  106194.62599945068
+Sum SSSIM:  1250.0
+SSIM score: 1.0    id   1251
+PSNR: 83.47518920898438    id   1251
+Sum SPSNR:  106278.10118865967
+Sum SSSIM:  1251.0
+SSIM score: 1.0    id   1252
+PSNR: 86.81414794921875    id   1252
+Sum SPSNR:  106364.91533660889
+Sum SSSIM:  1252.0
+SSIM score: 1.0    id   1253
+PSNR: 86.65850830078125    id   1253
+Sum SPSNR:  106451.57384490967
+Sum SSSIM:  1253.0
+SSIM score: 1.0    id   1254
+PSNR: 82.1891098022461    id   1254
+Sum SPSNR:  106533.76295471191
+Sum SSSIM:  1254.0
+SSIM score: 1.0    id   1255
+PSNR: 81.78604125976562    id   1255
+Sum SPSNR:  106615.54899597168
+Sum SSSIM:  1255.0
+SSIM score: 1.0    id   1256
+PSNR: 89.13005065917969    id   1256
+Sum SPSNR:  106704.67904663086
+Sum SSSIM:  1256.0
+SSIM score: 1.0    id   1257
+PSNR: 86.9591064453125    id   1257
+Sum SPSNR:  106791.63815307617
+Sum SSSIM:  1257.0
+SSIM score: 1.0    id   1258
+PSNR: 87.33932495117188    id   1258
+Sum SPSNR:  106878.97747802734
+Sum SSSIM:  1258.0
+SSIM score: 1.0    id   1259
+PSNR: 85.18537902832031    id   1259
+Sum SPSNR:  106964.16285705566
+Sum SSSIM:  1259.0
+SSIM score: 1.0    id   1260
+PSNR: 89.28691864013672    id   1260
+Sum SPSNR:  107053.4497756958
+Sum SSSIM:  1260.0
+SSIM score: 1.0    id   1261
+PSNR: 88.24349975585938    id   1261
+Sum SPSNR:  107141.69327545166
+Sum SSSIM:  1261.0
+SSIM score: 1.0    id   1262
+PSNR: 84.80174255371094    id   1262
+Sum SPSNR:  107226.49501800537
+Sum SSSIM:  1262.0
+SSIM score: 1.0    id   1263
+PSNR: 87.45722961425781    id   1263
+Sum SPSNR:  107313.95224761963
+Sum SSSIM:  1263.0
+SSIM score: 1.0    id   1264
+PSNR: 85.07038879394531    id   1264
+Sum SPSNR:  107399.02263641357
+Sum SSSIM:  1264.0
+SSIM score: 1.0    id   1265
+PSNR: 80.86672973632812    id   1265
+Sum SPSNR:  107479.8893661499
+Sum SSSIM:  1265.0
+SSIM score: 1.0    id   1266
+PSNR: 82.24650573730469    id   1266
+Sum SPSNR:  107562.1358718872
+Sum SSSIM:  1266.0
+SSIM score: 1.0    id   1267
+PSNR: 88.68193054199219    id   1267
+Sum SPSNR:  107650.8178024292
+Sum SSSIM:  1267.0
+SSIM score: 1.0    id   1268
+PSNR: 83.58065795898438    id   1268
+Sum SPSNR:  107734.39846038818
+Sum SSSIM:  1268.0
+SSIM score: 1.0    id   1269
+PSNR: 82.66583251953125    id   1269
+Sum SPSNR:  107817.06429290771
+Sum SSSIM:  1269.0
+SSIM score: 1.0    id   1270
+PSNR: 87.28870391845703    id   1270
+Sum SPSNR:  107904.35299682617
+Sum SSSIM:  1270.0
+SSIM score: 1.0    id   1271
+PSNR: 82.84413146972656    id   1271
+Sum SPSNR:  107987.1971282959
+Sum SSSIM:  1271.0
+SSIM score: 1.0    id   1272
+PSNR: 85.58160400390625    id   1272
+Sum SPSNR:  108072.7787322998
+Sum SSSIM:  1272.0
+SSIM score: 1.0    id   1273
+PSNR: 86.47842407226562    id   1273
+Sum SPSNR:  108159.25715637207
+Sum SSSIM:  1273.0
+SSIM score: 1.0    id   1274
+PSNR: 81.93798065185547    id   1274
+Sum SPSNR:  108241.19513702393
+Sum SSSIM:  1274.0
+SSIM score: 1.0    id   1275
+PSNR: 87.58782196044922    id   1275
+Sum SPSNR:  108328.78295898438
+Sum SSSIM:  1275.0
+SSIM score: 1.0    id   1276
+PSNR: 87.00869750976562    id   1276
+Sum SPSNR:  108415.79165649414
+Sum SSSIM:  1276.0
+SSIM score: 1.0    id   1277
+PSNR: 83.16889953613281    id   1277
+Sum SPSNR:  108498.96055603027
+Sum SSSIM:  1277.0
+SSIM score: 1.0    id   1278
+PSNR: 87.18220520019531    id   1278
+Sum SPSNR:  108586.14276123047
+Sum SSSIM:  1278.0
+SSIM score: 1.0    id   1279
+PSNR: 81.36123657226562    id   1279
+Sum SPSNR:  108667.50399780273
+Sum SSSIM:  1279.0
+SSIM score: 1.0    id   1280
+PSNR: 83.50101470947266    id   1280
+Sum SPSNR:  108751.0050125122
+Sum SSSIM:  1280.0
+SSIM score: 1.0    id   1281
+PSNR: 86.24988555908203    id   1281
+Sum SPSNR:  108837.25489807129
+Sum SSSIM:  1281.0
+SSIM score: 1.0    id   1282
+PSNR: 89.30511474609375    id   1282
+Sum SPSNR:  108926.56001281738
+Sum SSSIM:  1282.0
+SSIM score: 1.0    id   1283
+PSNR: 82.6985092163086    id   1283
+Sum SPSNR:  109009.25852203369
+Sum SSSIM:  1283.0
+SSIM score: 1.0    id   1284
+PSNR: 88.7300796508789    id   1284
+Sum SPSNR:  109097.98860168457
+Sum SSSIM:  1284.0
+SSIM score: 1.0    id   1285
+PSNR: 84.86912536621094    id   1285
+Sum SPSNR:  109182.85772705078
+Sum SSSIM:  1285.0
+SSIM score: 1.0    id   1286
+PSNR: 80.96134948730469    id   1286
+Sum SPSNR:  109263.81907653809
+Sum SSSIM:  1286.0
+SSIM score: 1.0    id   1287
+PSNR: 87.5387954711914    id   1287
+Sum SPSNR:  109351.35787200928
+Sum SSSIM:  1287.0
+SSIM score: 1.0    id   1288
+PSNR: 86.65168762207031    id   1288
+Sum SPSNR:  109438.00955963135
+Sum SSSIM:  1288.0
+SSIM score: 1.0    id   1289
+PSNR: 86.67961883544922    id   1289
+Sum SPSNR:  109524.6891784668
+Sum SSSIM:  1289.0
+SSIM score: 1.0    id   1290
+PSNR: 85.34587860107422    id   1290
+Sum SPSNR:  109610.03505706787
+Sum SSSIM:  1290.0
+SSIM score: 1.0    id   1291
+PSNR: 81.9832992553711    id   1291
+Sum SPSNR:  109692.01835632324
+Sum SSSIM:  1291.0
+SSIM score: 1.0    id   1292
+PSNR: 83.1022720336914    id   1292
+Sum SPSNR:  109775.12062835693
+Sum SSSIM:  1292.0
+SSIM score: 1.0    id   1293
+PSNR: 91.66148376464844    id   1293
+Sum SPSNR:  109866.78211212158
+Sum SSSIM:  1293.0
+SSIM score: 1.0    id   1294
+PSNR: 86.5486831665039    id   1294
+Sum SPSNR:  109953.33079528809
+Sum SSSIM:  1294.0
+SSIM score: 1.0    id   1295
+PSNR: 88.83106994628906    id   1295
+Sum SPSNR:  110042.16186523438
+Sum SSSIM:  1295.0
+SSIM score: 1.0    id   1296
+PSNR: 88.66763305664062    id   1296
+Sum SPSNR:  110130.82949829102
+Sum SSSIM:  1296.0
+SSIM score: 1.0    id   1297
+PSNR: 88.88092041015625    id   1297
+Sum SPSNR:  110219.71041870117
+Sum SSSIM:  1297.0
+SSIM score: 1.0    id   1298
+PSNR: 87.42477416992188    id   1298
+Sum SPSNR:  110307.1351928711
+Sum SSSIM:  1298.0
+SSIM score: 1.0    id   1299
+PSNR: 82.84297180175781    id   1299
+Sum SPSNR:  110389.97816467285
+Sum SSSIM:  1299.0
+SSIM score: 1.0    id   1300
+PSNR: 86.47099304199219    id   1300
+Sum SPSNR:  110476.44915771484
+Sum SSSIM:  1300.0
+SSIM score: 1.0    id   1301
+PSNR: 82.56829071044922    id   1301
+Sum SPSNR:  110559.0174484253
+Sum SSSIM:  1301.0
+SSIM score: 1.0    id   1302
+PSNR: 86.64752197265625    id   1302
+Sum SPSNR:  110645.66497039795
+Sum SSSIM:  1302.0
+SSIM score: 1.0    id   1303
+PSNR: 81.2271957397461    id   1303
+Sum SPSNR:  110726.8921661377
+Sum SSSIM:  1303.0
+SSIM score: 1.0    id   1304
+PSNR: 84.825439453125    id   1304
+Sum SPSNR:  110811.71760559082
+Sum SSSIM:  1304.0
+SSIM score: 1.0    id   1305
+PSNR: 86.92437744140625    id   1305
+Sum SPSNR:  110898.64198303223
+Sum SSSIM:  1305.0
+SSIM score: 1.0    id   1306
+PSNR: 89.1341552734375    id   1306
+Sum SPSNR:  110987.77613830566
+Sum SSSIM:  1306.0
+SSIM score: 1.0    id   1307
+PSNR: 84.23536682128906    id   1307
+Sum SPSNR:  111072.01150512695
+Sum SSSIM:  1307.0
+SSIM score: 1.0    id   1308
+PSNR: 87.452392578125    id   1308
+Sum SPSNR:  111159.46389770508
+Sum SSSIM:  1308.0
+SSIM score: 1.0    id   1309
+PSNR: 85.25242614746094    id   1309
+Sum SPSNR:  111244.71632385254
+Sum SSSIM:  1309.0
+SSIM score: 1.0    id   1310
+PSNR: 87.91134643554688    id   1310
+Sum SPSNR:  111332.62767028809
+Sum SSSIM:  1310.0
+SSIM score: 1.0    id   1311
+PSNR: 84.00284576416016    id   1311
+Sum SPSNR:  111416.63051605225
+Sum SSSIM:  1311.0
+SSIM score: 1.0    id   1312
+PSNR: 86.64627838134766    id   1312
+Sum SPSNR:  111503.2767944336
+Sum SSSIM:  1312.0
+SSIM score: 1.0    id   1313
+PSNR: 85.35538482666016    id   1313
+Sum SPSNR:  111588.63217926025
+Sum SSSIM:  1313.0
+SSIM score: 1.0    id   1314
+PSNR: 85.79962921142578    id   1314
+Sum SPSNR:  111674.43180847168
+Sum SSSIM:  1314.0
+SSIM score: 1.0    id   1315
+PSNR: 85.06910705566406    id   1315
+Sum SPSNR:  111759.50091552734
+Sum SSSIM:  1315.0
+SSIM score: 1.0    id   1316
+PSNR: 82.01423645019531    id   1316
+Sum SPSNR:  111841.51515197754
+Sum SSSIM:  1316.0
+SSIM score: 1.0    id   1317
+PSNR: 85.14387512207031    id   1317
+Sum SPSNR:  111926.65902709961
+Sum SSSIM:  1317.0
+SSIM score: 1.0    id   1318
+PSNR: 85.30531311035156    id   1318
+Sum SPSNR:  112011.96434020996
+Sum SSSIM:  1318.0
+SSIM score: 1.0    id   1319
+PSNR: 87.48524475097656    id   1319
+Sum SPSNR:  112099.44958496094
+Sum SSSIM:  1319.0
+SSIM score: 1.0    id   1320
+PSNR: 90.81124114990234    id   1320
+Sum SPSNR:  112190.26082611084
+Sum SSSIM:  1320.0
+SSIM score: 1.0    id   1321
+PSNR: 85.35871887207031    id   1321
+Sum SPSNR:  112275.61954498291
+Sum SSSIM:  1321.0
+SSIM score: 1.0    id   1322
+PSNR: 87.44718933105469    id   1322
+Sum SPSNR:  112363.06673431396
+Sum SSSIM:  1322.0
+SSIM score: 1.0    id   1323
+PSNR: 85.88212585449219    id   1323
+Sum SPSNR:  112448.94886016846
+Sum SSSIM:  1323.0
+SSIM score: 1.0    id   1324
+PSNR: 87.49443817138672    id   1324
+Sum SPSNR:  112536.44329833984
+Sum SSSIM:  1324.0
+SSIM score: 1.0    id   1325
+PSNR: 84.81024169921875    id   1325
+Sum SPSNR:  112621.25354003906
+Sum SSSIM:  1325.0
+SSIM score: 1.0    id   1326
+PSNR: 85.6138916015625    id   1326
+Sum SPSNR:  112706.86743164062
+Sum SSSIM:  1326.0
+SSIM score: 1.0    id   1327
+PSNR: 82.57626342773438    id   1327
+Sum SPSNR:  112789.44369506836
+Sum SSSIM:  1327.0
+SSIM score: 1.0    id   1328
+PSNR: 83.1976318359375    id   1328
+Sum SPSNR:  112872.6413269043
+Sum SSSIM:  1328.0
+SSIM score: 1.0    id   1329
+PSNR: 85.53627014160156    id   1329
+Sum SPSNR:  112958.1775970459
+Sum SSSIM:  1329.0
+SSIM score: 1.0    id   1330
+PSNR: 82.62763977050781    id   1330
+Sum SPSNR:  113040.8052368164
+Sum SSSIM:  1330.0
+SSIM score: 1.0    id   1331
+PSNR: 86.06982421875    id   1331
+Sum SPSNR:  113126.87506103516
+Sum SSSIM:  1331.0
+SSIM score: 1.0    id   1332
+PSNR: 89.46648406982422    id   1332
+Sum SPSNR:  113216.34154510498
+Sum SSSIM:  1332.0
+SSIM score: 1.0    id   1333
+PSNR: 85.36148071289062    id   1333
+Sum SPSNR:  113301.70302581787
+Sum SSSIM:  1333.0
+SSIM score: 1.0    id   1334
+PSNR: 86.65324401855469    id   1334
+Sum SPSNR:  113388.35626983643
+Sum SSSIM:  1334.0
+SSIM score: 1.0    id   1335
+PSNR: 85.64665222167969    id   1335
+Sum SPSNR:  113474.0029220581
+Sum SSSIM:  1335.0
+SSIM score: 1.0    id   1336
+PSNR: 89.88849639892578    id   1336
+Sum SPSNR:  113563.89141845703
+Sum SSSIM:  1336.0
+SSIM score: 1.0    id   1337
+PSNR: 87.74886322021484    id   1337
+Sum SPSNR:  113651.64028167725
+Sum SSSIM:  1337.0
+SSIM score: 1.0    id   1338
+PSNR: 86.90418243408203    id   1338
+Sum SPSNR:  113738.54446411133
+Sum SSSIM:  1338.0
+SSIM score: 1.0    id   1339
+PSNR: 83.78990173339844    id   1339
+Sum SPSNR:  113822.33436584473
+Sum SSSIM:  1339.0
+SSIM score: 1.0    id   1340
+PSNR: 87.86263275146484    id   1340
+Sum SPSNR:  113910.19699859619
+Sum SSSIM:  1340.0
+SSIM score: 1.0    id   1341
+PSNR: 84.10832214355469    id   1341
+Sum SPSNR:  113994.30532073975
+Sum SSSIM:  1341.0
+SSIM score: 1.0    id   1342
+PSNR: 89.01447296142578    id   1342
+Sum SPSNR:  114083.31979370117
+Sum SSSIM:  1342.0
+SSIM score: 1.0    id   1343
+PSNR: 82.00786590576172    id   1343
+Sum SPSNR:  114165.32765960693
+Sum SSSIM:  1343.0
+SSIM score: 1.0    id   1344
+PSNR: 85.4385757446289    id   1344
+Sum SPSNR:  114250.76623535156
+Sum SSSIM:  1344.0
+SSIM score: 1.0    id   1345
+PSNR: 84.80305480957031    id   1345
+Sum SPSNR:  114335.56929016113
+Sum SSSIM:  1345.0
+SSIM score: 1.0    id   1346
+PSNR: 87.40375518798828    id   1346
+Sum SPSNR:  114422.97304534912
+Sum SSSIM:  1346.0
+SSIM score: 1.0    id   1347
+PSNR: 83.82113647460938    id   1347
+Sum SPSNR:  114506.79418182373
+Sum SSSIM:  1347.0
+SSIM score: 1.0    id   1348
+PSNR: 82.62580871582031    id   1348
+Sum SPSNR:  114589.41999053955
+Sum SSSIM:  1348.0
+SSIM score: 1.0    id   1349
+PSNR: 90.02958679199219    id   1349
+Sum SPSNR:  114679.44957733154
+Sum SSSIM:  1349.0
+SSIM score: 1.0    id   1350
+PSNR: 86.87754821777344    id   1350
+Sum SPSNR:  114766.32712554932
+Sum SSSIM:  1350.0
+SSIM score: 1.0    id   1351
+PSNR: 87.3753433227539    id   1351
+Sum SPSNR:  114853.70246887207
+Sum SSSIM:  1351.0
+SSIM score: 1.0    id   1352
+PSNR: 85.53399658203125    id   1352
+Sum SPSNR:  114939.2364654541
+Sum SSSIM:  1352.0
+SSIM score: 1.0    id   1353
+PSNR: 83.01243591308594    id   1353
+Sum SPSNR:  115022.24890136719
+Sum SSSIM:  1353.0
+SSIM score: 1.0    id   1354
+PSNR: 87.1851806640625    id   1354
+Sum SPSNR:  115109.43408203125
+Sum SSSIM:  1354.0
+SSIM score: 1.0    id   1355
+PSNR: 85.82435607910156    id   1355
+Sum SPSNR:  115195.25843811035
+Sum SSSIM:  1355.0
+SSIM score: 1.0    id   1356
+PSNR: 81.97760009765625    id   1356
+Sum SPSNR:  115277.23603820801
+Sum SSSIM:  1356.0
+SSIM score: 1.0    id   1357
+PSNR: 82.74481201171875    id   1357
+Sum SPSNR:  115359.98085021973
+Sum SSSIM:  1357.0
+SSIM: TB  1.0
+PSNR: TB  85.01103968328646
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  1715
+adv_correct:  1357
+accuracy of adv imgs in testing set: 0.558268
+
+adv succeeded 0.441732
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 103,
+        "adv_succeed_%": 0.46396396396396394
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 51,
+        "adv_succeed_%": 0.4636363636363636
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 58,
+        "adv_succeed_%": 0.3515151515151515
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 342,
+        "adv_succeed_%": 0.35477178423236516
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 114,
+        "adv_succeed_%": 0.4789915966386555
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 97,
+        "adv_succeed_%": 0.49743589743589745
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 59,
+        "adv_succeed_%": 0.3010204081632653
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 130,
+        "adv_succeed_%": 0.5963302752293578
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 377,
+        "adv_succeed_%": 0.5643712574850299
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 26,
+        "adv_succeed_%": 0.2708333333333333
+    }
+}
+184.98482179641724
+==================================================================
+1691875389.594087  running gen  10
+Files already downloaded and verified
+len(test_dataloader):  10000
+10 *perturbation
+SSIM score: 1.0    id   1
+PSNR: 81.569091796875    id   1
+Sum SPSNR:  81.569091796875
+Sum SSSIM:  1.0
+SSIM score: 1.0    id   2
+PSNR: 88.2205810546875    id   2
+Sum SPSNR:  169.7896728515625
+Sum SSSIM:  2.0
+SSIM score: 1.0    id   3
+PSNR: 82.86788177490234    id   3
+Sum SPSNR:  252.65755462646484
+Sum SSSIM:  3.0
+SSIM score: 1.0    id   4
+PSNR: 83.42861938476562    id   4
+Sum SPSNR:  336.08617401123047
+Sum SSSIM:  4.0
+SSIM score: 1.0    id   5
+PSNR: 85.0438232421875    id   5
+Sum SPSNR:  421.12999725341797
+Sum SSSIM:  5.0
+SSIM score: 1.0    id   6
+PSNR: 83.77735137939453    id   6
+Sum SPSNR:  504.9073486328125
+Sum SSSIM:  6.0
+SSIM score: 1.0    id   7
+PSNR: 85.91085815429688    id   7
+Sum SPSNR:  590.8182067871094
+Sum SSSIM:  7.0
+SSIM score: 1.0    id   8
+PSNR: 81.74422454833984    id   8
+Sum SPSNR:  672.5624313354492
+Sum SSSIM:  8.0
+SSIM score: 1.0    id   9
+PSNR: 84.11668395996094    id   9
+Sum SPSNR:  756.6791152954102
+Sum SSSIM:  9.0
+SSIM score: 1.0    id   10
+PSNR: 83.3231430053711    id   10
+Sum SPSNR:  840.0022583007812
+Sum SSSIM:  10.0
+SSIM score: 1.0    id   11
+PSNR: 84.784912109375    id   11
+Sum SPSNR:  924.7871704101562
+Sum SSSIM:  11.0
+SSIM score: 1.0    id   12
+PSNR: 86.52383422851562    id   12
+Sum SPSNR:  1011.3110046386719
+Sum SSSIM:  12.0
+SSIM score: 1.0    id   13
+PSNR: 81.5694351196289    id   13
+Sum SPSNR:  1092.8804397583008
+Sum SSSIM:  13.0
+SSIM score: 1.0    id   14
+PSNR: 82.55369567871094    id   14
+Sum SPSNR:  1175.4341354370117
+Sum SSSIM:  14.0
+SSIM score: 1.0    id   15
+PSNR: 82.07511138916016    id   15
+Sum SPSNR:  1257.5092468261719
+Sum SSSIM:  15.0
+SSIM score: 1.0    id   16
+PSNR: 82.72642517089844    id   16
+Sum SPSNR:  1340.2356719970703
+Sum SSSIM:  16.0
+SSIM score: 1.0    id   17
+PSNR: 81.63835144042969    id   17
+Sum SPSNR:  1421.8740234375
+Sum SSSIM:  17.0
+SSIM score: 1.0    id   18
+PSNR: 83.4214859008789    id   18
+Sum SPSNR:  1505.295509338379
+Sum SSSIM:  18.0
+SSIM score: 1.0    id   19
+PSNR: 88.31730651855469    id   19
+Sum SPSNR:  1593.6128158569336
+Sum SSSIM:  19.0
+SSIM score: 1.0    id   20
+PSNR: 85.2377700805664    id   20
+Sum SPSNR:  1678.8505859375
+Sum SSSIM:  20.0
+SSIM score: 1.0    id   21
+PSNR: 81.99497985839844    id   21
+Sum SPSNR:  1760.8455657958984
+Sum SSSIM:  21.0
+SSIM score: 1.0    id   22
+PSNR: 88.76516723632812    id   22
+Sum SPSNR:  1849.6107330322266
+Sum SSSIM:  22.0
+SSIM score: 1.0    id   23
+PSNR: 81.89840698242188    id   23
+Sum SPSNR:  1931.5091400146484
+Sum SSSIM:  23.0
+SSIM score: 1.0    id   24
+PSNR: 82.10155487060547    id   24
+Sum SPSNR:  2013.610694885254
+Sum SSSIM:  24.0
+SSIM score: 1.0    id   25
+PSNR: 89.77020263671875    id   25
+Sum SPSNR:  2103.3808975219727
+Sum SSSIM:  25.0
+SSIM score: 1.0    id   26
+PSNR: 90.53829193115234    id   26
+Sum SPSNR:  2193.919189453125
+Sum SSSIM:  26.0
+SSIM score: 1.0    id   27
+PSNR: 88.92428588867188    id   27
+Sum SPSNR:  2282.843475341797
+Sum SSSIM:  27.0
+SSIM score: 1.0    id   28
+PSNR: 81.15414428710938    id   28
+Sum SPSNR:  2363.9976196289062
+Sum SSSIM:  28.0
+SSIM score: 1.0    id   29
+PSNR: 84.65748596191406    id   29
+Sum SPSNR:  2448.6551055908203
+Sum SSSIM:  29.0
+SSIM score: 1.0    id   30
+PSNR: 83.21568298339844    id   30
+Sum SPSNR:  2531.8707885742188
+Sum SSSIM:  30.0
+SSIM score: 1.0    id   31
+PSNR: 86.18690490722656    id   31
+Sum SPSNR:  2618.0576934814453
+Sum SSSIM:  31.0
+SSIM score: 1.0    id   32
+PSNR: 80.09805297851562    id   32
+Sum SPSNR:  2698.155746459961
+Sum SSSIM:  32.0
+SSIM score: 1.0    id   33
+PSNR: 82.19066619873047    id   33
+Sum SPSNR:  2780.3464126586914
+Sum SSSIM:  33.0
+SSIM score: 1.0    id   34
+PSNR: 81.87162780761719    id   34
+Sum SPSNR:  2862.2180404663086
+Sum SSSIM:  34.0
+SSIM score: 1.0    id   35
+PSNR: 81.405517578125    id   35
+Sum SPSNR:  2943.6235580444336
+Sum SSSIM:  35.0
+SSIM score: 1.0    id   36
+PSNR: 83.5875244140625    id   36
+Sum SPSNR:  3027.211082458496
+Sum SSSIM:  36.0
+SSIM score: 1.0    id   37
+PSNR: 81.84230041503906    id   37
+Sum SPSNR:  3109.053382873535
+Sum SSSIM:  37.0
+SSIM score: 1.0    id   38
+PSNR: 86.63009643554688    id   38
+Sum SPSNR:  3195.683479309082
+Sum SSSIM:  38.0
+SSIM score: 1.0    id   39
+PSNR: 82.93926239013672    id   39
+Sum SPSNR:  3278.6227416992188
+Sum SSSIM:  39.0
+SSIM score: 1.0    id   40
+PSNR: 80.917236328125    id   40
+Sum SPSNR:  3359.5399780273438
+Sum SSSIM:  40.0
+SSIM score: 1.0    id   41
+PSNR: 81.12974548339844    id   41
+Sum SPSNR:  3440.669723510742
+Sum SSSIM:  41.0
+SSIM score: 1.0    id   42
+PSNR: 86.47723388671875    id   42
+Sum SPSNR:  3527.146957397461
+Sum SSSIM:  42.0
+SSIM score: 1.0    id   43
+PSNR: 88.96229553222656    id   43
+Sum SPSNR:  3616.1092529296875
+Sum SSSIM:  43.0
+SSIM score: 1.0    id   44
+PSNR: 87.01071166992188    id   44
+Sum SPSNR:  3703.1199645996094
+Sum SSSIM:  44.0
+SSIM score: 1.0    id   45
+PSNR: 81.959716796875    id   45
+Sum SPSNR:  3785.0796813964844
+Sum SSSIM:  45.0
+SSIM score: 1.0    id   46
+PSNR: 84.30210876464844    id   46
+Sum SPSNR:  3869.381790161133
+Sum SSSIM:  46.0
+SSIM score: 1.0    id   47
+PSNR: 87.34313201904297    id   47
+Sum SPSNR:  3956.724922180176
+Sum SSSIM:  47.0
+SSIM score: 1.0    id   48
+PSNR: 80.2726058959961    id   48
+Sum SPSNR:  4036.997528076172
+Sum SSSIM:  48.0
+SSIM score: 1.0    id   49
+PSNR: 87.16824340820312    id   49
+Sum SPSNR:  4124.165771484375
+Sum SSSIM:  49.0
+SSIM score: 1.0    id   50
+PSNR: 81.35328674316406    id   50
+Sum SPSNR:  4205.519058227539
+Sum SSSIM:  50.0
+SSIM score: 1.0    id   51
+PSNR: 89.73702239990234    id   51
+Sum SPSNR:  4295.256080627441
+Sum SSSIM:  51.0
+SSIM score: 1.0    id   52
+PSNR: 89.47982025146484    id   52
+Sum SPSNR:  4384.735900878906
+Sum SSSIM:  52.0
+SSIM score: 1.0    id   53
+PSNR: 87.99545288085938    id   53
+Sum SPSNR:  4472.731353759766
+Sum SSSIM:  53.0
+SSIM score: 1.0    id   54
+PSNR: 86.43363189697266    id   54
+Sum SPSNR:  4559.164985656738
+Sum SSSIM:  54.0
+SSIM score: 1.0    id   55
+PSNR: 81.19541931152344    id   55
+Sum SPSNR:  4640.360404968262
+Sum SSSIM:  55.0
+SSIM score: 1.0    id   56
+PSNR: 83.5346908569336    id   56
+Sum SPSNR:  4723.895095825195
+Sum SSSIM:  56.0
+SSIM score: 1.0    id   57
+PSNR: 82.99480438232422    id   57
+Sum SPSNR:  4806.8899002075195
+Sum SSSIM:  57.0
+SSIM score: 1.0    id   58
+PSNR: 82.82025146484375    id   58
+Sum SPSNR:  4889.710151672363
+Sum SSSIM:  58.0
+SSIM score: 1.0    id   59
+PSNR: 83.18592071533203    id   59
+Sum SPSNR:  4972.896072387695
+Sum SSSIM:  59.0
+SSIM score: 1.0    id   60
+PSNR: 81.89312744140625    id   60
+Sum SPSNR:  5054.789199829102
+Sum SSSIM:  60.0
+SSIM score: 1.0    id   61
+PSNR: 80.97518920898438    id   61
+Sum SPSNR:  5135.764389038086
+Sum SSSIM:  61.0
+SSIM score: 1.0    id   62
+PSNR: 88.79141235351562    id   62
+Sum SPSNR:  5224.555801391602
+Sum SSSIM:  62.0
+SSIM score: 1.0    id   63
+PSNR: 81.61812591552734    id   63
+Sum SPSNR:  5306.173927307129
+Sum SSSIM:  63.0
+SSIM score: 1.0    id   64
+PSNR: 83.6209487915039    id   64
+Sum SPSNR:  5389.794876098633
+Sum SSSIM:  64.0
+SSIM score: 1.0    id   65
+PSNR: 85.56640625    id   65
+Sum SPSNR:  5475.361282348633
+Sum SSSIM:  65.0
+SSIM score: 1.0    id   66
+PSNR: 85.80432891845703    id   66
+Sum SPSNR:  5561.16561126709
+Sum SSSIM:  66.0
+SSIM score: 1.0    id   67
+PSNR: 83.29443359375    id   67
+Sum SPSNR:  5644.46004486084
+Sum SSSIM:  67.0
+SSIM score: 1.0    id   68
+PSNR: 84.30319213867188    id   68
+Sum SPSNR:  5728.763236999512
+Sum SSSIM:  68.0
+SSIM score: 1.0    id   69
+PSNR: 82.79631805419922    id   69
+Sum SPSNR:  5811.559555053711
+Sum SSSIM:  69.0
+SSIM score: 1.0    id   70
+PSNR: 87.32359313964844    id   70
+Sum SPSNR:  5898.883148193359
+Sum SSSIM:  70.0
+SSIM score: 1.0    id   71
+PSNR: 82.37565612792969    id   71
+Sum SPSNR:  5981.258804321289
+Sum SSSIM:  71.0
+SSIM score: 1.0    id   72
+PSNR: 79.55545043945312    id   72
+Sum SPSNR:  6060.814254760742
+Sum SSSIM:  72.0
+SSIM score: 1.0    id   73
+PSNR: 85.04489135742188    id   73
+Sum SPSNR:  6145.859146118164
+Sum SSSIM:  73.0
+SSIM score: 1.0    id   74
+PSNR: 80.35498809814453    id   74
+Sum SPSNR:  6226.214134216309
+Sum SSSIM:  74.0
+SSIM score: 1.0    id   75
+PSNR: 83.21127319335938    id   75
+Sum SPSNR:  6309.425407409668
+Sum SSSIM:  75.0
+SSIM score: 1.0    id   76
+PSNR: 85.82294464111328    id   76
+Sum SPSNR:  6395.248352050781
+Sum SSSIM:  76.0
+SSIM score: 1.0    id   77
+PSNR: 82.43055725097656    id   77
+Sum SPSNR:  6477.678909301758
+Sum SSSIM:  77.0
+SSIM score: 1.0    id   78
+PSNR: 86.0264892578125    id   78
+Sum SPSNR:  6563.70539855957
+Sum SSSIM:  78.0
+SSIM score: 1.0    id   79
+PSNR: 85.52481079101562    id   79
+Sum SPSNR:  6649.230209350586
+Sum SSSIM:  79.0
+SSIM score: 1.0    id   80
+PSNR: 83.51570892333984    id   80
+Sum SPSNR:  6732.745918273926
+Sum SSSIM:  80.0
+SSIM score: 1.0    id   81
+PSNR: 86.92620086669922    id   81
+Sum SPSNR:  6819.672119140625
+Sum SSSIM:  81.0
+SSIM score: 1.0    id   82
+PSNR: 84.64958190917969    id   82
+Sum SPSNR:  6904.321701049805
+Sum SSSIM:  82.0
+SSIM score: 1.0    id   83
+PSNR: 87.7568359375    id   83
+Sum SPSNR:  6992.078536987305
+Sum SSSIM:  83.0
+SSIM score: 1.0    id   84
+PSNR: 82.06240844726562    id   84
+Sum SPSNR:  7074.14094543457
+Sum SSSIM:  84.0
+SSIM score: 1.0    id   85
+PSNR: 85.29104614257812    id   85
+Sum SPSNR:  7159.431991577148
+Sum SSSIM:  85.0
+SSIM score: 1.0    id   86
+PSNR: 81.90680694580078    id   86
+Sum SPSNR:  7241.338798522949
+Sum SSSIM:  86.0
+SSIM score: 1.0    id   87
+PSNR: 84.4737319946289    id   87
+Sum SPSNR:  7325.812530517578
+Sum SSSIM:  87.0
+SSIM score: 1.0    id   88
+PSNR: 86.6867904663086    id   88
+Sum SPSNR:  7412.499320983887
+Sum SSSIM:  88.0
+SSIM score: 1.0    id   89
+PSNR: 88.07693481445312    id   89
+Sum SPSNR:  7500.57625579834
+Sum SSSIM:  89.0
+SSIM score: 1.0    id   90
+PSNR: 85.38475036621094    id   90
+Sum SPSNR:  7585.961006164551
+Sum SSSIM:  90.0
+SSIM score: 1.0    id   91
+PSNR: 84.51419067382812    id   91
+Sum SPSNR:  7670.475196838379
+Sum SSSIM:  91.0
+SSIM score: 1.0    id   92
+PSNR: 82.95428466796875    id   92
+Sum SPSNR:  7753.429481506348
+Sum SSSIM:  92.0
+SSIM score: 1.0    id   93
+PSNR: 84.41595458984375    id   93
+Sum SPSNR:  7837.845436096191
+Sum SSSIM:  93.0
+SSIM score: 1.0    id   94
+PSNR: 83.39569091796875    id   94
+Sum SPSNR:  7921.24112701416
+Sum SSSIM:  94.0
+SSIM score: 1.0    id   95
+PSNR: 81.64875793457031    id   95
+Sum SPSNR:  8002.8898849487305
+Sum SSSIM:  95.0
+SSIM score: 1.0    id   96
+PSNR: 85.78009796142578    id   96
+Sum SPSNR:  8088.669982910156
+Sum SSSIM:  96.0
+SSIM score: 1.0    id   97
+PSNR: 80.64685821533203    id   97
+Sum SPSNR:  8169.316841125488
+Sum SSSIM:  97.0
+SSIM score: 1.0    id   98
+PSNR: 89.76766967773438    id   98
+Sum SPSNR:  8259.084510803223
+Sum SSSIM:  98.0
+SSIM score: 1.0    id   99
+PSNR: 86.15505981445312    id   99
+Sum SPSNR:  8345.239570617676
+Sum SSSIM:  99.0
+SSIM score: 1.0    id   100
+PSNR: 81.26251220703125    id   100
+Sum SPSNR:  8426.502082824707
+Sum SSSIM:  100.0
+SSIM score: 1.0    id   101
+PSNR: 82.64236450195312    id   101
+Sum SPSNR:  8509.14444732666
+Sum SSSIM:  101.0
+SSIM score: 1.0    id   102
+PSNR: 80.61561584472656    id   102
+Sum SPSNR:  8589.760063171387
+Sum SSSIM:  102.0
+SSIM score: 1.0    id   103
+PSNR: 82.26673889160156    id   103
+Sum SPSNR:  8672.026802062988
+Sum SSSIM:  103.0
+SSIM score: 1.0    id   104
+PSNR: 82.62451934814453    id   104
+Sum SPSNR:  8754.651321411133
+Sum SSSIM:  104.0
+SSIM score: 1.0    id   105
+PSNR: 83.52466583251953    id   105
+Sum SPSNR:  8838.175987243652
+Sum SSSIM:  105.0
+SSIM score: 1.0    id   106
+PSNR: 86.45633697509766    id   106
+Sum SPSNR:  8924.63232421875
+Sum SSSIM:  106.0
+SSIM score: 1.0    id   107
+PSNR: 85.80802154541016    id   107
+Sum SPSNR:  9010.44034576416
+Sum SSSIM:  107.0
+SSIM score: 1.0    id   108
+PSNR: 86.09097290039062    id   108
+Sum SPSNR:  9096.53131866455
+Sum SSSIM:  108.0
+SSIM score: 1.0    id   109
+PSNR: 82.32420349121094    id   109
+Sum SPSNR:  9178.855522155762
+Sum SSSIM:  109.0
+SSIM score: 1.0    id   110
+PSNR: 84.16954803466797    id   110
+Sum SPSNR:  9263.02507019043
+Sum SSSIM:  110.0
+SSIM score: 1.0    id   111
+PSNR: 84.40478515625    id   111
+Sum SPSNR:  9347.42985534668
+Sum SSSIM:  111.0
+SSIM score: 1.0    id   112
+PSNR: 86.27009582519531    id   112
+Sum SPSNR:  9433.699951171875
+Sum SSSIM:  112.0
+SSIM score: 1.0    id   113
+PSNR: 81.69959259033203    id   113
+Sum SPSNR:  9515.399543762207
+Sum SSSIM:  113.0
+SSIM score: 1.0    id   114
+PSNR: 87.92832946777344    id   114
+Sum SPSNR:  9603.32787322998
+Sum SSSIM:  114.0
+SSIM score: 1.0    id   115
+PSNR: 83.41267395019531    id   115
+Sum SPSNR:  9686.740547180176
+Sum SSSIM:  115.0
+SSIM score: 1.0    id   116
+PSNR: 88.88970947265625    id   116
+Sum SPSNR:  9775.630256652832
+Sum SSSIM:  116.0
+SSIM score: 1.0    id   117
+PSNR: 82.25727844238281    id   117
+Sum SPSNR:  9857.887535095215
+Sum SSSIM:  117.0
+SSIM score: 1.0    id   118
+PSNR: 86.9996337890625    id   118
+Sum SPSNR:  9944.887168884277
+Sum SSSIM:  118.0
+SSIM score: 1.0    id   119
+PSNR: 85.33557891845703    id   119
+Sum SPSNR:  10030.222747802734
+Sum SSSIM:  119.0
+SSIM score: 1.0    id   120
+PSNR: 85.54837036132812    id   120
+Sum SPSNR:  10115.771118164062
+Sum SSSIM:  120.0
+SSIM score: 1.0    id   121
+PSNR: 86.51168823242188    id   121
+Sum SPSNR:  10202.282806396484
+Sum SSSIM:  121.0
+SSIM score: 1.0    id   122
+PSNR: 81.8814697265625    id   122
+Sum SPSNR:  10284.164276123047
+Sum SSSIM:  122.0
+SSIM score: 1.0    id   123
+PSNR: 80.75526428222656    id   123
+Sum SPSNR:  10364.919540405273
+Sum SSSIM:  123.0
+SSIM score: 1.0    id   124
+PSNR: 84.81094360351562    id   124
+Sum SPSNR:  10449.730484008789
+Sum SSSIM:  124.0
+SSIM score: 1.0    id   125
+PSNR: 86.99327087402344    id   125
+Sum SPSNR:  10536.723754882812
+Sum SSSIM:  125.0
+SSIM score: 1.0    id   126
+PSNR: 83.86284637451172    id   126
+Sum SPSNR:  10620.586601257324
+Sum SSSIM:  126.0
+SSIM score: 1.0    id   127
+PSNR: 84.68848419189453    id   127
+Sum SPSNR:  10705.275085449219
+Sum SSSIM:  127.0
+SSIM score: 1.0    id   128
+PSNR: 83.76516723632812    id   128
+Sum SPSNR:  10789.040252685547
+Sum SSSIM:  128.0
+SSIM score: 1.0    id   129
+PSNR: 88.27507019042969    id   129
+Sum SPSNR:  10877.315322875977
+Sum SSSIM:  129.0
+SSIM score: 1.0    id   130
+PSNR: 86.74739074707031    id   130
+Sum SPSNR:  10964.062713623047
+Sum SSSIM:  130.0
+SSIM score: 1.0    id   131
+PSNR: 82.47969055175781    id   131
+Sum SPSNR:  11046.542404174805
+Sum SSSIM:  131.0
+SSIM score: 1.0    id   132
+PSNR: 83.41920471191406    id   132
+Sum SPSNR:  11129.961608886719
+Sum SSSIM:  132.0
+SSIM score: 1.0    id   133
+PSNR: 81.05731964111328    id   133
+Sum SPSNR:  11211.018928527832
+Sum SSSIM:  133.0
+SSIM score: 1.0    id   134
+PSNR: 83.71343994140625    id   134
+Sum SPSNR:  11294.732368469238
+Sum SSSIM:  134.0
+SSIM score: 1.0    id   135
+PSNR: 88.2181396484375    id   135
+Sum SPSNR:  11382.950508117676
+Sum SSSIM:  135.0
+SSIM score: 1.0    id   136
+PSNR: 79.60804748535156    id   136
+Sum SPSNR:  11462.558555603027
+Sum SSSIM:  136.0
+SSIM score: 1.0    id   137
+PSNR: 84.96015930175781    id   137
+Sum SPSNR:  11547.518714904785
+Sum SSSIM:  137.0
+SSIM score: 1.0    id   138
+PSNR: 80.5171890258789    id   138
+Sum SPSNR:  11628.035903930664
+Sum SSSIM:  138.0
+SSIM score: 1.0    id   139
+PSNR: 87.57919311523438    id   139
+Sum SPSNR:  11715.615097045898
+Sum SSSIM:  139.0
+SSIM score: 1.0    id   140
+PSNR: 88.05294799804688    id   140
+Sum SPSNR:  11803.668045043945
+Sum SSSIM:  140.0
+SSIM score: 1.0    id   141
+PSNR: 83.41839599609375    id   141
+Sum SPSNR:  11887.086441040039
+Sum SSSIM:  141.0
+SSIM score: 1.0    id   142
+PSNR: 86.98374938964844    id   142
+Sum SPSNR:  11974.070190429688
+Sum SSSIM:  142.0
+SSIM score: 1.0    id   143
+PSNR: 85.56881713867188    id   143
+Sum SPSNR:  12059.63900756836
+Sum SSSIM:  143.0
+SSIM score: 1.0    id   144
+PSNR: 85.28335571289062    id   144
+Sum SPSNR:  12144.92236328125
+Sum SSSIM:  144.0
+SSIM score: 1.0    id   145
+PSNR: 81.62123107910156    id   145
+Sum SPSNR:  12226.543594360352
+Sum SSSIM:  145.0
+SSIM score: 1.0    id   146
+PSNR: 81.57389831542969    id   146
+Sum SPSNR:  12308.117492675781
+Sum SSSIM:  146.0
+SSIM score: 1.0    id   147
+PSNR: 88.8881607055664    id   147
+Sum SPSNR:  12397.005653381348
+Sum SSSIM:  147.0
+SSIM score: 1.0    id   148
+PSNR: 86.18788146972656    id   148
+Sum SPSNR:  12483.193534851074
+Sum SSSIM:  148.0
+SSIM score: 1.0    id   149
+PSNR: 87.15190887451172    id   149
+Sum SPSNR:  12570.345443725586
+Sum SSSIM:  149.0
+SSIM score: 1.0    id   150
+PSNR: 80.79695892333984    id   150
+Sum SPSNR:  12651.142402648926
+Sum SSSIM:  150.0
+SSIM score: 1.0    id   151
+PSNR: 81.50725555419922    id   151
+Sum SPSNR:  12732.649658203125
+Sum SSSIM:  151.0
+SSIM score: 1.0    id   152
+PSNR: 88.0055923461914    id   152
+Sum SPSNR:  12820.655250549316
+Sum SSSIM:  152.0
+SSIM score: 1.0    id   153
+PSNR: 84.83612060546875    id   153
+Sum SPSNR:  12905.491371154785
+Sum SSSIM:  153.0
+SSIM score: 1.0    id   154
+PSNR: 86.0582046508789    id   154
+Sum SPSNR:  12991.549575805664
+Sum SSSIM:  154.0
+SSIM score: 1.0    id   155
+PSNR: 81.82673645019531    id   155
+Sum SPSNR:  13073.37631225586
+Sum SSSIM:  155.0
+SSIM score: 1.0    id   156
+PSNR: 88.61068725585938    id   156
+Sum SPSNR:  13161.986999511719
+Sum SSSIM:  156.0
+SSIM score: 1.0    id   157
+PSNR: 81.48944854736328    id   157
+Sum SPSNR:  13243.476448059082
+Sum SSSIM:  157.0
+SSIM score: 1.0    id   158
+PSNR: 80.79290771484375    id   158
+Sum SPSNR:  13324.269355773926
+Sum SSSIM:  158.0
+SSIM score: 1.0    id   159
+PSNR: 84.24370574951172    id   159
+Sum SPSNR:  13408.513061523438
+Sum SSSIM:  159.0
+SSIM score: 1.0    id   160
+PSNR: 82.04673767089844    id   160
+Sum SPSNR:  13490.559799194336
+Sum SSSIM:  160.0
+SSIM score: 1.0    id   161
+PSNR: 82.08769226074219    id   161
+Sum SPSNR:  13572.647491455078
+Sum SSSIM:  161.0
+SSIM score: 1.0    id   162
+PSNR: 86.93856811523438    id   162
+Sum SPSNR:  13659.586059570312
+Sum SSSIM:  162.0
+SSIM score: 1.0    id   163
+PSNR: 81.19010162353516    id   163
+Sum SPSNR:  13740.776161193848
+Sum SSSIM:  163.0
+SSIM score: 1.0    id   164
+PSNR: 87.58187866210938    id   164
+Sum SPSNR:  13828.358039855957
+Sum SSSIM:  164.0
+SSIM score: 1.0    id   165
+PSNR: 88.79646301269531    id   165
+Sum SPSNR:  13917.154502868652
+Sum SSSIM:  165.0
+SSIM score: 1.0    id   166
+PSNR: 79.51878356933594    id   166
+Sum SPSNR:  13996.673286437988
+Sum SSSIM:  166.0
+SSIM score: 1.0    id   167
+PSNR: 83.10780334472656    id   167
+Sum SPSNR:  14079.781089782715
+Sum SSSIM:  167.0
+SSIM score: 1.0    id   168
+PSNR: 83.3798599243164    id   168
+Sum SPSNR:  14163.160949707031
+Sum SSSIM:  168.0
+SSIM score: 1.0    id   169
+PSNR: 87.16041564941406    id   169
+Sum SPSNR:  14250.321365356445
+Sum SSSIM:  169.0
+SSIM score: 1.0    id   170
+PSNR: 86.35636138916016    id   170
+Sum SPSNR:  14336.677726745605
+Sum SSSIM:  170.0
+SSIM score: 1.0    id   171
+PSNR: 85.6817626953125    id   171
+Sum SPSNR:  14422.359489440918
+Sum SSSIM:  171.0
+SSIM score: 1.0    id   172
+PSNR: 81.7313461303711    id   172
+Sum SPSNR:  14504.090835571289
+Sum SSSIM:  172.0
+SSIM score: 1.0    id   173
+PSNR: 86.14775848388672    id   173
+Sum SPSNR:  14590.238594055176
+Sum SSSIM:  173.0
+SSIM score: 1.0    id   174
+PSNR: 83.90315246582031    id   174
+Sum SPSNR:  14674.141746520996
+Sum SSSIM:  174.0
+SSIM score: 1.0    id   175
+PSNR: 84.00066375732422    id   175
+Sum SPSNR:  14758.14241027832
+Sum SSSIM:  175.0
+SSIM score: 1.0    id   176
+PSNR: 87.74090576171875    id   176
+Sum SPSNR:  14845.883316040039
+Sum SSSIM:  176.0
+SSIM score: 1.0    id   177
+PSNR: 89.38273620605469    id   177
+Sum SPSNR:  14935.266052246094
+Sum SSSIM:  177.0
+SSIM score: 1.0    id   178
+PSNR: 83.49749755859375    id   178
+Sum SPSNR:  15018.763549804688
+Sum SSSIM:  178.0
+SSIM score: 1.0    id   179
+PSNR: 82.49124145507812    id   179
+Sum SPSNR:  15101.254791259766
+Sum SSSIM:  179.0
+SSIM score: 1.0    id   180
+PSNR: 83.02368927001953    id   180
+Sum SPSNR:  15184.278480529785
+Sum SSSIM:  180.0
+SSIM score: 1.0    id   181
+PSNR: 83.97052764892578    id   181
+Sum SPSNR:  15268.249008178711
+Sum SSSIM:  181.0
+SSIM score: 1.0    id   182
+PSNR: 83.13084411621094    id   182
+Sum SPSNR:  15351.379852294922
+Sum SSSIM:  182.0
+SSIM score: 1.0    id   183
+PSNR: 90.62351989746094    id   183
+Sum SPSNR:  15442.003372192383
+Sum SSSIM:  183.0
+SSIM score: 1.0    id   184
+PSNR: 82.35985565185547    id   184
+Sum SPSNR:  15524.363227844238
+Sum SSSIM:  184.0
+SSIM score: 1.0    id   185
+PSNR: 86.65741729736328    id   185
+Sum SPSNR:  15611.020645141602
+Sum SSSIM:  185.0
+SSIM score: 1.0    id   186
+PSNR: 85.80585479736328    id   186
+Sum SPSNR:  15696.826499938965
+Sum SSSIM:  186.0
+SSIM score: 1.0    id   187
+PSNR: 81.6853256225586    id   187
+Sum SPSNR:  15778.511825561523
+Sum SSSIM:  187.0
+SSIM score: 1.0    id   188
+PSNR: 84.6506576538086    id   188
+Sum SPSNR:  15863.162483215332
+Sum SSSIM:  188.0
+SSIM score: 1.0    id   189
+PSNR: 84.15821075439453    id   189
+Sum SPSNR:  15947.320693969727
+Sum SSSIM:  189.0
+SSIM score: 1.0    id   190
+PSNR: 83.567626953125    id   190
+Sum SPSNR:  16030.888320922852
+Sum SSSIM:  190.0
+SSIM score: 1.0    id   191
+PSNR: 82.33866882324219    id   191
+Sum SPSNR:  16113.226989746094
+Sum SSSIM:  191.0
+SSIM score: 1.0    id   192
+PSNR: 82.19758605957031    id   192
+Sum SPSNR:  16195.424575805664
+Sum SSSIM:  192.0
+SSIM score: 1.0    id   193
+PSNR: 81.95494079589844    id   193
+Sum SPSNR:  16277.379516601562
+Sum SSSIM:  193.0
+SSIM score: 1.0    id   194
+PSNR: 82.25216674804688    id   194
+Sum SPSNR:  16359.63168334961
+Sum SSSIM:  194.0
+SSIM score: 1.0    id   195
+PSNR: 84.38206481933594    id   195
+Sum SPSNR:  16444.013748168945
+Sum SSSIM:  195.0
+SSIM score: 1.0    id   196
+PSNR: 86.82620239257812    id   196
+Sum SPSNR:  16530.839950561523
+Sum SSSIM:  196.0
+SSIM score: 1.0    id   197
+PSNR: 86.92389678955078    id   197
+Sum SPSNR:  16617.763847351074
+Sum SSSIM:  197.0
+SSIM score: 1.0    id   198
+PSNR: 84.13172912597656    id   198
+Sum SPSNR:  16701.89557647705
+Sum SSSIM:  198.0
+SSIM score: 1.0    id   199
+PSNR: 84.40238189697266    id   199
+Sum SPSNR:  16786.297958374023
+Sum SSSIM:  199.0
+SSIM score: 1.0    id   200
+PSNR: 87.14566040039062    id   200
+Sum SPSNR:  16873.443618774414
+Sum SSSIM:  200.0
+SSIM score: 1.0    id   201
+PSNR: 88.48646545410156    id   201
+Sum SPSNR:  16961.930084228516
+Sum SSSIM:  201.0
+SSIM score: 1.0    id   202
+PSNR: 84.37107849121094    id   202
+Sum SPSNR:  17046.301162719727
+Sum SSSIM:  202.0
+SSIM score: 1.0    id   203
+PSNR: 85.4411392211914    id   203
+Sum SPSNR:  17131.742301940918
+Sum SSSIM:  203.0
+SSIM score: 1.0    id   204
+PSNR: 88.13899993896484    id   204
+Sum SPSNR:  17219.881301879883
+Sum SSSIM:  204.0
+SSIM score: 1.0    id   205
+PSNR: 85.78807067871094    id   205
+Sum SPSNR:  17305.669372558594
+Sum SSSIM:  205.0
+SSIM score: 1.0    id   206
+PSNR: 84.65524291992188    id   206
+Sum SPSNR:  17390.324615478516
+Sum SSSIM:  206.0
+SSIM score: 1.0    id   207
+PSNR: 81.79330444335938    id   207
+Sum SPSNR:  17472.117919921875
+Sum SSSIM:  207.0
+SSIM score: 1.0    id   208
+PSNR: 83.89657592773438    id   208
+Sum SPSNR:  17556.01449584961
+Sum SSSIM:  208.0
+SSIM score: 1.0    id   209
+PSNR: 88.8096694946289    id   209
+Sum SPSNR:  17644.82416534424
+Sum SSSIM:  209.0
+SSIM score: 1.0    id   210
+PSNR: 84.6966552734375    id   210
+Sum SPSNR:  17729.520820617676
+Sum SSSIM:  210.0
+SSIM score: 1.0    id   211
+PSNR: 87.40081024169922    id   211
+Sum SPSNR:  17816.921630859375
+Sum SSSIM:  211.0
+SSIM score: 1.0    id   212
+PSNR: 85.30814361572266    id   212
+Sum SPSNR:  17902.229774475098
+Sum SSSIM:  212.0
+SSIM score: 1.0    id   213
+PSNR: 81.85206604003906    id   213
+Sum SPSNR:  17984.081840515137
+Sum SSSIM:  213.0
+SSIM score: 1.0    id   214
+PSNR: 88.80484771728516    id   214
+Sum SPSNR:  18072.886688232422
+Sum SSSIM:  214.0
+SSIM score: 1.0    id   215
+PSNR: 79.12767028808594    id   215
+Sum SPSNR:  18152.014358520508
+Sum SSSIM:  215.0
+SSIM score: 1.0    id   216
+PSNR: 80.16401672363281    id   216
+Sum SPSNR:  18232.17837524414
+Sum SSSIM:  216.0
+SSIM score: 1.0    id   217
+PSNR: 84.95272827148438    id   217
+Sum SPSNR:  18317.131103515625
+Sum SSSIM:  217.0
+SSIM score: 1.0    id   218
+PSNR: 85.9541015625    id   218
+Sum SPSNR:  18403.085205078125
+Sum SSSIM:  218.0
+SSIM score: 1.0    id   219
+PSNR: 82.66564178466797    id   219
+Sum SPSNR:  18485.750846862793
+Sum SSSIM:  219.0
+SSIM score: 1.0    id   220
+PSNR: 86.16957092285156    id   220
+Sum SPSNR:  18571.920417785645
+Sum SSSIM:  220.0
+SSIM score: 1.0    id   221
+PSNR: 82.91531372070312    id   221
+Sum SPSNR:  18654.835731506348
+Sum SSSIM:  221.0
+SSIM score: 1.0    id   222
+PSNR: 84.89846801757812    id   222
+Sum SPSNR:  18739.734199523926
+Sum SSSIM:  222.0
+SSIM score: 1.0    id   223
+PSNR: 86.38884735107422    id   223
+Sum SPSNR:  18826.123046875
+Sum SSSIM:  223.0
+SSIM score: 1.0    id   224
+PSNR: 84.93852233886719    id   224
+Sum SPSNR:  18911.061569213867
+Sum SSSIM:  224.0
+SSIM score: 1.0    id   225
+PSNR: 83.56504821777344    id   225
+Sum SPSNR:  18994.62661743164
+Sum SSSIM:  225.0
+SSIM score: 1.0    id   226
+PSNR: 82.217041015625    id   226
+Sum SPSNR:  19076.843658447266
+Sum SSSIM:  226.0
+SSIM score: 1.0    id   227
+PSNR: 85.2987289428711    id   227
+Sum SPSNR:  19162.142387390137
+Sum SSSIM:  227.0
+SSIM score: 1.0    id   228
+PSNR: 88.09673309326172    id   228
+Sum SPSNR:  19250.2391204834
+Sum SSSIM:  228.0
+SSIM score: 1.0    id   229
+PSNR: 88.53104400634766    id   229
+Sum SPSNR:  19338.770164489746
+Sum SSSIM:  229.0
+SSIM score: 1.0    id   230
+PSNR: 82.73482513427734    id   230
+Sum SPSNR:  19421.504989624023
+Sum SSSIM:  230.0
+SSIM score: 1.0    id   231
+PSNR: 84.64442443847656    id   231
+Sum SPSNR:  19506.1494140625
+Sum SSSIM:  231.0
+SSIM score: 1.0    id   232
+PSNR: 85.26522827148438    id   232
+Sum SPSNR:  19591.414642333984
+Sum SSSIM:  232.0
+SSIM score: 1.0    id   233
+PSNR: 86.6482925415039    id   233
+Sum SPSNR:  19678.06293487549
+Sum SSSIM:  233.0
+SSIM score: 1.0    id   234
+PSNR: 82.89468383789062    id   234
+Sum SPSNR:  19760.95761871338
+Sum SSSIM:  234.0
+SSIM score: 1.0    id   235
+PSNR: 89.33485412597656    id   235
+Sum SPSNR:  19850.292472839355
+Sum SSSIM:  235.0
+SSIM score: 1.0    id   236
+PSNR: 84.76953125    id   236
+Sum SPSNR:  19935.062004089355
+Sum SSSIM:  236.0
+SSIM score: 1.0    id   237
+PSNR: 81.32366180419922    id   237
+Sum SPSNR:  20016.385665893555
+Sum SSSIM:  237.0
+SSIM score: 1.0    id   238
+PSNR: 85.89874267578125    id   238
+Sum SPSNR:  20102.284408569336
+Sum SSSIM:  238.0
+SSIM score: 1.0    id   239
+PSNR: 85.55065155029297    id   239
+Sum SPSNR:  20187.83506011963
+Sum SSSIM:  239.0
+SSIM score: 1.0    id   240
+PSNR: 83.88970184326172    id   240
+Sum SPSNR:  20271.72476196289
+Sum SSSIM:  240.0
+SSIM score: 1.0    id   241
+PSNR: 79.78732299804688    id   241
+Sum SPSNR:  20351.512084960938
+Sum SSSIM:  241.0
+SSIM score: 1.0    id   242
+PSNR: 82.93629455566406    id   242
+Sum SPSNR:  20434.4483795166
+Sum SSSIM:  242.0
+SSIM score: 1.0    id   243
+PSNR: 84.02542877197266    id   243
+Sum SPSNR:  20518.473808288574
+Sum SSSIM:  243.0
+SSIM score: 1.0    id   244
+PSNR: 85.81158447265625    id   244
+Sum SPSNR:  20604.28539276123
+Sum SSSIM:  244.0
+SSIM score: 1.0    id   245
+PSNR: 83.26781463623047    id   245
+Sum SPSNR:  20687.55320739746
+Sum SSSIM:  245.0
+SSIM score: 1.0    id   246
+PSNR: 86.79188537597656    id   246
+Sum SPSNR:  20774.345092773438
+Sum SSSIM:  246.0
+SSIM score: 1.0    id   247
+PSNR: 82.29523468017578    id   247
+Sum SPSNR:  20856.640327453613
+Sum SSSIM:  247.0
+SSIM score: 1.0    id   248
+PSNR: 88.11359405517578    id   248
+Sum SPSNR:  20944.75392150879
+Sum SSSIM:  248.0
+SSIM score: 1.0    id   249
+PSNR: 82.6051025390625    id   249
+Sum SPSNR:  21027.35902404785
+Sum SSSIM:  249.0
+SSIM score: 1.0    id   250
+PSNR: 89.76607513427734    id   250
+Sum SPSNR:  21117.12509918213
+Sum SSSIM:  250.0
+SSIM score: 1.0    id   251
+PSNR: 82.39889526367188    id   251
+Sum SPSNR:  21199.5239944458
+Sum SSSIM:  251.0
+SSIM score: 1.0    id   252
+PSNR: 81.23109436035156    id   252
+Sum SPSNR:  21280.755088806152
+Sum SSSIM:  252.0
+SSIM score: 1.0    id   253
+PSNR: 82.46963500976562    id   253
+Sum SPSNR:  21363.224723815918
+Sum SSSIM:  253.0
+SSIM score: 1.0    id   254
+PSNR: 81.45907592773438    id   254
+Sum SPSNR:  21444.683799743652
+Sum SSSIM:  254.0
+SSIM score: 1.0    id   255
+PSNR: 86.8801498413086    id   255
+Sum SPSNR:  21531.56394958496
+Sum SSSIM:  255.0
+SSIM score: 1.0    id   256
+PSNR: 87.895263671875    id   256
+Sum SPSNR:  21619.459213256836
+Sum SSSIM:  256.0
+SSIM score: 1.0    id   257
+PSNR: 87.63334655761719    id   257
+Sum SPSNR:  21707.092559814453
+Sum SSSIM:  257.0
+SSIM score: 1.0    id   258
+PSNR: 91.3072280883789    id   258
+Sum SPSNR:  21798.399787902832
+Sum SSSIM:  258.0
+SSIM score: 1.0    id   259
+PSNR: 85.48076629638672    id   259
+Sum SPSNR:  21883.88055419922
+Sum SSSIM:  259.0
+SSIM score: 1.0    id   260
+PSNR: 85.02570343017578    id   260
+Sum SPSNR:  21968.906257629395
+Sum SSSIM:  260.0
+SSIM score: 1.0    id   261
+PSNR: 85.66804504394531    id   261
+Sum SPSNR:  22054.57430267334
+Sum SSSIM:  261.0
+SSIM score: 1.0    id   262
+PSNR: 84.35829162597656    id   262
+Sum SPSNR:  22138.932594299316
+Sum SSSIM:  262.0
+SSIM score: 1.0    id   263
+PSNR: 87.23088073730469    id   263
+Sum SPSNR:  22226.16347503662
+Sum SSSIM:  263.0
+SSIM score: 1.0    id   264
+PSNR: 87.45909881591797    id   264
+Sum SPSNR:  22313.62257385254
+Sum SSSIM:  264.0
+SSIM score: 1.0    id   265
+PSNR: 87.09141540527344    id   265
+Sum SPSNR:  22400.713989257812
+Sum SSSIM:  265.0
+SSIM score: 1.0    id   266
+PSNR: 84.68543243408203    id   266
+Sum SPSNR:  22485.399421691895
+Sum SSSIM:  266.0
+SSIM score: 1.0    id   267
+PSNR: 82.2525634765625    id   267
+Sum SPSNR:  22567.651985168457
+Sum SSSIM:  267.0
+SSIM score: 1.0    id   268
+PSNR: 84.09130859375    id   268
+Sum SPSNR:  22651.743293762207
+Sum SSSIM:  268.0
+SSIM score: 1.0    id   269
+PSNR: 85.91424560546875    id   269
+Sum SPSNR:  22737.657539367676
+Sum SSSIM:  269.0
+SSIM score: 1.0    id   270
+PSNR: 83.70675659179688    id   270
+Sum SPSNR:  22821.364295959473
+Sum SSSIM:  270.0
+SSIM score: 1.0    id   271
+PSNR: 82.22965240478516    id   271
+Sum SPSNR:  22903.593948364258
+Sum SSSIM:  271.0
+SSIM score: 1.0    id   272
+PSNR: 82.25363159179688    id   272
+Sum SPSNR:  22985.847579956055
+Sum SSSIM:  272.0
+SSIM score: 1.0    id   273
+PSNR: 81.33238220214844    id   273
+Sum SPSNR:  23067.179962158203
+Sum SSSIM:  273.0
+SSIM score: 1.0    id   274
+PSNR: 85.08395385742188    id   274
+Sum SPSNR:  23152.263916015625
+Sum SSSIM:  274.0
+SSIM score: 1.0    id   275
+PSNR: 87.39971160888672    id   275
+Sum SPSNR:  23239.66362762451
+Sum SSSIM:  275.0
+SSIM score: 1.0    id   276
+PSNR: 89.58518981933594    id   276
+Sum SPSNR:  23329.248817443848
+Sum SSSIM:  276.0
+SSIM score: 1.0    id   277
+PSNR: 88.07736206054688    id   277
+Sum SPSNR:  23417.326179504395
+Sum SSSIM:  277.0
+SSIM score: 1.0    id   278
+PSNR: 81.82241821289062    id   278
+Sum SPSNR:  23499.148597717285
+Sum SSSIM:  278.0
+SSIM score: 1.0    id   279
+PSNR: 81.69064331054688    id   279
+Sum SPSNR:  23580.839241027832
+Sum SSSIM:  279.0
+SSIM score: 1.0    id   280
+PSNR: 82.66885375976562    id   280
+Sum SPSNR:  23663.508094787598
+Sum SSSIM:  280.0
+SSIM score: 1.0    id   281
+PSNR: 83.36285400390625    id   281
+Sum SPSNR:  23746.870948791504
+Sum SSSIM:  281.0
+SSIM score: 1.0    id   282
+PSNR: 85.81719970703125    id   282
+Sum SPSNR:  23832.688148498535
+Sum SSSIM:  282.0
+SSIM score: 1.0    id   283
+PSNR: 82.48429870605469    id   283
+Sum SPSNR:  23915.17244720459
+Sum SSSIM:  283.0
+SSIM score: 1.0    id   284
+PSNR: 89.82444763183594    id   284
+Sum SPSNR:  24004.996894836426
+Sum SSSIM:  284.0
+SSIM score: 1.0    id   285
+PSNR: 87.65335083007812    id   285
+Sum SPSNR:  24092.650245666504
+Sum SSSIM:  285.0
+SSIM score: 1.0    id   286
+PSNR: 84.93206787109375    id   286
+Sum SPSNR:  24177.582313537598
+Sum SSSIM:  286.0
+SSIM score: 1.0    id   287
+PSNR: 85.58185577392578    id   287
+Sum SPSNR:  24263.164169311523
+Sum SSSIM:  287.0
+SSIM score: 1.0    id   288
+PSNR: 85.75762939453125    id   288
+Sum SPSNR:  24348.921798706055
+Sum SSSIM:  288.0
+SSIM score: 1.0    id   289
+PSNR: 83.3768081665039    id   289
+Sum SPSNR:  24432.29860687256
+Sum SSSIM:  289.0
+SSIM score: 1.0    id   290
+PSNR: 85.08116149902344    id   290
+Sum SPSNR:  24517.379768371582
+Sum SSSIM:  290.0
+SSIM score: 1.0    id   291
+PSNR: 80.88042449951172    id   291
+Sum SPSNR:  24598.260192871094
+Sum SSSIM:  291.0
+SSIM score: 1.0    id   292
+PSNR: 83.82839965820312    id   292
+Sum SPSNR:  24682.088592529297
+Sum SSSIM:  292.0
+SSIM score: 1.0    id   293
+PSNR: 81.26622009277344    id   293
+Sum SPSNR:  24763.35481262207
+Sum SSSIM:  293.0
+SSIM score: 1.0    id   294
+PSNR: 80.43255615234375    id   294
+Sum SPSNR:  24843.787368774414
+Sum SSSIM:  294.0
+SSIM score: 1.0    id   295
+PSNR: 79.95601654052734    id   295
+Sum SPSNR:  24923.74338531494
+Sum SSSIM:  295.0
+SSIM score: 1.0    id   296
+PSNR: 85.24246978759766    id   296
+Sum SPSNR:  25008.98585510254
+Sum SSSIM:  296.0
+SSIM score: 1.0    id   297
+PSNR: 83.87989044189453    id   297
+Sum SPSNR:  25092.865745544434
+Sum SSSIM:  297.0
+SSIM score: 1.0    id   298
+PSNR: 84.69123840332031    id   298
+Sum SPSNR:  25177.556983947754
+Sum SSSIM:  298.0
+SSIM score: 1.0    id   299
+PSNR: 81.92509460449219    id   299
+Sum SPSNR:  25259.482078552246
+Sum SSSIM:  299.0
+SSIM score: 1.0    id   300
+PSNR: 87.35420227050781    id   300
+Sum SPSNR:  25346.836280822754
+Sum SSSIM:  300.0
+SSIM score: 1.0    id   301
+PSNR: 87.12146759033203    id   301
+Sum SPSNR:  25433.957748413086
+Sum SSSIM:  301.0
+SSIM score: 1.0    id   302
+PSNR: 82.25711822509766    id   302
+Sum SPSNR:  25516.214866638184
+Sum SSSIM:  302.0
+SSIM score: 1.0    id   303
+PSNR: 86.80180358886719    id   303
+Sum SPSNR:  25603.01667022705
+Sum SSSIM:  303.0
+SSIM score: 1.0    id   304
+PSNR: 87.19656372070312    id   304
+Sum SPSNR:  25690.213233947754
+Sum SSSIM:  304.0
+SSIM score: 1.0    id   305
+PSNR: 83.1773681640625    id   305
+Sum SPSNR:  25773.390602111816
+Sum SSSIM:  305.0
+SSIM score: 1.0    id   306
+PSNR: 82.89085388183594    id   306
+Sum SPSNR:  25856.281455993652
+Sum SSSIM:  306.0
+SSIM score: 1.0    id   307
+PSNR: 88.15165710449219    id   307
+Sum SPSNR:  25944.433113098145
+Sum SSSIM:  307.0
+SSIM score: 1.0    id   308
+PSNR: 80.28594970703125    id   308
+Sum SPSNR:  26024.719062805176
+Sum SSSIM:  308.0
+SSIM score: 1.0    id   309
+PSNR: 88.00115966796875    id   309
+Sum SPSNR:  26112.720222473145
+Sum SSSIM:  309.0
+SSIM score: 1.0    id   310
+PSNR: 83.97837829589844    id   310
+Sum SPSNR:  26196.698600769043
+Sum SSSIM:  310.0
+SSIM score: 1.0    id   311
+PSNR: 87.57096862792969    id   311
+Sum SPSNR:  26284.269569396973
+Sum SSSIM:  311.0
+SSIM score: 1.0    id   312
+PSNR: 85.21927642822266    id   312
+Sum SPSNR:  26369.488845825195
+Sum SSSIM:  312.0
+SSIM score: 1.0    id   313
+PSNR: 81.75983428955078    id   313
+Sum SPSNR:  26451.248680114746
+Sum SSSIM:  313.0
+SSIM score: 1.0    id   314
+PSNR: 86.21324157714844    id   314
+Sum SPSNR:  26537.461921691895
+Sum SSSIM:  314.0
+SSIM score: 1.0    id   315
+PSNR: 81.39181518554688    id   315
+Sum SPSNR:  26618.85373687744
+Sum SSSIM:  315.0
+SSIM score: 1.0    id   316
+PSNR: 81.17034912109375    id   316
+Sum SPSNR:  26700.024085998535
+Sum SSSIM:  316.0
+SSIM score: 1.0    id   317
+PSNR: 80.63922119140625    id   317
+Sum SPSNR:  26780.66330718994
+Sum SSSIM:  317.0
+SSIM score: 1.0    id   318
+PSNR: 81.55390930175781    id   318
+Sum SPSNR:  26862.2172164917
+Sum SSSIM:  318.0
+SSIM score: 1.0    id   319
+PSNR: 83.39102172851562    id   319
+Sum SPSNR:  26945.608238220215
+Sum SSSIM:  319.0
+SSIM score: 1.0    id   320
+PSNR: 80.98155212402344    id   320
+Sum SPSNR:  27026.58979034424
+Sum SSSIM:  320.0
+SSIM score: 1.0    id   321
+PSNR: 85.67768096923828    id   321
+Sum SPSNR:  27112.267471313477
+Sum SSSIM:  321.0
+SSIM score: 1.0    id   322
+PSNR: 85.11087036132812    id   322
+Sum SPSNR:  27197.378341674805
+Sum SSSIM:  322.0
+SSIM score: 1.0    id   323
+PSNR: 80.80557250976562    id   323
+Sum SPSNR:  27278.18391418457
+Sum SSSIM:  323.0
+SSIM score: 1.0    id   324
+PSNR: 80.75813293457031    id   324
+Sum SPSNR:  27358.94204711914
+Sum SSSIM:  324.0
+SSIM score: 1.0    id   325
+PSNR: 82.5705795288086    id   325
+Sum SPSNR:  27441.51262664795
+Sum SSSIM:  325.0
+SSIM score: 1.0    id   326
+PSNR: 88.07628631591797    id   326
+Sum SPSNR:  27529.588912963867
+Sum SSSIM:  326.0
+SSIM score: 1.0    id   327
+PSNR: 88.66960144042969    id   327
+Sum SPSNR:  27618.258514404297
+Sum SSSIM:  327.0
+SSIM score: 1.0    id   328
+PSNR: 87.74110412597656    id   328
+Sum SPSNR:  27705.999618530273
+Sum SSSIM:  328.0
+SSIM score: 1.0    id   329
+PSNR: 84.29832458496094    id   329
+Sum SPSNR:  27790.297943115234
+Sum SSSIM:  329.0
+SSIM score: 1.0    id   330
+PSNR: 80.56193542480469    id   330
+Sum SPSNR:  27870.85987854004
+Sum SSSIM:  330.0
+SSIM score: 1.0    id   331
+PSNR: 83.6590576171875    id   331
+Sum SPSNR:  27954.518936157227
+Sum SSSIM:  331.0
+SSIM score: 1.0    id   332
+PSNR: 88.16413116455078    id   332
+Sum SPSNR:  28042.683067321777
+Sum SSSIM:  332.0
+SSIM score: 1.0    id   333
+PSNR: 83.13009643554688    id   333
+Sum SPSNR:  28125.813163757324
+Sum SSSIM:  333.0
+SSIM score: 1.0    id   334
+PSNR: 83.78422546386719    id   334
+Sum SPSNR:  28209.59738922119
+Sum SSSIM:  334.0
+SSIM score: 1.0    id   335
+PSNR: 84.16561889648438    id   335
+Sum SPSNR:  28293.763008117676
+Sum SSSIM:  335.0
+SSIM score: 1.0    id   336
+PSNR: 81.94529724121094    id   336
+Sum SPSNR:  28375.708305358887
+Sum SSSIM:  336.0
+SSIM score: 1.0    id   337
+PSNR: 82.09727478027344    id   337
+Sum SPSNR:  28457.80558013916
+Sum SSSIM:  337.0
+SSIM score: 1.0    id   338
+PSNR: 85.59686279296875    id   338
+Sum SPSNR:  28543.40244293213
+Sum SSSIM:  338.0
+SSIM score: 1.0    id   339
+PSNR: 83.17694854736328    id   339
+Sum SPSNR:  28626.579391479492
+Sum SSSIM:  339.0
+SSIM score: 1.0    id   340
+PSNR: 85.60487365722656    id   340
+Sum SPSNR:  28712.18426513672
+Sum SSSIM:  340.0
+SSIM score: 1.0    id   341
+PSNR: 87.89505004882812    id   341
+Sum SPSNR:  28800.079315185547
+Sum SSSIM:  341.0
+SSIM score: 1.0    id   342
+PSNR: 84.30914306640625    id   342
+Sum SPSNR:  28884.388458251953
+Sum SSSIM:  342.0
+SSIM score: 1.0    id   343
+PSNR: 83.83599090576172    id   343
+Sum SPSNR:  28968.224449157715
+Sum SSSIM:  343.0
+SSIM score: 1.0    id   344
+PSNR: 81.78714752197266    id   344
+Sum SPSNR:  29050.011596679688
+Sum SSSIM:  344.0
+SSIM score: 1.0    id   345
+PSNR: 87.05239868164062    id   345
+Sum SPSNR:  29137.063995361328
+Sum SSSIM:  345.0
+SSIM score: 1.0    id   346
+PSNR: 87.03041076660156    id   346
+Sum SPSNR:  29224.09440612793
+Sum SSSIM:  346.0
+SSIM score: 1.0    id   347
+PSNR: 82.703369140625    id   347
+Sum SPSNR:  29306.797775268555
+Sum SSSIM:  347.0
+SSIM score: 1.0    id   348
+PSNR: 83.95255279541016    id   348
+Sum SPSNR:  29390.750328063965
+Sum SSSIM:  348.0
+SSIM score: 1.0    id   349
+PSNR: 87.01457214355469    id   349
+Sum SPSNR:  29477.76490020752
+Sum SSSIM:  349.0
+SSIM score: 1.0    id   350
+PSNR: 84.99951171875    id   350
+Sum SPSNR:  29562.76441192627
+Sum SSSIM:  350.0
+SSIM score: 1.0    id   351
+PSNR: 81.38854217529297    id   351
+Sum SPSNR:  29644.152954101562
+Sum SSSIM:  351.0
+SSIM score: 1.0    id   352
+PSNR: 82.6566390991211    id   352
+Sum SPSNR:  29726.809593200684
+Sum SSSIM:  352.0
+SSIM score: 1.0    id   353
+PSNR: 81.83744812011719    id   353
+Sum SPSNR:  29808.6470413208
+Sum SSSIM:  353.0
+SSIM score: 1.0    id   354
+PSNR: 85.19454956054688    id   354
+Sum SPSNR:  29893.841590881348
+Sum SSSIM:  354.0
+SSIM score: 1.0    id   355
+PSNR: 81.26170349121094    id   355
+Sum SPSNR:  29975.10329437256
+Sum SSSIM:  355.0
+SSIM score: 1.0    id   356
+PSNR: 84.30030822753906    id   356
+Sum SPSNR:  30059.403602600098
+Sum SSSIM:  356.0
+SSIM score: 1.0    id   357
+PSNR: 84.53998565673828    id   357
+Sum SPSNR:  30143.943588256836
+Sum SSSIM:  357.0
+SSIM score: 1.0    id   358
+PSNR: 86.43878173828125    id   358
+Sum SPSNR:  30230.382369995117
+Sum SSSIM:  358.0
+SSIM score: 1.0    id   359
+PSNR: 88.25019836425781    id   359
+Sum SPSNR:  30318.632568359375
+Sum SSSIM:  359.0
+SSIM score: 1.0    id   360
+PSNR: 82.57403564453125    id   360
+Sum SPSNR:  30401.206604003906
+Sum SSSIM:  360.0
+SSIM score: 1.0    id   361
+PSNR: 83.1992416381836    id   361
+Sum SPSNR:  30484.40584564209
+Sum SSSIM:  361.0
+SSIM score: 1.0    id   362
+PSNR: 84.41613006591797    id   362
+Sum SPSNR:  30568.821975708008
+Sum SSSIM:  362.0
+SSIM score: 1.0    id   363
+PSNR: 85.37770080566406    id   363
+Sum SPSNR:  30654.199676513672
+Sum SSSIM:  363.0
+SSIM score: 1.0    id   364
+PSNR: 85.70744323730469    id   364
+Sum SPSNR:  30739.907119750977
+Sum SSSIM:  364.0
+SSIM score: 1.0    id   365
+PSNR: 83.07762145996094    id   365
+Sum SPSNR:  30822.984741210938
+Sum SSSIM:  365.0
+SSIM score: 1.0    id   366
+PSNR: 82.34176635742188    id   366
+Sum SPSNR:  30905.32650756836
+Sum SSSIM:  366.0
+SSIM score: 1.0    id   367
+PSNR: 85.66127014160156    id   367
+Sum SPSNR:  30990.98777770996
+Sum SSSIM:  367.0
+SSIM score: 1.0    id   368
+PSNR: 87.67033386230469    id   368
+Sum SPSNR:  31078.658111572266
+Sum SSSIM:  368.0
+SSIM score: 1.0    id   369
+PSNR: 84.62284851074219    id   369
+Sum SPSNR:  31163.280960083008
+Sum SSSIM:  369.0
+SSIM score: 1.0    id   370
+PSNR: 80.02215576171875    id   370
+Sum SPSNR:  31243.303115844727
+Sum SSSIM:  370.0
+SSIM score: 1.0    id   371
+PSNR: 82.30704498291016    id   371
+Sum SPSNR:  31325.610160827637
+Sum SSSIM:  371.0
+SSIM score: 1.0    id   372
+PSNR: 81.31501007080078    id   372
+Sum SPSNR:  31406.925170898438
+Sum SSSIM:  372.0
+SSIM score: 1.0    id   373
+PSNR: 83.55882263183594    id   373
+Sum SPSNR:  31490.483993530273
+Sum SSSIM:  373.0
+SSIM score: 1.0    id   374
+PSNR: 82.61492919921875    id   374
+Sum SPSNR:  31573.098922729492
+Sum SSSIM:  374.0
+SSIM score: 1.0    id   375
+PSNR: 82.35795593261719    id   375
+Sum SPSNR:  31655.45687866211
+Sum SSSIM:  375.0
+SSIM score: 1.0    id   376
+PSNR: 86.16348266601562    id   376
+Sum SPSNR:  31741.620361328125
+Sum SSSIM:  376.0
+SSIM score: 1.0    id   377
+PSNR: 84.61673736572266    id   377
+Sum SPSNR:  31826.237098693848
+Sum SSSIM:  377.0
+SSIM score: 1.0    id   378
+PSNR: 87.88209533691406    id   378
+Sum SPSNR:  31914.11919403076
+Sum SSSIM:  378.0
+SSIM score: 1.0    id   379
+PSNR: 82.04829406738281    id   379
+Sum SPSNR:  31996.167488098145
+Sum SSSIM:  379.0
+SSIM score: 1.0    id   380
+PSNR: 84.94488525390625    id   380
+Sum SPSNR:  32081.11237335205
+Sum SSSIM:  380.0
+SSIM score: 1.0    id   381
+PSNR: 84.16021728515625    id   381
+Sum SPSNR:  32165.272590637207
+Sum SSSIM:  381.0
+SSIM score: 1.0    id   382
+PSNR: 81.83800506591797    id   382
+Sum SPSNR:  32247.110595703125
+Sum SSSIM:  382.0
+SSIM score: 1.0    id   383
+PSNR: 86.62902069091797    id   383
+Sum SPSNR:  32333.739616394043
+Sum SSSIM:  383.0
+SSIM score: 1.0    id   384
+PSNR: 85.86376953125    id   384
+Sum SPSNR:  32419.603385925293
+Sum SSSIM:  384.0
+SSIM score: 1.0    id   385
+PSNR: 86.00350952148438    id   385
+Sum SPSNR:  32505.606895446777
+Sum SSSIM:  385.0
+SSIM score: 1.0    id   386
+PSNR: 86.1787109375    id   386
+Sum SPSNR:  32591.785606384277
+Sum SSSIM:  386.0
+SSIM score: 1.0    id   387
+PSNR: 83.88790130615234    id   387
+Sum SPSNR:  32675.67350769043
+Sum SSSIM:  387.0
+SSIM score: 1.0    id   388
+PSNR: 88.68043518066406    id   388
+Sum SPSNR:  32764.353942871094
+Sum SSSIM:  388.0
+SSIM score: 1.0    id   389
+PSNR: 83.43798828125    id   389
+Sum SPSNR:  32847.791931152344
+Sum SSSIM:  389.0
+SSIM score: 1.0    id   390
+PSNR: 83.44662475585938    id   390
+Sum SPSNR:  32931.2385559082
+Sum SSSIM:  390.0
+SSIM score: 1.0    id   391
+PSNR: 85.94279479980469    id   391
+Sum SPSNR:  33017.18135070801
+Sum SSSIM:  391.0
+SSIM score: 1.0    id   392
+PSNR: 90.49311828613281    id   392
+Sum SPSNR:  33107.67446899414
+Sum SSSIM:  392.0
+SSIM score: 1.0    id   393
+PSNR: 82.58098602294922    id   393
+Sum SPSNR:  33190.25545501709
+Sum SSSIM:  393.0
+SSIM score: 1.0    id   394
+PSNR: 82.77542877197266    id   394
+Sum SPSNR:  33273.03088378906
+Sum SSSIM:  394.0
+SSIM score: 1.0    id   395
+PSNR: 81.54325866699219    id   395
+Sum SPSNR:  33354.574142456055
+Sum SSSIM:  395.0
+SSIM score: 1.0    id   396
+PSNR: 81.79473114013672    id   396
+Sum SPSNR:  33436.36887359619
+Sum SSSIM:  396.0
+SSIM score: 1.0    id   397
+PSNR: 82.10589599609375    id   397
+Sum SPSNR:  33518.474769592285
+Sum SSSIM:  397.0
+SSIM score: 1.0    id   398
+PSNR: 85.67359924316406    id   398
+Sum SPSNR:  33604.14836883545
+Sum SSSIM:  398.0
+SSIM score: 1.0    id   399
+PSNR: 82.33454895019531    id   399
+Sum SPSNR:  33686.482917785645
+Sum SSSIM:  399.0
+SSIM score: 1.0    id   400
+PSNR: 86.76895141601562    id   400
+Sum SPSNR:  33773.25186920166
+Sum SSSIM:  400.0
+SSIM score: 1.0    id   401
+PSNR: 82.52232360839844    id   401
+Sum SPSNR:  33855.77419281006
+Sum SSSIM:  401.0
+SSIM score: 1.0    id   402
+PSNR: 87.58091735839844    id   402
+Sum SPSNR:  33943.35511016846
+Sum SSSIM:  402.0
+SSIM score: 1.0    id   403
+PSNR: 87.06871032714844    id   403
+Sum SPSNR:  34030.423820495605
+Sum SSSIM:  403.0
+SSIM score: 1.0    id   404
+PSNR: 86.03653717041016    id   404
+Sum SPSNR:  34116.460357666016
+Sum SSSIM:  404.0
+SSIM score: 1.0    id   405
+PSNR: 85.64701080322266    id   405
+Sum SPSNR:  34202.10736846924
+Sum SSSIM:  405.0
+SSIM score: 1.0    id   406
+PSNR: 82.37519836425781    id   406
+Sum SPSNR:  34284.482566833496
+Sum SSSIM:  406.0
+SSIM score: 1.0    id   407
+PSNR: 83.51361083984375    id   407
+Sum SPSNR:  34367.99617767334
+Sum SSSIM:  407.0
+SSIM score: 1.0    id   408
+PSNR: 85.61546325683594    id   408
+Sum SPSNR:  34453.611640930176
+Sum SSSIM:  408.0
+SSIM score: 1.0    id   409
+PSNR: 86.77482604980469    id   409
+Sum SPSNR:  34540.38646697998
+Sum SSSIM:  409.0
+SSIM score: 1.0    id   410
+PSNR: 88.54969024658203    id   410
+Sum SPSNR:  34628.93615722656
+Sum SSSIM:  410.0
+SSIM score: 1.0    id   411
+PSNR: 82.69186401367188    id   411
+Sum SPSNR:  34711.628021240234
+Sum SSSIM:  411.0
+SSIM score: 1.0    id   412
+PSNR: 83.66248321533203    id   412
+Sum SPSNR:  34795.29050445557
+Sum SSSIM:  412.0
+SSIM score: 1.0    id   413
+PSNR: 81.9297866821289    id   413
+Sum SPSNR:  34877.220291137695
+Sum SSSIM:  413.0
+SSIM score: 1.0    id   414
+PSNR: 79.88774108886719    id   414
+Sum SPSNR:  34957.10803222656
+Sum SSSIM:  414.0
+SSIM score: 1.0    id   415
+PSNR: 85.80420684814453    id   415
+Sum SPSNR:  35042.91223907471
+Sum SSSIM:  415.0
+SSIM score: 1.0    id   416
+PSNR: 81.83014678955078    id   416
+Sum SPSNR:  35124.74238586426
+Sum SSSIM:  416.0
+SSIM score: 1.0    id   417
+PSNR: 81.68739318847656    id   417
+Sum SPSNR:  35206.429779052734
+Sum SSSIM:  417.0
+SSIM score: 1.0    id   418
+PSNR: 85.64395141601562    id   418
+Sum SPSNR:  35292.07373046875
+Sum SSSIM:  418.0
+SSIM score: 1.0    id   419
+PSNR: 87.99314880371094    id   419
+Sum SPSNR:  35380.06687927246
+Sum SSSIM:  419.0
+SSIM score: 1.0    id   420
+PSNR: 87.6348876953125    id   420
+Sum SPSNR:  35467.70176696777
+Sum SSSIM:  420.0
+SSIM score: 1.0    id   421
+PSNR: 87.61322021484375    id   421
+Sum SPSNR:  35555.31498718262
+Sum SSSIM:  421.0
+SSIM score: 1.0    id   422
+PSNR: 83.82009887695312    id   422
+Sum SPSNR:  35639.13508605957
+Sum SSSIM:  422.0
+SSIM score: 1.0    id   423
+PSNR: 82.22747802734375    id   423
+Sum SPSNR:  35721.362564086914
+Sum SSSIM:  423.0
+SSIM score: 1.0    id   424
+PSNR: 85.3861312866211    id   424
+Sum SPSNR:  35806.748695373535
+Sum SSSIM:  424.0
+SSIM score: 1.0    id   425
+PSNR: 83.5708236694336    id   425
+Sum SPSNR:  35890.31951904297
+Sum SSSIM:  425.0
+SSIM score: 1.0    id   426
+PSNR: 88.1612777709961    id   426
+Sum SPSNR:  35978.480796813965
+Sum SSSIM:  426.0
+SSIM score: 1.0    id   427
+PSNR: 82.01014709472656    id   427
+Sum SPSNR:  36060.49094390869
+Sum SSSIM:  427.0
+SSIM score: 1.0    id   428
+PSNR: 83.59386444091797    id   428
+Sum SPSNR:  36144.08480834961
+Sum SSSIM:  428.0
+SSIM score: 1.0    id   429
+PSNR: 81.9428939819336    id   429
+Sum SPSNR:  36226.02770233154
+Sum SSSIM:  429.0
+SSIM score: 1.0    id   430
+PSNR: 89.76290893554688    id   430
+Sum SPSNR:  36315.79061126709
+Sum SSSIM:  430.0
+SSIM score: 1.0    id   431
+PSNR: 84.49748992919922    id   431
+Sum SPSNR:  36400.28810119629
+Sum SSSIM:  431.0
+SSIM score: 1.0    id   432
+PSNR: 82.11394500732422    id   432
+Sum SPSNR:  36482.40204620361
+Sum SSSIM:  432.0
+SSIM score: 1.0    id   433
+PSNR: 82.32928466796875    id   433
+Sum SPSNR:  36564.73133087158
+Sum SSSIM:  433.0
+SSIM score: 1.0    id   434
+PSNR: 81.62094116210938    id   434
+Sum SPSNR:  36646.35227203369
+Sum SSSIM:  434.0
+SSIM score: 1.0    id   435
+PSNR: 85.42910766601562    id   435
+Sum SPSNR:  36731.78137969971
+Sum SSSIM:  435.0
+SSIM score: 1.0    id   436
+PSNR: 88.05316162109375    id   436
+Sum SPSNR:  36819.8345413208
+Sum SSSIM:  436.0
+SSIM score: 1.0    id   437
+PSNR: 85.11673736572266    id   437
+Sum SPSNR:  36904.95127868652
+Sum SSSIM:  437.0
+SSIM score: 1.0    id   438
+PSNR: 88.99665832519531    id   438
+Sum SPSNR:  36993.94793701172
+Sum SSSIM:  438.0
+SSIM score: 1.0    id   439
+PSNR: 81.80909729003906    id   439
+Sum SPSNR:  37075.75703430176
+Sum SSSIM:  439.0
+SSIM score: 1.0    id   440
+PSNR: 82.84548950195312    id   440
+Sum SPSNR:  37158.60252380371
+Sum SSSIM:  440.0
+SSIM score: 1.0    id   441
+PSNR: 82.63034057617188    id   441
+Sum SPSNR:  37241.23286437988
+Sum SSSIM:  441.0
+SSIM score: 1.0    id   442
+PSNR: 84.51126098632812    id   442
+Sum SPSNR:  37325.74412536621
+Sum SSSIM:  442.0
+SSIM score: 1.0    id   443
+PSNR: 84.15229034423828    id   443
+Sum SPSNR:  37409.89641571045
+Sum SSSIM:  443.0
+SSIM score: 1.0    id   444
+PSNR: 79.04812622070312    id   444
+Sum SPSNR:  37488.94454193115
+Sum SSSIM:  444.0
+SSIM score: 1.0    id   445
+PSNR: 84.53238677978516    id   445
+Sum SPSNR:  37573.47692871094
+Sum SSSIM:  445.0
+SSIM score: 1.0    id   446
+PSNR: 87.38961791992188    id   446
+Sum SPSNR:  37660.86654663086
+Sum SSSIM:  446.0
+SSIM score: 1.0    id   447
+PSNR: 88.1819076538086    id   447
+Sum SPSNR:  37749.04845428467
+Sum SSSIM:  447.0
+SSIM score: 1.0    id   448
+PSNR: 80.6209716796875    id   448
+Sum SPSNR:  37829.669425964355
+Sum SSSIM:  448.0
+SSIM score: 1.0    id   449
+PSNR: 82.14302825927734    id   449
+Sum SPSNR:  37911.81245422363
+Sum SSSIM:  449.0
+SSIM score: 1.0    id   450
+PSNR: 83.17750549316406    id   450
+Sum SPSNR:  37994.9899597168
+Sum SSSIM:  450.0
+SSIM score: 1.0    id   451
+PSNR: 84.81539916992188    id   451
+Sum SPSNR:  38079.80535888672
+Sum SSSIM:  451.0
+SSIM score: 1.0    id   452
+PSNR: 82.2629623413086    id   452
+Sum SPSNR:  38162.06832122803
+Sum SSSIM:  452.0
+SSIM score: 1.0    id   453
+PSNR: 81.25679016113281    id   453
+Sum SPSNR:  38243.32511138916
+Sum SSSIM:  453.0
+SSIM score: 1.0    id   454
+PSNR: 84.70149230957031    id   454
+Sum SPSNR:  38328.02660369873
+Sum SSSIM:  454.0
+SSIM score: 1.0    id   455
+PSNR: 82.06509399414062    id   455
+Sum SPSNR:  38410.09169769287
+Sum SSSIM:  455.0
+SSIM score: 1.0    id   456
+PSNR: 80.79837036132812    id   456
+Sum SPSNR:  38490.8900680542
+Sum SSSIM:  456.0
+SSIM score: 1.0    id   457
+PSNR: 82.17960357666016    id   457
+Sum SPSNR:  38573.06967163086
+Sum SSSIM:  457.0
+SSIM score: 1.0    id   458
+PSNR: 81.18183135986328    id   458
+Sum SPSNR:  38654.25150299072
+Sum SSSIM:  458.0
+SSIM score: 1.0    id   459
+PSNR: 86.49166870117188    id   459
+Sum SPSNR:  38740.743171691895
+Sum SSSIM:  459.0
+SSIM score: 1.0    id   460
+PSNR: 82.4697036743164    id   460
+Sum SPSNR:  38823.21287536621
+Sum SSSIM:  460.0
+SSIM score: 1.0    id   461
+PSNR: 86.45574951171875    id   461
+Sum SPSNR:  38909.66862487793
+Sum SSSIM:  461.0
+SSIM score: 1.0    id   462
+PSNR: 81.71052551269531    id   462
+Sum SPSNR:  38991.379150390625
+Sum SSSIM:  462.0
+SSIM score: 1.0    id   463
+PSNR: 87.1371841430664    id   463
+Sum SPSNR:  39078.51633453369
+Sum SSSIM:  463.0
+SSIM score: 1.0    id   464
+PSNR: 82.13062286376953    id   464
+Sum SPSNR:  39160.64695739746
+Sum SSSIM:  464.0
+SSIM score: 1.0    id   465
+PSNR: 81.72129821777344    id   465
+Sum SPSNR:  39242.368255615234
+Sum SSSIM:  465.0
+SSIM score: 1.0    id   466
+PSNR: 80.55360412597656    id   466
+Sum SPSNR:  39322.92185974121
+Sum SSSIM:  466.0
+SSIM score: 1.0    id   467
+PSNR: 84.48629760742188    id   467
+Sum SPSNR:  39407.40815734863
+Sum SSSIM:  467.0
+SSIM score: 1.0    id   468
+PSNR: 81.86962127685547    id   468
+Sum SPSNR:  39489.27777862549
+Sum SSSIM:  468.0
+SSIM score: 1.0    id   469
+PSNR: 87.71830749511719    id   469
+Sum SPSNR:  39576.996086120605
+Sum SSSIM:  469.0
+SSIM score: 1.0    id   470
+PSNR: 80.77117156982422    id   470
+Sum SPSNR:  39657.76725769043
+Sum SSSIM:  470.0
+SSIM score: 1.0    id   471
+PSNR: 84.44515991210938    id   471
+Sum SPSNR:  39742.21241760254
+Sum SSSIM:  471.0
+SSIM score: 1.0    id   472
+PSNR: 81.14403533935547    id   472
+Sum SPSNR:  39823.356452941895
+Sum SSSIM:  472.0
+SSIM score: 1.0    id   473
+PSNR: 82.99048614501953    id   473
+Sum SPSNR:  39906.346939086914
+Sum SSSIM:  473.0
+SSIM score: 1.0    id   474
+PSNR: 81.9955062866211    id   474
+Sum SPSNR:  39988.342445373535
+Sum SSSIM:  474.0
+SSIM score: 1.0    id   475
+PSNR: 83.19491577148438    id   475
+Sum SPSNR:  40071.53736114502
+Sum SSSIM:  475.0
+SSIM score: 1.0    id   476
+PSNR: 84.62120056152344    id   476
+Sum SPSNR:  40156.15856170654
+Sum SSSIM:  476.0
+SSIM score: 1.0    id   477
+PSNR: 86.99092864990234    id   477
+Sum SPSNR:  40243.149490356445
+Sum SSSIM:  477.0
+SSIM score: 1.0    id   478
+PSNR: 81.06559753417969    id   478
+Sum SPSNR:  40324.215087890625
+Sum SSSIM:  478.0
+SSIM score: 1.0    id   479
+PSNR: 81.29126739501953    id   479
+Sum SPSNR:  40405.506355285645
+Sum SSSIM:  479.0
+SSIM score: 1.0    id   480
+PSNR: 86.81109619140625    id   480
+Sum SPSNR:  40492.31745147705
+Sum SSSIM:  480.0
+SSIM score: 1.0    id   481
+PSNR: 79.73278045654297    id   481
+Sum SPSNR:  40572.050231933594
+Sum SSSIM:  481.0
+SSIM score: 1.0    id   482
+PSNR: 85.68497467041016    id   482
+Sum SPSNR:  40657.735206604004
+Sum SSSIM:  482.0
+SSIM score: 1.0    id   483
+PSNR: 86.13125610351562    id   483
+Sum SPSNR:  40743.86646270752
+Sum SSSIM:  483.0
+SSIM score: 1.0    id   484
+PSNR: 82.19514465332031    id   484
+Sum SPSNR:  40826.06160736084
+Sum SSSIM:  484.0
+SSIM score: 1.0    id   485
+PSNR: 82.11067962646484    id   485
+Sum SPSNR:  40908.172286987305
+Sum SSSIM:  485.0
+SSIM score: 1.0    id   486
+PSNR: 81.89861297607422    id   486
+Sum SPSNR:  40990.07089996338
+Sum SSSIM:  486.0
+SSIM score: 1.0    id   487
+PSNR: 81.91276550292969    id   487
+Sum SPSNR:  41071.98366546631
+Sum SSSIM:  487.0
+SSIM score: 1.0    id   488
+PSNR: 85.08740234375    id   488
+Sum SPSNR:  41157.07106781006
+Sum SSSIM:  488.0
+SSIM score: 1.0    id   489
+PSNR: 82.19078063964844    id   489
+Sum SPSNR:  41239.26184844971
+Sum SSSIM:  489.0
+SSIM score: 1.0    id   490
+PSNR: 84.44218444824219    id   490
+Sum SPSNR:  41323.70403289795
+Sum SSSIM:  490.0
+SSIM score: 1.0    id   491
+PSNR: 89.19789123535156    id   491
+Sum SPSNR:  41412.9019241333
+Sum SSSIM:  491.0
+SSIM score: 1.0    id   492
+PSNR: 81.00647735595703    id   492
+Sum SPSNR:  41493.90840148926
+Sum SSSIM:  492.0
+SSIM score: 1.0    id   493
+PSNR: 85.03913116455078    id   493
+Sum SPSNR:  41578.94753265381
+Sum SSSIM:  493.0
+SSIM score: 1.0    id   494
+PSNR: 86.0398941040039    id   494
+Sum SPSNR:  41664.98742675781
+Sum SSSIM:  494.0
+SSIM score: 1.0    id   495
+PSNR: 82.32528686523438    id   495
+Sum SPSNR:  41747.31271362305
+Sum SSSIM:  495.0
+SSIM score: 1.0    id   496
+PSNR: 81.61909484863281    id   496
+Sum SPSNR:  41828.93180847168
+Sum SSSIM:  496.0
+SSIM score: 1.0    id   497
+PSNR: 82.60382843017578    id   497
+Sum SPSNR:  41911.535636901855
+Sum SSSIM:  497.0
+SSIM score: 1.0    id   498
+PSNR: 89.521240234375    id   498
+Sum SPSNR:  42001.05687713623
+Sum SSSIM:  498.0
+SSIM score: 1.0    id   499
+PSNR: 86.97407531738281    id   499
+Sum SPSNR:  42088.03095245361
+Sum SSSIM:  499.0
+SSIM score: 1.0    id   500
+PSNR: 89.47655487060547    id   500
+Sum SPSNR:  42177.50750732422
+Sum SSSIM:  500.0
+SSIM score: 1.0    id   501
+PSNR: 89.12430572509766    id   501
+Sum SPSNR:  42266.63181304932
+Sum SSSIM:  501.0
+SSIM score: 1.0    id   502
+PSNR: 84.34144592285156    id   502
+Sum SPSNR:  42350.97325897217
+Sum SSSIM:  502.0
+SSIM score: 1.0    id   503
+PSNR: 85.67803955078125    id   503
+Sum SPSNR:  42436.65129852295
+Sum SSSIM:  503.0
+SSIM score: 1.0    id   504
+PSNR: 87.75184631347656    id   504
+Sum SPSNR:  42524.403144836426
+Sum SSSIM:  504.0
+SSIM score: 1.0    id   505
+PSNR: 80.88726806640625    id   505
+Sum SPSNR:  42605.29041290283
+Sum SSSIM:  505.0
+SSIM score: 1.0    id   506
+PSNR: 82.41792297363281    id   506
+Sum SPSNR:  42687.708335876465
+Sum SSSIM:  506.0
+SSIM score: 1.0    id   507
+PSNR: 82.14500427246094    id   507
+Sum SPSNR:  42769.853340148926
+Sum SSSIM:  507.0
+SSIM score: 1.0    id   508
+PSNR: 83.19876098632812    id   508
+Sum SPSNR:  42853.052101135254
+Sum SSSIM:  508.0
+SSIM score: 1.0    id   509
+PSNR: 82.73526000976562    id   509
+Sum SPSNR:  42935.78736114502
+Sum SSSIM:  509.0
+SSIM score: 1.0    id   510
+PSNR: 85.34027099609375    id   510
+Sum SPSNR:  43021.12763214111
+Sum SSSIM:  510.0
+SSIM score: 1.0    id   511
+PSNR: 87.32666015625    id   511
+Sum SPSNR:  43108.45429229736
+Sum SSSIM:  511.0
+SSIM score: 1.0    id   512
+PSNR: 81.05599212646484    id   512
+Sum SPSNR:  43189.51028442383
+Sum SSSIM:  512.0
+SSIM score: 1.0    id   513
+PSNR: 81.16397094726562    id   513
+Sum SPSNR:  43270.674255371094
+Sum SSSIM:  513.0
+SSIM score: 1.0    id   514
+PSNR: 84.10411071777344    id   514
+Sum SPSNR:  43354.77836608887
+Sum SSSIM:  514.0
+SSIM score: 1.0    id   515
+PSNR: 82.28317260742188    id   515
+Sum SPSNR:  43437.06153869629
+Sum SSSIM:  515.0
+SSIM score: 1.0    id   516
+PSNR: 86.45722198486328    id   516
+Sum SPSNR:  43523.51876068115
+Sum SSSIM:  516.0
+SSIM score: 1.0    id   517
+PSNR: 82.51898193359375    id   517
+Sum SPSNR:  43606.037742614746
+Sum SSSIM:  517.0
+SSIM score: 1.0    id   518
+PSNR: 88.78230285644531    id   518
+Sum SPSNR:  43694.82004547119
+Sum SSSIM:  518.0
+SSIM score: 1.0    id   519
+PSNR: 83.6019058227539    id   519
+Sum SPSNR:  43778.421951293945
+Sum SSSIM:  519.0
+SSIM score: 1.0    id   520
+PSNR: 81.95965576171875    id   520
+Sum SPSNR:  43860.381607055664
+Sum SSSIM:  520.0
+SSIM score: 1.0    id   521
+PSNR: 86.11236572265625    id   521
+Sum SPSNR:  43946.49397277832
+Sum SSSIM:  521.0
+SSIM score: 1.0    id   522
+PSNR: 83.96011352539062    id   522
+Sum SPSNR:  44030.45408630371
+Sum SSSIM:  522.0
+SSIM score: 1.0    id   523
+PSNR: 80.85181427001953    id   523
+Sum SPSNR:  44111.30590057373
+Sum SSSIM:  523.0
+SSIM score: 1.0    id   524
+PSNR: 83.03093719482422    id   524
+Sum SPSNR:  44194.336837768555
+Sum SSSIM:  524.0
+SSIM score: 1.0    id   525
+PSNR: 87.84733581542969    id   525
+Sum SPSNR:  44282.184173583984
+Sum SSSIM:  525.0
+SSIM score: 1.0    id   526
+PSNR: 88.24885559082031    id   526
+Sum SPSNR:  44370.433029174805
+Sum SSSIM:  526.0
+SSIM score: 1.0    id   527
+PSNR: 80.90447998046875    id   527
+Sum SPSNR:  44451.33750915527
+Sum SSSIM:  527.0
+SSIM score: 1.0    id   528
+PSNR: 85.64849090576172    id   528
+Sum SPSNR:  44536.986000061035
+Sum SSSIM:  528.0
+SSIM score: 1.0    id   529
+PSNR: 83.51616668701172    id   529
+Sum SPSNR:  44620.50216674805
+Sum SSSIM:  529.0
+SSIM score: 1.0    id   530
+PSNR: 82.80332946777344    id   530
+Sum SPSNR:  44703.30549621582
+Sum SSSIM:  530.0
+SSIM score: 1.0    id   531
+PSNR: 82.35675048828125    id   531
+Sum SPSNR:  44785.6622467041
+Sum SSSIM:  531.0
+SSIM score: 1.0    id   532
+PSNR: 80.89092254638672    id   532
+Sum SPSNR:  44866.55316925049
+Sum SSSIM:  532.0
+SSIM score: 1.0    id   533
+PSNR: 83.81324768066406    id   533
+Sum SPSNR:  44950.36641693115
+Sum SSSIM:  533.0
+SSIM score: 1.0    id   534
+PSNR: 84.37748718261719    id   534
+Sum SPSNR:  45034.74390411377
+Sum SSSIM:  534.0
+SSIM score: 1.0    id   535
+PSNR: 83.38970184326172    id   535
+Sum SPSNR:  45118.13360595703
+Sum SSSIM:  535.0
+SSIM score: 1.0    id   536
+PSNR: 88.46574401855469    id   536
+Sum SPSNR:  45206.599349975586
+Sum SSSIM:  536.0
+SSIM score: 1.0    id   537
+PSNR: 87.71258544921875    id   537
+Sum SPSNR:  45294.311935424805
+Sum SSSIM:  537.0
+SSIM score: 1.0    id   538
+PSNR: 81.86627197265625    id   538
+Sum SPSNR:  45376.17820739746
+Sum SSSIM:  538.0
+SSIM score: 1.0    id   539
+PSNR: 88.32298278808594    id   539
+Sum SPSNR:  45464.50119018555
+Sum SSSIM:  539.0
+SSIM score: 1.0    id   540
+PSNR: 81.10073852539062    id   540
+Sum SPSNR:  45545.60192871094
+Sum SSSIM:  540.0
+SSIM score: 1.0    id   541
+PSNR: 83.22550964355469    id   541
+Sum SPSNR:  45628.82743835449
+Sum SSSIM:  541.0
+SSIM score: 1.0    id   542
+PSNR: 85.80827331542969    id   542
+Sum SPSNR:  45714.63571166992
+Sum SSSIM:  542.0
+SSIM score: 1.0    id   543
+PSNR: 80.79827880859375    id   543
+Sum SPSNR:  45795.433990478516
+Sum SSSIM:  543.0
+SSIM score: 1.0    id   544
+PSNR: 87.62210845947266    id   544
+Sum SPSNR:  45883.05609893799
+Sum SSSIM:  544.0
+SSIM score: 1.0    id   545
+PSNR: 82.29551696777344    id   545
+Sum SPSNR:  45965.35161590576
+Sum SSSIM:  545.0
+SSIM score: 1.0    id   546
+PSNR: 87.82316589355469    id   546
+Sum SPSNR:  46053.17478179932
+Sum SSSIM:  546.0
+SSIM score: 1.0    id   547
+PSNR: 82.41816711425781    id   547
+Sum SPSNR:  46135.592948913574
+Sum SSSIM:  547.0
+SSIM score: 1.0    id   548
+PSNR: 84.50503540039062    id   548
+Sum SPSNR:  46220.097984313965
+Sum SSSIM:  548.0
+SSIM score: 1.0    id   549
+PSNR: 80.76896667480469    id   549
+Sum SPSNR:  46300.86695098877
+Sum SSSIM:  549.0
+SSIM score: 1.0    id   550
+PSNR: 86.80004119873047    id   550
+Sum SPSNR:  46387.6669921875
+Sum SSSIM:  550.0
+SSIM score: 1.0    id   551
+PSNR: 86.52578735351562    id   551
+Sum SPSNR:  46474.192779541016
+Sum SSSIM:  551.0
+SSIM score: 1.0    id   552
+PSNR: 86.51004028320312    id   552
+Sum SPSNR:  46560.70281982422
+Sum SSSIM:  552.0
+SSIM score: 1.0    id   553
+PSNR: 81.00989532470703    id   553
+Sum SPSNR:  46641.712715148926
+Sum SSSIM:  553.0
+SSIM score: 1.0    id   554
+PSNR: 83.95645141601562    id   554
+Sum SPSNR:  46725.66916656494
+Sum SSSIM:  554.0
+SSIM score: 1.0    id   555
+PSNR: 82.76922607421875    id   555
+Sum SPSNR:  46808.43839263916
+Sum SSSIM:  555.0
+SSIM score: 1.0    id   556
+PSNR: 86.10745239257812    id   556
+Sum SPSNR:  46894.54584503174
+Sum SSSIM:  556.0
+SSIM score: 1.0    id   557
+PSNR: 84.29401397705078    id   557
+Sum SPSNR:  46978.83985900879
+Sum SSSIM:  557.0
+SSIM score: 1.0    id   558
+PSNR: 85.88601684570312    id   558
+Sum SPSNR:  47064.72587585449
+Sum SSSIM:  558.0
+SSIM score: 1.0    id   559
+PSNR: 81.61351013183594    id   559
+Sum SPSNR:  47146.33938598633
+Sum SSSIM:  559.0
+SSIM score: 1.0    id   560
+PSNR: 85.4676742553711    id   560
+Sum SPSNR:  47231.8070602417
+Sum SSSIM:  560.0
+SSIM score: 1.0    id   561
+PSNR: 82.77485656738281    id   561
+Sum SPSNR:  47314.58191680908
+Sum SSSIM:  561.0
+SSIM score: 1.0    id   562
+PSNR: 85.96954345703125    id   562
+Sum SPSNR:  47400.55146026611
+Sum SSSIM:  562.0
+SSIM score: 1.0    id   563
+PSNR: 88.02909851074219    id   563
+Sum SPSNR:  47488.580558776855
+Sum SSSIM:  563.0
+SSIM score: 1.0    id   564
+PSNR: 88.18234252929688    id   564
+Sum SPSNR:  47576.76290130615
+Sum SSSIM:  564.0
+SSIM score: 1.0    id   565
+PSNR: 84.37675476074219    id   565
+Sum SPSNR:  47661.139656066895
+Sum SSSIM:  565.0
+SSIM score: 1.0    id   566
+PSNR: 83.95653533935547    id   566
+Sum SPSNR:  47745.09619140625
+Sum SSSIM:  566.0
+SSIM score: 1.0    id   567
+PSNR: 80.82585144042969    id   567
+Sum SPSNR:  47825.92204284668
+Sum SSSIM:  567.0
+SSIM score: 1.0    id   568
+PSNR: 80.84705352783203    id   568
+Sum SPSNR:  47906.76909637451
+Sum SSSIM:  568.0
+SSIM score: 1.0    id   569
+PSNR: 84.47317504882812    id   569
+Sum SPSNR:  47991.24227142334
+Sum SSSIM:  569.0
+SSIM score: 1.0    id   570
+PSNR: 82.02664184570312    id   570
+Sum SPSNR:  48073.26891326904
+Sum SSSIM:  570.0
+SSIM score: 1.0    id   571
+PSNR: 82.621337890625    id   571
+Sum SPSNR:  48155.89025115967
+Sum SSSIM:  571.0
+SSIM score: 1.0    id   572
+PSNR: 87.36075592041016    id   572
+Sum SPSNR:  48243.25100708008
+Sum SSSIM:  572.0
+SSIM score: 1.0    id   573
+PSNR: 82.5558090209961    id   573
+Sum SPSNR:  48325.806816101074
+Sum SSSIM:  573.0
+SSIM score: 1.0    id   574
+PSNR: 86.17150115966797    id   574
+Sum SPSNR:  48411.97831726074
+Sum SSSIM:  574.0
+SSIM score: 1.0    id   575
+PSNR: 83.96019744873047    id   575
+Sum SPSNR:  48495.93851470947
+Sum SSSIM:  575.0
+SSIM score: 1.0    id   576
+PSNR: 83.6018295288086    id   576
+Sum SPSNR:  48579.54034423828
+Sum SSSIM:  576.0
+SSIM score: 1.0    id   577
+PSNR: 84.06301879882812    id   577
+Sum SPSNR:  48663.60336303711
+Sum SSSIM:  577.0
+SSIM score: 1.0    id   578
+PSNR: 81.26322937011719    id   578
+Sum SPSNR:  48744.86659240723
+Sum SSSIM:  578.0
+SSIM score: 1.0    id   579
+PSNR: 84.74583435058594    id   579
+Sum SPSNR:  48829.61242675781
+Sum SSSIM:  579.0
+SSIM score: 1.0    id   580
+PSNR: 81.57606506347656    id   580
+Sum SPSNR:  48911.18849182129
+Sum SSSIM:  580.0
+SSIM score: 1.0    id   581
+PSNR: 81.23701477050781    id   581
+Sum SPSNR:  48992.4255065918
+Sum SSSIM:  581.0
+SSIM score: 1.0    id   582
+PSNR: 82.10459899902344    id   582
+Sum SPSNR:  49074.53010559082
+Sum SSSIM:  582.0
+SSIM score: 1.0    id   583
+PSNR: 83.64324951171875    id   583
+Sum SPSNR:  49158.17335510254
+Sum SSSIM:  583.0
+SSIM score: 1.0    id   584
+PSNR: 82.41326141357422    id   584
+Sum SPSNR:  49240.58661651611
+Sum SSSIM:  584.0
+SSIM score: 1.0    id   585
+PSNR: 82.47525024414062    id   585
+Sum SPSNR:  49323.061866760254
+Sum SSSIM:  585.0
+SSIM score: 1.0    id   586
+PSNR: 82.54509735107422    id   586
+Sum SPSNR:  49405.60696411133
+Sum SSSIM:  586.0
+SSIM score: 1.0    id   587
+PSNR: 83.93588256835938    id   587
+Sum SPSNR:  49489.54284667969
+Sum SSSIM:  587.0
+SSIM score: 1.0    id   588
+PSNR: 86.18453979492188    id   588
+Sum SPSNR:  49575.72738647461
+Sum SSSIM:  588.0
+SSIM score: 1.0    id   589
+PSNR: 81.45014953613281    id   589
+Sum SPSNR:  49657.17753601074
+Sum SSSIM:  589.0
+SSIM score: 1.0    id   590
+PSNR: 83.87760162353516    id   590
+Sum SPSNR:  49741.05513763428
+Sum SSSIM:  590.0
+SSIM score: 1.0    id   591
+PSNR: 86.77896118164062    id   591
+Sum SPSNR:  49827.83409881592
+Sum SSSIM:  591.0
+SSIM score: 1.0    id   592
+PSNR: 86.16181945800781    id   592
+Sum SPSNR:  49913.995918273926
+Sum SSSIM:  592.0
+SSIM score: 1.0    id   593
+PSNR: 82.46745300292969    id   593
+Sum SPSNR:  49996.463371276855
+Sum SSSIM:  593.0
+SSIM score: 1.0    id   594
+PSNR: 82.0018081665039    id   594
+Sum SPSNR:  50078.46517944336
+Sum SSSIM:  594.0
+SSIM score: 1.0    id   595
+PSNR: 87.47794342041016    id   595
+Sum SPSNR:  50165.94312286377
+Sum SSSIM:  595.0
+SSIM score: 1.0    id   596
+PSNR: 83.53929138183594    id   596
+Sum SPSNR:  50249.482414245605
+Sum SSSIM:  596.0
+SSIM score: 1.0    id   597
+PSNR: 87.50365447998047    id   597
+Sum SPSNR:  50336.986068725586
+Sum SSSIM:  597.0
+SSIM score: 1.0    id   598
+PSNR: 83.19386291503906    id   598
+Sum SPSNR:  50420.179931640625
+Sum SSSIM:  598.0
+SSIM score: 1.0    id   599
+PSNR: 81.75047302246094    id   599
+Sum SPSNR:  50501.930404663086
+Sum SSSIM:  599.0
+SSIM score: 1.0    id   600
+PSNR: 82.01982116699219    id   600
+Sum SPSNR:  50583.95022583008
+Sum SSSIM:  600.0
+SSIM score: 1.0    id   601
+PSNR: 87.49087524414062    id   601
+Sum SPSNR:  50671.44110107422
+Sum SSSIM:  601.0
+SSIM score: 1.0    id   602
+PSNR: 80.8439712524414    id   602
+Sum SPSNR:  50752.28507232666
+Sum SSSIM:  602.0
+SSIM score: 1.0    id   603
+PSNR: 81.77505493164062    id   603
+Sum SPSNR:  50834.0601272583
+Sum SSSIM:  603.0
+SSIM score: 1.0    id   604
+PSNR: 83.32365417480469    id   604
+Sum SPSNR:  50917.383781433105
+Sum SSSIM:  604.0
+SSIM score: 1.0    id   605
+PSNR: 83.87547302246094    id   605
+Sum SPSNR:  51001.25925445557
+Sum SSSIM:  605.0
+SSIM score: 1.0    id   606
+PSNR: 86.06171417236328    id   606
+Sum SPSNR:  51087.32096862793
+Sum SSSIM:  606.0
+SSIM score: 1.0    id   607
+PSNR: 84.89918518066406    id   607
+Sum SPSNR:  51172.220153808594
+Sum SSSIM:  607.0
+SSIM score: 1.0    id   608
+PSNR: 86.64073181152344    id   608
+Sum SPSNR:  51258.86088562012
+Sum SSSIM:  608.0
+SSIM score: 1.0    id   609
+PSNR: 82.77517700195312    id   609
+Sum SPSNR:  51341.63606262207
+Sum SSSIM:  609.0
+SSIM score: 1.0    id   610
+PSNR: 82.26274108886719    id   610
+Sum SPSNR:  51423.89880371094
+Sum SSSIM:  610.0
+SSIM score: 1.0    id   611
+PSNR: 84.18013000488281    id   611
+Sum SPSNR:  51508.07893371582
+Sum SSSIM:  611.0
+SSIM score: 1.0    id   612
+PSNR: 85.24212646484375    id   612
+Sum SPSNR:  51593.321060180664
+Sum SSSIM:  612.0
+SSIM score: 1.0    id   613
+PSNR: 87.427734375    id   613
+Sum SPSNR:  51680.748794555664
+Sum SSSIM:  613.0
+SSIM score: 1.0    id   614
+PSNR: 86.365478515625    id   614
+Sum SPSNR:  51767.11427307129
+Sum SSSIM:  614.0
+SSIM score: 1.0    id   615
+PSNR: 81.09217834472656    id   615
+Sum SPSNR:  51848.206451416016
+Sum SSSIM:  615.0
+SSIM score: 1.0    id   616
+PSNR: 83.19365692138672    id   616
+Sum SPSNR:  51931.4001083374
+Sum SSSIM:  616.0
+SSIM score: 1.0    id   617
+PSNR: 86.76322937011719    id   617
+Sum SPSNR:  52018.16333770752
+Sum SSSIM:  617.0
+SSIM score: 1.0    id   618
+PSNR: 84.74693298339844    id   618
+Sum SPSNR:  52102.91027069092
+Sum SSSIM:  618.0
+SSIM score: 1.0    id   619
+PSNR: 86.29695129394531    id   619
+Sum SPSNR:  52189.20722198486
+Sum SSSIM:  619.0
+SSIM score: 1.0    id   620
+PSNR: 90.46585083007812    id   620
+Sum SPSNR:  52279.67307281494
+Sum SSSIM:  620.0
+SSIM score: 1.0    id   621
+PSNR: 87.07212829589844    id   621
+Sum SPSNR:  52366.74520111084
+Sum SSSIM:  621.0
+SSIM score: 1.0    id   622
+PSNR: 82.31415557861328    id   622
+Sum SPSNR:  52449.05935668945
+Sum SSSIM:  622.0
+SSIM score: 1.0    id   623
+PSNR: 82.18452453613281    id   623
+Sum SPSNR:  52531.243881225586
+Sum SSSIM:  623.0
+SSIM score: 1.0    id   624
+PSNR: 84.72335815429688    id   624
+Sum SPSNR:  52615.96723937988
+Sum SSSIM:  624.0
+SSIM score: 1.0    id   625
+PSNR: 85.14550018310547    id   625
+Sum SPSNR:  52701.11273956299
+Sum SSSIM:  625.0
+SSIM score: 1.0    id   626
+PSNR: 85.21160888671875    id   626
+Sum SPSNR:  52786.32434844971
+Sum SSSIM:  626.0
+SSIM score: 1.0    id   627
+PSNR: 85.06953430175781    id   627
+Sum SPSNR:  52871.393882751465
+Sum SSSIM:  627.0
+SSIM score: 1.0    id   628
+PSNR: 82.90760040283203    id   628
+Sum SPSNR:  52954.3014831543
+Sum SSSIM:  628.0
+SSIM score: 1.0    id   629
+PSNR: 86.4224624633789    id   629
+Sum SPSNR:  53040.723945617676
+Sum SSSIM:  629.0
+SSIM score: 1.0    id   630
+PSNR: 83.36365509033203    id   630
+Sum SPSNR:  53124.08760070801
+Sum SSSIM:  630.0
+SSIM score: 1.0    id   631
+PSNR: 88.14248657226562    id   631
+Sum SPSNR:  53212.23008728027
+Sum SSSIM:  631.0
+SSIM score: 1.0    id   632
+PSNR: 89.32310485839844    id   632
+Sum SPSNR:  53301.55319213867
+Sum SSSIM:  632.0
+SSIM score: 1.0    id   633
+PSNR: 82.6640396118164    id   633
+Sum SPSNR:  53384.21723175049
+Sum SSSIM:  633.0
+SSIM score: 1.0    id   634
+PSNR: 82.74664306640625    id   634
+Sum SPSNR:  53466.963874816895
+Sum SSSIM:  634.0
+SSIM score: 1.0    id   635
+PSNR: 81.2215576171875    id   635
+Sum SPSNR:  53548.18543243408
+Sum SSSIM:  635.0
+SSIM score: 1.0    id   636
+PSNR: 85.3375244140625    id   636
+Sum SPSNR:  53633.522956848145
+Sum SSSIM:  636.0
+SSIM score: 1.0    id   637
+PSNR: 81.18359375    id   637
+Sum SPSNR:  53714.706550598145
+Sum SSSIM:  637.0
+SSIM score: 1.0    id   638
+PSNR: 90.08208465576172    id   638
+Sum SPSNR:  53804.788635253906
+Sum SSSIM:  638.0
+SSIM score: 1.0    id   639
+PSNR: 88.09349822998047    id   639
+Sum SPSNR:  53892.88213348389
+Sum SSSIM:  639.0
+SSIM score: 1.0    id   640
+PSNR: 87.71574401855469    id   640
+Sum SPSNR:  53980.59787750244
+Sum SSSIM:  640.0
+SSIM score: 1.0    id   641
+PSNR: 87.71238708496094    id   641
+Sum SPSNR:  54068.3102645874
+Sum SSSIM:  641.0
+SSIM score: 1.0    id   642
+PSNR: 82.69751739501953    id   642
+Sum SPSNR:  54151.00778198242
+Sum SSSIM:  642.0
+SSIM score: 1.0    id   643
+PSNR: 85.8005142211914    id   643
+Sum SPSNR:  54236.80829620361
+Sum SSSIM:  643.0
+SSIM score: 1.0    id   644
+PSNR: 86.03627014160156    id   644
+Sum SPSNR:  54322.844566345215
+Sum SSSIM:  644.0
+SSIM score: 1.0    id   645
+PSNR: 81.74082946777344    id   645
+Sum SPSNR:  54404.58539581299
+Sum SSSIM:  645.0
+SSIM score: 1.0    id   646
+PSNR: 87.90206146240234    id   646
+Sum SPSNR:  54492.48745727539
+Sum SSSIM:  646.0
+SSIM score: 1.0    id   647
+PSNR: 81.8117446899414    id   647
+Sum SPSNR:  54574.29920196533
+Sum SSSIM:  647.0
+SSIM score: 1.0    id   648
+PSNR: 81.16064453125    id   648
+Sum SPSNR:  54655.45984649658
+Sum SSSIM:  648.0
+SSIM score: 1.0    id   649
+PSNR: 87.69229125976562    id   649
+Sum SPSNR:  54743.15213775635
+Sum SSSIM:  649.0
+SSIM score: 1.0    id   650
+PSNR: 88.48575592041016    id   650
+Sum SPSNR:  54831.63789367676
+Sum SSSIM:  650.0
+SSIM score: 1.0    id   651
+PSNR: 86.72421264648438    id   651
+Sum SPSNR:  54918.36210632324
+Sum SSSIM:  651.0
+SSIM score: 1.0    id   652
+PSNR: 82.49771118164062    id   652
+Sum SPSNR:  55000.85981750488
+Sum SSSIM:  652.0
+SSIM score: 1.0    id   653
+PSNR: 83.01551818847656    id   653
+Sum SPSNR:  55083.87533569336
+Sum SSSIM:  653.0
+SSIM score: 1.0    id   654
+PSNR: 86.95579528808594    id   654
+Sum SPSNR:  55170.831130981445
+Sum SSSIM:  654.0
+SSIM score: 1.0    id   655
+PSNR: 85.04447174072266    id   655
+Sum SPSNR:  55255.87560272217
+Sum SSSIM:  655.0
+SSIM score: 1.0    id   656
+PSNR: 85.02986145019531    id   656
+Sum SPSNR:  55340.90546417236
+Sum SSSIM:  656.0
+SSIM score: 1.0    id   657
+PSNR: 89.69755554199219    id   657
+Sum SPSNR:  55430.603019714355
+Sum SSSIM:  657.0
+SSIM score: 1.0    id   658
+PSNR: 85.49081420898438    id   658
+Sum SPSNR:  55516.09383392334
+Sum SSSIM:  658.0
+SSIM score: 1.0    id   659
+PSNR: 87.1409912109375    id   659
+Sum SPSNR:  55603.23482513428
+Sum SSSIM:  659.0
+SSIM score: 1.0    id   660
+PSNR: 81.54722595214844    id   660
+Sum SPSNR:  55684.782051086426
+Sum SSSIM:  660.0
+SSIM score: 1.0    id   661
+PSNR: 86.36244201660156    id   661
+Sum SPSNR:  55771.14449310303
+Sum SSSIM:  661.0
+SSIM score: 1.0    id   662
+PSNR: 81.40647888183594    id   662
+Sum SPSNR:  55852.55097198486
+Sum SSSIM:  662.0
+SSIM score: 1.0    id   663
+PSNR: 83.93704223632812    id   663
+Sum SPSNR:  55936.48801422119
+Sum SSSIM:  663.0
+SSIM score: 1.0    id   664
+PSNR: 81.01728820800781    id   664
+Sum SPSNR:  56017.5053024292
+Sum SSSIM:  664.0
+SSIM score: 1.0    id   665
+PSNR: 84.12799835205078    id   665
+Sum SPSNR:  56101.63330078125
+Sum SSSIM:  665.0
+SSIM score: 1.0    id   666
+PSNR: 84.42185974121094    id   666
+Sum SPSNR:  56186.05516052246
+Sum SSSIM:  666.0
+SSIM score: 1.0    id   667
+PSNR: 85.88226318359375    id   667
+Sum SPSNR:  56271.937423706055
+Sum SSSIM:  667.0
+SSIM score: 1.0    id   668
+PSNR: 81.92936706542969    id   668
+Sum SPSNR:  56353.866790771484
+Sum SSSIM:  668.0
+SSIM score: 1.0    id   669
+PSNR: 83.92388916015625    id   669
+Sum SPSNR:  56437.79067993164
+Sum SSSIM:  669.0
+SSIM score: 1.0    id   670
+PSNR: 87.38723754882812    id   670
+Sum SPSNR:  56525.17791748047
+Sum SSSIM:  670.0
+SSIM score: 1.0    id   671
+PSNR: 86.02233123779297    id   671
+Sum SPSNR:  56611.20024871826
+Sum SSSIM:  671.0
+SSIM score: 1.0    id   672
+PSNR: 81.53749084472656    id   672
+Sum SPSNR:  56692.73773956299
+Sum SSSIM:  672.0
+SSIM score: 1.0    id   673
+PSNR: 81.26904296875    id   673
+Sum SPSNR:  56774.00678253174
+Sum SSSIM:  673.0
+SSIM score: 1.0    id   674
+PSNR: 84.36888885498047    id   674
+Sum SPSNR:  56858.37567138672
+Sum SSSIM:  674.0
+SSIM score: 1.0    id   675
+PSNR: 82.94993591308594    id   675
+Sum SPSNR:  56941.325607299805
+Sum SSSIM:  675.0
+SSIM score: 1.0    id   676
+PSNR: 84.5511245727539    id   676
+Sum SPSNR:  57025.87673187256
+Sum SSSIM:  676.0
+SSIM score: 1.0    id   677
+PSNR: 87.64576721191406    id   677
+Sum SPSNR:  57113.52249908447
+Sum SSSIM:  677.0
+SSIM score: 1.0    id   678
+PSNR: 87.32557678222656    id   678
+Sum SPSNR:  57200.8480758667
+Sum SSSIM:  678.0
+SSIM score: 1.0    id   679
+PSNR: 81.19049072265625    id   679
+Sum SPSNR:  57282.038566589355
+Sum SSSIM:  679.0
+SSIM score: 1.0    id   680
+PSNR: 86.80355834960938    id   680
+Sum SPSNR:  57368.842124938965
+Sum SSSIM:  680.0
+SSIM score: 1.0    id   681
+PSNR: 80.97602081298828    id   681
+Sum SPSNR:  57449.81814575195
+Sum SSSIM:  681.0
+SSIM score: 1.0    id   682
+PSNR: 81.41860961914062    id   682
+Sum SPSNR:  57531.236755371094
+Sum SSSIM:  682.0
+SSIM score: 1.0    id   683
+PSNR: 86.07036590576172    id   683
+Sum SPSNR:  57617.307121276855
+Sum SSSIM:  683.0
+SSIM score: 1.0    id   684
+PSNR: 87.22594451904297    id   684
+Sum SPSNR:  57704.5330657959
+Sum SSSIM:  684.0
+SSIM score: 1.0    id   685
+PSNR: 81.15889739990234    id   685
+Sum SPSNR:  57785.6919631958
+Sum SSSIM:  685.0
+SSIM score: 1.0    id   686
+PSNR: 87.64362335205078    id   686
+Sum SPSNR:  57873.33558654785
+Sum SSSIM:  686.0
+SSIM score: 1.0    id   687
+PSNR: 85.50872802734375    id   687
+Sum SPSNR:  57958.844314575195
+Sum SSSIM:  687.0
+SSIM score: 1.0    id   688
+PSNR: 82.17811584472656    id   688
+Sum SPSNR:  58041.02243041992
+Sum SSSIM:  688.0
+SSIM score: 1.0    id   689
+PSNR: 87.22117614746094    id   689
+Sum SPSNR:  58128.24360656738
+Sum SSSIM:  689.0
+SSIM score: 1.0    id   690
+PSNR: 81.28379821777344    id   690
+Sum SPSNR:  58209.527404785156
+Sum SSSIM:  690.0
+SSIM score: 1.0    id   691
+PSNR: 81.54583740234375    id   691
+Sum SPSNR:  58291.0732421875
+Sum SSSIM:  691.0
+SSIM score: 1.0    id   692
+PSNR: 88.61749267578125    id   692
+Sum SPSNR:  58379.69073486328
+Sum SSSIM:  692.0
+SSIM score: 1.0    id   693
+PSNR: 86.1663818359375    id   693
+Sum SPSNR:  58465.85711669922
+Sum SSSIM:  693.0
+SSIM score: 1.0    id   694
+PSNR: 83.35112762451172    id   694
+Sum SPSNR:  58549.20824432373
+Sum SSSIM:  694.0
+SSIM score: 1.0    id   695
+PSNR: 85.856689453125    id   695
+Sum SPSNR:  58635.064933776855
+Sum SSSIM:  695.0
+SSIM score: 1.0    id   696
+PSNR: 84.36934661865234    id   696
+Sum SPSNR:  58719.43428039551
+Sum SSSIM:  696.0
+SSIM score: 1.0    id   697
+PSNR: 87.68364715576172    id   697
+Sum SPSNR:  58807.11792755127
+Sum SSSIM:  697.0
+SSIM score: 1.0    id   698
+PSNR: 84.17050170898438    id   698
+Sum SPSNR:  58891.288429260254
+Sum SSSIM:  698.0
+SSIM score: 1.0    id   699
+PSNR: 81.92535400390625    id   699
+Sum SPSNR:  58973.21378326416
+Sum SSSIM:  699.0
+SSIM score: 1.0    id   700
+PSNR: 87.25676727294922    id   700
+Sum SPSNR:  59060.47055053711
+Sum SSSIM:  700.0
+SSIM score: 1.0    id   701
+PSNR: 85.82000732421875    id   701
+Sum SPSNR:  59146.29055786133
+Sum SSSIM:  701.0
+SSIM score: 1.0    id   702
+PSNR: 83.26327514648438    id   702
+Sum SPSNR:  59229.55383300781
+Sum SSSIM:  702.0
+SSIM score: 1.0    id   703
+PSNR: 84.04956817626953    id   703
+Sum SPSNR:  59313.60340118408
+Sum SSSIM:  703.0
+SSIM score: 1.0    id   704
+PSNR: 79.79685974121094    id   704
+Sum SPSNR:  59393.40026092529
+Sum SSSIM:  704.0
+SSIM score: 1.0    id   705
+PSNR: 81.31328582763672    id   705
+Sum SPSNR:  59474.71354675293
+Sum SSSIM:  705.0
+SSIM score: 1.0    id   706
+PSNR: 88.06535339355469    id   706
+Sum SPSNR:  59562.778900146484
+Sum SSSIM:  706.0
+SSIM score: 1.0    id   707
+PSNR: 87.57154846191406    id   707
+Sum SPSNR:  59650.3504486084
+Sum SSSIM:  707.0
+SSIM score: 1.0    id   708
+PSNR: 87.70488739013672    id   708
+Sum SPSNR:  59738.055335998535
+Sum SSSIM:  708.0
+SSIM score: 1.0    id   709
+PSNR: 82.4931411743164    id   709
+Sum SPSNR:  59820.54847717285
+Sum SSSIM:  709.0
+SSIM score: 1.0    id   710
+PSNR: 87.76821899414062    id   710
+Sum SPSNR:  59908.31669616699
+Sum SSSIM:  710.0
+SSIM score: 1.0    id   711
+PSNR: 82.60601806640625    id   711
+Sum SPSNR:  59990.9227142334
+Sum SSSIM:  711.0
+SSIM score: 1.0    id   712
+PSNR: 81.04773712158203    id   712
+Sum SPSNR:  60071.97045135498
+Sum SSSIM:  712.0
+SSIM score: 1.0    id   713
+PSNR: 81.23513793945312    id   713
+Sum SPSNR:  60153.20558929443
+Sum SSSIM:  713.0
+SSIM score: 1.0    id   714
+PSNR: 80.09146118164062    id   714
+Sum SPSNR:  60233.297050476074
+Sum SSSIM:  714.0
+SSIM score: 1.0    id   715
+PSNR: 88.28880310058594    id   715
+Sum SPSNR:  60321.58585357666
+Sum SSSIM:  715.0
+SSIM score: 1.0    id   716
+PSNR: 81.50190734863281    id   716
+Sum SPSNR:  60403.08776092529
+Sum SSSIM:  716.0
+SSIM score: 1.0    id   717
+PSNR: 86.6657943725586    id   717
+Sum SPSNR:  60489.75355529785
+Sum SSSIM:  717.0
+SSIM score: 1.0    id   718
+PSNR: 85.3408432006836    id   718
+Sum SPSNR:  60575.094398498535
+Sum SSSIM:  718.0
+SSIM score: 1.0    id   719
+PSNR: 83.96636199951172    id   719
+Sum SPSNR:  60659.06076049805
+Sum SSSIM:  719.0
+SSIM score: 1.0    id   720
+PSNR: 80.76972961425781    id   720
+Sum SPSNR:  60739.830490112305
+Sum SSSIM:  720.0
+SSIM score: 1.0    id   721
+PSNR: 86.18927001953125    id   721
+Sum SPSNR:  60826.019760131836
+Sum SSSIM:  721.0
+SSIM score: 1.0    id   722
+PSNR: 84.60774230957031    id   722
+Sum SPSNR:  60910.627502441406
+Sum SSSIM:  722.0
+SSIM score: 1.0    id   723
+PSNR: 81.76380157470703    id   723
+Sum SPSNR:  60992.39130401611
+Sum SSSIM:  723.0
+SSIM score: 1.0    id   724
+PSNR: 81.79467010498047    id   724
+Sum SPSNR:  61074.185974121094
+Sum SSSIM:  724.0
+SSIM score: 1.0    id   725
+PSNR: 85.955810546875    id   725
+Sum SPSNR:  61160.14178466797
+Sum SSSIM:  725.0
+SSIM score: 1.0    id   726
+PSNR: 82.63787841796875    id   726
+Sum SPSNR:  61242.77966308594
+Sum SSSIM:  726.0
+SSIM score: 1.0    id   727
+PSNR: 84.67256164550781    id   727
+Sum SPSNR:  61327.452224731445
+Sum SSSIM:  727.0
+SSIM score: 1.0    id   728
+PSNR: 81.58972930908203    id   728
+Sum SPSNR:  61409.04195404053
+Sum SSSIM:  728.0
+SSIM score: 1.0    id   729
+PSNR: 82.1830825805664    id   729
+Sum SPSNR:  61491.225036621094
+Sum SSSIM:  729.0
+SSIM score: 1.0    id   730
+PSNR: 87.40706634521484    id   730
+Sum SPSNR:  61578.63210296631
+Sum SSSIM:  730.0
+SSIM score: 1.0    id   731
+PSNR: 82.99034881591797    id   731
+Sum SPSNR:  61661.62245178223
+Sum SSSIM:  731.0
+SSIM score: 1.0    id   732
+PSNR: 80.5485610961914    id   732
+Sum SPSNR:  61742.17101287842
+Sum SSSIM:  732.0
+SSIM score: 1.0    id   733
+PSNR: 83.02241516113281    id   733
+Sum SPSNR:  61825.19342803955
+Sum SSSIM:  733.0
+SSIM score: 1.0    id   734
+PSNR: 87.24983215332031    id   734
+Sum SPSNR:  61912.44326019287
+Sum SSSIM:  734.0
+SSIM score: 1.0    id   735
+PSNR: 85.73777770996094    id   735
+Sum SPSNR:  61998.18103790283
+Sum SSSIM:  735.0
+SSIM score: 1.0    id   736
+PSNR: 85.53412628173828    id   736
+Sum SPSNR:  62083.71516418457
+Sum SSSIM:  736.0
+SSIM score: 1.0    id   737
+PSNR: 87.22858428955078    id   737
+Sum SPSNR:  62170.94374847412
+Sum SSSIM:  737.0
+SSIM score: 1.0    id   738
+PSNR: 86.03653717041016    id   738
+Sum SPSNR:  62256.98028564453
+Sum SSSIM:  738.0
+SSIM score: 1.0    id   739
+PSNR: 81.52194213867188    id   739
+Sum SPSNR:  62338.5022277832
+Sum SSSIM:  739.0
+SSIM score: 1.0    id   740
+PSNR: 87.69583129882812    id   740
+Sum SPSNR:  62426.19805908203
+Sum SSSIM:  740.0
+SSIM score: 1.0    id   741
+PSNR: 86.97840881347656    id   741
+Sum SPSNR:  62513.17646789551
+Sum SSSIM:  741.0
+SSIM score: 1.0    id   742
+PSNR: 82.28254699707031    id   742
+Sum SPSNR:  62595.45901489258
+Sum SSSIM:  742.0
+SSIM score: 1.0    id   743
+PSNR: 86.19413757324219    id   743
+Sum SPSNR:  62681.65315246582
+Sum SSSIM:  743.0
+SSIM score: 1.0    id   744
+PSNR: 82.12673950195312    id   744
+Sum SPSNR:  62763.77989196777
+Sum SSSIM:  744.0
+SSIM score: 1.0    id   745
+PSNR: 81.49591064453125    id   745
+Sum SPSNR:  62845.275802612305
+Sum SSSIM:  745.0
+SSIM score: 1.0    id   746
+PSNR: 86.39613342285156    id   746
+Sum SPSNR:  62931.671936035156
+Sum SSSIM:  746.0
+SSIM score: 1.0    id   747
+PSNR: 87.23601531982422    id   747
+Sum SPSNR:  63018.90795135498
+Sum SSSIM:  747.0
+SSIM score: 1.0    id   748
+PSNR: 88.34759521484375    id   748
+Sum SPSNR:  63107.255546569824
+Sum SSSIM:  748.0
+SSIM score: 1.0    id   749
+PSNR: 81.98673248291016    id   749
+Sum SPSNR:  63189.242279052734
+Sum SSSIM:  749.0
+SSIM score: 1.0    id   750
+PSNR: 89.03746032714844    id   750
+Sum SPSNR:  63278.27973937988
+Sum SSSIM:  750.0
+SSIM score: 1.0    id   751
+PSNR: 83.53717803955078    id   751
+Sum SPSNR:  63361.81691741943
+Sum SSSIM:  751.0
+SSIM score: 1.0    id   752
+PSNR: 85.33238220214844    id   752
+Sum SPSNR:  63447.14929962158
+Sum SSSIM:  752.0
+SSIM score: 1.0    id   753
+PSNR: 83.21954345703125    id   753
+Sum SPSNR:  63530.36884307861
+Sum SSSIM:  753.0
+SSIM score: 1.0    id   754
+PSNR: 82.60699462890625    id   754
+Sum SPSNR:  63612.97583770752
+Sum SSSIM:  754.0
+SSIM score: 1.0    id   755
+PSNR: 86.06049346923828    id   755
+Sum SPSNR:  63699.03633117676
+Sum SSSIM:  755.0
+SSIM score: 1.0    id   756
+PSNR: 85.91033172607422    id   756
+Sum SPSNR:  63784.94666290283
+Sum SSSIM:  756.0
+SSIM score: 1.0    id   757
+PSNR: 82.5906982421875    id   757
+Sum SPSNR:  63867.53736114502
+Sum SSSIM:  757.0
+SSIM score: 1.0    id   758
+PSNR: 87.16145324707031    id   758
+Sum SPSNR:  63954.69881439209
+Sum SSSIM:  758.0
+SSIM score: 1.0    id   759
+PSNR: 86.03936004638672    id   759
+Sum SPSNR:  64040.73817443848
+Sum SSSIM:  759.0
+SSIM score: 1.0    id   760
+PSNR: 85.74230194091797    id   760
+Sum SPSNR:  64126.480476379395
+Sum SSSIM:  760.0
+SSIM score: 1.0    id   761
+PSNR: 87.70508575439453    id   761
+Sum SPSNR:  64214.18556213379
+Sum SSSIM:  761.0
+SSIM score: 1.0    id   762
+PSNR: 82.39749908447266    id   762
+Sum SPSNR:  64296.58306121826
+Sum SSSIM:  762.0
+SSIM score: 1.0    id   763
+PSNR: 85.93596649169922    id   763
+Sum SPSNR:  64382.51902770996
+Sum SSSIM:  763.0
+SSIM score: 1.0    id   764
+PSNR: 81.4180908203125    id   764
+Sum SPSNR:  64463.93711853027
+Sum SSSIM:  764.0
+SSIM score: 1.0    id   765
+PSNR: 83.29650115966797    id   765
+Sum SPSNR:  64547.23361968994
+Sum SSSIM:  765.0
+SSIM score: 1.0    id   766
+PSNR: 88.04569244384766    id   766
+Sum SPSNR:  64635.27931213379
+Sum SSSIM:  766.0
+SSIM score: 1.0    id   767
+PSNR: 86.23455047607422    id   767
+Sum SPSNR:  64721.51386260986
+Sum SSSIM:  767.0
+SSIM score: 1.0    id   768
+PSNR: 89.27474212646484    id   768
+Sum SPSNR:  64810.78860473633
+Sum SSSIM:  768.0
+SSIM score: 1.0    id   769
+PSNR: 80.87813568115234    id   769
+Sum SPSNR:  64891.66674041748
+Sum SSSIM:  769.0
+SSIM score: 1.0    id   770
+PSNR: 84.65504455566406    id   770
+Sum SPSNR:  64976.321784973145
+Sum SSSIM:  770.0
+SSIM score: 1.0    id   771
+PSNR: 81.54612731933594    id   771
+Sum SPSNR:  65057.86791229248
+Sum SSSIM:  771.0
+SSIM score: 1.0    id   772
+PSNR: 82.14725494384766    id   772
+Sum SPSNR:  65140.01516723633
+Sum SSSIM:  772.0
+SSIM score: 1.0    id   773
+PSNR: 85.27861785888672    id   773
+Sum SPSNR:  65225.293785095215
+Sum SSSIM:  773.0
+SSIM score: 1.0    id   774
+PSNR: 84.35710144042969    id   774
+Sum SPSNR:  65309.650886535645
+Sum SSSIM:  774.0
+SSIM score: 1.0    id   775
+PSNR: 82.24112701416016    id   775
+Sum SPSNR:  65391.892013549805
+Sum SSSIM:  775.0
+SSIM score: 1.0    id   776
+PSNR: 81.1783676147461    id   776
+Sum SPSNR:  65473.07038116455
+Sum SSSIM:  776.0
+SSIM score: 1.0    id   777
+PSNR: 85.43342590332031    id   777
+Sum SPSNR:  65558.50380706787
+Sum SSSIM:  777.0
+SSIM score: 1.0    id   778
+PSNR: 84.40229797363281    id   778
+Sum SPSNR:  65642.9061050415
+Sum SSSIM:  778.0
+SSIM score: 1.0    id   779
+PSNR: 81.06871795654297    id   779
+Sum SPSNR:  65723.97482299805
+Sum SSSIM:  779.0
+SSIM score: 1.0    id   780
+PSNR: 84.96476745605469    id   780
+Sum SPSNR:  65808.9395904541
+Sum SSSIM:  780.0
+SSIM score: 1.0    id   781
+PSNR: 88.00474548339844    id   781
+Sum SPSNR:  65896.9443359375
+Sum SSSIM:  781.0
+SSIM score: 1.0    id   782
+PSNR: 85.27095794677734    id   782
+Sum SPSNR:  65982.21529388428
+Sum SSSIM:  782.0
+SSIM score: 1.0    id   783
+PSNR: 80.40644836425781    id   783
+Sum SPSNR:  66062.62174224854
+Sum SSSIM:  783.0
+SSIM score: 1.0    id   784
+PSNR: 85.45779418945312    id   784
+Sum SPSNR:  66148.07953643799
+Sum SSSIM:  784.0
+SSIM score: 1.0    id   785
+PSNR: 85.88731384277344    id   785
+Sum SPSNR:  66233.96685028076
+Sum SSSIM:  785.0
+SSIM score: 1.0    id   786
+PSNR: 85.05890655517578    id   786
+Sum SPSNR:  66319.02575683594
+Sum SSSIM:  786.0
+SSIM score: 1.0    id   787
+PSNR: 82.31752014160156    id   787
+Sum SPSNR:  66401.34327697754
+Sum SSSIM:  787.0
+SSIM score: 1.0    id   788
+PSNR: 89.79851531982422    id   788
+Sum SPSNR:  66491.14179229736
+Sum SSSIM:  788.0
+SSIM score: 1.0    id   789
+PSNR: 85.82473754882812    id   789
+Sum SPSNR:  66576.96652984619
+Sum SSSIM:  789.0
+SSIM score: 1.0    id   790
+PSNR: 82.06024932861328    id   790
+Sum SPSNR:  66659.0267791748
+Sum SSSIM:  790.0
+SSIM score: 1.0    id   791
+PSNR: 81.17311096191406    id   791
+Sum SPSNR:  66740.19989013672
+Sum SSSIM:  791.0
+SSIM score: 1.0    id   792
+PSNR: 81.42111206054688    id   792
+Sum SPSNR:  66821.62100219727
+Sum SSSIM:  792.0
+SSIM score: 1.0    id   793
+PSNR: 82.9531021118164    id   793
+Sum SPSNR:  66904.57410430908
+Sum SSSIM:  793.0
+SSIM score: 1.0    id   794
+PSNR: 84.96896362304688    id   794
+Sum SPSNR:  66989.54306793213
+Sum SSSIM:  794.0
+SSIM score: 1.0    id   795
+PSNR: 81.83055877685547    id   795
+Sum SPSNR:  67071.37362670898
+Sum SSSIM:  795.0
+SSIM score: 1.0    id   796
+PSNR: 88.61919403076172    id   796
+Sum SPSNR:  67159.99282073975
+Sum SSSIM:  796.0
+SSIM score: 1.0    id   797
+PSNR: 81.00765991210938    id   797
+Sum SPSNR:  67241.00048065186
+Sum SSSIM:  797.0
+SSIM score: 1.0    id   798
+PSNR: 85.94883728027344    id   798
+Sum SPSNR:  67326.94931793213
+Sum SSSIM:  798.0
+SSIM score: 1.0    id   799
+PSNR: 86.70772552490234    id   799
+Sum SPSNR:  67413.65704345703
+Sum SSSIM:  799.0
+SSIM score: 1.0    id   800
+PSNR: 82.76460266113281    id   800
+Sum SPSNR:  67496.42164611816
+Sum SSSIM:  800.0
+SSIM score: 1.0    id   801
+PSNR: 90.88357543945312    id   801
+Sum SPSNR:  67587.30522155762
+Sum SSSIM:  801.0
+SSIM score: 1.0    id   802
+PSNR: 81.7997817993164    id   802
+Sum SPSNR:  67669.10500335693
+Sum SSSIM:  802.0
+SSIM score: 1.0    id   803
+PSNR: 81.13156127929688    id   803
+Sum SPSNR:  67750.23656463623
+Sum SSSIM:  803.0
+SSIM score: 1.0    id   804
+PSNR: 81.77490234375    id   804
+Sum SPSNR:  67832.01146697998
+Sum SSSIM:  804.0
+SSIM score: 1.0    id   805
+PSNR: 82.82383728027344    id   805
+Sum SPSNR:  67914.83530426025
+Sum SSSIM:  805.0
+SSIM score: 1.0    id   806
+PSNR: 89.05867004394531    id   806
+Sum SPSNR:  68003.8939743042
+Sum SSSIM:  806.0
+SSIM score: 1.0    id   807
+PSNR: 87.04325866699219    id   807
+Sum SPSNR:  68090.93723297119
+Sum SSSIM:  807.0
+SSIM score: 1.0    id   808
+PSNR: 82.81878662109375    id   808
+Sum SPSNR:  68173.75601959229
+Sum SSSIM:  808.0
+SSIM score: 1.0    id   809
+PSNR: 86.09070587158203    id   809
+Sum SPSNR:  68259.84672546387
+Sum SSSIM:  809.0
+SSIM score: 1.0    id   810
+PSNR: 85.20651245117188    id   810
+Sum SPSNR:  68345.05323791504
+Sum SSSIM:  810.0
+SSIM score: 1.0    id   811
+PSNR: 81.40574645996094    id   811
+Sum SPSNR:  68426.458984375
+Sum SSSIM:  811.0
+SSIM score: 1.0    id   812
+PSNR: 80.83172607421875    id   812
+Sum SPSNR:  68507.29071044922
+Sum SSSIM:  812.0
+SSIM score: 1.0    id   813
+PSNR: 87.56676483154297    id   813
+Sum SPSNR:  68594.85747528076
+Sum SSSIM:  813.0
+SSIM score: 1.0    id   814
+PSNR: 87.63081359863281    id   814
+Sum SPSNR:  68682.4882888794
+Sum SSSIM:  814.0
+SSIM score: 1.0    id   815
+PSNR: 83.03692626953125    id   815
+Sum SPSNR:  68765.52521514893
+Sum SSSIM:  815.0
+SSIM score: 1.0    id   816
+PSNR: 81.66436767578125    id   816
+Sum SPSNR:  68847.1895828247
+Sum SSSIM:  816.0
+SSIM score: 1.0    id   817
+PSNR: 86.5403823852539    id   817
+Sum SPSNR:  68933.72996520996
+Sum SSSIM:  817.0
+SSIM score: 1.0    id   818
+PSNR: 86.0478286743164    id   818
+Sum SPSNR:  69019.77779388428
+Sum SSSIM:  818.0
+SSIM score: 1.0    id   819
+PSNR: 83.557373046875    id   819
+Sum SPSNR:  69103.33516693115
+Sum SSSIM:  819.0
+SSIM score: 1.0    id   820
+PSNR: 85.22361755371094    id   820
+Sum SPSNR:  69188.55878448486
+Sum SSSIM:  820.0
+SSIM score: 1.0    id   821
+PSNR: 85.74756622314453    id   821
+Sum SPSNR:  69274.30635070801
+Sum SSSIM:  821.0
+SSIM score: 1.0    id   822
+PSNR: 82.59215545654297    id   822
+Sum SPSNR:  69356.89850616455
+Sum SSSIM:  822.0
+SSIM score: 1.0    id   823
+PSNR: 81.3363265991211    id   823
+Sum SPSNR:  69438.23483276367
+Sum SSSIM:  823.0
+SSIM score: 1.0    id   824
+PSNR: 85.63353729248047    id   824
+Sum SPSNR:  69523.86837005615
+Sum SSSIM:  824.0
+SSIM score: 1.0    id   825
+PSNR: 81.52469635009766    id   825
+Sum SPSNR:  69605.39306640625
+Sum SSSIM:  825.0
+SSIM score: 1.0    id   826
+PSNR: 85.31893920898438    id   826
+Sum SPSNR:  69690.71200561523
+Sum SSSIM:  826.0
+SSIM score: 1.0    id   827
+PSNR: 82.27638244628906    id   827
+Sum SPSNR:  69772.98838806152
+Sum SSSIM:  827.0
+SSIM score: 1.0    id   828
+PSNR: 81.35123443603516    id   828
+Sum SPSNR:  69854.33962249756
+Sum SSSIM:  828.0
+SSIM score: 1.0    id   829
+PSNR: 84.37483215332031    id   829
+Sum SPSNR:  69938.71445465088
+Sum SSSIM:  829.0
+SSIM score: 1.0    id   830
+PSNR: 88.43649291992188    id   830
+Sum SPSNR:  70027.1509475708
+Sum SSSIM:  830.0
+SSIM score: 1.0    id   831
+PSNR: 85.1658935546875    id   831
+Sum SPSNR:  70112.31684112549
+Sum SSSIM:  831.0
+SSIM score: 1.0    id   832
+PSNR: 80.63152313232422    id   832
+Sum SPSNR:  70192.94836425781
+Sum SSSIM:  832.0
+SSIM score: 1.0    id   833
+PSNR: 87.44700622558594    id   833
+Sum SPSNR:  70280.3953704834
+Sum SSSIM:  833.0
+SSIM score: 1.0    id   834
+PSNR: 86.72877502441406    id   834
+Sum SPSNR:  70367.12414550781
+Sum SSSIM:  834.0
+SSIM score: 1.0    id   835
+PSNR: 82.68328857421875    id   835
+Sum SPSNR:  70449.80743408203
+Sum SSSIM:  835.0
+SSIM score: 1.0    id   836
+PSNR: 81.66653442382812    id   836
+Sum SPSNR:  70531.47396850586
+Sum SSSIM:  836.0
+SSIM score: 1.0    id   837
+PSNR: 82.7457504272461    id   837
+Sum SPSNR:  70614.2197189331
+Sum SSSIM:  837.0
+SSIM score: 1.0    id   838
+PSNR: 82.60552978515625    id   838
+Sum SPSNR:  70696.82524871826
+Sum SSSIM:  838.0
+SSIM score: 1.0    id   839
+PSNR: 81.83335876464844    id   839
+Sum SPSNR:  70778.65860748291
+Sum SSSIM:  839.0
+SSIM score: 1.0    id   840
+PSNR: 84.40616607666016    id   840
+Sum SPSNR:  70863.06477355957
+Sum SSSIM:  840.0
+SSIM score: 1.0    id   841
+PSNR: 87.86631774902344    id   841
+Sum SPSNR:  70950.9310913086
+Sum SSSIM:  841.0
+SSIM score: 1.0    id   842
+PSNR: 81.62677001953125    id   842
+Sum SPSNR:  71032.55786132812
+Sum SSSIM:  842.0
+SSIM score: 1.0    id   843
+PSNR: 85.3526382446289    id   843
+Sum SPSNR:  71117.91049957275
+Sum SSSIM:  843.0
+SSIM score: 1.0    id   844
+PSNR: 85.24481964111328    id   844
+Sum SPSNR:  71203.15531921387
+Sum SSSIM:  844.0
+SSIM score: 1.0    id   845
+PSNR: 82.42961883544922    id   845
+Sum SPSNR:  71285.58493804932
+Sum SSSIM:  845.0
+SSIM score: 1.0    id   846
+PSNR: 84.82888793945312    id   846
+Sum SPSNR:  71370.41382598877
+Sum SSSIM:  846.0
+SSIM score: 1.0    id   847
+PSNR: 82.57305908203125    id   847
+Sum SPSNR:  71452.9868850708
+Sum SSSIM:  847.0
+SSIM score: 1.0    id   848
+PSNR: 81.21891021728516    id   848
+Sum SPSNR:  71534.20579528809
+Sum SSSIM:  848.0
+SSIM score: 1.0    id   849
+PSNR: 84.34990692138672    id   849
+Sum SPSNR:  71618.55570220947
+Sum SSSIM:  849.0
+SSIM score: 1.0    id   850
+PSNR: 86.75419616699219    id   850
+Sum SPSNR:  71705.30989837646
+Sum SSSIM:  850.0
+SSIM score: 1.0    id   851
+PSNR: 82.04764556884766    id   851
+Sum SPSNR:  71787.35754394531
+Sum SSSIM:  851.0
+SSIM score: 1.0    id   852
+PSNR: 86.81318664550781    id   852
+Sum SPSNR:  71874.17073059082
+Sum SSSIM:  852.0
+SSIM score: 1.0    id   853
+PSNR: 88.8096694946289    id   853
+Sum SPSNR:  71962.98040008545
+Sum SSSIM:  853.0
+SSIM score: 1.0    id   854
+PSNR: 82.42861938476562    id   854
+Sum SPSNR:  72045.40901947021
+Sum SSSIM:  854.0
+SSIM score: 1.0    id   855
+PSNR: 84.19459533691406    id   855
+Sum SPSNR:  72129.60361480713
+Sum SSSIM:  855.0
+SSIM score: 1.0    id   856
+PSNR: 87.63236999511719    id   856
+Sum SPSNR:  72217.23598480225
+Sum SSSIM:  856.0
+SSIM score: 1.0    id   857
+PSNR: 86.70867156982422    id   857
+Sum SPSNR:  72303.94465637207
+Sum SSSIM:  857.0
+SSIM score: 1.0    id   858
+PSNR: 86.32038879394531    id   858
+Sum SPSNR:  72390.26504516602
+Sum SSSIM:  858.0
+SSIM score: 1.0    id   859
+PSNR: 87.10736083984375    id   859
+Sum SPSNR:  72477.37240600586
+Sum SSSIM:  859.0
+SSIM score: 1.0    id   860
+PSNR: 87.22647094726562    id   860
+Sum SPSNR:  72564.59887695312
+Sum SSSIM:  860.0
+SSIM score: 1.0    id   861
+PSNR: 83.49241638183594    id   861
+Sum SPSNR:  72648.09129333496
+Sum SSSIM:  861.0
+SSIM score: 1.0    id   862
+PSNR: 84.55122375488281    id   862
+Sum SPSNR:  72732.64251708984
+Sum SSSIM:  862.0
+SSIM score: 1.0    id   863
+PSNR: 86.36012268066406    id   863
+Sum SPSNR:  72819.00263977051
+Sum SSSIM:  863.0
+SSIM score: 1.0    id   864
+PSNR: 81.29396057128906    id   864
+Sum SPSNR:  72900.2966003418
+Sum SSSIM:  864.0
+SSIM score: 1.0    id   865
+PSNR: 82.50926208496094    id   865
+Sum SPSNR:  72982.80586242676
+Sum SSSIM:  865.0
+SSIM score: 1.0    id   866
+PSNR: 83.49457550048828    id   866
+Sum SPSNR:  73066.30043792725
+Sum SSSIM:  866.0
+SSIM score: 1.0    id   867
+PSNR: 84.7572250366211    id   867
+Sum SPSNR:  73151.05766296387
+Sum SSSIM:  867.0
+SSIM score: 1.0    id   868
+PSNR: 81.39236450195312    id   868
+Sum SPSNR:  73232.45002746582
+Sum SSSIM:  868.0
+SSIM score: 1.0    id   869
+PSNR: 85.65032958984375    id   869
+Sum SPSNR:  73318.10035705566
+Sum SSSIM:  869.0
+SSIM score: 1.0    id   870
+PSNR: 87.27654266357422    id   870
+Sum SPSNR:  73405.37689971924
+Sum SSSIM:  870.0
+SSIM score: 1.0    id   871
+PSNR: 80.98029327392578    id   871
+Sum SPSNR:  73486.35719299316
+Sum SSSIM:  871.0
+SSIM score: 1.0    id   872
+PSNR: 82.47673034667969    id   872
+Sum SPSNR:  73568.83392333984
+Sum SSSIM:  872.0
+SSIM score: 1.0    id   873
+PSNR: 81.200927734375    id   873
+Sum SPSNR:  73650.03485107422
+Sum SSSIM:  873.0
+SSIM score: 1.0    id   874
+PSNR: 88.30281066894531    id   874
+Sum SPSNR:  73738.33766174316
+Sum SSSIM:  874.0
+SSIM score: 1.0    id   875
+PSNR: 88.31640625    id   875
+Sum SPSNR:  73826.65406799316
+Sum SSSIM:  875.0
+SSIM score: 1.0    id   876
+PSNR: 85.01689147949219    id   876
+Sum SPSNR:  73911.67095947266
+Sum SSSIM:  876.0
+SSIM score: 1.0    id   877
+PSNR: 81.9505386352539    id   877
+Sum SPSNR:  73993.62149810791
+Sum SSSIM:  877.0
+SSIM score: 1.0    id   878
+PSNR: 88.12139892578125    id   878
+Sum SPSNR:  74081.74289703369
+Sum SSSIM:  878.0
+SSIM score: 1.0    id   879
+PSNR: 81.60943603515625    id   879
+Sum SPSNR:  74163.35233306885
+Sum SSSIM:  879.0
+SSIM score: 1.0    id   880
+PSNR: 82.14160919189453    id   880
+Sum SPSNR:  74245.49394226074
+Sum SSSIM:  880.0
+SSIM score: 1.0    id   881
+PSNR: 84.99443817138672    id   881
+Sum SPSNR:  74330.48838043213
+Sum SSSIM:  881.0
+SSIM score: 1.0    id   882
+PSNR: 86.67822265625    id   882
+Sum SPSNR:  74417.16660308838
+Sum SSSIM:  882.0
+SSIM score: 1.0    id   883
+PSNR: 86.11087036132812    id   883
+Sum SPSNR:  74503.2774734497
+Sum SSSIM:  883.0
+SSIM score: 1.0    id   884
+PSNR: 81.27885437011719    id   884
+Sum SPSNR:  74584.55632781982
+Sum SSSIM:  884.0
+SSIM score: 1.0    id   885
+PSNR: 85.0960464477539    id   885
+Sum SPSNR:  74669.65237426758
+Sum SSSIM:  885.0
+SSIM score: 1.0    id   886
+PSNR: 81.71737670898438    id   886
+Sum SPSNR:  74751.36975097656
+Sum SSSIM:  886.0
+SSIM score: 1.0    id   887
+PSNR: 85.03561401367188    id   887
+Sum SPSNR:  74836.40536499023
+Sum SSSIM:  887.0
+SSIM score: 1.0    id   888
+PSNR: 83.62657165527344    id   888
+Sum SPSNR:  74920.03193664551
+Sum SSSIM:  888.0
+SSIM score: 1.0    id   889
+PSNR: 82.6207275390625    id   889
+Sum SPSNR:  75002.65266418457
+Sum SSSIM:  889.0
+SSIM score: 1.0    id   890
+PSNR: 84.06488037109375    id   890
+Sum SPSNR:  75086.71754455566
+Sum SSSIM:  890.0
+SSIM score: 1.0    id   891
+PSNR: 87.03175354003906    id   891
+Sum SPSNR:  75173.7492980957
+Sum SSSIM:  891.0
+SSIM score: 1.0    id   892
+PSNR: 88.91464233398438    id   892
+Sum SPSNR:  75262.66394042969
+Sum SSSIM:  892.0
+SSIM score: 1.0    id   893
+PSNR: 85.30746459960938    id   893
+Sum SPSNR:  75347.9714050293
+Sum SSSIM:  893.0
+SSIM score: 1.0    id   894
+PSNR: 88.36247253417969    id   894
+Sum SPSNR:  75436.33387756348
+Sum SSSIM:  894.0
+SSIM score: 1.0    id   895
+PSNR: 85.91059875488281    id   895
+Sum SPSNR:  75522.24447631836
+Sum SSSIM:  895.0
+SSIM score: 1.0    id   896
+PSNR: 84.11979675292969    id   896
+Sum SPSNR:  75606.36427307129
+Sum SSSIM:  896.0
+SSIM score: 1.0    id   897
+PSNR: 88.07865142822266    id   897
+Sum SPSNR:  75694.44292449951
+Sum SSSIM:  897.0
+SSIM score: 1.0    id   898
+PSNR: 85.5360336303711    id   898
+Sum SPSNR:  75779.97895812988
+Sum SSSIM:  898.0
+SSIM score: 1.0    id   899
+PSNR: 83.78558349609375    id   899
+Sum SPSNR:  75863.76454162598
+Sum SSSIM:  899.0
+SSIM score: 1.0    id   900
+PSNR: 84.62982940673828    id   900
+Sum SPSNR:  75948.39437103271
+Sum SSSIM:  900.0
+SSIM score: 1.0    id   901
+PSNR: 89.90057373046875    id   901
+Sum SPSNR:  76038.29494476318
+Sum SSSIM:  901.0
+SSIM score: 1.0    id   902
+PSNR: 82.45108032226562    id   902
+Sum SPSNR:  76120.74602508545
+Sum SSSIM:  902.0
+SSIM score: 1.0    id   903
+PSNR: 83.08924865722656    id   903
+Sum SPSNR:  76203.83527374268
+Sum SSSIM:  903.0
+SSIM score: 1.0    id   904
+PSNR: 87.75663757324219    id   904
+Sum SPSNR:  76291.59191131592
+Sum SSSIM:  904.0
+SSIM score: 1.0    id   905
+PSNR: 81.35273742675781    id   905
+Sum SPSNR:  76372.94464874268
+Sum SSSIM:  905.0
+SSIM score: 1.0    id   906
+PSNR: 80.61442565917969    id   906
+Sum SPSNR:  76453.55907440186
+Sum SSSIM:  906.0
+SSIM score: 1.0    id   907
+PSNR: 85.89030456542969    id   907
+Sum SPSNR:  76539.44937896729
+Sum SSSIM:  907.0
+SSIM score: 1.0    id   908
+PSNR: 80.79298400878906    id   908
+Sum SPSNR:  76620.24236297607
+Sum SSSIM:  908.0
+SSIM score: 1.0    id   909
+PSNR: 86.41600799560547    id   909
+Sum SPSNR:  76706.65837097168
+Sum SSSIM:  909.0
+SSIM score: 1.0    id   910
+PSNR: 82.37150573730469    id   910
+Sum SPSNR:  76789.02987670898
+Sum SSSIM:  910.0
+SSIM score: 1.0    id   911
+PSNR: 87.35347747802734    id   911
+Sum SPSNR:  76876.38335418701
+Sum SSSIM:  911.0
+SSIM score: 1.0    id   912
+PSNR: 87.17347717285156    id   912
+Sum SPSNR:  76963.55683135986
+Sum SSSIM:  912.0
+SSIM score: 1.0    id   913
+PSNR: 82.15630340576172    id   913
+Sum SPSNR:  77045.71313476562
+Sum SSSIM:  913.0
+SSIM score: 1.0    id   914
+PSNR: 83.80673217773438    id   914
+Sum SPSNR:  77129.51986694336
+Sum SSSIM:  914.0
+SSIM score: 1.0    id   915
+PSNR: 81.96307373046875    id   915
+Sum SPSNR:  77211.48294067383
+Sum SSSIM:  915.0
+SSIM score: 1.0    id   916
+PSNR: 83.16092681884766    id   916
+Sum SPSNR:  77294.64386749268
+Sum SSSIM:  916.0
+SSIM score: 1.0    id   917
+PSNR: 85.93582916259766    id   917
+Sum SPSNR:  77380.57969665527
+Sum SSSIM:  917.0
+SSIM score: 1.0    id   918
+PSNR: 84.85152435302734    id   918
+Sum SPSNR:  77465.4312210083
+Sum SSSIM:  918.0
+SSIM score: 1.0    id   919
+PSNR: 89.41563415527344    id   919
+Sum SPSNR:  77554.84685516357
+Sum SSSIM:  919.0
+SSIM score: 1.0    id   920
+PSNR: 81.59300994873047    id   920
+Sum SPSNR:  77636.4398651123
+Sum SSSIM:  920.0
+SSIM score: 1.0    id   921
+PSNR: 88.07628631591797    id   921
+Sum SPSNR:  77724.51615142822
+Sum SSSIM:  921.0
+SSIM score: 1.0    id   922
+PSNR: 81.38670349121094    id   922
+Sum SPSNR:  77805.90285491943
+Sum SSSIM:  922.0
+SSIM score: 1.0    id   923
+PSNR: 82.15834045410156    id   923
+Sum SPSNR:  77888.06119537354
+Sum SSSIM:  923.0
+SSIM score: 1.0    id   924
+PSNR: 81.12740325927734    id   924
+Sum SPSNR:  77969.18859863281
+Sum SSSIM:  924.0
+SSIM score: 1.0    id   925
+PSNR: 83.09251403808594    id   925
+Sum SPSNR:  78052.2811126709
+Sum SSSIM:  925.0
+SSIM score: 1.0    id   926
+PSNR: 82.2488021850586    id   926
+Sum SPSNR:  78134.52991485596
+Sum SSSIM:  926.0
+SSIM score: 1.0    id   927
+PSNR: 84.86093139648438    id   927
+Sum SPSNR:  78219.39084625244
+Sum SSSIM:  927.0
+SSIM score: 1.0    id   928
+PSNR: 81.81559753417969    id   928
+Sum SPSNR:  78301.20644378662
+Sum SSSIM:  928.0
+SSIM score: 1.0    id   929
+PSNR: 88.77902221679688    id   929
+Sum SPSNR:  78389.98546600342
+Sum SSSIM:  929.0
+SSIM score: 1.0    id   930
+PSNR: 82.66651153564453    id   930
+Sum SPSNR:  78472.65197753906
+Sum SSSIM:  930.0
+SSIM score: 1.0    id   931
+PSNR: 87.52571868896484    id   931
+Sum SPSNR:  78560.17769622803
+Sum SSSIM:  931.0
+SSIM score: 1.0    id   932
+PSNR: 82.3446273803711    id   932
+Sum SPSNR:  78642.5223236084
+Sum SSSIM:  932.0
+SSIM score: 1.0    id   933
+PSNR: 85.50884246826172    id   933
+Sum SPSNR:  78728.03116607666
+Sum SSSIM:  933.0
+SSIM score: 1.0    id   934
+PSNR: 81.2629623413086    id   934
+Sum SPSNR:  78809.29412841797
+Sum SSSIM:  934.0
+SSIM score: 1.0    id   935
+PSNR: 83.81219482421875    id   935
+Sum SPSNR:  78893.10632324219
+Sum SSSIM:  935.0
+SSIM score: 1.0    id   936
+PSNR: 86.9705810546875    id   936
+Sum SPSNR:  78980.07690429688
+Sum SSSIM:  936.0
+SSIM score: 1.0    id   937
+PSNR: 83.12960815429688    id   937
+Sum SPSNR:  79063.20651245117
+Sum SSSIM:  937.0
+SSIM score: 1.0    id   938
+PSNR: 82.62353515625    id   938
+Sum SPSNR:  79145.83004760742
+Sum SSSIM:  938.0
+SSIM score: 1.0    id   939
+PSNR: 85.07942962646484    id   939
+Sum SPSNR:  79230.90947723389
+Sum SSSIM:  939.0
+SSIM score: 1.0    id   940
+PSNR: 82.98615264892578    id   940
+Sum SPSNR:  79313.89562988281
+Sum SSSIM:  940.0
+SSIM score: 1.0    id   941
+PSNR: 87.69406127929688    id   941
+Sum SPSNR:  79401.58969116211
+Sum SSSIM:  941.0
+SSIM score: 1.0    id   942
+PSNR: 89.24119567871094    id   942
+Sum SPSNR:  79490.83088684082
+Sum SSSIM:  942.0
+SSIM score: 1.0    id   943
+PSNR: 87.84855651855469    id   943
+Sum SPSNR:  79578.67944335938
+Sum SSSIM:  943.0
+SSIM score: 1.0    id   944
+PSNR: 85.27489471435547    id   944
+Sum SPSNR:  79663.95433807373
+Sum SSSIM:  944.0
+SSIM score: 1.0    id   945
+PSNR: 86.27151489257812    id   945
+Sum SPSNR:  79750.22585296631
+Sum SSSIM:  945.0
+SSIM score: 1.0    id   946
+PSNR: 81.42455291748047    id   946
+Sum SPSNR:  79831.65040588379
+Sum SSSIM:  946.0
+SSIM score: 1.0    id   947
+PSNR: 82.68669891357422    id   947
+Sum SPSNR:  79914.33710479736
+Sum SSSIM:  947.0
+SSIM score: 1.0    id   948
+PSNR: 82.94815063476562    id   948
+Sum SPSNR:  79997.28525543213
+Sum SSSIM:  948.0
+SSIM score: 1.0    id   949
+PSNR: 86.53300476074219    id   949
+Sum SPSNR:  80083.81826019287
+Sum SSSIM:  949.0
+SSIM score: 1.0    id   950
+PSNR: 85.15316009521484    id   950
+Sum SPSNR:  80168.97142028809
+Sum SSSIM:  950.0
+SSIM score: 1.0    id   951
+PSNR: 82.3207778930664    id   951
+Sum SPSNR:  80251.29219818115
+Sum SSSIM:  951.0
+SSIM score: 1.0    id   952
+PSNR: 81.3175048828125    id   952
+Sum SPSNR:  80332.60970306396
+Sum SSSIM:  952.0
+SSIM score: 1.0    id   953
+PSNR: 87.27029418945312    id   953
+Sum SPSNR:  80419.87999725342
+Sum SSSIM:  953.0
+SSIM score: 1.0    id   954
+PSNR: 84.59867858886719    id   954
+Sum SPSNR:  80504.47867584229
+Sum SSSIM:  954.0
+SSIM score: 1.0    id   955
+PSNR: 87.06446838378906    id   955
+Sum SPSNR:  80591.54314422607
+Sum SSSIM:  955.0
+SSIM score: 1.0    id   956
+PSNR: 85.14747619628906    id   956
+Sum SPSNR:  80676.69062042236
+Sum SSSIM:  956.0
+SSIM score: 1.0    id   957
+PSNR: 84.71315002441406    id   957
+Sum SPSNR:  80761.40377044678
+Sum SSSIM:  957.0
+SSIM score: 1.0    id   958
+PSNR: 83.49061584472656    id   958
+Sum SPSNR:  80844.8943862915
+Sum SSSIM:  958.0
+SSIM score: 1.0    id   959
+PSNR: 81.82566833496094    id   959
+Sum SPSNR:  80926.72005462646
+Sum SSSIM:  959.0
+SSIM score: 1.0    id   960
+PSNR: 87.02349853515625    id   960
+Sum SPSNR:  81013.74355316162
+Sum SSSIM:  960.0
+SSIM score: 1.0    id   961
+PSNR: 81.77767944335938    id   961
+Sum SPSNR:  81095.52123260498
+Sum SSSIM:  961.0
+SSIM score: 1.0    id   962
+PSNR: 82.72134399414062    id   962
+Sum SPSNR:  81178.24257659912
+Sum SSSIM:  962.0
+SSIM score: 1.0    id   963
+PSNR: 83.22024536132812    id   963
+Sum SPSNR:  81261.46282196045
+Sum SSSIM:  963.0
+SSIM score: 1.0    id   964
+PSNR: 86.23313903808594    id   964
+Sum SPSNR:  81347.69596099854
+Sum SSSIM:  964.0
+SSIM score: 1.0    id   965
+PSNR: 87.58782196044922    id   965
+Sum SPSNR:  81435.28378295898
+Sum SSSIM:  965.0
+SSIM score: 1.0    id   966
+PSNR: 85.49555969238281    id   966
+Sum SPSNR:  81520.77934265137
+Sum SSSIM:  966.0
+SSIM score: 1.0    id   967
+PSNR: 86.39380645751953    id   967
+Sum SPSNR:  81607.17314910889
+Sum SSSIM:  967.0
+SSIM score: 1.0    id   968
+PSNR: 87.82701110839844    id   968
+Sum SPSNR:  81695.00016021729
+Sum SSSIM:  968.0
+SSIM score: 1.0    id   969
+PSNR: 82.71116638183594    id   969
+Sum SPSNR:  81777.71132659912
+Sum SSSIM:  969.0
+SSIM score: 1.0    id   970
+PSNR: 82.66459655761719    id   970
+Sum SPSNR:  81860.37592315674
+Sum SSSIM:  970.0
+SSIM score: 1.0    id   971
+PSNR: 80.49317932128906    id   971
+Sum SPSNR:  81940.86910247803
+Sum SSSIM:  971.0
+SSIM score: 1.0    id   972
+PSNR: 84.069580078125    id   972
+Sum SPSNR:  82024.93868255615
+Sum SSSIM:  972.0
+SSIM score: 1.0    id   973
+PSNR: 81.25518035888672    id   973
+Sum SPSNR:  82106.19386291504
+Sum SSSIM:  973.0
+SSIM score: 1.0    id   974
+PSNR: 83.30729675292969    id   974
+Sum SPSNR:  82189.50115966797
+Sum SSSIM:  974.0
+SSIM score: 1.0    id   975
+PSNR: 87.42255401611328    id   975
+Sum SPSNR:  82276.92371368408
+Sum SSSIM:  975.0
+SSIM score: 1.0    id   976
+PSNR: 85.02156066894531    id   976
+Sum SPSNR:  82361.94527435303
+Sum SSSIM:  976.0
+SSIM score: 1.0    id   977
+PSNR: 81.27325439453125    id   977
+Sum SPSNR:  82443.21852874756
+Sum SSSIM:  977.0
+SSIM score: 1.0    id   978
+PSNR: 88.66197204589844    id   978
+Sum SPSNR:  82531.88050079346
+Sum SSSIM:  978.0
+SSIM score: 1.0    id   979
+PSNR: 82.34795379638672    id   979
+Sum SPSNR:  82614.22845458984
+Sum SSSIM:  979.0
+SSIM score: 1.0    id   980
+PSNR: 85.80636596679688    id   980
+Sum SPSNR:  82700.03482055664
+Sum SSSIM:  980.0
+SSIM score: 1.0    id   981
+PSNR: 83.40402221679688    id   981
+Sum SPSNR:  82783.43884277344
+Sum SSSIM:  981.0
+SSIM score: 1.0    id   982
+PSNR: 81.08509063720703    id   982
+Sum SPSNR:  82864.52393341064
+Sum SSSIM:  982.0
+SSIM score: 1.0    id   983
+PSNR: 88.2994155883789    id   983
+Sum SPSNR:  82952.82334899902
+Sum SSSIM:  983.0
+SSIM score: 1.0    id   984
+PSNR: 81.9849853515625    id   984
+Sum SPSNR:  83034.80833435059
+Sum SSSIM:  984.0
+SSIM score: 1.0    id   985
+PSNR: 82.03427124023438    id   985
+Sum SPSNR:  83116.84260559082
+Sum SSSIM:  985.0
+SSIM score: 1.0    id   986
+PSNR: 85.63243865966797    id   986
+Sum SPSNR:  83202.47504425049
+Sum SSSIM:  986.0
+SSIM score: 1.0    id   987
+PSNR: 84.11022186279297    id   987
+Sum SPSNR:  83286.58526611328
+Sum SSSIM:  987.0
+SSIM score: 1.0    id   988
+PSNR: 88.36661529541016    id   988
+Sum SPSNR:  83374.95188140869
+Sum SSSIM:  988.0
+SSIM score: 1.0    id   989
+PSNR: 86.86177062988281    id   989
+Sum SPSNR:  83461.81365203857
+Sum SSSIM:  989.0
+SSIM score: 1.0    id   990
+PSNR: 87.46748352050781    id   990
+Sum SPSNR:  83549.28113555908
+Sum SSSIM:  990.0
+SSIM score: 1.0    id   991
+PSNR: 81.98619842529297    id   991
+Sum SPSNR:  83631.26733398438
+Sum SSSIM:  991.0
+SSIM score: 1.0    id   992
+PSNR: 80.5519790649414    id   992
+Sum SPSNR:  83711.81931304932
+Sum SSSIM:  992.0
+SSIM score: 1.0    id   993
+PSNR: 80.80584716796875    id   993
+Sum SPSNR:  83792.62516021729
+Sum SSSIM:  993.0
+SSIM score: 1.0    id   994
+PSNR: 86.2879867553711    id   994
+Sum SPSNR:  83878.91314697266
+Sum SSSIM:  994.0
+SSIM score: 1.0    id   995
+PSNR: 87.41222381591797    id   995
+Sum SPSNR:  83966.32537078857
+Sum SSSIM:  995.0
+SSIM score: 1.0    id   996
+PSNR: 86.78135681152344    id   996
+Sum SPSNR:  84053.1067276001
+Sum SSSIM:  996.0
+SSIM score: 1.0    id   997
+PSNR: 85.93990325927734    id   997
+Sum SPSNR:  84139.04663085938
+Sum SSSIM:  997.0
+SSIM score: 1.0    id   998
+PSNR: 85.75750732421875    id   998
+Sum SPSNR:  84224.8041381836
+Sum SSSIM:  998.0
+SSIM score: 1.0    id   999
+PSNR: 79.88068389892578    id   999
+Sum SPSNR:  84304.68482208252
+Sum SSSIM:  999.0
+SSIM score: 1.0    id   1000
+PSNR: 81.71127319335938    id   1000
+Sum SPSNR:  84386.39609527588
+Sum SSSIM:  1000.0
+SSIM score: 1.0    id   1001
+PSNR: 81.99952697753906    id   1001
+Sum SPSNR:  84468.39562225342
+Sum SSSIM:  1001.0
+SSIM score: 1.0    id   1002
+PSNR: 83.3664779663086    id   1002
+Sum SPSNR:  84551.76210021973
+Sum SSSIM:  1002.0
+SSIM score: 1.0    id   1003
+PSNR: 86.89353942871094    id   1003
+Sum SPSNR:  84638.65563964844
+Sum SSSIM:  1003.0
+SSIM score: 1.0    id   1004
+PSNR: 86.1727523803711    id   1004
+Sum SPSNR:  84724.82839202881
+Sum SSSIM:  1004.0
+SSIM score: 1.0    id   1005
+PSNR: 81.54774475097656    id   1005
+Sum SPSNR:  84806.37613677979
+Sum SSSIM:  1005.0
+SSIM score: 1.0    id   1006
+PSNR: 84.0517807006836    id   1006
+Sum SPSNR:  84890.42791748047
+Sum SSSIM:  1006.0
+SSIM score: 1.0    id   1007
+PSNR: 83.99864959716797    id   1007
+Sum SPSNR:  84974.42656707764
+Sum SSSIM:  1007.0
+SSIM score: 1.0    id   1008
+PSNR: 83.80745697021484    id   1008
+Sum SPSNR:  85058.23402404785
+Sum SSSIM:  1008.0
+SSIM score: 1.0    id   1009
+PSNR: 82.8074722290039    id   1009
+Sum SPSNR:  85141.04149627686
+Sum SSSIM:  1009.0
+SSIM score: 1.0    id   1010
+PSNR: 85.65463256835938    id   1010
+Sum SPSNR:  85226.69612884521
+Sum SSSIM:  1010.0
+SSIM score: 1.0    id   1011
+PSNR: 80.57572937011719    id   1011
+Sum SPSNR:  85307.27185821533
+Sum SSSIM:  1011.0
+SSIM score: 1.0    id   1012
+PSNR: 82.83808898925781    id   1012
+Sum SPSNR:  85390.10994720459
+Sum SSSIM:  1012.0
+SSIM score: 1.0    id   1013
+PSNR: 87.91921997070312    id   1013
+Sum SPSNR:  85478.0291671753
+Sum SSSIM:  1013.0
+SSIM score: 1.0    id   1014
+PSNR: 85.2035140991211    id   1014
+Sum SPSNR:  85563.23268127441
+Sum SSSIM:  1014.0
+SSIM score: 1.0    id   1015
+PSNR: 85.34141540527344    id   1015
+Sum SPSNR:  85648.57409667969
+Sum SSSIM:  1015.0
+SSIM score: 1.0    id   1016
+PSNR: 86.54747772216797    id   1016
+Sum SPSNR:  85735.12157440186
+Sum SSSIM:  1016.0
+SSIM score: 1.0    id   1017
+PSNR: 85.40176391601562    id   1017
+Sum SPSNR:  85820.52333831787
+Sum SSSIM:  1017.0
+SSIM score: 1.0    id   1018
+PSNR: 81.99159240722656    id   1018
+Sum SPSNR:  85902.5149307251
+Sum SSSIM:  1018.0
+SSIM score: 1.0    id   1019
+PSNR: 84.89723205566406    id   1019
+Sum SPSNR:  85987.41216278076
+Sum SSSIM:  1019.0
+SSIM score: 1.0    id   1020
+PSNR: 84.51721954345703    id   1020
+Sum SPSNR:  86071.92938232422
+Sum SSSIM:  1020.0
+SSIM score: 1.0    id   1021
+PSNR: 88.96361541748047    id   1021
+Sum SPSNR:  86160.8929977417
+Sum SSSIM:  1021.0
+SSIM score: 1.0    id   1022
+PSNR: 85.86609649658203    id   1022
+Sum SPSNR:  86246.75909423828
+Sum SSSIM:  1022.0
+SSIM score: 1.0    id   1023
+PSNR: 89.98670959472656    id   1023
+Sum SPSNR:  86336.74580383301
+Sum SSSIM:  1023.0
+SSIM score: 1.0    id   1024
+PSNR: 82.14106750488281    id   1024
+Sum SPSNR:  86418.88687133789
+Sum SSSIM:  1024.0
+SSIM score: 1.0    id   1025
+PSNR: 85.76620483398438    id   1025
+Sum SPSNR:  86504.65307617188
+Sum SSSIM:  1025.0
+SSIM score: 1.0    id   1026
+PSNR: 83.47511291503906    id   1026
+Sum SPSNR:  86588.12818908691
+Sum SSSIM:  1026.0
+SSIM score: 1.0    id   1027
+PSNR: 82.10921478271484    id   1027
+Sum SPSNR:  86670.23740386963
+Sum SSSIM:  1027.0
+SSIM score: 1.0    id   1028
+PSNR: 87.859375    id   1028
+Sum SPSNR:  86758.09677886963
+Sum SSSIM:  1028.0
+SSIM score: 1.0    id   1029
+PSNR: 83.0531005859375    id   1029
+Sum SPSNR:  86841.14987945557
+Sum SSSIM:  1029.0
+SSIM score: 1.0    id   1030
+PSNR: 89.63163757324219    id   1030
+Sum SPSNR:  86930.78151702881
+Sum SSSIM:  1030.0
+SSIM score: 1.0    id   1031
+PSNR: 89.69007873535156    id   1031
+Sum SPSNR:  87020.47159576416
+Sum SSSIM:  1031.0
+SSIM score: 1.0    id   1032
+PSNR: 83.26432800292969    id   1032
+Sum SPSNR:  87103.73592376709
+Sum SSSIM:  1032.0
+SSIM score: 1.0    id   1033
+PSNR: 86.51798248291016    id   1033
+Sum SPSNR:  87190.25390625
+Sum SSSIM:  1033.0
+SSIM score: 1.0    id   1034
+PSNR: 88.35858154296875    id   1034
+Sum SPSNR:  87278.61248779297
+Sum SSSIM:  1034.0
+SSIM score: 1.0    id   1035
+PSNR: 82.01945495605469    id   1035
+Sum SPSNR:  87360.63194274902
+Sum SSSIM:  1035.0
+SSIM score: 1.0    id   1036
+PSNR: 81.48479461669922    id   1036
+Sum SPSNR:  87442.11673736572
+Sum SSSIM:  1036.0
+SSIM score: 1.0    id   1037
+PSNR: 84.53077697753906    id   1037
+Sum SPSNR:  87526.64751434326
+Sum SSSIM:  1037.0
+SSIM score: 1.0    id   1038
+PSNR: 86.73554992675781    id   1038
+Sum SPSNR:  87613.38306427002
+Sum SSSIM:  1038.0
+SSIM score: 1.0    id   1039
+PSNR: 87.36111450195312    id   1039
+Sum SPSNR:  87700.74417877197
+Sum SSSIM:  1039.0
+SSIM score: 1.0    id   1040
+PSNR: 86.46373748779297    id   1040
+Sum SPSNR:  87787.20791625977
+Sum SSSIM:  1040.0
+SSIM score: 1.0    id   1041
+PSNR: 87.71988677978516    id   1041
+Sum SPSNR:  87874.92780303955
+Sum SSSIM:  1041.0
+SSIM score: 1.0    id   1042
+PSNR: 83.73092651367188    id   1042
+Sum SPSNR:  87958.65872955322
+Sum SSSIM:  1042.0
+SSIM score: 1.0    id   1043
+PSNR: 82.83333587646484    id   1043
+Sum SPSNR:  88041.49206542969
+Sum SSSIM:  1043.0
+SSIM score: 1.0    id   1044
+PSNR: 81.8358154296875    id   1044
+Sum SPSNR:  88123.32788085938
+Sum SSSIM:  1044.0
+SSIM score: 1.0    id   1045
+PSNR: 87.73773193359375    id   1045
+Sum SPSNR:  88211.06561279297
+Sum SSSIM:  1045.0
+SSIM score: 1.0    id   1046
+PSNR: 86.99327087402344    id   1046
+Sum SPSNR:  88298.05888366699
+Sum SSSIM:  1046.0
+SSIM score: 1.0    id   1047
+PSNR: 82.43195343017578    id   1047
+Sum SPSNR:  88380.49083709717
+Sum SSSIM:  1047.0
+SSIM score: 1.0    id   1048
+PSNR: 80.83909606933594    id   1048
+Sum SPSNR:  88461.3299331665
+Sum SSSIM:  1048.0
+SSIM score: 1.0    id   1049
+PSNR: 81.74072265625    id   1049
+Sum SPSNR:  88543.07065582275
+Sum SSSIM:  1049.0
+SSIM score: 1.0    id   1050
+PSNR: 81.2364273071289    id   1050
+Sum SPSNR:  88624.30708312988
+Sum SSSIM:  1050.0
+SSIM score: 1.0    id   1051
+PSNR: 84.3276596069336    id   1051
+Sum SPSNR:  88708.63474273682
+Sum SSSIM:  1051.0
+SSIM score: 1.0    id   1052
+PSNR: 83.07022094726562    id   1052
+Sum SPSNR:  88791.70496368408
+Sum SSSIM:  1052.0
+SSIM score: 1.0    id   1053
+PSNR: 87.49988555908203    id   1053
+Sum SPSNR:  88879.20484924316
+Sum SSSIM:  1053.0
+SSIM score: 1.0    id   1054
+PSNR: 83.14738464355469    id   1054
+Sum SPSNR:  88962.35223388672
+Sum SSSIM:  1054.0
+SSIM score: 1.0    id   1055
+PSNR: 84.89567565917969    id   1055
+Sum SPSNR:  89047.2479095459
+Sum SSSIM:  1055.0
+SSIM score: 1.0    id   1056
+PSNR: 86.75688934326172    id   1056
+Sum SPSNR:  89134.00479888916
+Sum SSSIM:  1056.0
+SSIM score: 1.0    id   1057
+PSNR: 83.7708969116211    id   1057
+Sum SPSNR:  89217.77569580078
+Sum SSSIM:  1057.0
+SSIM score: 1.0    id   1058
+PSNR: 84.26516723632812    id   1058
+Sum SPSNR:  89302.04086303711
+Sum SSSIM:  1058.0
+SSIM score: 1.0    id   1059
+PSNR: 80.62109375    id   1059
+Sum SPSNR:  89382.66195678711
+Sum SSSIM:  1059.0
+SSIM score: 1.0    id   1060
+PSNR: 82.35980224609375    id   1060
+Sum SPSNR:  89465.0217590332
+Sum SSSIM:  1060.0
+SSIM score: 1.0    id   1061
+PSNR: 85.440673828125    id   1061
+Sum SPSNR:  89550.46243286133
+Sum SSSIM:  1061.0
+SSIM score: 1.0    id   1062
+PSNR: 85.54022216796875    id   1062
+Sum SPSNR:  89636.0026550293
+Sum SSSIM:  1062.0
+SSIM score: 1.0    id   1063
+PSNR: 86.33589935302734    id   1063
+Sum SPSNR:  89722.33855438232
+Sum SSSIM:  1063.0
+SSIM score: 1.0    id   1064
+PSNR: 80.62042999267578    id   1064
+Sum SPSNR:  89802.958984375
+Sum SSSIM:  1064.0
+SSIM score: 1.0    id   1065
+PSNR: 82.32123565673828    id   1065
+Sum SPSNR:  89885.28022003174
+Sum SSSIM:  1065.0
+SSIM score: 1.0    id   1066
+PSNR: 87.25800323486328    id   1066
+Sum SPSNR:  89972.5382232666
+Sum SSSIM:  1066.0
+SSIM score: 1.0    id   1067
+PSNR: 82.23960876464844    id   1067
+Sum SPSNR:  90054.77783203125
+Sum SSSIM:  1067.0
+SSIM score: 1.0    id   1068
+PSNR: 89.42733764648438    id   1068
+Sum SPSNR:  90144.20516967773
+Sum SSSIM:  1068.0
+SSIM score: 1.0    id   1069
+PSNR: 82.60060119628906    id   1069
+Sum SPSNR:  90226.80577087402
+Sum SSSIM:  1069.0
+SSIM score: 1.0    id   1070
+PSNR: 89.16136169433594    id   1070
+Sum SPSNR:  90315.96713256836
+Sum SSSIM:  1070.0
+SSIM score: 1.0    id   1071
+PSNR: 84.50767517089844    id   1071
+Sum SPSNR:  90400.47480773926
+Sum SSSIM:  1071.0
+SSIM score: 1.0    id   1072
+PSNR: 84.54740905761719    id   1072
+Sum SPSNR:  90485.02221679688
+Sum SSSIM:  1072.0
+SSIM score: 1.0    id   1073
+PSNR: 86.88520812988281    id   1073
+Sum SPSNR:  90571.90742492676
+Sum SSSIM:  1073.0
+SSIM score: 1.0    id   1074
+PSNR: 82.94538879394531    id   1074
+Sum SPSNR:  90654.8528137207
+Sum SSSIM:  1074.0
+SSIM score: 1.0    id   1075
+PSNR: 82.72854614257812    id   1075
+Sum SPSNR:  90737.58135986328
+Sum SSSIM:  1075.0
+SSIM score: 1.0    id   1076
+PSNR: 81.31107330322266    id   1076
+Sum SPSNR:  90818.8924331665
+Sum SSSIM:  1076.0
+SSIM score: 1.0    id   1077
+PSNR: 81.48408508300781    id   1077
+Sum SPSNR:  90900.37651824951
+Sum SSSIM:  1077.0
+SSIM score: 1.0    id   1078
+PSNR: 86.52218627929688    id   1078
+Sum SPSNR:  90986.89870452881
+Sum SSSIM:  1078.0
+SSIM score: 1.0    id   1079
+PSNR: 82.42037963867188    id   1079
+Sum SPSNR:  91069.31908416748
+Sum SSSIM:  1079.0
+SSIM score: 1.0    id   1080
+PSNR: 85.50789642333984    id   1080
+Sum SPSNR:  91154.82698059082
+Sum SSSIM:  1080.0
+SSIM score: 1.0    id   1081
+PSNR: 84.93956756591797    id   1081
+Sum SPSNR:  91239.76654815674
+Sum SSSIM:  1081.0
+SSIM score: 1.0    id   1082
+PSNR: 83.46404266357422    id   1082
+Sum SPSNR:  91323.23059082031
+Sum SSSIM:  1082.0
+SSIM score: 1.0    id   1083
+PSNR: 84.58357238769531    id   1083
+Sum SPSNR:  91407.81416320801
+Sum SSSIM:  1083.0
+SSIM score: 1.0    id   1084
+PSNR: 82.34485626220703    id   1084
+Sum SPSNR:  91490.15901947021
+Sum SSSIM:  1084.0
+SSIM score: 1.0    id   1085
+PSNR: 90.1248779296875    id   1085
+Sum SPSNR:  91580.2838973999
+Sum SSSIM:  1085.0
+SSIM score: 1.0    id   1086
+PSNR: 84.31708526611328    id   1086
+Sum SPSNR:  91664.60098266602
+Sum SSSIM:  1086.0
+SSIM score: 1.0    id   1087
+PSNR: 81.5101318359375    id   1087
+Sum SPSNR:  91746.11111450195
+Sum SSSIM:  1087.0
+SSIM score: 1.0    id   1088
+PSNR: 86.48780059814453    id   1088
+Sum SPSNR:  91832.5989151001
+Sum SSSIM:  1088.0
+SSIM score: 1.0    id   1089
+PSNR: 87.71002197265625    id   1089
+Sum SPSNR:  91920.30893707275
+Sum SSSIM:  1089.0
+SSIM score: 1.0    id   1090
+PSNR: 82.67047119140625    id   1090
+Sum SPSNR:  92002.97940826416
+Sum SSSIM:  1090.0
+SSIM score: 1.0    id   1091
+PSNR: 86.36967468261719    id   1091
+Sum SPSNR:  92089.34908294678
+Sum SSSIM:  1091.0
+SSIM score: 1.0    id   1092
+PSNR: 81.70845031738281    id   1092
+Sum SPSNR:  92171.05753326416
+Sum SSSIM:  1092.0
+SSIM score: 1.0    id   1093
+PSNR: 86.986083984375    id   1093
+Sum SPSNR:  92258.04361724854
+Sum SSSIM:  1093.0
+SSIM score: 1.0    id   1094
+PSNR: 85.00183868408203    id   1094
+Sum SPSNR:  92343.04545593262
+Sum SSSIM:  1094.0
+SSIM score: 1.0    id   1095
+PSNR: 82.81706237792969    id   1095
+Sum SPSNR:  92425.86251831055
+Sum SSSIM:  1095.0
+SSIM score: 1.0    id   1096
+PSNR: 86.1611328125    id   1096
+Sum SPSNR:  92512.02365112305
+Sum SSSIM:  1096.0
+SSIM score: 1.0    id   1097
+PSNR: 87.35783386230469    id   1097
+Sum SPSNR:  92599.38148498535
+Sum SSSIM:  1097.0
+SSIM score: 1.0    id   1098
+PSNR: 85.2717514038086    id   1098
+Sum SPSNR:  92684.65323638916
+Sum SSSIM:  1098.0
+SSIM score: 1.0    id   1099
+PSNR: 83.8050537109375    id   1099
+Sum SPSNR:  92768.4582901001
+Sum SSSIM:  1099.0
+SSIM score: 1.0    id   1100
+PSNR: 85.1455078125    id   1100
+Sum SPSNR:  92853.6037979126
+Sum SSSIM:  1100.0
+SSIM score: 1.0    id   1101
+PSNR: 82.40325164794922    id   1101
+Sum SPSNR:  92936.00704956055
+Sum SSSIM:  1101.0
+SSIM score: 1.0    id   1102
+PSNR: 84.41252899169922    id   1102
+Sum SPSNR:  93020.41957855225
+Sum SSSIM:  1102.0
+SSIM score: 1.0    id   1103
+PSNR: 81.20780944824219    id   1103
+Sum SPSNR:  93101.62738800049
+Sum SSSIM:  1103.0
+SSIM score: 1.0    id   1104
+PSNR: 85.69564056396484    id   1104
+Sum SPSNR:  93187.32302856445
+Sum SSSIM:  1104.0
+SSIM score: 1.0    id   1105
+PSNR: 86.650146484375    id   1105
+Sum SPSNR:  93273.97317504883
+Sum SSSIM:  1105.0
+SSIM score: 1.0    id   1106
+PSNR: 86.88765716552734    id   1106
+Sum SPSNR:  93360.86083221436
+Sum SSSIM:  1106.0
+SSIM score: 1.0    id   1107
+PSNR: 82.54203796386719    id   1107
+Sum SPSNR:  93443.40287017822
+Sum SSSIM:  1107.0
+SSIM score: 1.0    id   1108
+PSNR: 88.17488098144531    id   1108
+Sum SPSNR:  93531.57775115967
+Sum SSSIM:  1108.0
+SSIM score: 1.0    id   1109
+PSNR: 86.6026382446289    id   1109
+Sum SPSNR:  93618.1803894043
+Sum SSSIM:  1109.0
+SSIM score: 1.0    id   1110
+PSNR: 84.59742736816406    id   1110
+Sum SPSNR:  93702.77781677246
+Sum SSSIM:  1110.0
+SSIM score: 1.0    id   1111
+PSNR: 88.51012420654297    id   1111
+Sum SPSNR:  93791.287940979
+Sum SSSIM:  1111.0
+SSIM score: 1.0    id   1112
+PSNR: 87.0223159790039    id   1112
+Sum SPSNR:  93878.31025695801
+Sum SSSIM:  1112.0
+SSIM score: 1.0    id   1113
+PSNR: 85.07426452636719    id   1113
+Sum SPSNR:  93963.38452148438
+Sum SSSIM:  1113.0
+SSIM score: 1.0    id   1114
+PSNR: 82.7662582397461    id   1114
+Sum SPSNR:  94046.15077972412
+Sum SSSIM:  1114.0
+SSIM score: 1.0    id   1115
+PSNR: 83.74809265136719    id   1115
+Sum SPSNR:  94129.89887237549
+Sum SSSIM:  1115.0
+SSIM score: 1.0    id   1116
+PSNR: 81.8858413696289    id   1116
+Sum SPSNR:  94211.78471374512
+Sum SSSIM:  1116.0
+SSIM score: 1.0    id   1117
+PSNR: 82.41250610351562    id   1117
+Sum SPSNR:  94294.19721984863
+Sum SSSIM:  1117.0
+SSIM score: 1.0    id   1118
+PSNR: 84.3838119506836    id   1118
+Sum SPSNR:  94378.58103179932
+Sum SSSIM:  1118.0
+SSIM score: 1.0    id   1119
+PSNR: 88.78154754638672    id   1119
+Sum SPSNR:  94467.3625793457
+Sum SSSIM:  1119.0
+SSIM score: 1.0    id   1120
+PSNR: 81.66334533691406    id   1120
+Sum SPSNR:  94549.02592468262
+Sum SSSIM:  1120.0
+SSIM score: 1.0    id   1121
+PSNR: 86.9852523803711    id   1121
+Sum SPSNR:  94636.01117706299
+Sum SSSIM:  1121.0
+SSIM score: 1.0    id   1122
+PSNR: 82.6171875    id   1122
+Sum SPSNR:  94718.62836456299
+Sum SSSIM:  1122.0
+SSIM score: 1.0    id   1123
+PSNR: 86.60983276367188    id   1123
+Sum SPSNR:  94805.23819732666
+Sum SSSIM:  1123.0
+SSIM score: 1.0    id   1124
+PSNR: 82.02216339111328    id   1124
+Sum SPSNR:  94887.26036071777
+Sum SSSIM:  1124.0
+SSIM score: 1.0    id   1125
+PSNR: 81.64656066894531    id   1125
+Sum SPSNR:  94968.90692138672
+Sum SSSIM:  1125.0
+SSIM score: 1.0    id   1126
+PSNR: 88.29263305664062    id   1126
+Sum SPSNR:  95057.19955444336
+Sum SSSIM:  1126.0
+SSIM score: 1.0    id   1127
+PSNR: 80.99712371826172    id   1127
+Sum SPSNR:  95138.19667816162
+Sum SSSIM:  1127.0
+SSIM score: 1.0    id   1128
+PSNR: 86.47872161865234    id   1128
+Sum SPSNR:  95224.67539978027
+Sum SSSIM:  1128.0
+SSIM score: 1.0    id   1129
+PSNR: 84.70524597167969    id   1129
+Sum SPSNR:  95309.38064575195
+Sum SSSIM:  1129.0
+SSIM score: 1.0    id   1130
+PSNR: 88.38224792480469    id   1130
+Sum SPSNR:  95397.76289367676
+Sum SSSIM:  1130.0
+SSIM score: 1.0    id   1131
+PSNR: 82.79969024658203    id   1131
+Sum SPSNR:  95480.56258392334
+Sum SSSIM:  1131.0
+SSIM score: 1.0    id   1132
+PSNR: 87.26940155029297    id   1132
+Sum SPSNR:  95567.83198547363
+Sum SSSIM:  1132.0
+SSIM score: 1.0    id   1133
+PSNR: 82.03053283691406    id   1133
+Sum SPSNR:  95649.86251831055
+Sum SSSIM:  1133.0
+SSIM score: 1.0    id   1134
+PSNR: 87.7121810913086    id   1134
+Sum SPSNR:  95737.57469940186
+Sum SSSIM:  1134.0
+SSIM score: 1.0    id   1135
+PSNR: 85.7283935546875    id   1135
+Sum SPSNR:  95823.30309295654
+Sum SSSIM:  1135.0
+SSIM score: 1.0    id   1136
+PSNR: 84.05169677734375    id   1136
+Sum SPSNR:  95907.35478973389
+Sum SSSIM:  1136.0
+SSIM score: 1.0    id   1137
+PSNR: 81.86493682861328    id   1137
+Sum SPSNR:  95989.2197265625
+Sum SSSIM:  1137.0
+SSIM score: 1.0    id   1138
+PSNR: 81.4527587890625    id   1138
+Sum SPSNR:  96070.67248535156
+Sum SSSIM:  1138.0
+SSIM score: 1.0    id   1139
+PSNR: 81.46206665039062    id   1139
+Sum SPSNR:  96152.13455200195
+Sum SSSIM:  1139.0
+SSIM score: 1.0    id   1140
+PSNR: 82.0309066772461    id   1140
+Sum SPSNR:  96234.1654586792
+Sum SSSIM:  1140.0
+SSIM score: 1.0    id   1141
+PSNR: 85.76103210449219    id   1141
+Sum SPSNR:  96319.92649078369
+Sum SSSIM:  1141.0
+SSIM score: 1.0    id   1142
+PSNR: 86.90402221679688    id   1142
+Sum SPSNR:  96406.83051300049
+Sum SSSIM:  1142.0
+SSIM score: 1.0    id   1143
+PSNR: 84.9089126586914    id   1143
+Sum SPSNR:  96491.73942565918
+Sum SSSIM:  1143.0
+SSIM score: 1.0    id   1144
+PSNR: 81.51752471923828    id   1144
+Sum SPSNR:  96573.25695037842
+Sum SSSIM:  1144.0
+SSIM score: 1.0    id   1145
+PSNR: 81.25299072265625    id   1145
+Sum SPSNR:  96654.50994110107
+Sum SSSIM:  1145.0
+SSIM score: 1.0    id   1146
+PSNR: 86.91895294189453    id   1146
+Sum SPSNR:  96741.42889404297
+Sum SSSIM:  1146.0
+SSIM score: 1.0    id   1147
+PSNR: 88.37947845458984    id   1147
+Sum SPSNR:  96829.80837249756
+Sum SSSIM:  1147.0
+SSIM score: 1.0    id   1148
+PSNR: 81.38581848144531    id   1148
+Sum SPSNR:  96911.194190979
+Sum SSSIM:  1148.0
+SSIM score: 1.0    id   1149
+PSNR: 86.15174102783203    id   1149
+Sum SPSNR:  96997.34593200684
+Sum SSSIM:  1149.0
+SSIM score: 1.0    id   1150
+PSNR: 81.88434600830078    id   1150
+Sum SPSNR:  97079.23027801514
+Sum SSSIM:  1150.0
+SSIM score: 1.0    id   1151
+PSNR: 87.37095642089844    id   1151
+Sum SPSNR:  97166.60123443604
+Sum SSSIM:  1151.0
+SSIM score: 1.0    id   1152
+PSNR: 86.08229064941406    id   1152
+Sum SPSNR:  97252.68352508545
+Sum SSSIM:  1152.0
+SSIM score: 1.0    id   1153
+PSNR: 81.87862396240234    id   1153
+Sum SPSNR:  97334.56214904785
+Sum SSSIM:  1153.0
+SSIM score: 1.0    id   1154
+PSNR: 86.07672882080078    id   1154
+Sum SPSNR:  97420.63887786865
+Sum SSSIM:  1154.0
+SSIM score: 1.0    id   1155
+PSNR: 87.43476104736328    id   1155
+Sum SPSNR:  97508.07363891602
+Sum SSSIM:  1155.0
+SSIM score: 1.0    id   1156
+PSNR: 85.24336242675781    id   1156
+Sum SPSNR:  97593.31700134277
+Sum SSSIM:  1156.0
+SSIM score: 1.0    id   1157
+PSNR: 84.92446899414062    id   1157
+Sum SPSNR:  97678.24147033691
+Sum SSSIM:  1157.0
+SSIM score: 1.0    id   1158
+PSNR: 88.143798828125    id   1158
+Sum SPSNR:  97766.38526916504
+Sum SSSIM:  1158.0
+SSIM score: 1.0    id   1159
+PSNR: 87.61940002441406    id   1159
+Sum SPSNR:  97854.00466918945
+Sum SSSIM:  1159.0
+SSIM score: 1.0    id   1160
+PSNR: 85.94778442382812    id   1160
+Sum SPSNR:  97939.95245361328
+Sum SSSIM:  1160.0
+SSIM score: 1.0    id   1161
+PSNR: 84.2471694946289    id   1161
+Sum SPSNR:  98024.19962310791
+Sum SSSIM:  1161.0
+SSIM score: 1.0    id   1162
+PSNR: 81.31107330322266    id   1162
+Sum SPSNR:  98105.51069641113
+Sum SSSIM:  1162.0
+SSIM score: 1.0    id   1163
+PSNR: 85.58875274658203    id   1163
+Sum SPSNR:  98191.09944915771
+Sum SSSIM:  1163.0
+SSIM score: 1.0    id   1164
+PSNR: 82.22067260742188    id   1164
+Sum SPSNR:  98273.32012176514
+Sum SSSIM:  1164.0
+SSIM score: 1.0    id   1165
+PSNR: 85.1956558227539    id   1165
+Sum SPSNR:  98358.51577758789
+Sum SSSIM:  1165.0
+SSIM score: 1.0    id   1166
+PSNR: 86.28385925292969    id   1166
+Sum SPSNR:  98444.79963684082
+Sum SSSIM:  1166.0
+SSIM score: 1.0    id   1167
+PSNR: 89.29259490966797    id   1167
+Sum SPSNR:  98534.09223175049
+Sum SSSIM:  1167.0
+SSIM score: 1.0    id   1168
+PSNR: 86.25172424316406    id   1168
+Sum SPSNR:  98620.34395599365
+Sum SSSIM:  1168.0
+SSIM score: 1.0    id   1169
+PSNR: 84.73150634765625    id   1169
+Sum SPSNR:  98705.07546234131
+Sum SSSIM:  1169.0
+SSIM score: 1.0    id   1170
+PSNR: 85.52755737304688    id   1170
+Sum SPSNR:  98790.60301971436
+Sum SSSIM:  1170.0
+SSIM score: 1.0    id   1171
+PSNR: 82.38867950439453    id   1171
+Sum SPSNR:  98872.99169921875
+Sum SSSIM:  1171.0
+SSIM score: 1.0    id   1172
+PSNR: 81.99815368652344    id   1172
+Sum SPSNR:  98954.98985290527
+Sum SSSIM:  1172.0
+SSIM score: 1.0    id   1173
+PSNR: 87.73494720458984    id   1173
+Sum SPSNR:  99042.72480010986
+Sum SSSIM:  1173.0
+SSIM score: 1.0    id   1174
+PSNR: 83.84417724609375    id   1174
+Sum SPSNR:  99126.56897735596
+Sum SSSIM:  1174.0
+SSIM score: 1.0    id   1175
+PSNR: 87.58322143554688    id   1175
+Sum SPSNR:  99214.1521987915
+Sum SSSIM:  1175.0
+SSIM score: 1.0    id   1176
+PSNR: 84.47831726074219    id   1176
+Sum SPSNR:  99298.63051605225
+Sum SSSIM:  1176.0
+SSIM score: 1.0    id   1177
+PSNR: 85.232421875    id   1177
+Sum SPSNR:  99383.86293792725
+Sum SSSIM:  1177.0
+SSIM score: 1.0    id   1178
+PSNR: 83.37069702148438    id   1178
+Sum SPSNR:  99467.23363494873
+Sum SSSIM:  1178.0
+SSIM score: 1.0    id   1179
+PSNR: 82.45967102050781    id   1179
+Sum SPSNR:  99549.69330596924
+Sum SSSIM:  1179.0
+SSIM score: 1.0    id   1180
+PSNR: 82.82435607910156    id   1180
+Sum SPSNR:  99632.51766204834
+Sum SSSIM:  1180.0
+SSIM score: 1.0    id   1181
+PSNR: 82.53730010986328    id   1181
+Sum SPSNR:  99715.0549621582
+Sum SSSIM:  1181.0
+SSIM score: 1.0    id   1182
+PSNR: 87.04544830322266    id   1182
+Sum SPSNR:  99802.10041046143
+Sum SSSIM:  1182.0
+SSIM score: 1.0    id   1183
+PSNR: 81.98081970214844    id   1183
+Sum SPSNR:  99884.08123016357
+Sum SSSIM:  1183.0
+SSIM score: 1.0    id   1184
+PSNR: 82.93984985351562    id   1184
+Sum SPSNR:  99967.02108001709
+Sum SSSIM:  1184.0
+SSIM score: 1.0    id   1185
+PSNR: 87.78665161132812    id   1185
+Sum SPSNR:  100054.80773162842
+Sum SSSIM:  1185.0
+SSIM score: 1.0    id   1186
+PSNR: 81.67916107177734    id   1186
+Sum SPSNR:  100136.4868927002
+Sum SSSIM:  1186.0
+SSIM score: 1.0    id   1187
+PSNR: 81.85877990722656    id   1187
+Sum SPSNR:  100218.34567260742
+Sum SSSIM:  1187.0
+SSIM score: 1.0    id   1188
+PSNR: 90.25374603271484    id   1188
+Sum SPSNR:  100308.59941864014
+Sum SSSIM:  1188.0
+SSIM score: 1.0    id   1189
+PSNR: 86.38302612304688    id   1189
+Sum SPSNR:  100394.98244476318
+Sum SSSIM:  1189.0
+SSIM score: 1.0    id   1190
+PSNR: 82.30335235595703    id   1190
+Sum SPSNR:  100477.28579711914
+Sum SSSIM:  1190.0
+SSIM score: 1.0    id   1191
+PSNR: 86.75958251953125    id   1191
+Sum SPSNR:  100564.04537963867
+Sum SSSIM:  1191.0
+SSIM score: 1.0    id   1192
+PSNR: 85.09906768798828    id   1192
+Sum SPSNR:  100649.14444732666
+Sum SSSIM:  1192.0
+SSIM score: 1.0    id   1193
+PSNR: 81.74517822265625    id   1193
+Sum SPSNR:  100730.88962554932
+Sum SSSIM:  1193.0
+SSIM score: 1.0    id   1194
+PSNR: 80.35897827148438    id   1194
+Sum SPSNR:  100811.2486038208
+Sum SSSIM:  1194.0
+SSIM score: 1.0    id   1195
+PSNR: 82.48193359375    id   1195
+Sum SPSNR:  100893.73053741455
+Sum SSSIM:  1195.0
+SSIM score: 1.0    id   1196
+PSNR: 87.21553802490234    id   1196
+Sum SPSNR:  100980.94607543945
+Sum SSSIM:  1196.0
+SSIM score: 1.0    id   1197
+PSNR: 86.52233123779297    id   1197
+Sum SPSNR:  101067.46840667725
+Sum SSSIM:  1197.0
+SSIM score: 1.0    id   1198
+PSNR: 86.97940826416016    id   1198
+Sum SPSNR:  101154.4478149414
+Sum SSSIM:  1198.0
+SSIM score: 1.0    id   1199
+PSNR: 88.13965606689453    id   1199
+Sum SPSNR:  101242.5874710083
+Sum SSSIM:  1199.0
+SSIM score: 1.0    id   1200
+PSNR: 85.70122528076172    id   1200
+Sum SPSNR:  101328.28869628906
+Sum SSSIM:  1200.0
+SSIM score: 1.0    id   1201
+PSNR: 85.59638214111328    id   1201
+Sum SPSNR:  101413.88507843018
+Sum SSSIM:  1201.0
+SSIM score: 1.0    id   1202
+PSNR: 84.93612670898438    id   1202
+Sum SPSNR:  101498.82120513916
+Sum SSSIM:  1202.0
+SSIM score: 1.0    id   1203
+PSNR: 81.32353210449219    id   1203
+Sum SPSNR:  101580.14473724365
+Sum SSSIM:  1203.0
+SSIM score: 1.0    id   1204
+PSNR: 82.21553802490234    id   1204
+Sum SPSNR:  101662.36027526855
+Sum SSSIM:  1204.0
+SSIM score: 1.0    id   1205
+PSNR: 88.34029388427734    id   1205
+Sum SPSNR:  101750.70056915283
+Sum SSSIM:  1205.0
+SSIM score: 1.0    id   1206
+PSNR: 86.81752014160156    id   1206
+Sum SPSNR:  101837.51808929443
+Sum SSSIM:  1206.0
+SSIM score: 1.0    id   1207
+PSNR: 84.61994171142578    id   1207
+Sum SPSNR:  101922.13803100586
+Sum SSSIM:  1207.0
+SSIM score: 1.0    id   1208
+PSNR: 81.34593963623047    id   1208
+Sum SPSNR:  102003.48397064209
+Sum SSSIM:  1208.0
+SSIM score: 1.0    id   1209
+PSNR: 84.89682006835938    id   1209
+Sum SPSNR:  102088.38079071045
+Sum SSSIM:  1209.0
+SSIM score: 1.0    id   1210
+PSNR: 90.03160095214844    id   1210
+Sum SPSNR:  102178.4123916626
+Sum SSSIM:  1210.0
+SSIM score: 1.0    id   1211
+PSNR: 85.9935302734375    id   1211
+Sum SPSNR:  102264.40592193604
+Sum SSSIM:  1211.0
+SSIM score: 1.0    id   1212
+PSNR: 83.71855926513672    id   1212
+Sum SPSNR:  102348.12448120117
+Sum SSSIM:  1212.0
+SSIM score: 1.0    id   1213
+PSNR: 80.9549331665039    id   1213
+Sum SPSNR:  102429.07941436768
+Sum SSSIM:  1213.0
+SSIM score: 1.0    id   1214
+PSNR: 83.87425231933594    id   1214
+Sum SPSNR:  102512.95366668701
+Sum SSSIM:  1214.0
+SSIM score: 1.0    id   1215
+PSNR: 81.1656265258789    id   1215
+Sum SPSNR:  102594.11929321289
+Sum SSSIM:  1215.0
+SSIM score: 1.0    id   1216
+PSNR: 83.9701919555664    id   1216
+Sum SPSNR:  102678.08948516846
+Sum SSSIM:  1216.0
+SSIM score: 1.0    id   1217
+PSNR: 86.410888671875    id   1217
+Sum SPSNR:  102764.50037384033
+Sum SSSIM:  1217.0
+SSIM score: 1.0    id   1218
+PSNR: 82.43986511230469    id   1218
+Sum SPSNR:  102846.94023895264
+Sum SSSIM:  1218.0
+SSIM score: 1.0    id   1219
+PSNR: 85.30905151367188    id   1219
+Sum SPSNR:  102932.24929046631
+Sum SSSIM:  1219.0
+SSIM score: 1.0    id   1220
+PSNR: 88.38156127929688    id   1220
+Sum SPSNR:  103020.6308517456
+Sum SSSIM:  1220.0
+SSIM score: 1.0    id   1221
+PSNR: 85.32121276855469    id   1221
+Sum SPSNR:  103105.95206451416
+Sum SSSIM:  1221.0
+SSIM score: 1.0    id   1222
+PSNR: 81.85980987548828    id   1222
+Sum SPSNR:  103187.81187438965
+Sum SSSIM:  1222.0
+SSIM score: 1.0    id   1223
+PSNR: 81.88568878173828    id   1223
+Sum SPSNR:  103269.69756317139
+Sum SSSIM:  1223.0
+SSIM score: 1.0    id   1224
+PSNR: 87.96417236328125    id   1224
+Sum SPSNR:  103357.66173553467
+Sum SSSIM:  1224.0
+SSIM score: 1.0    id   1225
+PSNR: 82.33860778808594    id   1225
+Sum SPSNR:  103440.00034332275
+Sum SSSIM:  1225.0
+SSIM score: 1.0    id   1226
+PSNR: 85.89081573486328    id   1226
+Sum SPSNR:  103525.89115905762
+Sum SSSIM:  1226.0
+SSIM score: 1.0    id   1227
+PSNR: 83.93042755126953    id   1227
+Sum SPSNR:  103609.82158660889
+Sum SSSIM:  1227.0
+SSIM score: 1.0    id   1228
+PSNR: 86.98992919921875    id   1228
+Sum SPSNR:  103696.8115158081
+Sum SSSIM:  1228.0
+SSIM score: 1.0    id   1229
+PSNR: 83.83210754394531    id   1229
+Sum SPSNR:  103780.64362335205
+Sum SSSIM:  1229.0
+SSIM score: 1.0    id   1230
+PSNR: 87.67073059082031    id   1230
+Sum SPSNR:  103868.31435394287
+Sum SSSIM:  1230.0
+SSIM score: 1.0    id   1231
+PSNR: 85.81414031982422    id   1231
+Sum SPSNR:  103954.1284942627
+Sum SSSIM:  1231.0
+SSIM score: 1.0    id   1232
+PSNR: 86.8465347290039    id   1232
+Sum SPSNR:  104040.9750289917
+Sum SSSIM:  1232.0
+SSIM score: 1.0    id   1233
+PSNR: 81.6800537109375    id   1233
+Sum SPSNR:  104122.65508270264
+Sum SSSIM:  1233.0
+SSIM score: 1.0    id   1234
+PSNR: 81.4926986694336    id   1234
+Sum SPSNR:  104204.14778137207
+Sum SSSIM:  1234.0
+SSIM score: 1.0    id   1235
+PSNR: 84.07881164550781    id   1235
+Sum SPSNR:  104288.22659301758
+Sum SSSIM:  1235.0
+SSIM score: 1.0    id   1236
+PSNR: 81.90586853027344    id   1236
+Sum SPSNR:  104370.13246154785
+Sum SSSIM:  1236.0
+SSIM score: 1.0    id   1237
+PSNR: 82.19598388671875    id   1237
+Sum SPSNR:  104452.32844543457
+Sum SSSIM:  1237.0
+SSIM score: 1.0    id   1238
+PSNR: 85.21427154541016    id   1238
+Sum SPSNR:  104537.54271697998
+Sum SSSIM:  1238.0
+SSIM score: 1.0    id   1239
+PSNR: 81.27083587646484    id   1239
+Sum SPSNR:  104618.81355285645
+Sum SSSIM:  1239.0
+SSIM score: 1.0    id   1240
+PSNR: 80.92185974121094    id   1240
+Sum SPSNR:  104699.73541259766
+Sum SSSIM:  1240.0
+SSIM score: 1.0    id   1241
+PSNR: 80.38261413574219    id   1241
+Sum SPSNR:  104780.1180267334
+Sum SSSIM:  1241.0
+SSIM score: 1.0    id   1242
+PSNR: 82.39366149902344    id   1242
+Sum SPSNR:  104862.51168823242
+Sum SSSIM:  1242.0
+SSIM score: 1.0    id   1243
+PSNR: 85.35137176513672    id   1243
+Sum SPSNR:  104947.86305999756
+Sum SSSIM:  1243.0
+SSIM score: 1.0    id   1244
+PSNR: 85.40153503417969    id   1244
+Sum SPSNR:  105033.26459503174
+Sum SSSIM:  1244.0
+SSIM score: 1.0    id   1245
+PSNR: 87.1500015258789    id   1245
+Sum SPSNR:  105120.41459655762
+Sum SSSIM:  1245.0
+SSIM score: 1.0    id   1246
+PSNR: 83.52316284179688    id   1246
+Sum SPSNR:  105203.93775939941
+Sum SSSIM:  1246.0
+SSIM score: 1.0    id   1247
+PSNR: 88.50822448730469    id   1247
+Sum SPSNR:  105292.44598388672
+Sum SSSIM:  1247.0
+SSIM score: 1.0    id   1248
+PSNR: 81.45038604736328    id   1248
+Sum SPSNR:  105373.89636993408
+Sum SSSIM:  1248.0
+SSIM score: 1.0    id   1249
+PSNR: 84.50115966796875    id   1249
+Sum SPSNR:  105458.39752960205
+Sum SSSIM:  1249.0
+SSIM score: 1.0    id   1250
+PSNR: 82.59130859375    id   1250
+Sum SPSNR:  105540.9888381958
+Sum SSSIM:  1250.0
+SSIM score: 1.0    id   1251
+PSNR: 82.28593444824219    id   1251
+Sum SPSNR:  105623.27477264404
+Sum SSSIM:  1251.0
+SSIM score: 1.0    id   1252
+PSNR: 85.11456298828125    id   1252
+Sum SPSNR:  105708.38933563232
+Sum SSSIM:  1252.0
+SSIM score: 1.0    id   1253
+PSNR: 86.60018920898438    id   1253
+Sum SPSNR:  105794.98952484131
+Sum SSSIM:  1253.0
+SSIM score: 1.0    id   1254
+PSNR: 82.32362365722656    id   1254
+Sum SPSNR:  105877.31314849854
+Sum SSSIM:  1254.0
+SSIM score: 1.0    id   1255
+PSNR: 83.23303985595703    id   1255
+Sum SPSNR:  105960.54618835449
+Sum SSSIM:  1255.0
+SSIM score: 1.0    id   1256
+PSNR: 87.96752166748047    id   1256
+Sum SPSNR:  106048.51371002197
+Sum SSSIM:  1256.0
+SSIM score: 1.0    id   1257
+PSNR: 81.57774353027344    id   1257
+Sum SPSNR:  106130.09145355225
+Sum SSSIM:  1257.0
+SSIM score: 1.0    id   1258
+PSNR: 82.07656860351562    id   1258
+Sum SPSNR:  106212.16802215576
+Sum SSSIM:  1258.0
+SSIM score: 1.0    id   1259
+PSNR: 85.031982421875    id   1259
+Sum SPSNR:  106297.20000457764
+Sum SSSIM:  1259.0
+SSIM score: 1.0    id   1260
+PSNR: 82.31370544433594    id   1260
+Sum SPSNR:  106379.51371002197
+Sum SSSIM:  1260.0
+SSIM score: 1.0    id   1261
+PSNR: 86.88504028320312    id   1261
+Sum SPSNR:  106466.39875030518
+Sum SSSIM:  1261.0
+SSIM score: 1.0    id   1262
+PSNR: 81.09351348876953    id   1262
+Sum SPSNR:  106547.49226379395
+Sum SSSIM:  1262.0
+SSIM score: 1.0    id   1263
+PSNR: 88.870849609375    id   1263
+Sum SPSNR:  106636.36311340332
+Sum SSSIM:  1263.0
+SSIM score: 1.0    id   1264
+PSNR: 85.8017807006836    id   1264
+Sum SPSNR:  106722.164894104
+Sum SSSIM:  1264.0
+SSIM score: 1.0    id   1265
+PSNR: 81.11277770996094    id   1265
+Sum SPSNR:  106803.27767181396
+Sum SSSIM:  1265.0
+SSIM score: 1.0    id   1266
+PSNR: 81.62006378173828    id   1266
+Sum SPSNR:  106884.8977355957
+Sum SSSIM:  1266.0
+SSIM score: 1.0    id   1267
+PSNR: 86.36489868164062    id   1267
+Sum SPSNR:  106971.26263427734
+Sum SSSIM:  1267.0
+SSIM score: 1.0    id   1268
+PSNR: 85.48088073730469    id   1268
+Sum SPSNR:  107056.74351501465
+Sum SSSIM:  1268.0
+SSIM score: 1.0    id   1269
+PSNR: 90.27507019042969    id   1269
+Sum SPSNR:  107147.01858520508
+Sum SSSIM:  1269.0
+SSIM score: 1.0    id   1270
+PSNR: 81.38113403320312    id   1270
+Sum SPSNR:  107228.39971923828
+Sum SSSIM:  1270.0
+SSIM score: 1.0    id   1271
+PSNR: 89.6248779296875    id   1271
+Sum SPSNR:  107318.02459716797
+Sum SSSIM:  1271.0
+SSIM score: 1.0    id   1272
+PSNR: 82.17060852050781    id   1272
+Sum SPSNR:  107400.19520568848
+Sum SSSIM:  1272.0
+SSIM score: 1.0    id   1273
+PSNR: 81.18218231201172    id   1273
+Sum SPSNR:  107481.37738800049
+Sum SSSIM:  1273.0
+SSIM score: 1.0    id   1274
+PSNR: 82.63616943359375    id   1274
+Sum SPSNR:  107564.01355743408
+Sum SSSIM:  1274.0
+SSIM score: 1.0    id   1275
+PSNR: 81.31953430175781    id   1275
+Sum SPSNR:  107645.33309173584
+Sum SSSIM:  1275.0
+SSIM score: 1.0    id   1276
+PSNR: 81.55304718017578    id   1276
+Sum SPSNR:  107726.88613891602
+Sum SSSIM:  1276.0
+SSIM score: 1.0    id   1277
+PSNR: 88.18124389648438    id   1277
+Sum SPSNR:  107815.0673828125
+Sum SSSIM:  1277.0
+SSIM score: 1.0    id   1278
+PSNR: 85.82090759277344    id   1278
+Sum SPSNR:  107900.88829040527
+Sum SSSIM:  1278.0
+SSIM score: 1.0    id   1279
+PSNR: 80.95860290527344    id   1279
+Sum SPSNR:  107981.84689331055
+Sum SSSIM:  1279.0
+SSIM score: 1.0    id   1280
+PSNR: 83.83373260498047    id   1280
+Sum SPSNR:  108065.68062591553
+Sum SSSIM:  1280.0
+SSIM score: 1.0    id   1281
+PSNR: 84.2768783569336    id   1281
+Sum SPSNR:  108149.95750427246
+Sum SSSIM:  1281.0
+SSIM score: 1.0    id   1282
+PSNR: 82.7406005859375    id   1282
+Sum SPSNR:  108232.6981048584
+Sum SSSIM:  1282.0
+SSIM score: 1.0    id   1283
+PSNR: 83.54692077636719    id   1283
+Sum SPSNR:  108316.24502563477
+Sum SSSIM:  1283.0
+SSIM score: 1.0    id   1284
+PSNR: 82.26166534423828    id   1284
+Sum SPSNR:  108398.506690979
+Sum SSSIM:  1284.0
+SSIM score: 1.0    id   1285
+PSNR: 85.59286499023438    id   1285
+Sum SPSNR:  108484.09955596924
+Sum SSSIM:  1285.0
+SSIM score: 1.0    id   1286
+PSNR: 87.90267944335938    id   1286
+Sum SPSNR:  108572.0022354126
+Sum SSSIM:  1286.0
+SSIM score: 1.0    id   1287
+PSNR: 82.44414520263672    id   1287
+Sum SPSNR:  108654.44638061523
+Sum SSSIM:  1287.0
+SSIM score: 1.0    id   1288
+PSNR: 87.13821411132812    id   1288
+Sum SPSNR:  108741.58459472656
+Sum SSSIM:  1288.0
+SSIM score: 1.0    id   1289
+PSNR: 80.1095962524414    id   1289
+Sum SPSNR:  108821.694190979
+Sum SSSIM:  1289.0
+SSIM score: 1.0    id   1290
+PSNR: 81.6246337890625    id   1290
+Sum SPSNR:  108903.31882476807
+Sum SSSIM:  1290.0
+SSIM score: 1.0    id   1291
+PSNR: 88.18168640136719    id   1291
+Sum SPSNR:  108991.50051116943
+Sum SSSIM:  1291.0
+SSIM score: 1.0    id   1292
+PSNR: 82.06439208984375    id   1292
+Sum SPSNR:  109073.56490325928
+Sum SSSIM:  1292.0
+SSIM score: 1.0    id   1293
+PSNR: 84.58039855957031    id   1293
+Sum SPSNR:  109158.14530181885
+Sum SSSIM:  1293.0
+SSIM score: 1.0    id   1294
+PSNR: 82.68974304199219    id   1294
+Sum SPSNR:  109240.83504486084
+Sum SSSIM:  1294.0
+SSIM score: 1.0    id   1295
+PSNR: 82.55465698242188    id   1295
+Sum SPSNR:  109323.38970184326
+Sum SSSIM:  1295.0
+SSIM score: 1.0    id   1296
+PSNR: 81.99948120117188    id   1296
+Sum SPSNR:  109405.38918304443
+Sum SSSIM:  1296.0
+SSIM score: 1.0    id   1297
+PSNR: 83.98632049560547    id   1297
+Sum SPSNR:  109489.37550354004
+Sum SSSIM:  1297.0
+SSIM score: 1.0    id   1298
+PSNR: 79.84911346435547    id   1298
+Sum SPSNR:  109569.2246170044
+Sum SSSIM:  1298.0
+SSIM score: 1.0    id   1299
+PSNR: 81.0050048828125    id   1299
+Sum SPSNR:  109650.2296218872
+Sum SSSIM:  1299.0
+SSIM score: 1.0    id   1300
+PSNR: 83.26823425292969    id   1300
+Sum SPSNR:  109733.49785614014
+Sum SSSIM:  1300.0
+SSIM score: 1.0    id   1301
+PSNR: 85.91358947753906    id   1301
+Sum SPSNR:  109819.41144561768
+Sum SSSIM:  1301.0
+SSIM score: 1.0    id   1302
+PSNR: 81.64376831054688    id   1302
+Sum SPSNR:  109901.05521392822
+Sum SSSIM:  1302.0
+SSIM score: 1.0    id   1303
+PSNR: 82.35670471191406    id   1303
+Sum SPSNR:  109983.41191864014
+Sum SSSIM:  1303.0
+SSIM score: 1.0    id   1304
+PSNR: 82.03485107421875    id   1304
+Sum SPSNR:  110065.44676971436
+Sum SSSIM:  1304.0
+SSIM score: 1.0    id   1305
+PSNR: 83.16231536865234    id   1305
+Sum SPSNR:  110148.60908508301
+Sum SSSIM:  1305.0
+SSIM score: 1.0    id   1306
+PSNR: 88.77472686767578    id   1306
+Sum SPSNR:  110237.38381195068
+Sum SSSIM:  1306.0
+SSIM score: 1.0    id   1307
+PSNR: 81.28407287597656    id   1307
+Sum SPSNR:  110318.66788482666
+Sum SSSIM:  1307.0
+SSIM score: 1.0    id   1308
+PSNR: 82.82820129394531    id   1308
+Sum SPSNR:  110401.4960861206
+Sum SSSIM:  1308.0
+SSIM score: 1.0    id   1309
+PSNR: 80.898681640625    id   1309
+Sum SPSNR:  110482.39476776123
+Sum SSSIM:  1309.0
+SSIM score: 1.0    id   1310
+PSNR: 82.44879150390625    id   1310
+Sum SPSNR:  110564.84355926514
+Sum SSSIM:  1310.0
+SSIM score: 1.0    id   1311
+PSNR: 84.01530456542969    id   1311
+Sum SPSNR:  110648.85886383057
+Sum SSSIM:  1311.0
+SSIM score: 1.0    id   1312
+PSNR: 88.69007873535156    id   1312
+Sum SPSNR:  110737.54894256592
+Sum SSSIM:  1312.0
+SSIM score: 1.0    id   1313
+PSNR: 86.82282257080078    id   1313
+Sum SPSNR:  110824.37176513672
+Sum SSSIM:  1313.0
+SSIM score: 1.0    id   1314
+PSNR: 81.90731811523438    id   1314
+Sum SPSNR:  110906.27908325195
+Sum SSSIM:  1314.0
+SSIM score: 1.0    id   1315
+PSNR: 82.79842376708984    id   1315
+Sum SPSNR:  110989.07750701904
+Sum SSSIM:  1315.0
+SSIM score: 1.0    id   1316
+PSNR: 81.25018310546875    id   1316
+Sum SPSNR:  111070.32769012451
+Sum SSSIM:  1316.0
+SSIM score: 1.0    id   1317
+PSNR: 82.96366882324219    id   1317
+Sum SPSNR:  111153.29135894775
+Sum SSSIM:  1317.0
+SSIM score: 1.0    id   1318
+PSNR: 81.56962585449219    id   1318
+Sum SPSNR:  111234.86098480225
+Sum SSSIM:  1318.0
+SSIM score: 1.0    id   1319
+PSNR: 88.4770278930664    id   1319
+Sum SPSNR:  111323.33801269531
+Sum SSSIM:  1319.0
+SSIM score: 1.0    id   1320
+PSNR: 82.72147369384766    id   1320
+Sum SPSNR:  111406.05948638916
+Sum SSSIM:  1320.0
+SSIM score: 1.0    id   1321
+PSNR: 81.02471923828125    id   1321
+Sum SPSNR:  111487.08420562744
+Sum SSSIM:  1321.0
+SSIM score: 1.0    id   1322
+PSNR: 88.33253479003906    id   1322
+Sum SPSNR:  111575.41674041748
+Sum SSSIM:  1322.0
+SSIM score: 1.0    id   1323
+PSNR: 86.22808837890625    id   1323
+Sum SPSNR:  111661.64482879639
+Sum SSSIM:  1323.0
+SSIM score: 1.0    id   1324
+PSNR: 84.86892700195312    id   1324
+Sum SPSNR:  111746.51375579834
+Sum SSSIM:  1324.0
+SSIM score: 1.0    id   1325
+PSNR: 81.42241668701172    id   1325
+Sum SPSNR:  111827.93617248535
+Sum SSSIM:  1325.0
+SSIM score: 1.0    id   1326
+PSNR: 82.71272277832031    id   1326
+Sum SPSNR:  111910.64889526367
+Sum SSSIM:  1326.0
+SSIM score: 1.0    id   1327
+PSNR: 82.19520568847656    id   1327
+Sum SPSNR:  111992.84410095215
+Sum SSSIM:  1327.0
+SSIM score: 1.0    id   1328
+PSNR: 85.33763885498047    id   1328
+Sum SPSNR:  112078.18173980713
+Sum SSSIM:  1328.0
+SSIM score: 1.0    id   1329
+PSNR: 84.09156799316406    id   1329
+Sum SPSNR:  112162.2733078003
+Sum SSSIM:  1329.0
+SSIM score: 1.0    id   1330
+PSNR: 84.22535705566406    id   1330
+Sum SPSNR:  112246.49866485596
+Sum SSSIM:  1330.0
+SSIM score: 1.0    id   1331
+PSNR: 84.40560913085938    id   1331
+Sum SPSNR:  112330.90427398682
+Sum SSSIM:  1331.0
+SSIM score: 1.0    id   1332
+PSNR: 85.39260864257812    id   1332
+Sum SPSNR:  112416.2968826294
+Sum SSSIM:  1332.0
+SSIM score: 1.0    id   1333
+PSNR: 82.35306549072266    id   1333
+Sum SPSNR:  112498.64994812012
+Sum SSSIM:  1333.0
+SSIM score: 1.0    id   1334
+PSNR: 87.85162353515625    id   1334
+Sum SPSNR:  112586.50157165527
+Sum SSSIM:  1334.0
+SSIM score: 1.0    id   1335
+PSNR: 85.72203063964844    id   1335
+Sum SPSNR:  112672.22360229492
+Sum SSSIM:  1335.0
+SSIM score: 1.0    id   1336
+PSNR: 82.9813003540039    id   1336
+Sum SPSNR:  112755.20490264893
+Sum SSSIM:  1336.0
+SSIM score: 1.0    id   1337
+PSNR: 81.95929718017578    id   1337
+Sum SPSNR:  112837.1641998291
+Sum SSSIM:  1337.0
+SSIM score: 1.0    id   1338
+PSNR: 88.00833892822266    id   1338
+Sum SPSNR:  112925.17253875732
+Sum SSSIM:  1338.0
+SSIM score: 1.0    id   1339
+PSNR: 85.45849609375    id   1339
+Sum SPSNR:  113010.63103485107
+Sum SSSIM:  1339.0
+SSIM score: 1.0    id   1340
+PSNR: 81.97433471679688    id   1340
+Sum SPSNR:  113092.60536956787
+Sum SSSIM:  1340.0
+SSIM score: 1.0    id   1341
+PSNR: 87.1394271850586    id   1341
+Sum SPSNR:  113179.74479675293
+Sum SSSIM:  1341.0
+SSIM score: 1.0    id   1342
+PSNR: 82.47277069091797    id   1342
+Sum SPSNR:  113262.21756744385
+Sum SSSIM:  1342.0
+SSIM score: 1.0    id   1343
+PSNR: 84.54350280761719    id   1343
+Sum SPSNR:  113346.76107025146
+Sum SSSIM:  1343.0
+SSIM score: 1.0    id   1344
+PSNR: 85.91411590576172    id   1344
+Sum SPSNR:  113432.67518615723
+Sum SSSIM:  1344.0
+SSIM score: 1.0    id   1345
+PSNR: 82.10334777832031    id   1345
+Sum SPSNR:  113514.77853393555
+Sum SSSIM:  1345.0
+SSIM score: 1.0    id   1346
+PSNR: 87.43272399902344    id   1346
+Sum SPSNR:  113602.21125793457
+Sum SSSIM:  1346.0
+SSIM score: 1.0    id   1347
+PSNR: 85.36906433105469    id   1347
+Sum SPSNR:  113687.58032226562
+Sum SSSIM:  1347.0
+SSIM score: 1.0    id   1348
+PSNR: 85.77276611328125    id   1348
+Sum SPSNR:  113773.3530883789
+Sum SSSIM:  1348.0
+SSIM score: 1.0    id   1349
+PSNR: 83.49375915527344    id   1349
+Sum SPSNR:  113856.84684753418
+Sum SSSIM:  1349.0
+SSIM score: 1.0    id   1350
+PSNR: 85.44137573242188    id   1350
+Sum SPSNR:  113942.2882232666
+Sum SSSIM:  1350.0
+SSIM score: 1.0    id   1351
+PSNR: 87.62965393066406    id   1351
+Sum SPSNR:  114029.91787719727
+Sum SSSIM:  1351.0
+SSIM score: 1.0    id   1352
+PSNR: 86.6832046508789    id   1352
+Sum SPSNR:  114116.60108184814
+Sum SSSIM:  1352.0
+SSIM score: 1.0    id   1353
+PSNR: 81.74102783203125    id   1353
+Sum SPSNR:  114198.34210968018
+Sum SSSIM:  1353.0
+SSIM score: 1.0    id   1354
+PSNR: 86.81559753417969    id   1354
+Sum SPSNR:  114285.15770721436
+Sum SSSIM:  1354.0
+SSIM score: 1.0    id   1355
+PSNR: 86.24214172363281    id   1355
+Sum SPSNR:  114371.39984893799
+Sum SSSIM:  1355.0
+SSIM score: 1.0    id   1356
+PSNR: 85.81210327148438    id   1356
+Sum SPSNR:  114457.21195220947
+Sum SSSIM:  1356.0
+SSIM score: 1.0    id   1357
+PSNR: 84.86175537109375    id   1357
+Sum SPSNR:  114542.07370758057
+Sum SSSIM:  1357.0
+SSIM score: 1.0    id   1358
+PSNR: 86.5340576171875    id   1358
+Sum SPSNR:  114628.60776519775
+Sum SSSIM:  1358.0
+SSIM score: 1.0    id   1359
+PSNR: 83.59600830078125    id   1359
+Sum SPSNR:  114712.20377349854
+Sum SSSIM:  1359.0
+SSIM score: 1.0    id   1360
+PSNR: 82.65694427490234    id   1360
+Sum SPSNR:  114794.86071777344
+Sum SSSIM:  1360.0
+SSIM score: 1.0    id   1361
+PSNR: 82.06858825683594    id   1361
+Sum SPSNR:  114876.92930603027
+Sum SSSIM:  1361.0
+SSIM score: 1.0    id   1362
+PSNR: 84.54949951171875    id   1362
+Sum SPSNR:  114961.47880554199
+Sum SSSIM:  1362.0
+SSIM score: 1.0    id   1363
+PSNR: 81.84735107421875    id   1363
+Sum SPSNR:  115043.32615661621
+Sum SSSIM:  1363.0
+SSIM score: 1.0    id   1364
+PSNR: 81.55213928222656    id   1364
+Sum SPSNR:  115124.87829589844
+Sum SSSIM:  1364.0
+SSIM score: 1.0    id   1365
+PSNR: 82.15174865722656    id   1365
+Sum SPSNR:  115207.03004455566
+Sum SSSIM:  1365.0
+SSIM score: 1.0    id   1366
+PSNR: 85.0655517578125    id   1366
+Sum SPSNR:  115292.09559631348
+Sum SSSIM:  1366.0
+SSIM score: 1.0    id   1367
+PSNR: 81.70939636230469    id   1367
+Sum SPSNR:  115373.80499267578
+Sum SSSIM:  1367.0
+SSIM score: 1.0    id   1368
+PSNR: 86.59072875976562    id   1368
+Sum SPSNR:  115460.39572143555
+Sum SSSIM:  1368.0
+SSIM score: 1.0    id   1369
+PSNR: 81.85913848876953    id   1369
+Sum SPSNR:  115542.25485992432
+Sum SSSIM:  1369.0
+SSIM score: 1.0    id   1370
+PSNR: 81.94336700439453    id   1370
+Sum SPSNR:  115624.19822692871
+Sum SSSIM:  1370.0
+SSIM score: 1.0    id   1371
+PSNR: 81.32415771484375    id   1371
+Sum SPSNR:  115705.52238464355
+Sum SSSIM:  1371.0
+SSIM score: 1.0    id   1372
+PSNR: 82.2219467163086    id   1372
+Sum SPSNR:  115787.74433135986
+Sum SSSIM:  1372.0
+SSIM score: 1.0    id   1373
+PSNR: 81.7582778930664    id   1373
+Sum SPSNR:  115869.50260925293
+Sum SSSIM:  1373.0
+SSIM score: 1.0    id   1374
+PSNR: 88.88583374023438    id   1374
+Sum SPSNR:  115958.38844299316
+Sum SSSIM:  1374.0
+SSIM score: 1.0    id   1375
+PSNR: 84.75682067871094    id   1375
+Sum SPSNR:  116043.14526367188
+Sum SSSIM:  1375.0
+SSIM score: 1.0    id   1376
+PSNR: 81.2131118774414    id   1376
+Sum SPSNR:  116124.35837554932
+Sum SSSIM:  1376.0
+SSIM score: 1.0    id   1377
+PSNR: 88.15646362304688    id   1377
+Sum SPSNR:  116212.51483917236
+Sum SSSIM:  1377.0
+SSIM score: 1.0    id   1378
+PSNR: 87.72761535644531    id   1378
+Sum SPSNR:  116300.24245452881
+Sum SSSIM:  1378.0
+SSIM score: 1.0    id   1379
+PSNR: 85.73953247070312    id   1379
+Sum SPSNR:  116385.98198699951
+Sum SSSIM:  1379.0
+SSIM score: 1.0    id   1380
+PSNR: 83.88626098632812    id   1380
+Sum SPSNR:  116469.86824798584
+Sum SSSIM:  1380.0
+SSIM score: 1.0    id   1381
+PSNR: 81.67720031738281    id   1381
+Sum SPSNR:  116551.54544830322
+Sum SSSIM:  1381.0
+SSIM score: 1.0    id   1382
+PSNR: 85.40130615234375    id   1382
+Sum SPSNR:  116636.94675445557
+Sum SSSIM:  1382.0
+SSIM score: 1.0    id   1383
+PSNR: 83.90857696533203    id   1383
+Sum SPSNR:  116720.8553314209
+Sum SSSIM:  1383.0
+SSIM score: 1.0    id   1384
+PSNR: 84.76342010498047    id   1384
+Sum SPSNR:  116805.61875152588
+Sum SSSIM:  1384.0
+SSIM score: 1.0    id   1385
+PSNR: 88.61068725585938    id   1385
+Sum SPSNR:  116894.22943878174
+Sum SSSIM:  1385.0
+SSIM score: 1.0    id   1386
+PSNR: 84.08248901367188    id   1386
+Sum SPSNR:  116978.31192779541
+Sum SSSIM:  1386.0
+SSIM score: 1.0    id   1387
+PSNR: 85.6803970336914    id   1387
+Sum SPSNR:  117063.9923248291
+Sum SSSIM:  1387.0
+SSIM score: 1.0    id   1388
+PSNR: 89.04818725585938    id   1388
+Sum SPSNR:  117153.04051208496
+Sum SSSIM:  1388.0
+SSIM score: 1.0    id   1389
+PSNR: 87.98031616210938    id   1389
+Sum SPSNR:  117241.02082824707
+Sum SSSIM:  1389.0
+SSIM score: 1.0    id   1390
+PSNR: 82.81028747558594    id   1390
+Sum SPSNR:  117323.83111572266
+Sum SSSIM:  1390.0
+SSIM score: 1.0    id   1391
+PSNR: 81.2534408569336    id   1391
+Sum SPSNR:  117405.08455657959
+Sum SSSIM:  1391.0
+SSIM score: 1.0    id   1392
+PSNR: 86.69099426269531    id   1392
+Sum SPSNR:  117491.77555084229
+Sum SSSIM:  1392.0
+SSIM score: 1.0    id   1393
+PSNR: 82.15333557128906    id   1393
+Sum SPSNR:  117573.92888641357
+Sum SSSIM:  1393.0
+SSIM score: 1.0    id   1394
+PSNR: 86.13455200195312    id   1394
+Sum SPSNR:  117660.06343841553
+Sum SSSIM:  1394.0
+SSIM score: 1.0    id   1395
+PSNR: 81.5921401977539    id   1395
+Sum SPSNR:  117741.65557861328
+Sum SSSIM:  1395.0
+SSIM score: 1.0    id   1396
+PSNR: 82.32374572753906    id   1396
+Sum SPSNR:  117823.97932434082
+Sum SSSIM:  1396.0
+SSIM score: 1.0    id   1397
+PSNR: 82.7835464477539    id   1397
+Sum SPSNR:  117906.76287078857
+Sum SSSIM:  1397.0
+SSIM score: 1.0    id   1398
+PSNR: 85.98861694335938    id   1398
+Sum SPSNR:  117992.75148773193
+Sum SSSIM:  1398.0
+SSIM score: 1.0    id   1399
+PSNR: 82.13848876953125    id   1399
+Sum SPSNR:  118074.88997650146
+Sum SSSIM:  1399.0
+SSIM score: 1.0    id   1400
+PSNR: 81.60818481445312    id   1400
+Sum SPSNR:  118156.49816131592
+Sum SSSIM:  1400.0
+SSIM score: 1.0    id   1401
+PSNR: 87.73296356201172    id   1401
+Sum SPSNR:  118244.23112487793
+Sum SSSIM:  1401.0
+SSIM score: 1.0    id   1402
+PSNR: 82.54533386230469    id   1402
+Sum SPSNR:  118326.77645874023
+Sum SSSIM:  1402.0
+SSIM score: 1.0    id   1403
+PSNR: 85.43435668945312    id   1403
+Sum SPSNR:  118412.21081542969
+Sum SSSIM:  1403.0
+SSIM score: 1.0    id   1404
+PSNR: 82.17342376708984    id   1404
+Sum SPSNR:  118494.38423919678
+Sum SSSIM:  1404.0
+SSIM score: 1.0    id   1405
+PSNR: 84.63468933105469    id   1405
+Sum SPSNR:  118579.01892852783
+Sum SSSIM:  1405.0
+SSIM score: 1.0    id   1406
+PSNR: 83.63289642333984    id   1406
+Sum SPSNR:  118662.65182495117
+Sum SSSIM:  1406.0
+SSIM score: 1.0    id   1407
+PSNR: 83.83534240722656    id   1407
+Sum SPSNR:  118746.4871673584
+Sum SSSIM:  1407.0
+SSIM score: 1.0    id   1408
+PSNR: 88.87317657470703    id   1408
+Sum SPSNR:  118835.3603439331
+Sum SSSIM:  1408.0
+SSIM score: 1.0    id   1409
+PSNR: 83.00735473632812    id   1409
+Sum SPSNR:  118918.36769866943
+Sum SSSIM:  1409.0
+SSIM score: 1.0    id   1410
+PSNR: 83.65742492675781    id   1410
+Sum SPSNR:  119002.02512359619
+Sum SSSIM:  1410.0
+SSIM score: 1.0    id   1411
+PSNR: 81.58375549316406    id   1411
+Sum SPSNR:  119083.60887908936
+Sum SSSIM:  1411.0
+SSIM score: 1.0    id   1412
+PSNR: 87.31222534179688    id   1412
+Sum SPSNR:  119170.92110443115
+Sum SSSIM:  1412.0
+SSIM score: 1.0    id   1413
+PSNR: 79.6348876953125    id   1413
+Sum SPSNR:  119250.55599212646
+Sum SSSIM:  1413.0
+SSIM score: 1.0    id   1414
+PSNR: 85.9738998413086    id   1414
+Sum SPSNR:  119336.52989196777
+Sum SSSIM:  1414.0
+SSIM score: 1.0    id   1415
+PSNR: 84.24317169189453    id   1415
+Sum SPSNR:  119420.77306365967
+Sum SSSIM:  1415.0
+SSIM score: 1.0    id   1416
+PSNR: 88.55447387695312    id   1416
+Sum SPSNR:  119509.32753753662
+Sum SSSIM:  1416.0
+SSIM score: 1.0    id   1417
+PSNR: 80.12137603759766    id   1417
+Sum SPSNR:  119589.44891357422
+Sum SSSIM:  1417.0
+SSIM score: 1.0    id   1418
+PSNR: 89.51107025146484    id   1418
+Sum SPSNR:  119678.95998382568
+Sum SSSIM:  1418.0
+SSIM score: 1.0    id   1419
+PSNR: 87.38485717773438    id   1419
+Sum SPSNR:  119766.34484100342
+Sum SSSIM:  1419.0
+SSIM score: 1.0    id   1420
+PSNR: 84.150634765625    id   1420
+Sum SPSNR:  119850.49547576904
+Sum SSSIM:  1420.0
+SSIM score: 1.0    id   1421
+PSNR: 84.43614959716797    id   1421
+Sum SPSNR:  119934.93162536621
+Sum SSSIM:  1421.0
+SSIM score: 1.0    id   1422
+PSNR: 89.73954010009766    id   1422
+Sum SPSNR:  120024.67116546631
+Sum SSSIM:  1422.0
+SSIM score: 1.0    id   1423
+PSNR: 82.70386505126953    id   1423
+Sum SPSNR:  120107.37503051758
+Sum SSSIM:  1423.0
+SSIM score: 1.0    id   1424
+PSNR: 85.71940612792969    id   1424
+Sum SPSNR:  120193.09443664551
+Sum SSSIM:  1424.0
+SSIM score: 1.0    id   1425
+PSNR: 84.12550354003906    id   1425
+Sum SPSNR:  120277.21994018555
+Sum SSSIM:  1425.0
+SSIM score: 1.0    id   1426
+PSNR: 82.17369842529297    id   1426
+Sum SPSNR:  120359.39363861084
+Sum SSSIM:  1426.0
+SSIM score: 1.0    id   1427
+PSNR: 81.30654907226562    id   1427
+Sum SPSNR:  120440.7001876831
+Sum SSSIM:  1427.0
+SSIM score: 1.0    id   1428
+PSNR: 88.05892944335938    id   1428
+Sum SPSNR:  120528.75911712646
+Sum SSSIM:  1428.0
+SSIM score: 1.0    id   1429
+PSNR: 89.0377197265625    id   1429
+Sum SPSNR:  120617.79683685303
+Sum SSSIM:  1429.0
+SSIM score: 1.0    id   1430
+PSNR: 86.99478149414062    id   1430
+Sum SPSNR:  120704.79161834717
+Sum SSSIM:  1430.0
+SSIM score: 1.0    id   1431
+PSNR: 83.90011596679688    id   1431
+Sum SPSNR:  120788.69173431396
+Sum SSSIM:  1431.0
+SSIM score: 1.0    id   1432
+PSNR: 86.5163345336914    id   1432
+Sum SPSNR:  120875.20806884766
+Sum SSSIM:  1432.0
+SSIM score: 1.0    id   1433
+PSNR: 80.78331756591797    id   1433
+Sum SPSNR:  120955.99138641357
+Sum SSSIM:  1433.0
+SSIM score: 1.0    id   1434
+PSNR: 85.11880493164062    id   1434
+Sum SPSNR:  121041.11019134521
+Sum SSSIM:  1434.0
+SSIM score: 1.0    id   1435
+PSNR: 81.32279968261719    id   1435
+Sum SPSNR:  121122.43299102783
+Sum SSSIM:  1435.0
+SSIM score: 1.0    id   1436
+PSNR: 81.41842651367188    id   1436
+Sum SPSNR:  121203.8514175415
+Sum SSSIM:  1436.0
+SSIM score: 1.0    id   1437
+PSNR: 81.50233459472656    id   1437
+Sum SPSNR:  121285.35375213623
+Sum SSSIM:  1437.0
+SSIM score: 1.0    id   1438
+PSNR: 81.19705200195312    id   1438
+Sum SPSNR:  121366.55080413818
+Sum SSSIM:  1438.0
+SSIM score: 1.0    id   1439
+PSNR: 82.27599334716797    id   1439
+Sum SPSNR:  121448.82679748535
+Sum SSSIM:  1439.0
+SSIM score: 1.0    id   1440
+PSNR: 81.16187286376953    id   1440
+Sum SPSNR:  121529.98867034912
+Sum SSSIM:  1440.0
+SSIM score: 1.0    id   1441
+PSNR: 83.8546371459961    id   1441
+Sum SPSNR:  121613.84330749512
+Sum SSSIM:  1441.0
+SSIM score: 1.0    id   1442
+PSNR: 86.64473724365234    id   1442
+Sum SPSNR:  121700.48804473877
+Sum SSSIM:  1442.0
+SSIM score: 1.0    id   1443
+PSNR: 82.97811889648438    id   1443
+Sum SPSNR:  121783.46616363525
+Sum SSSIM:  1443.0
+SSIM score: 1.0    id   1444
+PSNR: 82.33917999267578    id   1444
+Sum SPSNR:  121865.80534362793
+Sum SSSIM:  1444.0
+SSIM score: 1.0    id   1445
+PSNR: 83.23825073242188    id   1445
+Sum SPSNR:  121949.04359436035
+Sum SSSIM:  1445.0
+SSIM score: 1.0    id   1446
+PSNR: 81.8312759399414    id   1446
+Sum SPSNR:  122030.8748703003
+Sum SSSIM:  1446.0
+SSIM score: 1.0    id   1447
+PSNR: 81.85580444335938    id   1447
+Sum SPSNR:  122112.73067474365
+Sum SSSIM:  1447.0
+SSIM score: 1.0    id   1448
+PSNR: 82.89553833007812    id   1448
+Sum SPSNR:  122195.62621307373
+Sum SSSIM:  1448.0
+SSIM score: 1.0    id   1449
+PSNR: 81.64836883544922    id   1449
+Sum SPSNR:  122277.27458190918
+Sum SSSIM:  1449.0
+SSIM score: 1.0    id   1450
+PSNR: 85.2987289428711    id   1450
+Sum SPSNR:  122362.57331085205
+Sum SSSIM:  1450.0
+SSIM score: 1.0    id   1451
+PSNR: 86.56230163574219    id   1451
+Sum SPSNR:  122449.1356124878
+Sum SSSIM:  1451.0
+SSIM score: 1.0    id   1452
+PSNR: 81.45509338378906    id   1452
+Sum SPSNR:  122530.59070587158
+Sum SSSIM:  1452.0
+SSIM score: 1.0    id   1453
+PSNR: 87.99272155761719    id   1453
+Sum SPSNR:  122618.5834274292
+Sum SSSIM:  1453.0
+SSIM score: 1.0    id   1454
+PSNR: 82.06912994384766    id   1454
+Sum SPSNR:  122700.65255737305
+Sum SSSIM:  1454.0
+SSIM score: 1.0    id   1455
+PSNR: 86.97323608398438    id   1455
+Sum SPSNR:  122787.62579345703
+Sum SSSIM:  1455.0
+SSIM score: 1.0    id   1456
+PSNR: 81.12263488769531    id   1456
+Sum SPSNR:  122868.74842834473
+Sum SSSIM:  1456.0
+SSIM score: 1.0    id   1457
+PSNR: 87.3735122680664    id   1457
+Sum SPSNR:  122956.1219406128
+Sum SSSIM:  1457.0
+SSIM score: 1.0    id   1458
+PSNR: 81.56996154785156    id   1458
+Sum SPSNR:  123037.69190216064
+Sum SSSIM:  1458.0
+SSIM score: 1.0    id   1459
+PSNR: 82.12996673583984    id   1459
+Sum SPSNR:  123119.82186889648
+Sum SSSIM:  1459.0
+SSIM score: 1.0    id   1460
+PSNR: 87.38320922851562    id   1460
+Sum SPSNR:  123207.205078125
+Sum SSSIM:  1460.0
+SSIM score: 1.0    id   1461
+PSNR: 81.8742446899414    id   1461
+Sum SPSNR:  123289.07932281494
+Sum SSSIM:  1461.0
+SSIM score: 1.0    id   1462
+PSNR: 87.60397338867188    id   1462
+Sum SPSNR:  123376.68329620361
+Sum SSSIM:  1462.0
+SSIM score: 1.0    id   1463
+PSNR: 81.85713958740234    id   1463
+Sum SPSNR:  123458.54043579102
+Sum SSSIM:  1463.0
+SSIM score: 1.0    id   1464
+PSNR: 86.24551391601562    id   1464
+Sum SPSNR:  123544.78594970703
+Sum SSSIM:  1464.0
+SSIM score: 1.0    id   1465
+PSNR: 85.72127532958984    id   1465
+Sum SPSNR:  123630.50722503662
+Sum SSSIM:  1465.0
+SSIM score: 1.0    id   1466
+PSNR: 87.33570098876953    id   1466
+Sum SPSNR:  123717.84292602539
+Sum SSSIM:  1466.0
+SSIM score: 1.0    id   1467
+PSNR: 80.45983123779297    id   1467
+Sum SPSNR:  123798.30275726318
+Sum SSSIM:  1467.0
+SSIM score: 1.0    id   1468
+PSNR: 89.62763977050781    id   1468
+Sum SPSNR:  123887.93039703369
+Sum SSSIM:  1468.0
+SSIM score: 1.0    id   1469
+PSNR: 86.3863754272461    id   1469
+Sum SPSNR:  123974.31677246094
+Sum SSSIM:  1469.0
+SSIM score: 1.0    id   1470
+PSNR: 83.13662719726562    id   1470
+Sum SPSNR:  124057.4533996582
+Sum SSSIM:  1470.0
+SSIM score: 1.0    id   1471
+PSNR: 86.21632385253906    id   1471
+Sum SPSNR:  124143.66972351074
+Sum SSSIM:  1471.0
+SSIM score: 1.0    id   1472
+PSNR: 85.79721069335938    id   1472
+Sum SPSNR:  124229.4669342041
+Sum SSSIM:  1472.0
+SSIM score: 1.0    id   1473
+PSNR: 81.68019104003906    id   1473
+Sum SPSNR:  124311.14712524414
+Sum SSSIM:  1473.0
+SSIM score: 1.0    id   1474
+PSNR: 80.9239273071289    id   1474
+Sum SPSNR:  124392.07105255127
+Sum SSSIM:  1474.0
+SSIM score: 1.0    id   1475
+PSNR: 88.6087417602539    id   1475
+Sum SPSNR:  124480.67979431152
+Sum SSSIM:  1475.0
+SSIM score: 1.0    id   1476
+PSNR: 86.50271606445312    id   1476
+Sum SPSNR:  124567.18251037598
+Sum SSSIM:  1476.0
+SSIM score: 1.0    id   1477
+PSNR: 86.56578826904297    id   1477
+Sum SPSNR:  124653.74829864502
+Sum SSSIM:  1477.0
+SSIM score: 1.0    id   1478
+PSNR: 84.40164184570312    id   1478
+Sum SPSNR:  124738.14994049072
+Sum SSSIM:  1478.0
+SSIM score: 1.0    id   1479
+PSNR: 88.74482727050781    id   1479
+Sum SPSNR:  124826.89476776123
+Sum SSSIM:  1479.0
+SSIM score: 1.0    id   1480
+PSNR: 87.78866577148438    id   1480
+Sum SPSNR:  124914.68343353271
+Sum SSSIM:  1480.0
+SSIM score: 1.0    id   1481
+PSNR: 84.39446258544922    id   1481
+Sum SPSNR:  124999.07789611816
+Sum SSSIM:  1481.0
+SSIM score: 1.0    id   1482
+PSNR: 87.27439880371094    id   1482
+Sum SPSNR:  125086.35229492188
+Sum SSSIM:  1482.0
+SSIM score: 1.0    id   1483
+PSNR: 84.55274963378906    id   1483
+Sum SPSNR:  125170.90504455566
+Sum SSSIM:  1483.0
+SSIM score: 1.0    id   1484
+PSNR: 80.3481674194336    id   1484
+Sum SPSNR:  125251.2532119751
+Sum SSSIM:  1484.0
+SSIM score: 1.0    id   1485
+PSNR: 87.32918548583984    id   1485
+Sum SPSNR:  125338.58239746094
+Sum SSSIM:  1485.0
+SSIM score: 1.0    id   1486
+PSNR: 81.45851135253906    id   1486
+Sum SPSNR:  125420.04090881348
+Sum SSSIM:  1486.0
+SSIM score: 1.0    id   1487
+PSNR: 88.0055923461914    id   1487
+Sum SPSNR:  125508.04650115967
+Sum SSSIM:  1487.0
+SSIM score: 1.0    id   1488
+PSNR: 82.88578033447266    id   1488
+Sum SPSNR:  125590.93228149414
+Sum SSSIM:  1488.0
+SSIM score: 1.0    id   1489
+PSNR: 82.07273864746094    id   1489
+Sum SPSNR:  125673.0050201416
+Sum SSSIM:  1489.0
+SSIM score: 1.0    id   1490
+PSNR: 86.2631607055664    id   1490
+Sum SPSNR:  125759.26818084717
+Sum SSSIM:  1490.0
+SSIM score: 1.0    id   1491
+PSNR: 82.31137084960938    id   1491
+Sum SPSNR:  125841.57955169678
+Sum SSSIM:  1491.0
+SSIM score: 1.0    id   1492
+PSNR: 84.3260269165039    id   1492
+Sum SPSNR:  125925.90557861328
+Sum SSSIM:  1492.0
+SSIM score: 1.0    id   1493
+PSNR: 84.68563079833984    id   1493
+Sum SPSNR:  126010.59120941162
+Sum SSSIM:  1493.0
+SSIM score: 1.0    id   1494
+PSNR: 85.88705444335938    id   1494
+Sum SPSNR:  126096.47826385498
+Sum SSSIM:  1494.0
+SSIM score: 1.0    id   1495
+PSNR: 81.31971740722656    id   1495
+Sum SPSNR:  126177.7979812622
+Sum SSSIM:  1495.0
+SSIM score: 1.0    id   1496
+PSNR: 86.96525573730469    id   1496
+Sum SPSNR:  126264.76323699951
+Sum SSSIM:  1496.0
+SSIM score: 1.0    id   1497
+PSNR: 86.3592529296875    id   1497
+Sum SPSNR:  126351.1224899292
+Sum SSSIM:  1497.0
+SSIM score: 1.0    id   1498
+PSNR: 82.6637954711914    id   1498
+Sum SPSNR:  126433.78628540039
+Sum SSSIM:  1498.0
+SSIM score: 1.0    id   1499
+PSNR: 86.79108428955078    id   1499
+Sum SPSNR:  126520.57736968994
+Sum SSSIM:  1499.0
+SSIM score: 1.0    id   1500
+PSNR: 80.89720916748047    id   1500
+Sum SPSNR:  126601.47457885742
+Sum SSSIM:  1500.0
+SSIM score: 1.0    id   1501
+PSNR: 83.06487274169922    id   1501
+Sum SPSNR:  126684.53945159912
+Sum SSSIM:  1501.0
+SSIM score: 1.0    id   1502
+PSNR: 85.48786163330078    id   1502
+Sum SPSNR:  126770.02731323242
+Sum SSSIM:  1502.0
+SSIM score: 1.0    id   1503
+PSNR: 88.87833404541016    id   1503
+Sum SPSNR:  126858.90564727783
+Sum SSSIM:  1503.0
+SSIM score: 1.0    id   1504
+PSNR: 82.19898223876953    id   1504
+Sum SPSNR:  126941.1046295166
+Sum SSSIM:  1504.0
+SSIM score: 1.0    id   1505
+PSNR: 88.62308502197266    id   1505
+Sum SPSNR:  127029.72771453857
+Sum SSSIM:  1505.0
+SSIM score: 1.0    id   1506
+PSNR: 84.26579284667969    id   1506
+Sum SPSNR:  127113.99350738525
+Sum SSSIM:  1506.0
+SSIM score: 1.0    id   1507
+PSNR: 80.33963012695312    id   1507
+Sum SPSNR:  127194.3331375122
+Sum SSSIM:  1507.0
+SSIM score: 1.0    id   1508
+PSNR: 87.49180603027344    id   1508
+Sum SPSNR:  127281.82494354248
+Sum SSSIM:  1508.0
+SSIM score: 1.0    id   1509
+PSNR: 85.96121978759766    id   1509
+Sum SPSNR:  127367.78616333008
+Sum SSSIM:  1509.0
+SSIM score: 1.0    id   1510
+PSNR: 86.39190673828125    id   1510
+Sum SPSNR:  127454.17807006836
+Sum SSSIM:  1510.0
+SSIM score: 1.0    id   1511
+PSNR: 84.6048583984375    id   1511
+Sum SPSNR:  127538.7829284668
+Sum SSSIM:  1511.0
+SSIM score: 1.0    id   1512
+PSNR: 81.21891021728516    id   1512
+Sum SPSNR:  127620.00183868408
+Sum SSSIM:  1512.0
+SSIM score: 1.0    id   1513
+PSNR: 82.5145034790039    id   1513
+Sum SPSNR:  127702.51634216309
+Sum SSSIM:  1513.0
+SSIM score: 1.0    id   1514
+PSNR: 91.18824768066406    id   1514
+Sum SPSNR:  127793.70458984375
+Sum SSSIM:  1514.0
+SSIM score: 1.0    id   1515
+PSNR: 85.67619323730469    id   1515
+Sum SPSNR:  127879.38078308105
+Sum SSSIM:  1515.0
+SSIM score: 1.0    id   1516
+PSNR: 88.17684936523438    id   1516
+Sum SPSNR:  127967.55763244629
+Sum SSSIM:  1516.0
+SSIM score: 1.0    id   1517
+PSNR: 88.45917510986328    id   1517
+Sum SPSNR:  128056.01680755615
+Sum SSSIM:  1517.0
+SSIM score: 1.0    id   1518
+PSNR: 88.67108154296875    id   1518
+Sum SPSNR:  128144.68788909912
+Sum SSSIM:  1518.0
+SSIM score: 1.0    id   1519
+PSNR: 86.85415649414062    id   1519
+Sum SPSNR:  128231.54204559326
+Sum SSSIM:  1519.0
+SSIM score: 1.0    id   1520
+PSNR: 82.51712799072266    id   1520
+Sum SPSNR:  128314.05917358398
+Sum SSSIM:  1520.0
+SSIM score: 1.0    id   1521
+PSNR: 86.33416748046875    id   1521
+Sum SPSNR:  128400.39334106445
+Sum SSSIM:  1521.0
+SSIM score: 1.0    id   1522
+PSNR: 81.98810577392578    id   1522
+Sum SPSNR:  128482.38144683838
+Sum SSSIM:  1522.0
+SSIM score: 1.0    id   1523
+PSNR: 86.17759704589844    id   1523
+Sum SPSNR:  128568.55904388428
+Sum SSSIM:  1523.0
+SSIM score: 1.0    id   1524
+PSNR: 80.64888000488281    id   1524
+Sum SPSNR:  128649.20792388916
+Sum SSSIM:  1524.0
+SSIM score: 1.0    id   1525
+PSNR: 84.3379135131836    id   1525
+Sum SPSNR:  128733.54583740234
+Sum SSSIM:  1525.0
+SSIM score: 1.0    id   1526
+PSNR: 86.22416687011719    id   1526
+Sum SPSNR:  128819.77000427246
+Sum SSSIM:  1526.0
+SSIM score: 1.0    id   1527
+PSNR: 88.31458282470703    id   1527
+Sum SPSNR:  128908.08458709717
+Sum SSSIM:  1527.0
+SSIM score: 1.0    id   1528
+PSNR: 88.72857666015625    id   1528
+Sum SPSNR:  128996.81316375732
+Sum SSSIM:  1528.0
+SSIM score: 1.0    id   1529
+PSNR: 83.82339477539062    id   1529
+Sum SPSNR:  129080.63655853271
+Sum SSSIM:  1529.0
+SSIM score: 1.0    id   1530
+PSNR: 86.50989532470703    id   1530
+Sum SPSNR:  129167.14645385742
+Sum SSSIM:  1530.0
+SSIM score: 1.0    id   1531
+PSNR: 84.64812469482422    id   1531
+Sum SPSNR:  129251.79457855225
+Sum SSSIM:  1531.0
+SSIM score: 1.0    id   1532
+PSNR: 87.43846893310547    id   1532
+Sum SPSNR:  129339.23304748535
+Sum SSSIM:  1532.0
+SSIM score: 1.0    id   1533
+PSNR: 83.34707641601562    id   1533
+Sum SPSNR:  129422.58012390137
+Sum SSSIM:  1533.0
+SSIM score: 1.0    id   1534
+PSNR: 86.21268463134766    id   1534
+Sum SPSNR:  129508.79280853271
+Sum SSSIM:  1534.0
+SSIM score: 1.0    id   1535
+PSNR: 81.40351867675781    id   1535
+Sum SPSNR:  129590.19632720947
+Sum SSSIM:  1535.0
+SSIM score: 1.0    id   1536
+PSNR: 85.08589935302734    id   1536
+Sum SPSNR:  129675.2822265625
+Sum SSSIM:  1536.0
+SSIM score: 1.0    id   1537
+PSNR: 85.15217590332031    id   1537
+Sum SPSNR:  129760.43440246582
+Sum SSSIM:  1537.0
+SSIM score: 1.0    id   1538
+PSNR: 83.95304870605469    id   1538
+Sum SPSNR:  129844.38745117188
+Sum SSSIM:  1538.0
+SSIM score: 1.0    id   1539
+PSNR: 81.90254974365234    id   1539
+Sum SPSNR:  129926.29000091553
+Sum SSSIM:  1539.0
+SSIM score: 1.0    id   1540
+PSNR: 81.42388916015625    id   1540
+Sum SPSNR:  130007.71389007568
+Sum SSSIM:  1540.0
+SSIM score: 1.0    id   1541
+PSNR: 82.36763763427734    id   1541
+Sum SPSNR:  130090.08152770996
+Sum SSSIM:  1541.0
+SSIM score: 1.0    id   1542
+PSNR: 84.62982940673828    id   1542
+Sum SPSNR:  130174.7113571167
+Sum SSSIM:  1542.0
+SSIM score: 1.0    id   1543
+PSNR: 84.67285919189453    id   1543
+Sum SPSNR:  130259.3842163086
+Sum SSSIM:  1543.0
+SSIM score: 1.0    id   1544
+PSNR: 86.83651733398438    id   1544
+Sum SPSNR:  130346.22073364258
+Sum SSSIM:  1544.0
+SSIM score: 1.0    id   1545
+PSNR: 90.54169464111328    id   1545
+Sum SPSNR:  130436.76242828369
+Sum SSSIM:  1545.0
+SSIM score: 1.0    id   1546
+PSNR: 82.675048828125    id   1546
+Sum SPSNR:  130519.43747711182
+Sum SSSIM:  1546.0
+SSIM score: 1.0    id   1547
+PSNR: 85.10784149169922    id   1547
+Sum SPSNR:  130604.54531860352
+Sum SSSIM:  1547.0
+SSIM score: 1.0    id   1548
+PSNR: 87.30628967285156    id   1548
+Sum SPSNR:  130691.85160827637
+Sum SSSIM:  1548.0
+SSIM score: 1.0    id   1549
+PSNR: 84.736572265625    id   1549
+Sum SPSNR:  130776.58818054199
+Sum SSSIM:  1549.0
+SSIM score: 1.0    id   1550
+PSNR: 86.45736694335938    id   1550
+Sum SPSNR:  130863.04554748535
+Sum SSSIM:  1550.0
+SSIM score: 1.0    id   1551
+PSNR: 83.08645629882812    id   1551
+Sum SPSNR:  130946.13200378418
+Sum SSSIM:  1551.0
+SSIM score: 1.0    id   1552
+PSNR: 84.37959289550781    id   1552
+Sum SPSNR:  131030.51159667969
+Sum SSSIM:  1552.0
+SSIM score: 1.0    id   1553
+PSNR: 85.08438873291016    id   1553
+Sum SPSNR:  131115.5959854126
+Sum SSSIM:  1553.0
+SSIM score: 1.0    id   1554
+PSNR: 81.96307373046875    id   1554
+Sum SPSNR:  131197.55905914307
+Sum SSSIM:  1554.0
+SSIM score: 1.0    id   1555
+PSNR: 82.66503143310547    id   1555
+Sum SPSNR:  131280.22409057617
+Sum SSSIM:  1555.0
+SSIM score: 1.0    id   1556
+PSNR: 85.11772155761719    id   1556
+Sum SPSNR:  131365.3418121338
+Sum SSSIM:  1556.0
+SSIM score: 1.0    id   1557
+PSNR: 81.78714752197266    id   1557
+Sum SPSNR:  131447.12895965576
+Sum SSSIM:  1557.0
+SSIM score: 1.0    id   1558
+PSNR: 85.4495849609375    id   1558
+Sum SPSNR:  131532.5785446167
+Sum SSSIM:  1558.0
+SSIM score: 1.0    id   1559
+PSNR: 88.87472534179688    id   1559
+Sum SPSNR:  131621.4532699585
+Sum SSSIM:  1559.0
+SSIM score: 1.0    id   1560
+PSNR: 88.01849365234375    id   1560
+Sum SPSNR:  131709.47176361084
+Sum SSSIM:  1560.0
+SSIM score: 1.0    id   1561
+PSNR: 85.12740325927734    id   1561
+Sum SPSNR:  131794.59916687012
+Sum SSSIM:  1561.0
+SSIM score: 1.0    id   1562
+PSNR: 86.5025634765625    id   1562
+Sum SPSNR:  131881.10173034668
+Sum SSSIM:  1562.0
+SSIM score: 1.0    id   1563
+PSNR: 85.04788208007812    id   1563
+Sum SPSNR:  131966.14961242676
+Sum SSSIM:  1563.0
+SSIM score: 1.0    id   1564
+PSNR: 89.18263244628906    id   1564
+Sum SPSNR:  132055.33224487305
+Sum SSSIM:  1564.0
+SSIM score: 1.0    id   1565
+PSNR: 87.29246520996094    id   1565
+Sum SPSNR:  132142.624710083
+Sum SSSIM:  1565.0
+SSIM score: 1.0    id   1566
+PSNR: 86.24186706542969    id   1566
+Sum SPSNR:  132228.86657714844
+Sum SSSIM:  1566.0
+SSIM score: 1.0    id   1567
+PSNR: 83.45506286621094    id   1567
+Sum SPSNR:  132312.32164001465
+Sum SSSIM:  1567.0
+SSIM score: 1.0    id   1568
+PSNR: 86.88471984863281    id   1568
+Sum SPSNR:  132399.20635986328
+Sum SSSIM:  1568.0
+SSIM score: 1.0    id   1569
+PSNR: 83.27498626708984    id   1569
+Sum SPSNR:  132482.48134613037
+Sum SSSIM:  1569.0
+SSIM score: 1.0    id   1570
+PSNR: 88.93370056152344    id   1570
+Sum SPSNR:  132571.4150466919
+Sum SSSIM:  1570.0
+SSIM score: 1.0    id   1571
+PSNR: 81.09272766113281    id   1571
+Sum SPSNR:  132652.50777435303
+Sum SSSIM:  1571.0
+SSIM score: 1.0    id   1572
+PSNR: 85.08384704589844    id   1572
+Sum SPSNR:  132737.59162139893
+Sum SSSIM:  1572.0
+SSIM score: 1.0    id   1573
+PSNR: 88.27889251708984    id   1573
+Sum SPSNR:  132825.87051391602
+Sum SSSIM:  1573.0
+SSIM score: 1.0    id   1574
+PSNR: 84.00906372070312    id   1574
+Sum SPSNR:  132909.87957763672
+Sum SSSIM:  1574.0
+SSIM score: 1.0    id   1575
+PSNR: 86.87379455566406    id   1575
+Sum SPSNR:  132996.75337219238
+Sum SSSIM:  1575.0
+SSIM score: 1.0    id   1576
+PSNR: 83.22207641601562    id   1576
+Sum SPSNR:  133079.9754486084
+Sum SSSIM:  1576.0
+SSIM score: 1.0    id   1577
+PSNR: 82.25048828125    id   1577
+Sum SPSNR:  133162.22593688965
+Sum SSSIM:  1577.0
+SSIM score: 1.0    id   1578
+PSNR: 89.8586196899414    id   1578
+Sum SPSNR:  133252.0845565796
+Sum SSSIM:  1578.0
+SSIM score: 1.0    id   1579
+PSNR: 86.17704772949219    id   1579
+Sum SPSNR:  133338.26160430908
+Sum SSSIM:  1579.0
+SSIM score: 1.0    id   1580
+PSNR: 81.33328247070312    id   1580
+Sum SPSNR:  133419.59488677979
+Sum SSSIM:  1580.0
+SSIM score: 1.0    id   1581
+PSNR: 87.12871551513672    id   1581
+Sum SPSNR:  133506.72360229492
+Sum SSSIM:  1581.0
+SSIM score: 1.0    id   1582
+PSNR: 85.06287384033203    id   1582
+Sum SPSNR:  133591.78647613525
+Sum SSSIM:  1582.0
+SSIM score: 1.0    id   1583
+PSNR: 82.57493591308594    id   1583
+Sum SPSNR:  133674.36141204834
+Sum SSSIM:  1583.0
+SSIM score: 1.0    id   1584
+PSNR: 86.39656829833984    id   1584
+Sum SPSNR:  133760.75798034668
+Sum SSSIM:  1584.0
+SSIM score: 1.0    id   1585
+PSNR: 85.44570922851562    id   1585
+Sum SPSNR:  133846.2036895752
+Sum SSSIM:  1585.0
+SSIM score: 1.0    id   1586
+PSNR: 81.51862335205078    id   1586
+Sum SPSNR:  133927.72231292725
+Sum SSSIM:  1586.0
+SSIM score: 1.0    id   1587
+PSNR: 81.92984008789062    id   1587
+Sum SPSNR:  134009.65215301514
+Sum SSSIM:  1587.0
+SSIM: TB  1.0
+PSNR: TB  84.44212486012296
+cifar10 test dataset:
+num_examples:  3072
+num_correct:  1485
+adv_correct:  1587
+accuracy of adv imgs in testing set: 0.483398
+
+adv succeeded 0.516602
+
+{
+    "airplanes": {
+        "gt": 222,
+        "adv_succeed": 123,
+        "adv_succeed_%": 0.5540540540540541
+    },
+    "cars": {
+        "gt": 110,
+        "adv_succeed": 58,
+        "adv_succeed_%": 0.5272727272727272
+    },
+    "birds": {
+        "gt": 165,
+        "adv_succeed": 66,
+        "adv_succeed_%": 0.4
+    },
+    "cats": {
+        "gt": 964,
+        "adv_succeed": 427,
+        "adv_succeed_%": 0.4429460580912863
+    },
+    "deer": {
+        "gt": 238,
+        "adv_succeed": 126,
+        "adv_succeed_%": 0.5294117647058824
+    },
+    "dogs": {
+        "gt": 195,
+        "adv_succeed": 112,
+        "adv_succeed_%": 0.5743589743589743
+    },
+    "frogs": {
+        "gt": 196,
+        "adv_succeed": 68,
+        "adv_succeed_%": 0.3469387755102041
+    },
+    "horses": {
+        "gt": 218,
+        "adv_succeed": 147,
+        "adv_succeed_%": 0.6743119266055045
+    },
+    "ships": {
+        "gt": 668,
+        "adv_succeed": 432,
+        "adv_succeed_%": 0.6467065868263473
+    },
+    "trucks": {
+        "gt": 96,
+        "adv_succeed": 28,
+        "adv_succeed_%": 0.2916666666666667
+    }
+}
+154.5606610774994
+==================================================================
+514.2493164539337
