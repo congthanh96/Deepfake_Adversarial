@@ -45,7 +45,7 @@ if __name__ == "__main__":
     pretrained_G = models.Generator(gen_input_nc, image_nc).to(device)
     pretrained_G.load_state_dict(torch.load(pretrained_generator_path))
     pretrained_G.eval()
-    for kcount in range(5,8):
+    for kcount in range(8,11):
         start_time_gen = time.time()
         print(start_time_gen,' running gen ',kcount)
     # test adversarial examples in CIFAR10 training dataset
