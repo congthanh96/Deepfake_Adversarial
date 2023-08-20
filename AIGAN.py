@@ -147,7 +147,8 @@ class AIGAN:
         d_fake_logits, d_fake_probs = self.netDisc(adv_images.detach())
 
         # generate labels for discriminator (optionally smooth labels for stability)
-        smooth = 0.0
+        # tunning smooth = 0.0
+        smooth = 0.1
         d_labels_real = torch.ones_like(d_real_probs, device=self.device) * (1 - smooth)
         d_labels_fake = torch.zeros_like(d_fake_probs, device=self.device)
         
@@ -185,10 +186,13 @@ class AIGAN:
         onehot_labels = torch.eye(self.model_num_labels, device=self.device)[labels.long()]
         loss_adv = adv_loss(f_fake_probs, onehot_labels, self.is_targeted)
 
-        alambda = 1.
-        alpha = 1.
-        beta = 10
-
+        #alambda = 1.
+        #alpha = 1.
+        #beta = 10
+        #tunning
+        alambda = 0.2
+        alpha = 0.2
+        beta = 0.6
         loss_G = alambda*loss_adv + alpha*loss_G_fake + beta*loss_perturb
         loss_G.backward()
         self.optimizer_G.step()

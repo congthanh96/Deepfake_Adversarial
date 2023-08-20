@@ -19,8 +19,11 @@ if __name__ == "__main__":
     use_cuda=True
     image_nc=3
     epochs = 600
-    batch_size = 256
-    C_TRESH =  0.3
+    #batch_size = 256
+    #C_TRESH =  0.3
+    #tunning
+    batch_size = 128
+    C_TRESH =  0.5
     BOX_MIN = 0
     BOX_MAX = 1
 
