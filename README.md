@@ -1,31 +1,26 @@
 
 ## Automated generation of adaptive perturbed images based on GAN for motivated adversaries on deep learning models.
  
-    Duy Trung Pham
+#    Duy Trung Pham
     Department of Information Security -
     Academy of Cryptography Techniques
     Ha Noi, Vietnam trungpd@actvn.edu.vn
 
-    Cong Thanh Nguyen
+#    Cong Thanh Nguyen
     Department of Information Security -
     Academy of Cryptography Techniques
     Ho Chi Minh, Vietnam thanhnc1212@gmail.com
   
-    Phi Ho Truong∗
+#    Phi Ho Truong∗
     Department of Information Security -
     Academy of Cryptography Techniques
     Ha Noi, Vietnam hotp.gvm@actvn.edu.vn
 
-    Nhat Hai Nguyen
+#    Nhat Hai Nguyen
     School of Information and Communication Technology -
     Hanoi University of Science and Technology
     Ha Noi, Vietnam hainn@soict.hust.edu.vn
 
-
-
-#
-#
-#
 # Install
   - Vui lòng cài đặt biến môi trường theo requirements.txt
 # Using & train model
