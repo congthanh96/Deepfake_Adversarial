@@ -11,7 +11,7 @@
     Academy of Cryptography Techniques
     Ho Chi Minh, Vietnam thanhnc1212@gmail.com
   
-#    Phi Ho Truong∗
+#    Phi Ho Truong
     Department of Information Security -
     Academy of Cryptography Techniques
     Ha Noi, Vietnam hotp.gvm@actvn.edu.vn
