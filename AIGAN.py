@@ -8,6 +8,7 @@ from tqdm.auto import tqdm
 
 from torch.utils.tensorboard import SummaryWriter
 import gc
+from advertorch.attacks import LinfPGDAttack
 
 
 
@@ -44,7 +45,7 @@ def weights_init(m):
         nn.init.normal_(m.weight.data, 1.0, 0.02)
         nn.init.constant_(m.bias.data, 0)
 
-def adv_loss(probs_model, onehot_labels, is_targeted):
+def adv_loss(probs_model, onehot_labels, is_targeted):   
     # C&W loss function
     real = torch.sum(onehot_labels * probs_model, dim=1)
     other, _ = torch.max((1 - onehot_labels) * probs_model - onehot_labels * 10000, dim=1)
@@ -69,8 +70,7 @@ class AIGAN:
                  box_max,
                  c_tresh,
                  dataset_name,
-                 is_targeted=False,
-                 LR = 3e-4):
+                 is_targeted):
         output_nc = image_nc
         self.device = device
         self.model_num_labels = model_num_labels
@@ -79,21 +79,33 @@ class AIGAN:
         self.output_nc = output_nc
         self.box_min = box_min
         self.box_max = box_max
-        self.c_treshold = c_tresh
+        self.c_treshold = c_tresh 
         self.dataset_name = dataset_name
         self.is_targeted = is_targeted
-
+        
         self.models_path = './models/'
         self.writer = SummaryWriter('./checkpoints/logs/', max_queue=100)
 
         self.gen_input_nc = image_nc
 
         self.epoch_of_change = epoch_of_change
+        self.attacker = LinfPGDAttack(self.model, loss_fn=nn.CrossEntropyLoss(reduction="sum"), eps=0.3,
+                nb_iter=40, eps_iter=0.01, rand_init=True, clip_min=box_min, clip_max=box_max,
+                targeted=self.is_targeted)
 
+        if dataset_name=="mnist":
+            # from models import Generator, Discriminator
+            from models import DiscriminatorMNIST as Discriminator
+            from models import GeneratorNoTrans as Generator
 
-        if dataset_name=="cifar10":
+        elif dataset_name=="cifar10":
+            # from models import Generator, Discriminator
             from models import Discriminator
             from models import Generator
+            
+        elif dataset_name=="imagenet":
+            from imagenet_models import PatchDiscriminator as Discriminator
+            from imagenet_models import Resnet224Generator as Generator
         else:
             raise NotImplementedError('dataset [%s] is not implemented' % dataset_name)
 
@@ -120,8 +132,21 @@ class AIGAN:
             self.iteration = 0
 
        # initialize optimizers
-        self.optimizer_G = torch.optim.Adam(self.netG.parameters(), lr=LR)
-        self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(), lr=LR)
+       # giam lr 3e-4
+        if self.dataset_name == "mnist":
+            lr = 10**(-3)
+        elif self.dataset_name == "cifar10":
+            lr = 1e-4
+        elif self.dataset_name == "imagenet":
+            lr = 10**(-5)
+        else:
+            raise NotImplementedError('dataset [%s] is not implemented' % dataset_name)
+
+        self.optimizer_G = torch.optim.Adam(self.netG.parameters(),
+                                            lr=lr)
+        self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(),
+                                            lr=lr)
+        #luu cai cai optimizer de lan sau train tiep                                     
         self.optG_file_name = self.models_path + 'optG.pth.tar'
         self.optD_file_name = self.models_path + 'optD.pth.tar'
 
@@ -131,75 +156,110 @@ class AIGAN:
             self.optimizer_G.load_state_dict(torch.load(last_optG))
             self.optimizer_D.load_state_dict((torch.load(last_optD)))
 
+        self._use_attacker = (self.start_epoch < self.epoch_of_change)
+
+
+
     def train_batch(self, x, labels):
         # if training is targeted, labels = targets
        
         # optimize D
-        # # add a clipping trick
-        perturbation = torch.clamp(self.netG(x), -self.c_treshold, self.c_treshold)
-        # perturbation = self.netG(x)
-        adv_images = perturbation + x
-        adv_images = torch.clamp(adv_images, self.box_min, self.box_max)
-        
-        self.optimizer_D.zero_grad()
+        for _ in range(1):
+            # # add a clipping trick
+            perturbation = torch.clamp(self.netG(x), -self.c_treshold, self.c_treshold)
+            # perturbation = self.netG(x)
+            adv_images = perturbation + x
+            adv_images = torch.clamp(adv_images, self.box_min, self.box_max)
+            
+            self.optimizer_D.zero_grad()
 
-        d_real_logits, d_real_probs = self.netDisc(x) 
-        d_fake_logits, d_fake_probs = self.netDisc(adv_images.detach())
-
-        # generate labels for discriminator (optionally smooth labels for stability)
-        # tunning smooth = 0.0
-        smooth = 0.1
-        d_labels_real = torch.ones_like(d_real_probs, device=self.device) * (1 - smooth)
-        d_labels_fake = torch.zeros_like(d_fake_probs, device=self.device)
-        
-        # discriminator loss
-        loss_D_real = F.mse_loss(d_real_probs, d_labels_real)
-        loss_D_fake = F.mse_loss(d_fake_probs, d_labels_fake)
-        loss_D_GAN = (loss_D_fake + loss_D_real) #/2
-        loss_D_GAN.backward()
-        # loss_D_GAN.backward()
-        self.optimizer_D.step()
+            if self._use_attacker:
+                pgd_images = self.attacker.perturb(x, labels) 
+                d_real_logits, d_real_probs = self.netDisc(pgd_images)
+            else:
+                d_real_logits, d_real_probs = self.netDisc(x) 
+            d_fake_logits, d_fake_probs = self.netDisc(adv_images.detach())
+            # adv_images 1 hoac nhieu tam hinh tuy vao bathsize
+            # vi du bathsize = 3 thi d_fake_probs cho ra 3 phan tu nhãn sẽ là nhãn 0 >> label goc thi nhan 1
+            # generate labels for discriminator (optionally smooth labels for stability)
+            # smooth = 0.0
+            smooth = 0.1
+            d_labels_real = torch.ones_like(d_real_probs, device=self.device) * (1 - smooth) # 3 so 1
+            d_labels_fake = torch.zeros_like(d_fake_probs, device=self.device) # 3 so 0
+            
+            # discriminator loss
+            loss_D_real = F.mse_loss(d_real_probs, d_labels_real)
+            loss_D_fake = F.mse_loss(d_fake_probs, d_labels_fake)
+            #loss_D_GAN = (0.6*loss_D_fake + 0.4*loss_D_real) #/2
+            loss_D_GAN = (0.6*loss_D_fake + 0.4*loss_D_real) #/2
+            loss_D_GAN.backward()
+            # loss_D_GAN.backward()
+            self.optimizer_D.step()
         
         gc.collect()
 
         # optimize G
-        self.optimizer_G.zero_grad()
+        for _ in range(1):
 
-        # cal G's loss in GAN
-        d_fake_logits, d_fake_probs = self.netDisc(adv_images.detach()) 
-        loss_G_fake = F.mse_loss(d_fake_probs, torch.ones_like(d_fake_probs, device=self.device))
-        loss_G_fake.backward(retain_graph=True)
+            self.optimizer_G.zero_grad()
 
-        # # calculate perturbation norm
-        loss_perturb = torch.norm(perturbation.view(perturbation.shape[0], -1), 2, dim=1)
-        loss_perturb = torch.max(loss_perturb - self.c_treshold, torch.zeros(1, device=self.device))
-        loss_perturb = torch.mean(loss_perturb)
+            # cal G's loss in GAN
+            d_fake_logits, d_fake_probs = self.netDisc(adv_images.detach()) 
+            loss_G_fake = F.mse_loss(d_fake_probs, torch.ones_like(d_fake_probs, device=self.device))
+            loss_G_fake.backward(retain_graph=True)
 
-        # cal adv loss
-        # f_real_logits = self.model(x)
-        # f_real_probs = F.softmax(f_real_logits, dim=1)
-        f_fake_logits = self.model(adv_images) 
-        f_fake_probs = F.softmax(f_fake_logits, dim=1)
-        # if training is targeted, indicate how many examples classified as targets
-        # else show accuraccy on adversarial images
-        fake_accuracy = torch.mean((torch.argmax(f_fake_probs, 1) == labels).float())
-        onehot_labels = torch.eye(self.model_num_labels, device=self.device)[labels.long()]
-        loss_adv = adv_loss(f_fake_probs, onehot_labels, self.is_targeted)
+            # # calculate perturbation norm / lam cai loss cang nho cang tot 
+            loss_perturb = torch.norm(perturbation.view(perturbation.shape[0], -1), 2, dim=1)
+            # co gang thay doi c_treshold sao cho loss_perturb - self.c_treshold <=0 tang
+            loss_perturb = torch.max(loss_perturb - self.c_treshold, torch.zeros(1, device=self.device))
+            loss_perturb = torch.mean(loss_perturb)
 
-        #alambda = 1.
-        #alpha = 1.
-        #beta = 10
-        #tunning
-        alambda = 0.2
-        alpha = 0.2
-        beta = 0.6
-        loss_G = alambda*loss_adv + alpha*loss_G_fake + beta*loss_perturb
-        loss_G.backward()
-        self.optimizer_G.step()
+            # cal adv loss
+            # f_real_logits = self.model(x)
+            # f_real_probs = F.softmax(f_real_logits, dim=1)
+            # Lay ket qua tu model goc ra
+            f_fake_logits = self.model(adv_images) 
+            # Doi ket qua thanh xac suat
+            f_fake_probs = F.softmax(f_fake_logits, dim=1)
+            # if training is targeted, indicate how many examples classified as targets
+            # else show accuraccy on adversarial images
 
+            fake_accuracy = torch.mean((torch.argmax(f_fake_probs, 1) == labels).float())
+
+            onehot_labels = torch.eye(self.model_num_labels, device=self.device)[labels.long()]
+            # Tinh loss giua adv va model goc cang cao cang tot
+            loss_adv = adv_loss(f_fake_probs, onehot_labels, self.is_targeted)
+
+            if self.dataset_name == "mnist":
+                alambda = 1.
+                alpha = 1.
+                beta = 10
+            
+            # feel freeze to change
+            if self.dataset_name == "cifar10":
+                #alambda = 1.
+                #alpha = 1.
+                #beta = 10
+                alambda = 0.2
+                alpha = 0.2
+                beta = 0.6
+            elif self.dataset_name == "imagenet":
+                alambda = 10.0#
+                alpha = 1.
+                beta = 0.5
+            else:
+                raise NotImplementedError('dataset [%s] is not implemented' % self.dataset_name)
+            # tun 3 gia tri alpha alamda beta / 0.2 0.2 0.6 gia tri cang cao the hien quan trong cua loss
+            loss_G = alambda*loss_adv + alpha*loss_G_fake + beta*loss_perturb
+            loss_G.backward()
+            self.optimizer_G.step()
+        # gia tri sai lech voi anh origin
         self.writer.add_scalar('iter/train/loss_D_real', loss_D_real.data, global_step=self.iteration)
+        # gia tri sai lech voi anh fake
         self.writer.add_scalar('iter/train/loss_D_fake', loss_D_fake.data, global_step=self.iteration)
+        # gia tri sai lech voi anh fake
         self.writer.add_scalar('iter/train/loss_G_fake', loss_G_fake.data, global_step=self.iteration)
+        # noise gaus
         self.writer.add_scalar('iter/train/loss_perturb', loss_perturb.data, global_step=self.iteration)
         self.writer.add_scalar('iter/train/loss_adv', loss_adv.data, global_step=self.iteration)
         self.writer.add_scalar('iter/train/loss_G', loss_G.data, global_step=self.iteration)
@@ -215,6 +275,28 @@ class AIGAN:
         print("Starting training")
         for epoch in range(self.start_epoch, epochs+1):
             print("Start ep num ", epoch)
+            if epoch == self.epoch_of_change:
+                self._use_attacker = False
+            if epoch == 120 and self.dataset_name == "mnist":
+                self.optimizer_G = torch.optim.Adam(self.netG.parameters(),
+                                                    lr=0.0001)
+                self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(),
+                                                    lr=0.0001)
+            if epoch == 60 and self.dataset_name == "imagenet":
+                self.optimizer_G = torch.optim.Adam(self.netG.parameters(),
+                                                    lr=10**(-7))
+                self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(),
+                                                    lr=10**(-7))
+            if epoch == 200 and self.dataset_name == "mnist":
+                self.optimizer_G = torch.optim.Adam(self.netG.parameters(),
+                                                    lr=0.00001)
+                self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(),
+                                                    lr=0.00001)
+            if epoch == 200  and self.dataset_name == "imagenet":
+                self.optimizer_G = torch.optim.Adam(self.netG.parameters(),
+                                                    lr=10**(-9))
+                self.optimizer_D = torch.optim.Adam(self.netDisc.parameters(),
+                                                    lr=10**(-9))
             loss_D_sum = 0
             loss_G_fake_sum = 0
             loss_perturb_sum = 0
