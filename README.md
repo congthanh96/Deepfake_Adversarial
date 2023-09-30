@@ -1,26 +1,27 @@
 
-## ĐỀ TÀI: NGHIÊN CỨU KỸ THUẬT DEEPFAKES ỨNG DỤNG TRONG TẤN CÔNG ĐỐI KHÁNG
+## Automated generation of adaptive perturbed images based on GAN for motivated adversaries on deep learning models.
+ 
+    Duy Trung Pham
+    Department of Information Security -
+    Academy of Cryptography Techniques
+    Ha Noi, Vietnam trungpd@actvn.edu.vn
 
-**Chuyên ngành: An Toàn Thông Tin**
+    Cong Thanh Nguyen
+    Department of Information Security -
+    Academy of Cryptography Techniques
+    Ho Chi Minh, Vietnam thanhnc1212@gmail.com
+  
+    Phi Ho Truong∗
+    Department of Information Security -
+    Academy of Cryptography Techniques
+    Ha Noi, Vietnam hotp.gvm@actvn.edu.vn
 
-**Mã số:  8.48.02.02**
+    Nhat Hai Nguyen
+    School of Information and Communication Technology -
+    Hanoi University of Science and Technology
+    Ha Noi, Vietnam hainn@soict.hust.edu.vn
 
 
-    Họ và tên học viên: Nguyễn Công Thạnh
-
-    Khóa: CHAT1P
-
-
-
-**Người hướng dẫn khoa học:** 
-
-    TS. Phạm Duy Trung
-
-    Đơn vị công tác: Học viện Kỹ Thuật Mật Mã
-
-    TS. Nguyễn Trọng Khánh
-
-    Đơn vị công tác: Học viện Bưu Chính Viễn Thông
 
 #
 #
